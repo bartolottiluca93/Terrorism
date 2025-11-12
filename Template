@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "profile_id": "string (UUID)",
+    "name": "string",
+    "aliases": ["string"],
+    "primary_language": "string",
+    "legal_designations": [
+      {
+        "country_or_body": "string",
+        "designation": "e.g. 'designated terrorist organisation', 'sanctioned'",
+        "designation_date": "YYYY-MM-DD",
+        "reference": "string (source id or URL)"
+      }
+    ],
+    "status": "enum('active', 'dormant', 'defunct', 'splintered')",
+    "first_observed_date": "YYYY-MM-DD",
+    "last_verified_date": "YYYY-MM-DD",
+    "version": "string",
+    "analyst": {
+      "name": "string",
+      "organization": "string",
+      "contact": "string (internal)"
+    }
+  },
+
+  "summary": {
+    "one_line": "string (concise summary)",
+    "overview": "string (short paragraph)",
+    "threat_level": "enum('low','medium','high','critical')",
+    "confidence_overall": "enum('very_low','low','medium','high','very_high')"
+  },
+
+  "history_and_origin": {
+    "founding_date": "YYYY-MM-DD or approximate",
+    "founders": ["string"],
+    "origin_context": "string (political, socio-economic, conflict background)",
+    "key_milestones": [
+      {
+        "date": "YYYY-MM-DD",
+        "event": "string",
+        "impact": "string",
+        "source_ids": ["string"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["string (e.g. Salafi-jihadist, ethno-nationalist, left-wing, etc.)"],
+    "core_objectives": ["string"],
+    "short_term_goals": ["string"],
+    "long_term_goals": ["string"],
+    "narrative_and_justification": "string (how they frame violence/policy)",
+    "target_selection_logic": "string (who/what they target and why)"
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["ISO country codes or region names"],
+    "territorial_control": [
+      {
+        "location_name": "string",
+        "geocoordinates": {"lat": number, "lon": number},
+        "control_type": "enum('firm_control','contested','presence','no_control')",
+        "control_period": {"from": "YYYY-MM-DD", "to": "YYYY-MM-DD or null"},
+        "notes": "string",
+        "source_ids": ["string"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "string",
+        "type": "enum('rural','urban','transnational_haven','diaspora')",
+        "notes": "string"
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "string",
+        "community_size_estimate": "string or number",
+        "activities": ["string (fundraising, recruitment, propaganda)"],
+        "source_ids": ["string"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "string",
+          "aliases": ["string"],
+          "role": "string",
+          "last_seen": "YYYY-MM-DD",
+          "status": "enum('alive','killed','captured','unknown')",
+          "biographical_notes": "string",
+          "source_ids": ["string"]
+        }
+      ],
+      "leadership_model": "enum('centralized','cellular','networked','franchise','lateral')",
+      "succession_mechanism": "string (how leadership transitions occur)"
+    },
+    "organisational_components": [
+      {
+        "component_name": "string (e.g., 'military wing', 'political wing', 'external operations')",
+        "function": "string",
+        "size_estimate": {"min": number, "max": number, "confidence": "low|medium|high"},
+        "leader": "string",
+        "notes": "string"
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "string",
+        "relationship_type": "enum('affiliate','ally','franchise','absorbed','rival')",
+        "jurisdiction": ["string"],
+        "notes": "string"
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "string (how strategic choices are made)",
+      "discipline_and_enforcement": "string"
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": number, "max": number, "confidence": "low|medium|high"},
+    "composition": {
+      "combatants": {"min": number, "max": number},
+      "support_personnel": {"min": number, "max": number},
+      "foreign_fighters": {"min": number, "max": number},
+      "female_participation": "string (roles & estimates)"
+    },
+    "recruitment_demographics": {
+      "age_range": "string",
+      "education_levels": ["string"],
+      "socioeconomic_background": "string",
+      "gender_distribution": "string"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["string (non-technical categories only)"],
+      "training_locations": ["string (general locations)"],
+      "notes": "string"
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "enum('local','regional','transnational')",
+    "known_attack_types": ["string (e.g., 'IEDs','suicide','armed assault','cyber-enabled disruption')"],
+    "notable_operations": [
+      {
+        "operation_name": "string or null",
+        "date": "YYYY-MM-DD",
+        "location": "string",
+        "method_category": "string",
+        "casualties_killed": number,
+        "casualties_injured": number,
+        "claim_status": "enum('claimed','unclaimed','attributed')",
+        "attribution_confidence": "low|medium|high",
+        "sources": ["string"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["string"],
+      "criminal_partnerships": ["string (drug, trafficking, smuggling)"],
+      "transnational_network_links": ["string"],
+      "notes": "string"
+    },
+    "operations_tempo_and_patterning": "string (frequency, seasonality, preferred target types)"
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms","explosives","manpads","rocket_systems","mortars"],
+      "acquisition_routes": "string (high-level: battlefield capture, black market, external supply)",
+      "notes": "string (no procedural details)"
+    },
+    "cyber_capabilities": {
+      "capability_level": "enum('none','limited','moderate','advanced')",
+      "observed_activities": ["string (propaganda distribution, DDoS, info-stealing)"],
+      "notes": "string"
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["string (social media, encrypted apps, radio)"],
+      "propaganda_platforms": ["string"],
+      "notes": "string"
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["string (land convoys, small vehicles, maritime)"],
+      "boxes": "string (high-level logistics notes only)"
+    },
+    "technical_gaps_and_weaknesses": "string"
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": number, "currency": "USD or other", "confidence": "low|medium|high"},
+    "revenue_streams": [
+      {
+        "type": "enum('state_support','donations','extortion','kidnap_ransom','illicit_trade','taxation','legitimate_business')",
+        "description": "string (high-level)",
+        "estimated_share_percent": number,
+        "notes": "string"
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": "boolean",
+      "use_of_legal_businesses": "boolean",
+      "money_mules_and_fronts": "string (high-level)",
+      "notes": "string"
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "string",
+        "implementing_body": "string",
+        "date": "YYYY-MM-DD",
+        "effectiveness_assessment": "low|medium|high"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["string (online, religious institutions, prisons, diasporas)"],
+    "recruitment_tactics": ["string (high-level, e.g., ideological messaging, community services)"],
+    "target_profiles": ["string"],
+    "recruitment_geography": ["string"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": number, "confidence": "low|medium|high"},
+    "youth_and_online_vulnerability": "string"
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["string (videos, magazines, social posts)"],
+    "languages_used": ["string"],
+    "messaging_themes": ["string"],
+    "audience_targeting": "string",
+    "platform_policy_responses": "string (noting takedowns, bans, etc.)"
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "string",
+        "case_ref": "string",
+        "defendants": ["string"],
+        "outcome": "string",
+        "notes": "string"
+      }
+    ],
+    "human_rights_concerns": "string (impact on civilians, displacement, coercive taxation, etc.)"
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "string", "type": "enum('geospatial','financial','personnel','communications','weapons')", "thresholds": "string"}
+    ],
+    "early_warning_signals": ["string"],
+    "data_needed_for_monitoring": ["string (satellite, financial reports, HUMINT, open-source)"],
+    "recommended_analytic_methods": ["string (link analysis, temporal clustering, network analysis)"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "string",
+    "vulnerable_sectors": ["string (infrastructure, transport, government)"],
+    "likely_future_trends": "string",
+    "recommended_mitigation_measures": ["string (policy-level, operational-level - high-level only)"]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "string",
+        "type": "enum('open_source','classified','human_intelligence','signal_intelligence','financial_record')",
+        "description": "string",
+        "url_or_reference": "string",
+        "date": "YYYY-MM-DD",
+        "credibility_assessment": "low|medium|high"
+      }
+    ],
+  },
+}
