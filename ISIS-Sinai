@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "profile_id": "a7b2d5e9-4c1f-6e8a-9b3d-5f2e7c4a1b8d",
+    "name": "Islamic State–Sinai Province",
+    "aliases": ["ISIS-Sinai", "ISSP", "Wilayat Sinai", "Ansar Bayt al-Maqdis (ABM)", "Islamic State-Sinai Province", "ISIS Sinai Province"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization (as ABM 2014; designation amended for ISIS-Sinai 2015)",
+        "designation_date": "2014-04-09",
+        "reference": "web:418"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2014-04-15",
+        "reference": "web:418"
+      }
+    ],
+    "status": "significantly_degraded",
+    "first_observed_date": "2011-03-01",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Severely degraded ISIS-Sinai with unknown fighters, declined since 2022 through military crackdowns and amnesty, no claimed attacks since February 2023.",
+    "overview": "Islamic State–Sinai Province (ISIS-Sinai), formerly Ansar Bayt al-Maqdis (ABM), is a significantly degraded ISIS affiliate based in northern Egypt's Sinai Peninsula. Originally founded as al-Qaeda-aligned ABM in 2011 during post-Mubarak Egyptian uprising, the group pledged allegiance to ISIS in November 2014, forming ISIS-Sinai (designated Wilayat Sinai/Sinai Province). During peak operational period (2014-2021), ISIS-Sinai conducted 500+ attacks killing thousands, notably: (1) October 31, 2015 Metrojet bombing (224 killed—deadliest terrorist attack on civilians globally that year), and (2) November 24, 2017 al-Rawda Sufi mosque massacre (305-311 killed—deadliest terrorist attack in Egyptian history). Under leadership of Muhammad Ali al-Isawi (2016-2018 until death), the group waged sophisticated insurgency against Egyptian military with IEDs, suicide bombings, and small-arms assaults. Following intensive Egyptian counter-terrorism operations (2016-2022) and amnesty programs offering surrendered militants rehabilitation, ISIS-Sinai has been severely degraded. As of 2025, the group exists in significantly weakened state: no claimed attacks since February 2023, membership size unknown but substantially reduced, and organizational coherence fragmented. Regional terrorism threat substantially reduced compared to 2015-2017 peak, though localized residual threat remains.",
+    "threat_level": "low",
+    "confidence_overall": "high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2011-03-01",
+    "founders": ["Ansar Bayt al-Maqdis founding members", "Palestinian jihadist factions", "Gaza-Sinai based militants"],
+    "origin_context": "Ansar Bayt al-Maqdis emerged in March 2011 during Egyptian post-Mubarak revolution, from merger of Palestinian and Gaza-based jihadist factions seeking to attack Israeli targets and overthrow Egyptian secular government. Initially al-Qaeda-aligned, the group focused on asymmetric warfare against Egyptian military and attacks on Israeli targets across Sinai-Gaza-Israel borders. The group radicalized following President Mohamed Morsi's removal from office (July 2013), escalating attacks in response to government crackdowns on Islamists.",
+    "key_milestones": [
+      {
+        "date": "2011-03-01",
+        "event": "Formation of Ansar Bayt al-Maqdis",
+        "impact": "Emergence of Gaza/Sinai-based jihadist group; initial focus on Israeli targets.",
+        "source_ids": ["web:418", "web:424"]
+      },
+      {
+        "date": "2013-07-03",
+        "event": "President Mohamed Morsi's removal from office",
+        "impact": "Radicalization trigger; escalation of attacks; expansion into North Sinai.",
+        "source_ids": ["web:427", "web:430"]
+      },
+      {
+        "date": "2014-04-09",
+        "event": "US designates Ansar Bayt al-Maqdis as Foreign Terrorist Organization",
+        "impact": "International terrorist organization status; sanctions regime.",
+        "source_ids": ["web:418"]
+      },
+      {
+        "date": "2014-11-03",
+        "event": "Ansar Bayt al-Maqdis pledges allegiance to ISIS",
+        "impact": "Formal ISIS affiliation; organizational restructuring; renamed ISIS-Sinai/Wilayat Sinai.",
+        "source_ids": ["web:418", "web:421", "web:424"]
+      },
+      {
+        "date": "2015-10-31",
+        "event": "Metrojet Flight 9268 bombing (Sinai Peninsula)",
+        "impact": "224 killed; deadliest single terrorist attack on civilians globally 2015; international infamy; Russian retaliation operations commence.",
+        "source_ids": ["web:417", "web:420", "web:423"]
+      },
+      {
+        "date": "2016-01-30",
+        "event": "First coordinated simultaneous ISIS-Sinai attacks in El-Arish, Sheikh Zuweid, Rafah",
+        "impact": "44-105 killed; demonstrated operational sophistication; major escalation.",
+        "source_ids": ["web:424"]
+      },
+      {
+        "date": "2017-11-24",
+        "event": "Al-Rawda Sufi mosque attack, Bir al-Abed",
+        "impact": "305-311 killed, 128 injured; deadliest terrorist attack in Egyptian history; 27 children killed; international outrage; government crackdown intensification.",
+        "source_ids": ["web:426", "web:428", "web:429"]
+      },
+      {
+        "date": "2018-01-01",
+        "event": "Muhammad Ali al-Isawi (Abu Osama al-Masri) confirmed as ISIS-Sinai leader",
+        "impact": "Leadership assumed; former media spokesman; led group through operational peak.",
+        "source_ids": ["web:416"]
+      },
+      {
+        "date": "2020-08-26",
+        "event": "ISIS-Sinai captures five villages west of Bir al-Abd",
+        "impact": "Territorial consolidation; month-long occupation; counterattack kills 73 ISIS fighters.",
+        "source_ids": ["web:203", "web:429"]
+      },
+      {
+        "date": "2022-01-01",
+        "event": "ISIS-Sinai begins significant decline",
+        "impact": "Military crackdowns intensify; amnesty programs offered; membership defections increase.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2023-02-27",
+        "event": "Last claimed ISIS-Sinai attack (El Tor, South Sinai machinegun attack)",
+        "impact": "1 officer killed, 3 soldiers wounded; final confirmed attack claiming.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2025-11-13",
+        "event": "Current status: ISIS-Sinai significantly degraded with no claimed attacks for 2+ years",
+        "impact": "Organization severely weakened; residual threat remains but substantially reduced.",
+        "source_ids": ["web:136"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Anti-Zionist", "Pan-Islamic"],
+    "core_objectives": [
+      "Overthrow secular Egyptian government",
+      "Establish Islamic caliphate governed by Sharia law",
+      "Attack Israeli interests and support Palestinian cause",
+      "Defend Muslim populations from perceived Western oppression"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks against military and government targets",
+      "Attack Israeli and Western interests",
+      "Maintain operational presence in Sinai Peninsula",
+      "Enforce Islamic law in controlled areas"
+    ],
+    "long_term_goals": [
+      "Establish permanent ISIS province in Sinai",
+      "Create gateway to attack Israel and international targets",
+      "Contribute to broader ISIS caliphate in Middle East",
+      "Replace Egyptian government with Islamic state"
+    ],
+    "narrative_and_justification": "ISIS-Sinai framed violence as religious obligation to establish Islamic governance and defend Muslim populations from secular oppression, Western imperialism, and Israeli occupation. Used anti-Israeli and anti-Western messaging to justify attacks, particularly targeting Sufi Muslims (deemed heretical), Christians, government collaborators, and Israeli interests.",
+    "target_selection_logic": "Military/security forces (strategic), government targets (symbolic), Israeli interests and soft targets (ideological/geopolitical), Sufi Muslims and Christians (religious persecution), civilians perceived as collaborators, foreign nationals and tourists."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["EGY"],
+    "territorial_control": [
+      {
+        "location_name": "North Sinai (Al-Arish, Sheikh Zuweid, Rafah areas)",
+        "geocoordinates": {"lat": 31.13, "lon": 33.80},
+        "control_type": "presence",
+        "control_period": {"from": "2014-01-01", "to": null},
+        "notes": "Historic stronghold; military operations ongoing; degraded presence post-2022.",
+        "source_ids": ["web:203", "web:429"]
+      },
+      {
+        "location_name": "Bi'r al-Abd area, North Sinai",
+        "geocoordinates": {"lat": 31.00, "lon": 33.90},
+        "control_type": "contested",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Site of al-Rawda mosque massacre 2017; periodic ISIS-Sinai presence and operations.",
+        "source_ids": ["web:426", "web:428"]
+      },
+      {
+        "location_name": "Central and South Sinai",
+        "geocoordinates": {"lat": 29.5, "lon": 33.5},
+        "control_type": "limited_presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Operational presence; periodic attacks; limited territorial control.",
+        "source_ids": ["web:203"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Sinai Peninsula desert and mountainous areas",
+        "type": "rural",
+        "notes": "Remote sanctuary; difficult military access; training camps; now heavily degraded."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Gaza Strip",
+        "community_size_estimate": "historical network",
+        "activities": ["historical recruitment (minimal post-2022)"],
+        "source_ids": ["web:418"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Muhammad Ali al-Isawi",
+          "aliases": ["Abu Osama al-Masri", "Abu Usamah al-Masri"],
+          "role": "Leader 2016-2018 (SDGT designation)",
+          "last_seen": "2018-01-01",
+          "status": "died",
+          "biographical_notes": "Born circa 1973 in Sinai; former media spokesman; became leader after previous leader death; designated SDGT US November 2020; death date/circumstances unclear.",
+          "source_ids": ["web:416"]
+        },
+        {
+          "name": "Current leadership (unknown)",
+          "aliases": [],
+          "role": "Leader post-2018",
+          "last_seen": "2023-02-27",
+          "status": "unclear",
+          "biographical_notes": "Identity protected/unknown; organization severely degraded under this leadership; no claimed attacks since February 2023.",
+          "source_ids": ["web:203"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Leadership transitions disrupted by military operations; organizational fragmentation; succession poorly documented due to operational degradation."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed attacks, suicide bombings, coordinated insurgency",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "low"},
+        "leader": "Unknown military commander",
+        "notes": "Severely degraded post-2022; limited operational activity post-2023."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack claims, propaganda videos, recruitment",
+        "size_estimate": {"min": 5, "max": 20, "confidence": "low"},
+        "leader": "Unknown media coordinator",
+        "notes": "Limited production capacity; dormant since 2023."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized leadership (when active); degraded organizational hierarchy post-2022; fragmented cell structures.",
+      "discipline_and_enforcement": "Islamic law enforcement; harsh punishment for violations; now minimal due to organizational degradation."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 50, "max": 200, "confidence": "very_low"},
+    "composition": {
+      "combatants": {"min": 30, "max": 100},
+      "support_personnel": {"min": 10, "max": 50},
+      "foreign_fighters": "Unknown; minimal post-2022"
+    },
+    "composition_peak": {
+      "year": "2017",
+      "total": {"min": 1_000, "max": 1_500},
+      "description": "Estimated 1,000-1,500 fighters during peak operational period 2015-2017."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "religious schools"],
+      "socioeconomic_background": "Economically disadvantaged Sinai youth; marginalized populations; grievance-motivated recruitment.",
+      "gender_distribution": "Predominantly male (95%+); minimal female participation."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "bomb-making", "small arms", "religious ideology"],
+      "training_locations": ["Sinai Peninsula camps (now degraded)", "Egypt-Israel border areas"],
+      "notes": "Training ceased post-2022 due to military operations and organizational collapse."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "local",
+    "known_attack_types": ["suicide bombing", "armed assault", "IED", "VBIED", "assassination", "mass shooting"],
+    "notable_operations": [
+      {
+        "operation_name": "Metrojet Flight 9268 Bombing",
+        "date": "2015-10-31",
+        "location": "Sinai Peninsula (crash location), aircraft from Sharm el-Sheikh",
+        "method_category": "IED on commercial aircraft",
+        "casualties_killed": 224,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:417", "web:420", "web:423"]
+      },
+      {
+        "operation_name": "Coordinated Sinai Attacks",
+        "date": "2016-01-30",
+        "location": "El-Arish, Sheikh Zuweid, Rafah, North Sinai",
+        "method_category": "coordinated armed assaults and bombings",
+        "casualties_killed": 44,
+        "casualties_injured": 105,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:424"]
+      },
+      {
+        "operation_name": "Al-Rawda Sufi Mosque Massacre",
+        "date": "2017-11-24",
+        "location": "Bir al-Abed, North Sinai",
+        "method_category": "coordinated bombing and mass shooting",
+        "casualties_killed": 311,
+        "casualties_injured": 128,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:426", "web:428", "web:429"]
+      },
+      {
+        "operation_name": "Bi'r al 'Abd Village Captures",
+        "date": "2020-07-21",
+        "location": "West of Bi'r al-Abd, North Sinai",
+        "method_category": "coordinated military assault",
+        "casualties_killed": 40,
+        "casualties_injured": 80,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "El Tor Machinegun Attack",
+        "date": "2023-02-27",
+        "location": "El Tor, South Sinai",
+        "method_category": "armed assault on military vehicle",
+        "casualties_killed": 1,
+        "casualties_injured": 3,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central (historically)"],
+      "criminal_partnerships": "Minimal post-2022",
+      "transnational_network_links": ["IS central coordination (historical)", "Gaza-based networks (historical)"],
+      "notes": "Direct IS central support degraded post-2022 as group weakened significantly."
+    },
+    "operations_tempo_and_patterning": "Peak 2015-2017 (frequent major attacks); declining 2018-2022 (sporadic incidents); dormant 2023-2025 (no claimed attacks February 2023 onward)."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "suicide vests", "RPGs"],
+      "acquisition_routes": "Black market smuggling from Sinai weapons markets, captured Egyptian military weapons, Gaza smuggling networks, artisanal bomb-making",
+      "notes": "Historical access to military-grade explosives and firearms; sophisticated IED production capability (now degraded); limited advanced weapons."
+    },
+    "cyber_capabilities": {
+      "capability_level": "minimal",
+      "observed_activities": ["propaganda dissemination", "attack claims via Amaq", "social media messaging"],
+      "notes": "Limited independent cyber operations; reliance on central IS media outlets."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Amaq News Agency", "encrypted messengers", "social media"],
+      "propaganda_platforms": ["Amaq (historical)", "social media (removed)", "Telegram (sporadic)"],
+      "notes": "Communication infrastructure degraded post-2022; minimal current messaging activity."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles", "motorcycles", "foot"],
+      "boxes": "Desert-based operations; limited heavy logistics; porous Egypt-Gaza-Israel border historically exploited."
+    },
+    "technical_gaps_and_weaknesses": "No air defense; vulnerable to airstrikes; limited ammunition/explosives resupply post-2022; communication networks disrupted; organizational infrastructure degraded; severely reduced operational capacity."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 100_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments from kidnappings (Canadian Kirk Woodman killed)",
+        "estimated_share_percent": 50,
+        "notes": "Primary historical revenue source; now minimal due to organizational degradation."
+      },
+      {
+        "type": "extortion",
+        "description": "Extortion of local populations and businesses",
+        "estimated_share_percent": 30,
+        "notes": "Secondary revenue source; sporadic collection post-2022."
+      },
+      {
+        "type": "state_support",
+        "description": "IS central support (historical)",
+        "estimated_share_percent": 20,
+        "notes": "Substantially reduced post-2022 as group degraded."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, informal networks (now minimal).",
+      "notes": "Primarily cash-based; limited formal financial infrastructure; financial operations largely dormant post-2023."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "US, UN, Egypt",
+        "date": "2014-04-09",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "religious networks", "coercive recruitment"],
+    "recruitment_tactics": ["religious ideology", "grievance exploitation", "economic incentives"],
+    "target_profiles": ["Sinai youth", "economically disadvantaged", "religiously inclined"],
+    "recruitment_geography": ["Sinai Peninsula", "Gaza Strip (historical)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 40, "confidence": "low"},
+    "youth_and_online_vulnerability": "Moderate historically; amnesty programs successfully turned fighters; recruitment now minimal post-2023."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["attack claim videos", "Amaq bulletins", "recruitment messaging"],
+    "languages_used": ["Arabic", "English"],
+    "messaging_themes": ["Islamic governance", "anti-Western", "anti-Israeli", "martyrdom"],
+    "audience_targeting": "Regional populations; historical global ISIS network; now minimal messaging activity.",
+    "platform_policy_responses": "Account removals; effective during active period; now dormant."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Egypt",
+        "case_ref": "Military and civilian courts",
+        "defendants": ["Hundreds of ISIS-Sinai fighters captured over time"],
+        "outcome": "Many convictions for terrorism; varying sentences; death sentences in some cases.",
+        "notes": "Egyptian military and security forces also documented human rights abuses in counter-terrorism operations."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties from terrorist attacks; kidnapping and ransom (Kirk Woodman killed); targeted violence against Sufis and Christians; torture and enforced disappearances by security forces; extrajudicial killings reported; arbitrary detention; destruction of civilian infrastructure; indiscriminate bombing."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack claims via Amaq", "type": "communications", "thresholds": "Any claim signals resurgence"},
+      {"indicator": "Propaganda video releases", "type": "communications", "thresholds": "New releases indicate operational activity"},
+      {"indicator": "Military reports of ISIS-Sinai incidents", "type": "operational", "thresholds": "Verified incidents confirm residual threat"}
+    ],
+    "early_warning_signals": ["Increased Amaq messaging", "Recruitment campaign announcements", "Attack planning communications"],
+    "data_needed_for_monitoring": ["Amaq feed monitoring", "Egyptian military intelligence", "HUMINT"],
+    "recommended_analytic_methods": ["temporal attack pattern analysis", "propaganda content analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-Sinai poses significantly reduced threat as of 2025 compared to 2015-2017 peak. Organization severely degraded through intensive Egyptian military operations (2016-2022) and amnesty programs offering rehabilitation to surrendered fighters. No claimed attacks since February 2023 indicates organizational dormancy. While membership size unknown, estimates suggest minimal remaining fighters (50-200 estimated). Residual threat remains from scattered cells, but organization lacks capacity for major attacks.",
+    "vulnerable_sectors": ["military and security personnel", "Sufi religious sites", "Christian communities", "civilian soft targets"],
+    "likely_future_trends": "Continued organizational decay; possible low-level sporadic attacks; unlikely to reconstitute significant threat without major external support; amnesty program success model suggests sustainable degradation.",
+    "recommended_mitigation_measures": [
+      "Continued monitoring for organizational resurgence",
+      "Support for Egyptian counter-terrorism operations",
+      "Intelligence sharing with regional partners",
+      "Continued amnesty and rehabilitation programs for remaining fighters",
+      "Counter-narrative messaging addressing recruitment grievances",
+      "Protection of vulnerable civilian populations and religious sites"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS-Sinai terrorist group profile (May 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_sinai.html",
+        "date": "2025-05-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:416",
+        "type": "open_source",
+        "description": "US State Department: Terrorist designations Muhammad al-Isawi (November 2020)",
+        "url_or_reference": "https://2017-2021.state.gov/terrorist-designations-muhammad-al-isawi",
+        "date": "2020-11-30",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:417",
+        "type": "open_source",
+        "description": "ABC News: Metrojet plane crash terrorist act confirmation (November 2015)",
+        "url_or_reference": "https://abcnews.go.com/metrojet-terrorist-bomb",
+        "date": "2015-11-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:418",
+        "type": "open_source",
+        "description": "Refworld: Islamic State-Sinai Province designation and history (April 2025)",
+        "url_or_reference": "https://refworld.org/isis-sinai-province-2025",
+        "date": "2025-04-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:420",
+        "type": "open_source",
+        "description": "CNN: Metrojet flight crash 224 killed (October 2015)",
+        "url_or_reference": "https://cnn.com/metrojet-plane-crash-egypt-sinai",
+        "date": "2015-10-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:423",
+        "type": "open_source",
+        "description": "CBS News: Metrojet plane crash terrorist confirmation (November 2015)",
+        "url_or_reference": "https://cbsnews.com/russian-metrojet-plane-crash-egypt",
+        "date": "2015-11-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:424",
+        "type": "open_source",
+        "description": "ICT: Egypt's Ansar Bayt al-Maqdis and Islamic State (comprehensive analysis)",
+        "url_or_reference": "https://ict.org.il/egypts-ansar-bayt-al-maqdis-islamic-state",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:426",
+        "type": "open_source",
+        "description": "CNN: Al-Rawda mosque attack 305 killed (November 2017)",
+        "url_or_reference": "https://cnn.com/egypt-mosque-attack-305-killed",
+        "date": "2017-11-25",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:427",
+        "type": "open_source",
+        "description": "Geneva Academy: Non-International Armed Conflict Sinai insurgency analysis",
+        "url_or_reference": "https://geneva-academy.ch/non-international-armed-conflict-sinai",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:429",
+        "type": "open_source",
+        "description": "Wikipedia: Sinai insurgency comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Sinai_insurgency",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
