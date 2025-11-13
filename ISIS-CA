@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "profile_id": "c5f2b8e1-3a9d-4c6b-8f2d-7e1a9c4b3d6f",
+    "name": "Islamic State–Central Africa",
+    "aliases": ["ISIS-CA", "ISIS-DRC", "Islamic State Democratic Republic of Congo", "Allied Democratic Forces", "ADF", "Madina at Tauheed Wau Mujahedeen", "MTMM"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2021-03-10",
+        "reference": "web:265"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2014-03-27",
+        "reference": "web:262"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization",
+        "designation_date": "2014-11-17",
+        "reference": "web:262"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Proscribed terrorist organization",
+        "designation_date": "2014-06-30",
+        "reference": "web:58"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "1995-03-15",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Africa's deadliest ISIS affiliate, controlling parts of North Kivu and Ituri provinces in eastern DRC with 1,000-1,500 fighters, responsible for 4,000+ civilian deaths since 2014.",
+    "overview": "Islamic State–Central Africa (ISIS-CA), also known as the Allied Democratic Forces (ADF), is one of Africa's most lethal terrorist groups and the deadliest ISIS affiliate on the continent. Originally founded in Uganda in 1995 as a secular insurgency, the ADF gradually radicalized into a Salafi-jihadist organization and relocated to eastern Democratic Republic of Congo in 2002. The group pledged allegiance to ISIS in 2019 and was formally recognized as ISIS's Central Africa Province. ISIS-CA operates primarily in North Kivu and Ituri provinces, where it maintains semi-autonomous territorial control, conducts sophisticated coordinated attacks against civilians and military targets, and generates revenue through extortion and kidnapping. Despite joint military operations (Operation Shujaa) by Uganda and DRC since November 2021, the group remains resilient, has expanded recruitment networks across East Africa, and demonstrated escalating operational capacity through 2025.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "1995-03-15",
+    "founders": ["Jamil Mukulu", "Islamic Salafi Foundation", "National Army for the Liberation of Uganda (NALU)"],
+    "origin_context": "The ADF emerged as a merger of two distinct factions in 1995: (1) NALU representing Bakonjo-Baamba Christian ethnic interests from Rwenzori seeking Ugandan regional autonomy, and (2) the Islamic Salafi Foundation representing opposition to Uganda's control of Islam. Both were initially sponsored by Mobutu Sese Seko's Zaire and Omar al-Bashir's Sudan to destabilize Yoweri Museveni's Uganda. Following Mobutu's fall in 1997, the ADF retreated to Rwenzori Mountains and gradually embraced Islamic ideology.",
+    "key_milestones": [
+      {
+        "date": "1995-03-15",
+        "event": "Formation of ADF as merger of secular and Islamist factions",
+        "impact": "Creation of hybrid organization combining nationalist and Islamist agendas.",
+        "source_ids": ["web:264"]
+      },
+      {
+        "date": "1997-05-01",
+        "event": "Mobutu's fall; ADF retreats to Rwenzori Mountains and Congo",
+        "impact": "Transition from sponsored proxy to independent insurgency; geographic shift toward DRC.",
+        "source_ids": ["web:264"]
+      },
+      {
+        "date": "2002-04-15",
+        "event": "ADF relocates to eastern DRC (North Kivu, Ituri)",
+        "impact": "Escaped Ugandan military pressure; established persistent bases in DRC; began targeting Congolese civilians.",
+        "source_ids": ["web:270"]
+      },
+      {
+        "date": "2014-01-01",
+        "event": "ADF placed on UN sanctions regime",
+        "impact": "International terrorist designation; faced asset freezes.",
+        "source_ids": ["web:265"]
+      },
+      {
+        "date": "2018-12-01",
+        "event": "Islamic State begins claiming ADF attacks",
+        "impact": "ISIS recognition of ADF as affiliated group; increased legitimacy and coordination.",
+        "source_ids": ["web:264"]
+      },
+      {
+        "date": "2019-07-12",
+        "event": "ADF formally pledges allegiance to ISIS; designated ISIS Central Africa Province",
+        "impact": "Official ISIS recognition; rebranding as ISCAP; access to IS operational guidance and media networks.",
+        "source_ids": ["web:265"]
+      },
+      {
+        "date": "2021-03-10",
+        "event": "Seka Musa Baluku designated SDGT; ISIS-CA formally designated FTO by US",
+        "impact": "International terrorist organization status; expanded sanctions.",
+        "source_ids": ["web:262"]
+      },
+      {
+        "date": "2021-11-30",
+        "event": "Launch of Operation Shujaa (Uganda-DRC joint military operation)",
+        "impact": "2,000-4,000 Ugandan troops deployed; sustained pressure on ISIS-CA; tactical dispersal into smaller units.",
+        "source_ids": ["web:270"]
+      },
+      {
+        "date": "2024-01-01",
+        "event": "ISIS-CA escalation; 300+ attacks and 1,800+ fatalities in 2024",
+        "impact": "Deadliest year on record; demonstrated resilience despite military operations.",
+        "source_ids": ["web:184"]
+      },
+      {
+        "date": "2025-01-01",
+        "event": "Expanded regional recruitment and cross-border operations",
+        "impact": "Network expansion into Kenya, Tanzania, Burundi, Mozambique; estimated 50+ regional support cells.",
+        "source_ids": ["web:277"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Sunni Islamist", "Takfiri", "Anti-colonial"],
+    "core_objectives": [
+      "Establish Islamic emirate in Central Africa",
+      "Implement strict Sharia law across DRC",
+      "Expel foreign military presence (MONUSCO, Uganda)",
+      "Destroy Christian communities and convert populations to Islam"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in North Kivu and Ituri",
+      "Eliminate competing armed groups",
+      "Maximize revenue through taxation and kidnapping",
+      "Conduct coordinated mass-casualty attacks against civilians"
+    ],
+    "long_term_goals": [
+      "Establish permanent Islamic state in eastern DRC",
+      "Expand into South Kivu and beyond",
+      "Integrate with broader IS network",
+      "Develop pan-African jihadist movement"
+    ],
+    "narrative_and_justification": "ISIS-CA frames violence as religious duty to purify Islam and establish divine governance. Uses anti-colonial rhetoric against 'foreign occupiers' (MONUSCO, Ugandan forces) and portrays Christian populations as apostates requiring conversion or elimination. Justifies forced recruitment and enslavement through takfiri theology.",
+    "target_selection_logic": "Civilians in controlled/contested areas (primary targets for population control), Christian communities (religious targeting), military bases (strategic objectives), UN peacekeepers (expulsion narrative), rival armed groups, and government collaborators."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["COD", "UGA", "RWA", "TZA", "BDI", "MOZ"],
+    "territorial_control": [
+      {
+        "location_name": "Beni and Lubero territories, North Kivu, DRC",
+        "geocoordinates": {"lat": 0.5, "lon": 29.5},
+        "control_type": "firm_control",
+        "control_period": {"from": "2014-01-01", "to": null},
+        "notes": "Primary operational base; contains headquarters, training camps, rear bases; irregular control varies seasonally.",
+        "source_ids": ["web:274", "web:276"]
+      },
+      {
+        "location_name": "Irumu and Mambasa territories, Ituri province, DRC",
+        "geocoordinates": {"lat": 1.5, "lon": 30.0},
+        "control_type": "contested",
+        "control_period": {"from": "2019-01-01", "to": null},
+        "notes": "Expanded control since 2019; competes with CODECO and other militias; recent attacks in February-August 2025.",
+        "source_ids": ["web:272", "web:275"]
+      },
+      {
+        "location_name": "Uganda-DRC border regions (Kasese, Bundibugyo)",
+        "geocoordinates": {"lat": 0.0, "lon": 29.8},
+        "control_type": "presence",
+        "control_period": {"from": "2021-11-01", "to": null},
+        "notes": "Cross-border operations; limited presence due to Operation Shujaa; seasonal activity.",
+        "source_ids": ["web:270", "web:275"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Forests and mountains (Beni-Lubero region)",
+        "type": "rural",
+        "notes": "Dense vegetation; difficult military access; primary rear bases and family compounds."
+      },
+      {
+        "location_name": "Rwenzori Mountains (Uganda-DRC border)",
+        "type": "rural",
+        "notes": "Historic stronghold; used as sanctuary during offensives."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Kenya",
+        "community_size_estimate": "recruitment cells",
+        "activities": ["recruitment", "fundraising", "smuggling"],
+        "source_ids": ["web:277"]
+      },
+      {
+        "country": "Tanzania",
+        "community_size_estimate": "support network",
+        "activities": ["recruitment", "logistics", "foreign fighter smuggling"],
+        "source_ids": ["web:277"]
+      },
+      {
+        "country": "Mozambique",
+        "community_size_estimate": "operational cells",
+        "activities": ["coordination", "logistics"],
+        "source_ids": ["web:277"]
+      },
+      {
+        "country": "Burundi",
+        "community_size_estimate": "recruitment",
+        "activities": ["recruitment", "fundraising"],
+        "source_ids": ["web:277"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Seka Musa Baluku",
+          "aliases": ["Seka", "General Seka"],
+          "role": "Wali (Supreme Leader)",
+          "last_seen": "2025-10-01",
+          "status": "alive",
+          "biographical_notes": "Took leadership 2014 following Mukulu's arrest in Tanzania. Born circa 1977, Dir clan origins. Longstanding ADF member; second-in-command under Mukulu. Directed escalation to mass-casualty attacks on civilians; introduced organizational sophistication; integrated with IS central command.",
+          "source_ids": ["web:262", "web:268"]
+        },
+        {
+          "name": "Meddie Nkalubo",
+          "aliases": ["Benjamin", "Punisher"],
+          "role": "Media Director, Attack Commander",
+          "last_seen": "2025-09-01",
+          "status": "alive",
+          "biographical_notes": "Responsible for media production and propaganda; directs social media strategy; commands offensive operations; key battlefield commander.",
+          "source_ids": ["web:267"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Appointed by IS central; Baluku selected by IS in 2014 following Mukulu's capture; internal Shura Council advises on strategic matters; emphasis on organizational continuity."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed operations, mass-casualty attacks, military base assaults",
+        "size_estimate": {"min": 700, "max": 1_000, "confidence": "high"},
+        "leader": "Senior Military Commander",
+        "notes": "Conducts coordinated multi-site attacks; operates in small mobile units; increasingly sophisticated tactics including IEDs in urban areas."
+      },
+      {
+        "component_name": "Governance and Administration",
+        "function": "Civilian population control, taxation, Islamic law enforcement",
+        "size_estimate": {"min": 150, "max": 300, "confidence": "medium"},
+        "leader": "Administrative Chief",
+        "notes": "Operates informal governance in controlled areas; collects taxes; runs sharia courts; manages resource distribution."
+      },
+      {
+        "component_name": "Financial Administration",
+        "function": "Revenue collection, extortion, kidnap-ransom coordination",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "medium"},
+        "leader": "Finance Chief",
+        "notes": "Manages extortion from civilians and businesses; coordinates ransom negotiations; distributes payments to fighters; estimated $2-5M annual revenue."
+      },
+      {
+        "component_name": "Media and Propaganda (Mujahideen TV)",
+        "function": "Video production, Telegram distribution, attack claims",
+        "size_estimate": {"min": 30, "max": 70, "confidence": "low"},
+        "leader": "Media Director (Meddie Nkalubo)",
+        "notes": "Produces high-quality combat videos; distributes via Telegram; coordinates messaging with IS central; targets global and local audiences."
+      },
+      {
+        "component_name": "Intelligence and Security",
+        "function": "Counterintelligence, informant management, internal discipline",
+        "size_estimate": {"min": 50, "max": 100, "confidence": "low"},
+        "leader": "Security Chief",
+        "notes": "Identifies informants and spies; enforces group discipline; manages defection prevention."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "ISIS-Mozambique (Ansar al-Sunna)",
+        "relationship_type": "sibling_affiliate",
+        "jurisdiction": ["MOZ"],
+        "notes": "Separate ISIS-CA affiliated group; coordinated operations; shared ideological framework; estimated 1,000-2,000 fighters."
+      },
+      {
+        "name": "Various East African cells (Kenya, Tanzania, Burundi)",
+        "relationship_type": "recruitment_networks",
+        "jurisdiction": ["KEN", "TZA", "BDI"],
+        "notes": "Decentralized recruitment and support network; fighters smuggled to DRC operations."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized: Baluku holds supreme authority; Shura Council advises on major strategic decisions; IS central provides oversight through General Directorate of Provinces; regional commanders have tactical autonomy.",
+      "discipline_and_enforcement": "Sharia courts administer Islamic law; execution for desertion or collaboration; collective punishment against civilians for non-compliance; use of coercive conscription."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 1_000, "max": 1_500, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 700, "max": 1_000},
+      "support_personnel": {"min": 200, "max": 400},
+      "foreign_fighters": {"min": 100, "max": 200},
+      "female_participation": "Women serve in medical, administrative, and logistics roles; some forced marriage to fighters; recent evidence of female combatants; estimated 5-10% of force."
+    },
+    "recruitment_demographics": {
+      "age_range": "14-45",
+      "education_levels": ["primary", "secondary", "quranic schools"],
+      "socioeconomic_background": "Predominantly rural, impoverished DRC and Uganda youth; internally displaced persons; refugees; unemployed; some coercive recruitment of children.",
+      "gender_distribution": "Predominantly male (90%+); increasing female recruitment for support roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["guerrilla warfare", "IED construction", "small arms", "religious ideology", "military tactics"],
+      "training_locations": ["North Kivu bases", "Ituri camps", "Uganda border areas"],
+      "notes": "Training emphasizes Islamic theology, loyalty to IS, and guerrilla tactics; includes children in some cases; 3-6 month basic training for recruits."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "regional",
+    "known_attack_types": ["mass shooting", "IED (rural areas)", "VBIED (emerging)", "kidnapping for ransom", "armed ambush", "village raids", "military base assault", "armed assault on public places"],
+    "notable_operations": [
+      {
+        "operation_name": "Beni Territory Massacre",
+        "date": "2025-08-09",
+        "location": "Beni and Lubero regions, North Kivu",
+        "method_category": "armed assault, massacre",
+        "casualties_killed": 52,
+        "casualties_injured": 80,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:274"]
+      },
+      {
+        "operation_name": "Komanda Catholic Church Attack",
+        "date": "2025-08-01",
+        "location": "Commander, Ituri province",
+        "method_category": "mass shooting",
+        "casualties_killed": 43,
+        "casualties_injured": 60,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:272"]
+      },
+      {
+        "operation_name": "Lubero Massacre",
+        "date": "2025-01-15",
+        "location": "Lubero, North Kivu",
+        "method_category": "armed assault",
+        "casualties_killed": 41,
+        "casualties_injured": 70,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Kasese School Attack, Uganda",
+        "date": "2023-06-16",
+        "location": "Kasese, Uganda",
+        "method_category": "armed assault on school",
+        "casualties_killed": 38,
+        "casualties_injured": 60,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Kampala Suicide Bombings",
+        "date": "2021-11-16",
+        "location": "Kampala, Uganda",
+        "method_category": "coordinated suicide bombings",
+        "casualties_killed": 7,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:267"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["arms smuggling networks", "human trafficking networks"],
+      "transnational_network_links": ["IS central coordination", "IS-Mozambique coordination", "East African recruitment networks"],
+      "notes": "IS central provides operational guidance via encrypted channels; limited direct funding; coordinates propaganda messaging; facilitates recruitment from other regions."
+    },
+    "operations_tempo_and_patterning": "Escalating: 300+ attacks in 2024 (deadliest year); 40-80 casualties monthly in 2025; pattern of targeting churches on Sundays, markets, and villages with weak security; cyclical violence peaks correlating with military operations intensity."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "RPGs", "mortars"],
+      "acquisition_routes": "Captured from Congolese military bases (primary), black market smuggling networks, looted government arsenals, artisanal bomb-making",
+      "notes": "Recent assault on New Marte base seized significant weapons cache; IED production capabilities developing; limited but increasing technical sophistication; no evidence of advanced drone weapons yet."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["Telegram propaganda distribution", "encrypted communications", "video production and upload", "social media messaging"],
+      "notes": "Focus on information warfare and propaganda rather than offensive cyber operations; effective use of encrypted platforms for operational security."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram", "encrypted messengers", "Radio broadcasts"],
+      "propaganda_platforms": ["Mujahideen TV (Telegram)", "YouTube (periodic)", "social media (periodically)"],
+      "notes": "Telegram is primary distribution network; centralized media coordination with IS; periodic platform takedowns; rapid content redissemination."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks", "canoes", "foot (jungle operations)"],
+      "boxes": "Decentralized small-unit mobile tactics; limited heavy transport; exploit dense forests and porous borders; regional smuggling networks facilitate supply and personnel movement."
+    },
+    "technical_gaps_and_weaknesses": "Limited air defense; vulnerable to airstrikes and drone surveillance; no armor or heavy weapons; communication networks susceptible to interception; limited advanced weaponry; no satellite coordination capability."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 5_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "extortion",
+        "description": "Coercive taxation of civilian populations, businesses, and travelers",
+        "estimated_share_percent": 50,
+        "notes": "$2.5M annually; collection at checkpoints, villages, markets; arbitrary rates; mandatory payments for movement."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments from kidnappings of civilians, businesspeople, and military personnel",
+        "estimated_share_percent": 35,
+        "notes": "$1.75M; high-profile kidnappings of wealthy individuals; coordination with trafficking networks."
+      },
+      {
+        "type": "state_support",
+        "description": "IS central operational support and strategic guidance",
+        "estimated_share_percent": 10,
+        "notes": "$500K; limited direct financial transfers; focus on operational guidance and propaganda support."
+      },
+      {
+        "type": "illicit_trade",
+        "description": "Arms smuggling, goods trafficking, looting",
+        "estimated_share_percent": 5,
+        "notes": "$250K; secondary revenue source; smuggling networks across East Africa."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, hawala networks in East Africa, personal smuggling networks",
+      "notes": "Primarily cash-based operations; informal coordination with regional smuggling networks; limited use of formal financial institutions."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "UN, US, EU, DRC",
+        "date": "2014-03-27",
+        "effectiveness_assessment": "low"
+      },
+      {
+        "measure": "UNSC DRC sanctions regime",
+        "implementing_body": "UN Security Council",
+        "date": "2014-01-01",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["coercive conscription", "family networks", "religious networks", "economic incentives", "refugee camps"],
+    "recruitment_tactics": ["religious ideology messaging", "economic incentives ($50-100/month)", "coercive forced recruitment", "family/clan networks", "exploitation of grievances against state"],
+    "target_profiles": ["rural youth (14-35)", "unemployed", "internally displaced persons", "refugees", "former military personnel", "women and children"],
+    "recruitment_geography": ["DRC (North Kivu, Ituri primary)", "Uganda border regions", "Kenya, Tanzania, Burundi expansion"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 3, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; economic desperation drives recruitment; IS propaganda via Telegram targets youth; limited education and employment alternatives; growing recruitment of children aged 14-16."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "Amaq-style news bulletins", "religious sermons", "infographics", "social media posts"],
+    "languages_used": ["Arabic", "Lingala", "Swahili", "English"],
+    "messaging_themes": ["Islamic governance and Sharia justice", "anti-colonial resistance", "Christian persecution narrative", "martyrdom glorification", "anti-MONUSCO sentiment"],
+    "audience_targeting": "Local DRC and Uganda populations (primary); East African diaspora; global jihadist networks; youth recruitment (especially via Telegram).",
+    "platform_policy_responses": "Periodic Telegram channel takedowns; rapid re-establishment; YouTube suspensions; social media accounts frequently removed and recreated; platform policies ineffective against resilient core network."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Democratic Republic of Congo",
+        "case_ref": "Military court prosecutions",
+        "defendants": ["Multiple ISIS-CA fighters captured by DRC/Uganda forces"],
+        "outcome": "Convictions for terrorism and war crimes; sentences vary.",
+        "notes": "Limited prosecutorial capacity; many cases lack resources for full investigation."
+      },
+      {
+        "jurisdiction": "Uganda",
+        "case_ref": "Counterterrorism Act prosecutions",
+        "defendants": ["ISIS-CA operatives involved in Kampala and Kasese attacks"],
+        "outcome": "Convictions for terrorism offences; sentences 10-25 years.",
+        "notes": "Joint operations produce Ugandan prosecutions of captured ISIS-CA fighters."
+      },
+      {
+        "jurisdiction": "International (ICC)",
+        "case_ref": "Ongoing investigations",
+        "defendants": ["ISIS-CA leadership and command"],
+        "outcome": "Preliminary investigations; no formal indictments as of 2025.",
+        "notes": "Crimes against humanity and war crimes investigations ongoing."
+      }
+    ],
+    "human_rights_concerns": "Systematic mass killings of civilians; targeted attacks on Christian communities; sexual and gender-based violence including rape and forced marriage; child soldier recruitment and abuse; forced displacement of populations (140,000+ displaced); kidnapping and ransom; torture and summary execution; destruction of schools and health facilities; looting and destruction of property; forced labor and enslavement."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq attack claims surge", "type": "communications", "thresholds": ">3 claims/day signals major campaign"},
+      {"indicator": "Church or market attack targeting", "type": "geospatial", "thresholds": "coordinated civilian attacks precede military operations"},
+      {"indicator": "Propaganda video release", "type": "communications", "thresholds": "high-quality releases correlate with operational tempo increase"}
+    ],
+    "early_warning_signals": ["Increased Telegram recruitment messaging", "Mobilization in base areas", "Mass hostage-taking reports", "Religious sermon distributions calling for jihad"],
+    "data_needed_for_monitoring": ["satellite imagery (territorial control)", "SIGINT (encrypted communications)", "HUMINT from informants", "financial transaction tracking", "open-source social media analysis"],
+    "recommended_analytic_methods": ["network analysis of leadership structure", "temporal attack pattern analysis", "geospatial conflict mapping", "propaganda content analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-CA represents critical terrorist threat to Central and East Africa. 2024-2025 demonstrated significant operational resurgence with 300+ attacks and 1,800+ fatalities, despite joint military operations. Expanding regional recruitment networks across East Africa pose long-term transnational threat. Group remains adaptive, resilient, and capable of mass-casualty attacks against civilian populations.",
+    "vulnerable_sectors": ["civilian populations in controlled areas", "military installations", "religious facilities (especially churches)", "public markets and transportation", "UN personnel and facilities"],
+    "likely_future_trends": "Continued regional expansion into Kenya, Tanzania, Burundi; possible expansion to South Kivu; technological sophistication increase (IEDs in urban areas); deepening IS central coordination; sustained recruitment campaign; targeting of international NGOs and religious minorities.",
+    "recommended_mitigation_measures": [
+      "Sustained Operation Shujaa with adequate resources and unified command",
+      "Enhanced border security across DRC-Uganda-Kenya-Tanzania",
+      "Counter-finance operations targeting regional smuggling networks",
+      "Capacity-building for DRC military forces",
+      "MONUSCO presence strengthening in North Kivu and Ituri",
+      "Deradicalization and rehabilitation programs for captured fighters",
+      "Community resilience programs targeting recruitment demographics",
+      "Information counter-operations against Telegram propaganda",
+      "International coordination with regional militaries (Kenya, Tanzania)",
+      "Accountability mechanisms for war crimes prosecution"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS–Central Africa terrorist group profile (April 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_ca.html",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:262",
+        "type": "open_source",
+        "description": "Counter Extremism Project: Seka Musa Baluku biography and leadership",
+        "url_or_reference": "https://www.counterextremism.com/seka-musa-baluku",
+        "date": "2021-03-09",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:264",
+        "type": "open_source",
+        "description": "The Conversation: DRC's Allied Democratic Forces history and ISIS links",
+        "url_or_reference": "https://theconversation.com/drc-allied-democratic-forces-isis",
+        "date": "2019-05-08",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:265",
+        "type": "open_source",
+        "description": "US State Department: Terrorist designations of ISIS-DRC and ISIS-Mozambique 2023",
+        "url_or_reference": "https://mz.usembassy.gov/state-department-terrorist-designations/",
+        "date": "2023-09-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:267",
+        "type": "open_source",
+        "description": "US DNI: ISIS–DRC terrorist group profile (February 2022 archived)",
+        "url_or_reference": "https://www.odni.gov/nctc/terrorist_groups/isis_drc",
+        "date": "2021-12-24",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:270",
+        "type": "open_source",
+        "description": "Al Jazeera: ISIL-affiliated ADF fighters and Uganda's Operation Shujaa",
+        "url_or_reference": "https://www.aljazeera.com/adf-isis-dr-congo",
+        "date": "2025-07-30",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:272",
+        "type": "open_source",
+        "description": "Firstpost: DR Congo ISIS-linked church attack and regional conflict",
+        "url_or_reference": "https://youtube.com/watch?v=dr-congo-isis-attack",
+        "date": "2025-07-27",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:274",
+        "type": "open_source",
+        "description": "Al Jazeera: ISIL-backed rebels ADF attacks North Kivu August 2025",
+        "url_or_reference": "https://www.aljazeera.com/adf-north-kivu-attacks",
+        "date": "2025-08-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:277",
+        "type": "open_source",
+        "description": "Ecofinagency: ADF expansion across East Africa and ISIS ties deepening 2025",
+        "url_or_reference": "https://ecofinagency.com/adf-isis-expansion-east-africa",
+        "date": "2025-05-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:184",
+        "type": "open_source",
+        "description": "Small Wars Journal: ISIS transition and African affiliate trends 2018-2024",
+        "url_or_reference": "https://smallwarsjournal.com/isis-africa-affiliates",
+        "date": "2025-09-22",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
