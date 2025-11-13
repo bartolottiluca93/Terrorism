@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "profile_id": "b4d2c8f3-7e1a-4f5b-9c2d-6e3a1b8f5c2a",
+    "name": "Islamic State–Libya",
+    "aliases": ["ISIS-L", "ISIS-Libya", "ISIL-Libya", "Islamic State Libya Province", "Daulah Islamiyah Libya", "Wilayat Barqa", "Cyrenaica Province", "Tripolitania Province", "Fezzan Province"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2016-05-20",
+        "reference": "web:340"
+      },
+      {
+        "country_or_body": "Australia",
+        "designation": "Terrorist organization",
+        "designation_date": "2016-11-28",
+        "reference": "web:340"
+      },
+      {
+        "country_or_body": "Iraq",
+        "designation": "Terrorist organization",
+        "designation_date": "2020-03-10",
+        "reference": "web:340"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2014-10-05",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Degraded but resilient ISIS affiliate in Libya with 100-500 fighters (peak 6,000), operating from ungoverned desert spaces, claiming resurgence via Sahel and transnational smuggling networks.",
+    "overview": "Islamic State–Libya (ISIS-L) is a North African ISIS affiliate that emerged from Libyan foreign fighters returning from Syria (Battar Brigade) who pledged allegiance to IS in October 2014. At its peak in 2015-2016, ISIS-L controlled major cities including Sirte (August 2015–October 2016) with an estimated 5,000-8,000 fighters. Following sustained military operations and US airstrikes, the group was expelled from major urban centers by late 2016. As of 2025, ISIS-L operates as a degraded but persistent insurgency with 100-500 fighters, primarily based in ungoverned desert areas of central and southern Libya (Fezzan region), exploiting weak state capacity, porous borders, and integration with transnational smuggling networks. In September 2025, ISIS-L issued its first explicit call in three years for renewed jihad in Libya via its Al-Naba newsletter, signaling organizational reconstitution and ambitions for regional comeback. The group maintains links to Sahel jihadists, Sudanese networks, and represents a transnational terrorism threat despite diminished territorial control.",
+    "threat_level": "medium",
+    "confidence_overall": "high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2014-10-05",
+    "founders": ["Battar Brigade Libyan fighters", "Derna Shura Council", "Islamic Youth Shura Council members"],
+    "origin_context": "ISIS-L emerged from Libyan foreign fighters who initially formed the Battar Brigade in Syria around 2012 to fight against Assad's regime. These fighters pledged allegiance to ISIS and fought for the caliphate in Syria/Iraq from 2012-2014. In April 2014, approximately 300 Battar Brigade veterans returned to Libya, primarily to Derna, where they reorganized as the Islamic Youth Shura Council (IYSC) in September 2014. The IYSC recruited from local militant networks including Ansar al-Sharia members and declared war on rival groups. Following an IS delegation visit in September 2014, IYSC-aligned factions formally pledged allegiance to IS on October 5, 2014, resulting in the creation of three ISIS-L branches: Cyrenaica (Barqa), Fezzan, and Tripolitania provinces.",
+    "key_milestones": [
+      {
+        "date": "2012-06-01",
+        "event": "Formation of Battar Brigade by Libyans in Syria",
+        "impact": "Organization of Libyan foreign fighters under jihadist banner; initial recruitment network.",
+        "source_ids": ["web:340", "web:343"]
+      },
+      {
+        "date": "2014-04-01",
+        "event": "Battar Brigade fighters return to Libya after Syrian battles",
+        "impact": "Approximately 300 combat-experienced fighters return; reorganize in Derna.",
+        "source_ids": ["web:340", "web:343"]
+      },
+      {
+        "date": "2014-09-15",
+        "event": "IS delegation arrives in Derna to solicit allegiance pledges",
+        "impact": "Direct engagement with IS central; creation of formal IS branch structure.",
+        "source_ids": ["web:340", "web:343"]
+      },
+      {
+        "date": "2014-10-05",
+        "event": "Islamic Youth Shura Council formally pledges allegiance to IS",
+        "impact": "Official establishment of ISIS-L; creation of three provincial branches.",
+        "source_ids": ["web:340"]
+      },
+      {
+        "date": "2014-10-30",
+        "event": "Formal second pledge ceremony; IS recognizes Cyrenaica, Fezzan, Tripolitania provinces",
+        "impact": "Official IS recognition; expanded organizational structure.",
+        "source_ids": ["web:340"]
+      },
+      {
+        "date": "2015-02-15",
+        "event": "ISIS-L kidnaps and beheads 21 Egyptian Coptic Christians in Sirte",
+        "impact": "International attention; demonstrated organizational capability; religious persecution.",
+        "source_ids": ["web:342", "web:345"]
+      },
+      {
+        "date": "2015-06-15",
+        "event": "ISIS-L captures and controls Sirte",
+        "impact": "Peak territorial control; 250km Mediterranean coastline; major urban stronghold; peak membership ~3,000.",
+        "source_ids": ["web:348", "web:350"]
+      },
+      {
+        "date": "2015-11-13",
+        "event": "US airstrike kills Abu Nabil al-Anbari (first ISIS-L leader)",
+        "impact": "Leadership decapitation; first US strike against ISIS-L leader; leadership succession to Abdul Qadr al-Najdi.",
+        "source_ids": ["web:338", "web:341"]
+      },
+      {
+        "date": "2016-02-16",
+        "event": "US airstrike on ISIS-L training camp kills 49 fighters including Noureddine Chouchane",
+        "impact": "Operational degradation; foreign fighter training disruption; Tunisian commander elimination.",
+        "source_ids": ["web:344"]
+      },
+      {
+        "date": "2016-05-01",
+        "event": "Operation Bunyan Marsous begins; Libyan forces assault Sirte",
+        "impact": "Multi-month offensive against ISIS-L; US airstrikes support; gradual city liberation.",
+        "source_ids": ["web:348", "web:350"]
+      },
+      {
+        "date": "2016-10-27",
+        "event": "Sirte fully liberated by Libyan government forces",
+        "impact": "End of major ISIS-L territorial control; group loses largest stronghold; fighters scatter to desert.",
+        "source_ids": ["web:348", "web:356"]
+      },
+      {
+        "date": "2020-09-01",
+        "event": "Abdul Qadr al-Najdi killed by Libyan National Army",
+        "impact": "Second major leadership loss; organizational fragmentation; decentralization into cell networks.",
+        "source_ids": ["web:340"]
+      },
+      {
+        "date": "2025-09-13",
+        "event": "ISIS-L issues first explicit call in three years for renewed jihad via Al-Naba newsletter",
+        "impact": "Signals organizational reconstitution; regional comeback ambitions; claimed strategic relevance.",
+        "source_ids": ["web:359"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Pan-Islamic caliphate"],
+    "core_objectives": [
+      "Establish Islamic caliphate emirate in Libya",
+      "Build strategic base for North African expansion",
+      "Support global ISIS caliphate and international jihad"
+    ],
+    "short_term_goals": [
+      "Maintain presence in Libyan desert sanctuary areas",
+      "Conduct periodic terrorist attacks against government and military targets",
+      "Recruit from diaspora and marginalized populations"
+    ],
+    "long_term_goals": [
+      "Re-establish territorial foothold in Libya (Fezzan region)",
+      "Become hub for North African jihadism and Mediterranean terrorist operations",
+      "Integrate with Sahel jihadist networks for regional expansion"
+    ],
+    "narrative_and_justification": "ISIS-L frames violence as religious duty to liberate Libya from secular governance and restore Islamic caliphate. Uses positioning as gateway to Europe/Mediterranean to appeal to broader jihadist movement. Justifies targeting of Coptic Christians through takfiri theology and religious duty.",
+    "target_selection_logic": "Military and government targets (strategic), Christians and religious minorities (ideological), rival militant groups, civilian soft targets for psychological impact, symbols of state authority, oil facilities and economic infrastructure."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["LBY", "NER", "TCD", "SUD"],
+    "territorial_control": [
+      {
+        "location_name": "Sirte and surrounding areas, central Libya",
+        "geocoordinates": {"lat": 31.21, "lon": 16.59},
+        "control_type": "former",
+        "control_period": {"from": "2015-06-15", "to": "2016-10-27"},
+        "notes": "Peak territorial control; 250km Mediterranean coastline; now liberated but occasional ISIS-L presence.",
+        "source_ids": ["web:348", "web:350"]
+      },
+      {
+        "location_name": "Fezzan region (Sabha, southern Libya)",
+        "geocoordinates": {"lat": 27.03, "lon": 14.43},
+        "control_type": "presence",
+        "control_period": {"from": "2017-01-01", "to": null},
+        "notes": "Current primary base; ungoverned desert spaces; weak government presence; smuggling hub.",
+        "source_ids": ["web:359"]
+      },
+      {
+        "location_name": "Derna, eastern Libya",
+        "geocoordinates": {"lat": 32.76, "lon": 24.66},
+        "control_type": "contested",
+        "control_period": {"from": "2014-09-01", "to": "2015-06-01"},
+        "notes": "Founding stronghold; lost to rival militias 2015; occasional ISIS-L presence post-2017.",
+        "source_ids": ["web:340", "web:343"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Saharan desert areas (central and southern Libya)",
+        "type": "rural",
+        "notes": "Ungoverned desert spaces; difficult military access; mobile camps; smuggling route sanctuaries."
+      },
+      {
+        "location_name": "Chad-Niger-Libya border region",
+        "type": "transnational",
+        "notes": "Porous borders; cross-border operations; links to Sahel jihadist networks."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Tunisia",
+        "community_size_estimate": "support network",
+        "activities": ["recruitment", "logistics"],
+        "source_ids": ["web:343", "web:344"]
+      },
+      {
+        "country": "Sudan",
+        "community_size_estimate": "logistics hub",
+        "activities": ["fighter transit", "weapons smuggling", "financial networks"],
+        "source_ids": ["web:359"]
+      },
+      {
+        "country": "Chad",
+        "community_size_estimate": "200-400 fighters",
+        "activities": ["operations", "logistics", "recruitment"],
+        "source_ids": ["web:359"]
+      },
+      {
+        "country": "Sahel region (Mali, Niger, Burkina Faso)",
+        "community_size_estimate": "transnational network",
+        "activities": ["coordination", "weapons trafficking", "fighter smuggling"],
+        "source_ids": ["web:359"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Abu Nabil al-Anbari",
+          "aliases": ["Wissam Najm Abd Zayd al-Zubaydi"],
+          "role": "First ISIS-L leader",
+          "last_seen": "2015-11-13",
+          "status": "killed",
+          "biographical_notes": "Iraqi national; appointed by IS central; led ISIS-L from October 2014 to November 2015; killed by US airstrike November 13, 2015.",
+          "source_ids": ["web:338", "web:341"]
+        },
+        {
+          "name": "Abdul Qadr al-Najdi",
+          "aliases": ["Abu Abdullah al-Libi", "Abu Moaz al-Tikriti"],
+          "role": "Second ISIS-L leader",
+          "last_seen": "2020-09-01",
+          "status": "killed",
+          "biographical_notes": "Libyan national; succeeded Abu Nabil; led November 2015–September 2020; killed by Libyan National Army.",
+          "source_ids": ["web:340"]
+        },
+        {
+          "name": "Abu Musab al-Libi",
+          "aliases": [],
+          "role": "Recent leadership (southern operations)",
+          "last_seen": "2019-07-03",
+          "status": "unknown",
+          "biographical_notes": "Commanded southern Libya operations; emerged 2019; current status unclear.",
+          "source_ids": ["web:340"]
+        }
+      ],
+      "leadership_model": "decentralized",
+      "succession_mechanism": "Appointed by IS central when identified; leadership transitions disrupted by military deaths; increasingly autonomous cell structure post-2017."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing (Cyrenaica, Fezzan, Tripolitania branches)",
+        "function": "Armed operations, tactical insurgency, terrorist attacks",
+        "size_estimate": {"min": 80, "max": 300, "confidence": "medium"},
+        "leader": "Regional military commanders",
+        "notes": "Decentralized cell structure; mobile small units; degraded post-Sirte loss."
+      },
+      {
+        "component_name": "Financial and Smuggling Networks",
+        "function": "Funding acquisition, weapons smuggling, money movement",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Unknown financial coordinator",
+        "notes": "Integration with transnational crime networks; Sahel connections; Sudan-Sahel logistics."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack claims, recruitment messaging, propaganda distribution",
+        "size_estimate": {"min": 10, "max": 30, "confidence": "low"},
+        "leader": "Media coordinator",
+        "notes": "Limited production capacity; relies on central IS media outlets (Amaq); Al-Naba newsletter claims."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Cyrenaica Province",
+        "relationship_type": "regional_branch",
+        "jurisdiction": ["LBY"],
+        "notes": "Eastern Libya branch; historically strongest during Derna control period."
+      },
+      {
+        "name": "Fezzan Province",
+        "relationship_type": "regional_branch",
+        "jurisdiction": ["LBY"],
+        "notes": "Southern desert branch; currently most active; integration with Sahel networks."
+      },
+      {
+        "name": "Tripolitania Province",
+        "relationship_type": "regional_branch",
+        "jurisdiction": ["LBY"],
+        "notes": "Western Libya branch; minimal activity post-2016."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Increasingly decentralized; regional commanders operate autonomously; minimal central coordination post-2017.",
+      "discipline_and_enforcement": "Religious law enforcement; limited capacity due to degraded organizational structure; cell-based autonomy."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 100, "max": 500, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 80, "max": 350},
+      "support_personnel": {"min": 20, "max": 80},
+      "foreign_fighters": {"min": 50, "max": 150},
+      "female_participation": "Unknown; estimated <5% based on limited public reports."
+    },
+    "composition_peak": {
+      "year": "2016",
+      "total": {"min": 5_000, "max": 8_000},
+      "description": "Peak membership during Sirte control; estimates ranged from 5,000–8,000 fighters."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Predominantly unemployed youth from post-Gaddafi Libya; foreign fighters from Tunisia, North Africa, Syria/Iraq; economically marginalized.",
+      "gender_distribution": "Predominantly male (95%+); limited female participation documented."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "guerrilla warfare", "urban combat", "bomb-making", "religious ideology"],
+      "training_locations": ["Syria (pre-return)", "Libya (Sirte during 2015-2016)", "desert camps (post-2017)"],
+      "notes": "Combat-experienced Battar Brigade members provided initial training; limited formal training capacity post-2017."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "local",
+    "known_attack_types": ["suicide bombing", "armed assault", "kidnapping for ransom", "IED", "mass execution", "targeted assassination"],
+    "notable_operations": [
+      {
+        "operation_name": "Corinthia Hotel Attack",
+        "date": "2015-01-27",
+        "location": "Tripoli, Libya",
+        "method_category": "suicide bombing on luxury hotel",
+        "casualties_killed": 8,
+        "casualties_injured": 25,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "21 Coptic Christians Beheading",
+        "date": "2015-02-15",
+        "location": "Sirte beach, Libya",
+        "method_category": "kidnapping and mass execution (beheading)",
+        "casualties_killed": 21,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:342", "web:345"]
+      },
+      {
+        "operation_name": "Sirte Occupation and Urban Control",
+        "date": "2015-06-15",
+        "location": "Sirte, Libya",
+        "method_category": "military occupation and governance",
+        "casualties_killed": 1700,
+        "casualties_injured": 3000,
+        "claim_status": "occupied",
+        "attribution_confidence": "high",
+        "sources": ["web:348", "web:350"]
+      },
+      {
+        "operation_name": "High National Election Commission Attack",
+        "date": "2018-05-02",
+        "location": "Tripoli, Libya",
+        "method_category": "armed assault on government building",
+        "casualties_killed": 16,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Al Fuqaha Town Council Attack",
+        "date": "2019-04-10",
+        "location": "Al Fuqaha, central Libya",
+        "method_category": "armed assault",
+        "casualties_killed": 2,
+        "casualties_injured": 5,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["Saharan smuggling networks", "Sudanese trafficking organizations", "transnational organized crime"],
+      "transnational_network_links": ["IS central media (Amaq)", "Sahel jihadist networks", "ISGS", "Sudanese militants"],
+      "notes": "Limited direct IS central support post-2017; integration with smuggling networks provides financial and logistical support; links to Sahel affiliates for coordination."
+    },
+    "operations_tempo_and_patterning": "Reduced tempo post-2016; sporadic attacks 2017-2024; slight resurgence 2024-2025 with desert-based guerrilla operations; pattern of desert cell attacks against military/security; occasional propaganda releases via Amaq."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "RPGs", "mortars"],
+      "acquisition_routes": "Battlefield capture during Sirte occupation (Libyan military weapons), black market smuggling networks, arms trafficking through Sahara, Sudan-Sahel corridors",
+      "notes": "Access to Libyan military armories during 2015-2016 occupation; limited resupply post-2017; heavy reliance on captured weapons and explosives."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda dissemination", "attack claims via Amaq", "minimal encrypted communications"],
+      "notes": "Heavy reliance on central IS media outlets; limited independent cyber operations; platform-based information warfare."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Amaq News Agency", "Al-Naba newsletter", "Telegram (periodically)", "local networks"],
+      "propaganda_platforms": ["Amaq official feeds", "social media (removed)", "Al-Naba newsletter claims"],
+      "notes": "Decreased propaganda output post-2017; Al-Naba resurgence in September 2025 signals renewed organizational messaging."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["pickup trucks", "motorcycles", "cross-border smuggling routes", "foot (desert)"],
+      "boxes": "Mobile desert-based operations; small unit mobility; integration with transnational smuggling networks facilitates movement; limited heavy logistics."
+    },
+    "technical_gaps_and_weaknesses": "No air defense; vulnerable to airstrikes; limited ammunition and explosives resupply; weak communication security; no heavy weapons; logistics dependent on smuggling networks; isolated operational cells."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 500_000, "currency": "USD", "confidence": "low"},
+    "revenue_streams": [
+      {
+        "type": "kidnap_ransom",
+        "description": "Kidnappings of civilians, businesspeople, and smugglers for ransom",
+        "estimated_share_percent": 60,
+        "notes": "$300K; primary revenue source post-2017; recent activity in Fezzan region documented."
+      },
+      {
+        "type": "smuggling_taxation",
+        "description": "Integration with transnational smuggling networks; taxation of drug/arms/migrant trafficking",
+        "estimated_share_percent": 30,
+        "notes": "$150K; arms trafficking, drug smuggling, human trafficking networks."
+      },
+      {
+        "type": "state_support",
+        "description": "Limited support from IS central",
+        "estimated_share_percent": 10,
+        "notes": "$50K; reduced from peak levels due to group's degradation."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, informal remittance networks, integration with smuggling organization treasuries.",
+      "notes": "Primarily cash-based operations; limited formal financial infrastructure; laundering via smuggling networks."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "US, UN",
+        "date": "2016-05-20",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "religious networks", "prison systems", "economic marginalization"],
+    "recruitment_tactics": ["religious ideology", "economic incentives", "grievance exploitation", "promise of purpose and stability"],
+    "target_profiles": ["unemployed Libyan youth", "post-Gaddafi generation", "foreign fighters from North Africa/Middle East", "economic refugees"],
+    "recruitment_geography": ["Libya (primary)", "Tunisia", "North Africa", "Sahel region"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 15, "confidence": "low"},
+    "youth_and_online_vulnerability": "Moderate; exploitation of economic desperation and political instability in post-Gaddafi Libya; weak state institutions limit alternative opportunities; diaspora recruitment from North African communities."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["attack claims (via Amaq)", "Al-Naba newsletter articles", "recruitment messaging", "martyrdom glorification"],
+    "languages_used": ["Arabic", "English"],
+    "messaging_themes": ["Islamic state establishment", "anti-Western imperialism", "liberation of Libya", "North African jihad hub", "Mediterranean gateway"],
+    "audience_targeting": "North African youth, Libyan diaspora, Sahel jihadist networks, potential foreign fighters, global ISIS supporters.",
+    "platform_policy_responses": "Periodic Amaq takedowns and re-establishment; social media account removals; Al-Naba newsletter distribution resilient; platform policies minimally effective due to encrypted channels and central IS distribution."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Libya",
+        "case_ref": "Multiple military court proceedings",
+        "defendants": ["Various ISIS-L operatives captured by Libyan forces"],
+        "outcome": "Limited prosecutions; many cases lack investigative capacity; extrajudicial operations reported.",
+        "notes": "Weak judicial capacity; retributive justice concerns."
+      }
+    ],
+    "human_rights_concerns": "Mass killings of civilians in Sirte (2015-2016); religious persecution (Coptic Christian beheadings); kidnapping and ransom (modern slavery elements); sexual violence; forced labor; torture; extrajudicial execution of prisoners; displacement of civilians; destruction of critical infrastructure; indiscriminate bombing of civilian areas."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Al-Naba newsletter ISIS-L claims", "type": "communications", "thresholds": "increase from 0 to >1/month signals resurgence"},
+      {"indicator": "Kidnapping for ransom incidents", "type": "operational", "thresholds": ">2/month in Fezzan region"},
+      {"indicator": "Cross-border weapons smuggling activity", "type": "geospatial", "thresholds": "increased Sahel transit activity"}
+    ],
+    "early_warning_signals": ["Increased Al-Naba propaganda production", "Recruitment campaigns via remaining channels", "Cross-border fighter movements", "Ransom demand spikes"],
+    "data_needed_for_monitoring": ["HUMINT from informants", "financial transaction tracking of smuggling networks", "satellite imagery (Fezzan region)", "signals intelligence (communications)"],
+    "recommended_analytic_methods": ["network analysis of smuggling partnerships", "temporal clustering of attacks", "geospatial tracking of operations"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-L poses reduced but persistent threat. 2025 resurgence signaling via Al-Naba newsletter indicates organizational reconstitution ambitions. Integration with transnational smuggling networks provides funding and logistics resilience. Exploitation of Libya's weak governance, porous borders, and Sahel instability enables low-level operations. While significantly degraded from 2015-2016 peak, group maintains recruitment potential and connection to global ISIS network.",
+    "vulnerable_sectors": ["military and security forces", "government infrastructure", "civilian soft targets in major cities", "oil and economic infrastructure"],
+    "likely_future_trends": "Continued desert-based insurgency operations; periodic terrorist attacks in major cities; potential territorial consolidation in Fezzan if governance continues deteriorating; increased integration with Sahel networks and Sudan; recruitment resurgence if regional conditions worsen.",
+    "recommended_mitigation_measures": [
+      "Strengthened Libyan government counterterrorism operations in Fezzan",
+      "Border security enhancement with Tunisia, Sudan, Chad, Niger",
+      "Disruption of smuggling networks funding ISIS-L",
+      "International cooperation on counter-finance and sanctions enforcement",
+      "Community resilience programs targeting recruitment demographics",
+      "Intelligence sharing with Sahel and North African partners",
+      "Counter-propaganda operations addressing 2025 Al-Naba resurgence messaging",
+      "Development and governance improvements in marginalized regions"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:338",
+        "type": "open_source",
+        "description": "BBC: US confirms death of Libyan IS head Abu Nabil (December 2015)",
+        "url_or_reference": "https://www.bbc.com/news/world-africa-34801519",
+        "date": "2015-12-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:339",
+        "type": "open_source",
+        "description": "Human Rights Watch: Life under ISIS in Sirte Libya (May 2016)",
+        "url_or_reference": "https://www.hrw.org/report/2016/05/18/we-feel-we-are-cursed",
+        "date": "2016-05-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:340",
+        "type": "open_source",
+        "description": "Wikipedia: Islamic State Libya Province comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Islamic_State_Libya_Province",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:342",
+        "type": "open_source",
+        "description": "Human Rights Watch: Murder of Egyptians Libya war crime analysis (February 2015)",
+        "url_or_reference": "https://reliefweb.int/report/egypt/murder-egyptians-war-crime",
+        "date": "2015-02-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:343",
+        "type": "open_source",
+        "description": "Carnegie Endowment: Rising Out of Chaos ISIS in Libya (March 2015)",
+        "url_or_reference": "https://carnegieendowment.org/publications/rising-out-of-chaos-isis-libya",
+        "date": "2015-03-04",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:345",
+        "type": "open_source",
+        "description": "Wikipedia: 21 Coptic Christian Martyrs of Libya (2015)",
+        "url_or_reference": "https://en.wikipedia.org/wiki/21_Coptic_Christian_Martyrs_of_Libya",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:348",
+        "type": "open_source",
+        "description": "Al Jazeera: Libyan forces retake Sirte from ISIL (August 2016)",
+        "url_or_reference": "https://www.aljazeera.com/news/longform/2016/8/17/libyan-forces-retake-central-sirte-district-from-isil",
+        "date": "2016-08-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:359",
+        "type": "open_source",
+        "description": "Jamestown Foundation: Weakened Islamic State Eyes Resurgence in Libya (October 2025)",
+        "url_or_reference": "https://jamestown.org/program/weakened-islamic-state-eyes-resurgence-in-libya/",
+        "date": "2025-10-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:206",
+        "type": "open_source",
+        "description": "CTC Westpoint: ISIS in Africa fighter estimates (March 2022)",
+        "url_or_reference": "https://ctc.westpoint.edu/islamic-state-africa-fighter-estimates",
+        "date": "2022-03-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:356",
+        "type": "open_source",
+        "description": "US Congress: Beyond ISIS Countering Terrorism North Africa (December 2017)",
+        "url_or_reference": "https://congress.gov/115/hearing-north-africa-terrorism",
+        "date": "2017-12-05",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
