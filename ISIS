@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "profile_id": "7a4e8f2d-9c61-4b3a-a7f4-5e2b3d8c9a1f",
+    "name": "Islamic State",
+    "aliases": ["ISIS", "ISIL", "Daesh", "IS", "Islamic State of Iraq and the Levant", "Islamic State of Iraq and Syria"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2004-12-17",
+        "reference": "web:128"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2004-10-18",
+        "reference": "web:121"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization",
+        "designation_date": "2004-01-01",
+        "reference": "web:112"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Proscribed terrorist organization",
+        "designation_date": "2014-06-20",
+        "reference": "web:58"
+      },
+      {
+        "country_or_body": "Canada",
+        "designation": "Listed terrorist entity",
+        "designation_date": "2012-08-20",
+        "reference": "web:126"
+      },
+      {
+        "country_or_body": "Australia",
+        "designation": "Terrorist organization",
+        "designation_date": "2013-03-14",
+        "reference": "web:53"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2004-10-15",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Transnational Sunni jihadist organization with global network of provinces, responsible for genocide, mass atrocities, and sustained insurgency.",
+    "overview": "The Islamic State is a transnational Sunni Islamist insurgent and terrorist organization that declared a caliphate in 2014. After territorial collapse in Iraq and Syria by 2019, it transitioned to global insurgency with autonomous provinces across Africa, Asia, and the Middle East. Responsible for genocide against Yazidis, mass executions, sexual slavery, and continuous terror operations. Despite leadership decapitation and territorial losses, IS remains resilient through decentralized network of affiliates.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2004-10-15",
+    "founders": ["Abu Musab al-Zarqawi"],
+    "origin_context": "Founded as Al-Qaeda in Iraq (AQI) during the Iraq War, evolved through multiple iterations exploiting sectarian violence, Syrian civil war, and regional instability. Emerged from Sunni grievances against Shia-dominated Iraqi government and Assad regime.",
+    "key_milestones": [
+      {
+        "date": "2006-10-15",
+        "event": "Formation of Islamic State of Iraq (ISI)",
+        "impact": "Rebranded from AQI to claim statehood and expand ideological appeal.",
+        "source_ids": ["web:114", "web:120"]
+      },
+      {
+        "date": "2013-04-08",
+        "event": "Expansion into Syria, renamed ISIS/ISIL",
+        "impact": "Exploited Syrian civil war vacuum; broke with Al-Qaeda central command.",
+        "source_ids": ["web:111", "web:114"]
+      },
+      {
+        "date": "2014-06-29",
+        "event": "Declaration of the Caliphate",
+        "impact": "Abu Bakr al-Baghdadi proclaimed global caliphate; controlled 100,000+ km² and 12 million people.",
+        "source_ids": ["web:111", "web:138"]
+      },
+      {
+        "date": "2019-03-23",
+        "event": "Territorial defeat in Syria and Iraq",
+        "impact": "Lost final territorial stronghold; transitioned to insurgency model.",
+        "source_ids": ["web:114", "web:136"]
+      },
+      {
+        "date": "2019-10-27",
+        "event": "Death of Abu Bakr al-Baghdadi",
+        "impact": "Founding caliph killed in US raid; succession crisis and leadership transition.",
+        "source_ids": ["web:111", "web:117"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Sunni Islamist extremism"],
+    "core_objectives": [
+      "Establish global Islamic caliphate under strict Sharia",
+      "Wage jihad against apostates, heretics, and Western powers",
+      "Eliminate rival Islamic interpretations and sects"
+    ],
+    "short_term_goals": [
+      "Sustain insurgency in Iraq and Syria",
+      "Expand territorial control in Africa",
+      "Conduct external terror operations against the West"
+    ],
+    "long_term_goals": [
+      "Global conquest and restoration of Islamic golden age",
+      "Apocalyptic confrontation at Dabiq (end-times theology)",
+      "Total eradication of secular governance"
+    ],
+    "narrative_and_justification": "Frames violence as religious duty to purify Islam, establish divine governance, and defend Muslims from crusader-Zionist-Shia alliance. Uses apocalyptic theology to justify extreme brutality.",
+    "target_selection_logic": "Shia Muslims (apostates), Yazidis and Christians (infidels), Western interests, rival jihadist groups, secular governments, security forces, and soft civilian targets for maximum shock value."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IRQ", "SYR", "AFG", "NGA", "MLI", "BFA", "NER", "SOM", "MOZ", "COD"],
+    "territorial_control": [
+      {
+        "location_name": "Badiya Desert, Syria-Iraq border",
+        "geocoordinates": {"lat": 33.5, "lon": 40.5},
+        "control_type": "presence",
+        "control_period": {"from": "2019-03-23", "to": null},
+        "notes": "Insurgent cells operate in remote desert areas; no firm territorial control.",
+        "source_ids": ["web:138", "web:167"]
+      },
+      {
+        "location_name": "Rural Cabo Delgado, Mozambique",
+        "geocoordinates": {"lat": -11.66, "lon": 39.27},
+        "control_type": "contested",
+        "control_period": {"from": "2020-03-24", "to": null},
+        "notes": "ISIS-Mozambique controls rural pockets; government presence limited.",
+        "source_ids": ["web:184", "web:172"]
+      },
+      {
+        "location_name": "Liptako-Gourma tri-border (Mali-Niger-Burkina Faso)",
+        "geocoordinates": {"lat": 14.5, "lon": -0.5},
+        "control_type": "contested",
+        "control_period": {"from": "2019-05-01", "to": null},
+        "notes": "IS Sahel Province expanding control over rural areas and roads.",
+        "source_ids": ["web:136", "web:182"]
+      },
+      {
+        "location_name": "Lake Chad Basin (Nigeria-Chad-Niger-Cameroon)",
+        "geocoordinates": {"lat": 13.0, "lon": 14.0},
+        "control_type": "presence",
+        "control_period": {"from": "2016-03-12", "to": null},
+        "notes": "ISWAP operates with semi-autonomous control; attacks military bases.",
+        "source_ids": ["web:133", "web:182"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Detention camps (Al-Hol, Roj) Syria",
+        "type": "transnational_haven",
+        "notes": "38,400+ ISIS family members detained; recruitment and radicalization hub."
+      },
+      {
+        "location_name": "Rural Afghanistan (Khorasan)",
+        "type": "rural",
+        "notes": "IS-K maintains bases despite Taliban pressure."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Turkey",
+        "community_size_estimate": "80 documented cases 2023-2024",
+        "activities": ["recruitment", "smuggling", "logistics"],
+        "source_ids": ["web:172"]
+      },
+      {
+        "country": "Europe (Germany, France, Spain, Sweden)",
+        "community_size_estimate": "hundreds",
+        "activities": ["fundraising", "recruitment", "attack planning"],
+        "source_ids": ["web:172", "web:131"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Abu Hafs al-Hashimi al-Qurashi",
+          "aliases": ["Fifth Caliph"],
+          "role": "Caliph (Supreme Leader)",
+          "last_seen": "2025-08-20",
+          "status": "alive",
+          "biographical_notes": "Named fifth caliph August 2023; identity unknown; operates in shadows; possible capture operation August 2025 unconfirmed.",
+          "source_ids": ["web:113", "web:119", "web:124"]
+        },
+        {
+          "name": "Abu Bakr al-Baghdadi",
+          "aliases": ["Ibrahim Awwad", "Caliph Ibrahim"],
+          "role": "Founder and First Caliph",
+          "last_seen": "2019-10-27",
+          "status": "killed",
+          "biographical_notes": "Founded ISIS, declared caliphate 2014; killed in US raid October 2019.",
+          "source_ids": ["web:111", "web:116"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Majlis ash-Shura (Consultation Council) selects caliph from Quraysh tribe; requires scholarly and military credentials; succession increasingly rapid due to targeted killings."
+    },
+    "organisational_components": [
+      {
+        "component_name": "General Directorate of Provinces (GDP)",
+        "function": "Central command over global provinces; operational guidance, financial oversight",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "leader": "Unknown senior administrator",
+        "notes": "Most decisive body; manages 20+ global provinces; coordinates external operations."
+      },
+      {
+        "component_name": "Al-Furqan Media Foundation",
+        "function": "Central media production and distribution",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "medium"},
+        "leader": "Unknown media emir",
+        "notes": "Primary propaganda outlet; produces leadership statements."
+      },
+      {
+        "component_name": "Amaq News Agency",
+        "function": "Attack claims, breaking news, battlefield updates",
+        "size_estimate": {"min": 30, "max": 80, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "Designated terrorist entity by US 2020; rapid dissemination platform."
+      },
+      {
+        "component_name": "Al-Hayat Media Center",
+        "function": "Multilingual propaganda targeting foreign audiences",
+        "size_estimate": {"min": 20, "max": 60, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "Produced Dabiq, Rumiyah magazines; largely dismantled post-2019."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Islamic State Khorasan Province (IS-K)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["AFG", "PAK"],
+        "notes": "Most aggressive external operations branch; 4,000-6,000 fighters; high-profile attacks in Iran, Russia, Turkey."
+      },
+      {
+        "name": "Islamic State West Africa Province (ISWAP)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["NGA", "NER", "TCD", "CMR"],
+        "notes": "Most active global affiliate; 2,000-3,000 fighters; broke from Boko Haram 2016."
+      },
+      {
+        "name": "Islamic State Sahel Province (ISSP)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["MLI", "BFA", "NER"],
+        "notes": "Rapid expansion; 2,000-3,000 fighters; controls rural territories."
+      },
+      {
+        "name": "Islamic State Somalia (IS-S)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["SOM"],
+        "notes": "Growing affiliate; ~1,000 fighters; possible new caliph origin speculation."
+      },
+      {
+        "name": "Islamic State Mozambique (IS-M)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["MOZ"],
+        "notes": "Gained province status 2021; resurgent after leadership losses."
+      },
+      {
+        "name": "Islamic State Central Africa Province (ISCAP)",
+        "relationship_type": "franchise",
+        "jurisdiction": ["COD"],
+        "notes": "Most dominant in DRC; generates revenue via mining extortion."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Caliph holds ultimate authority; Shura Council advises; General Directorate of Provinces executes strategic directives to affiliates.",
+      "discipline_and_enforcement": "Strict Sharia courts; brutal punishment for defection or disobedience; religious police enforce morality codes."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 15_000, "max": 25_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 10_000, "max": 18_000},
+      "support_personnel": {"min": 3_000, "max": 5_000},
+      "foreign_fighters": {"min": 1_000, "max": 3_000},
+      "female_participation": "Women serve in Hisbah (morality police), medical, recruitment, propaganda; some combat roles in African provinces."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-35",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Diverse: economically developed countries (foreign fighters), impoverished rural populations (African provinces), alienated diaspora youth.",
+      "gender_distribution": "85-90% male; 10-15% female in support roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["guerrilla warfare", "urban combat", "IED construction", "religious indoctrination", "media production"],
+      "training_locations": ["Syria", "Iraq", "Afghanistan", "Lake Chad Basin", "Sahel"],
+      "notes": "Multi-tiered training from basic indoctrination to advanced special operations; external operations operatives receive specialized training."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "transnational",
+    "known_attack_types": ["mass executions", "suicide bombings", "IEDs", "VBIEDs", "kidnapping for ransom", "armed assaults", "drone attacks", "sexual slavery", "genocide"],
+    "notable_operations": [
+      {
+        "operation_name": "Sinjar Massacre and Yazidi Genocide",
+        "date": "2014-08-03",
+        "location": "Sinjar, Iraq",
+        "method_category": "genocide, mass execution, sexual slavery",
+        "casualties_killed": 5000,
+        "casualties_injured": 7000,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:163", "web:168", "web:170"]
+      },
+      {
+        "operation_name": "Paris Attacks (November 2015)",
+        "date": "2015-11-13",
+        "location": "Paris, France",
+        "method_category": "coordinated mass shooting, suicide bombing",
+        "casualties_killed": 130,
+        "casualties_injured": 416,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:148"]
+      },
+      {
+        "operation_name": "Crocus City Hall Attack",
+        "date": "2024-03-22",
+        "location": "Moscow, Russia",
+        "method_category": "mass shooting",
+        "casualties_killed": 145,
+        "casualties_injured": 551,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:136"]
+      },
+      {
+        "operation_name": "Damascus Church Attack",
+        "date": "2025-06-01",
+        "location": "Damascus, Syria",
+        "method_category": "armed assault",
+        "casualties_killed": 80,
+        "casualties_injured": 150,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:167"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["None formal; some Gulf private donors pre-2019"],
+      "criminal_partnerships": ["oil smuggling networks", "antiquities trafficking", "human trafficking", "artisanal mining exploitation"],
+      "transnational_network_links": ["Foreign fighter networks", "online extremist ecosystems", "diaspora fundraising"],
+      "notes": "Primarily self-funded via local extraction; limited external state support compared to predecessors."
+    },
+    "operations_tempo_and_patterning": "Africa-centric operations dominate (67% of global activity in H1 2025); sustained insurgency in Iraq/Syria; periodic high-profile external operations via IS-K; seasonal agricultural cycle impacts Sahel operations."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "rocket_systems", "mortars", "manpads", "drones"],
+      "acquisition_routes": "battlefield capture, black market, smuggling networks, local manufacture (IEDs, drone modifications)",
+      "notes": "Pioneered weaponized commercial drones (DJI); sophisticated IED production; captured Syrian/Iraqi military arsenals 2014."
+    },
+    "cyber_capabilities": {
+      "capability_level": "moderate",
+      "observed_activities": ["encrypted communications", "propaganda distribution", "cybersecurity guidance to supporters", "limited hacking operations", "generative AI experimentation"],
+      "notes": "Published tech guides on secure AI use, VPNs, encryption; active on Telegram; no evidence of advanced offensive cyber operations."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram", "encrypted messengers", "Rocket.Chat", "Radio al-Bayan", "Al-Naba newsletter"],
+      "propaganda_platforms": ["Telegram", "social media (banned, resurfaces)", "dedicated websites", "encrypted file-sharing"],
+      "notes": "Resilient propaganda network despite platform takedowns; multilingual content production."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles (Sahel/Africa)", "pickup trucks (technicals)", "smuggling routes", "desert convoys"],
+      "boxes": "Exploits porous borders; mobile small-unit tactics; limited heavy logistics capacity."
+    },
+    "technical_gaps_and_weaknesses": "Vulnerable to airstrikes and surveillance; leadership decapitation effective; financial constraints limit large-scale operations; declining media production quality."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 25_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "extortion",
+        "description": "Taxation of local populations, businesses, checkpoints",
+        "estimated_share_percent": 40,
+        "notes": "Primary revenue source across African provinces."
+      },
+      {
+        "type": "illicit_trade",
+        "description": "Artisanal mining (gold, coltan), oil smuggling (diminished), antiquities looting",
+        "estimated_share_percent": 30,
+        "notes": "ISCAP-DRC generates ~$6M annually from mining taxation."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Hostage-taking of foreigners and locals",
+        "estimated_share_percent": 15,
+        "notes": "Sustained revenue in Sahel and Mozambique."
+      },
+      {
+        "type": "donations",
+        "description": "Crowdfunding, diaspora donations, sympathizers",
+        "estimated_share_percent": 10,
+        "notes": "Significantly reduced from caliphate peak."
+      },
+      {
+        "type": "legitimate_business",
+        "description": "Front companies, real estate (legacy holdings)",
+        "estimated_share_percent": 5,
+        "notes": "Mostly liquidated; minimal current operations."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Hawala networks, cash couriers, cryptocurrency experimentation (limited scale).",
+      "notes": "Organizational funds estimated $10-20M in liquid assets; operates primarily cash-based."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "Global asset freezes, financial sanctions, FTO designation",
+        "implementing_body": "UN, US, EU, FATF",
+        "date": "2004-10-18",
+        "effectiveness_assessment": "high"
+      },
+      {
+        "measure": "Counter-ISIS Finance Group (CIFG) coordination",
+        "implementing_body": "US, Italy, Saudi Arabia, coalition",
+        "date": "2024-08-07",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["online propaganda", "Telegram", "local mosques", "prisons", "refugee/IDP camps", "family networks"],
+    "recruitment_tactics": ["apocalyptic messaging", "martyrdom glorification", "AI-enhanced propaganda", "targeted advertising", "chatbot engagement", "local grievance exploitation"],
+    "target_profiles": ["alienated Muslim diaspora youth", "rural impoverished populations", "former regime soldiers", "foreign fighters seeking purpose"],
+    "recruitment_geography": ["Africa (primary)", "Central Asia", "Europe (diaspora)", "Middle East", "South Asia"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 5, "confidence": "low"},
+    "youth_and_online_vulnerability": "Extremely high; AI-generated content, deepfakes, encrypted recruitment networks; Al-Hol camp youth radicalization."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["videos", "Dabiq/Rumiyah magazines (discontinued)", "Al-Naba newsletter", "infographics", "nasheeds", "Amaq bulletins", "AI-generated content"],
+    "languages_used": ["Arabic", "English", "French", "German", "Russian", "Turkish", "Urdu", "Indonesian", "Kurdish", "Uyghur", "Bengali"],
+    "messaging_themes": ["apocalyptic end-times", "caliphate restoration", "martyrdom", "anti-Western crusader narrative", "sectarian hatred", "utopian Islamic state"],
+    "audience_targeting": "Global Muslim ummah; alienated diaspora; local African populations; foreign fighter recruits; women and children (specific content).",
+    "platform_policy_responses": "Massive deplatforming campaigns; Amaq and Al-Hayat designated terrorist entities; persistent cat-and-mouse on Telegram; declining reach but resilient core network."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Germany",
+        "case_ref": "Universal jurisdiction genocide convictions",
+        "defendants": ["Taha al-Jumailly (2021)", "Jalda A (2022)", "multiple ISIS members"],
+        "outcome": "Multiple convictions for genocide, war crimes, crimes against humanity against Yazidis.",
+        "notes": "First genocide convictions in history for crimes against Yazidis."
+      },
+      {
+        "jurisdiction": "Sweden",
+        "case_ref": "Lina Ishaq (2025)",
+        "defendants": ["Lina Ishaq"],
+        "outcome": "12 years for genocide, enslavement of Yazidis.",
+        "notes": "First Swedish case addressing ISIS crimes against Yazidis."
+      },
+      {
+        "jurisdiction": "International Criminal Court (ICC)",
+        "case_ref": "Ongoing investigations",
+        "defendants": ["Multiple ISIS members"],
+        "outcome": "Active investigations; no confirmed indictments as of 2025.",
+        "notes": "Syria not ICC member; Iraq referred limited cases."
+      },
+      {
+        "jurisdiction": "United States",
+        "case_ref": "Material support prosecutions",
+        "defendants": ["Hundreds of ISIS supporters"],
+        "outcome": "Average 90-month sentences for ISIS-related charges (significantly longer than other extremist ideologies).",
+        "notes": "Lower threshold for indictment due to FTO status."
+      }
+    ],
+    "human_rights_concerns": "Genocide against Yazidis (5,000+ killed, 7,000+ enslaved); mass executions of prisoners; sexual slavery of women and children; forced child soldiers; chemical weapons use; destruction of cultural heritage; displacement of millions; torture and cruel punishment."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq claim surge", "type": "communications", "thresholds": ">50 claims/month signals major campaign"},
+      {"indicator": "Prison break attempts at SDF facilities", "type": "geospatial", "thresholds": "coordinated attacks on Al-Hol/Roj camps"},
+      {"indicator": "Foreign fighter travel patterns", "type": "personnel", "thresholds": "clusters of arrests in Sweden, Morocco, Spain for Africa-bound recruits"}
+    ],
+    "early_warning_signals": ["Leadership succession announcements", "Increased Telegram propaganda output", "Attacks on detention facilities", "IS-K external operations chatter"],
+    "data_needed_for_monitoring": ["satellite imagery (Africa territorial control)", "SIGINT (encrypted communications)", "financial transaction monitoring", "social media analytics", "HUMINT from defectors/detainees"],
+    "recommended_analytic_methods": ["network analysis (GDP-province linkages)", "temporal attack pattern analysis", "content analysis (AI-generated propaganda detection)", "geospatial clustering"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS remains critical transnational threat despite territorial collapse. African provinces expanding control and lethality; IS-K capable of sophisticated external operations; detained populations in Syria pose breakout risk; resilient online ecosystem enables recruitment.",
+    "vulnerable_sectors": ["soft targets (churches, markets, transport)", "government forces in Africa", "critical infrastructure", "Western embassies", "international events"],
+    "likely_future_trends": "Continued Africa-centric expansion; IS-K external operations against Europe/Central Asia; prison break attempts in Syria; generative AI exploitation for propaganda; potential territorial proto-state in Sahel or Mozambique.",
+    "recommended_mitigation_measures": [
+      "Enhanced counter-finance coordination targeting African mining extortion",
+      "Detention facility security in Syria; repatriation of foreign fighters",
+      "AI-enhanced counter-propaganda and deplatforming",
+      "African military capacity-building (Sahel, Lake Chad, Mozambique)",
+      "Border security enhancement tri-border regions",
+      "Universal jurisdiction prosecutions for accountability and deterrence",
+      "Comprehensive CVE programs targeting online radicalization"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:111",
+        "type": "open_source",
+        "description": "Wikipedia: Abu Bakr al-Baghdadi comprehensive biography",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Abu_Bakr_al-Baghdadi",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:113",
+        "type": "open_source",
+        "description": "Wikipedia: Current ISIS caliph Abu Hafs al-Hashimi al-Qurashi",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Abu_Hafs_al-Hashimi_al-Qurashi",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:114",
+        "type": "open_source",
+        "description": "Wilson Center: Timeline of ISIS rise, spread, and fall",
+        "url_or_reference": "https://www.wilsoncenter.org/article/timeline-rise-spread-and-fall-islamic-state",
+        "date": "2019-04-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:127",
+        "type": "open_source",
+        "description": "CTC Westpoint: General Directorate of Provinces organizational analysis",
+        "url_or_reference": "https://ctc.westpoint.edu/general-directorate-provinces-managing-islamic-state/",
+        "date": "2023-07-25",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:128",
+        "type": "open_source",
+        "description": "FinCEN: ISIS financing advisory 2025",
+        "url_or_reference": "https://fincen.gov/isis-financing-advisory-2025",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:136",
+        "type": "open_source",
+        "description": "ICCT: Islamic State in 2025 comprehensive threat assessment",
+        "url_or_reference": "https://icct.nl/publication/islamic-state-2025-evolving-threat/",
+        "date": "2025-07-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:138",
+        "type": "open_source",
+        "description": "PRIF: Why ISIS remains threat in Syria 2025",
+        "url_or_reference": "https://blog.prif.org/isis-threat-syria-2025/",
+        "date": "2025-04-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:163",
+        "type": "open_source",
+        "description": "UN OHCHR: ISIS genocide against Yazidis official determination",
+        "url_or_reference": "https://news.un.org/en/story/2016/06/isis-genocide-yazidis",
+        "date": "2016-06-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:167",
+        "type": "open_source",
+        "description": "UN Security Council Report: ISIS threat assessment August 2025",
+        "url_or_reference": "https://securitycouncilreport.org/isis-threat-2025/",
+        "date": "2025-08-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:172",
+        "type": "open_source",
+        "description": "Washington Institute: One year ISIS activity map global operations",
+        "url_or_reference": "https://washingtoninstitute.org/isis-activity-map-2024/",
+        "date": "2024-03-19",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:182",
+        "type": "open_source",
+        "description": "ACLED: ISIS pivot to Africa Q&A 2025",
+        "url_or_reference": "https://acleddata.com/isis-africa-pivot-2025/",
+        "date": "2025-09-10",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
