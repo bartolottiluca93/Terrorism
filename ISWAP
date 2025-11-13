@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "profile_id": "a2c91f3d-7e4a-4b9c-b3f5-2e8d1a6c5f9b",
+    "name": "Islamic State West Africa Province",
+    "aliases": ["ISWAP", "ISIS-WA", "Islamic State West Africa", "Wilayat Gharb Ifriqiyah", "IS–West Africa"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization (as IS affiliate)",
+        "designation_date": "2014-09-24",
+        "reference": "web:8"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2014-10-04",
+        "reference": "web:203"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization",
+        "designation_date": "2014-06-30",
+        "reference": "web:112"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Proscribed terrorist organization",
+        "designation_date": "2014-09-17",
+        "reference": "web:58"
+      },
+      {
+        "country_or_body": "Nigeria",
+        "designation": "Terrorist organization",
+        "designation_date": "2011-06-20",
+        "reference": "web:195"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2016-08-03",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Islamic State's most successful regional affiliate in West Africa, controlling Lake Chad Basin territory with 2,000-12,000 fighters, generating $190+ million annually.",
+    "overview": "The Islamic State West Africa Province (ISWAP) emerged in 2016 as the dominant IS affiliate in Africa, formed when Boko Haram split over ideological differences regarding indiscriminate attacks. ISWAP controls vast swaths of Lake Chad Basin across Nigeria, Niger, Chad, and Cameroon, employing sophisticated governance structures, selective taxation, and drone warfare. With estimated annual revenues exceeding $190 million derived primarily from extortion and taxation, ISWAP operates as both terrorist insurgency and quasi-state entity. The group defeated rival Boko Haram faction in 2021, consolidates territorial control, and represents IS's most capable and resilient global franchise.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2016-08-03",
+    "founders": ["Abu Musab al-Barnawi", "Islamic State central leadership"],
+    "origin_context": "ISWAP emerged from ideological schism within Boko Haram. When Boko Haram pledged allegiance to IS in March 2015, internal disputes emerged over Abubakar Shekau's strategy of indiscriminate suicide bombings targeting Muslims. IS central, seeking disciplined governance aligned with caliphate doctrine, rejected Shekau and appointed Abu Musab al-Barnawi as Boko Haram's leader in August 2016. Shekau refused, leading to formal split.",
+    "key_milestones": [
+      {
+        "date": "2015-03-07",
+        "event": "Boko Haram pledges allegiance to Islamic State",
+        "impact": "Group becomes West Africa Province of IS; gains international profile and organizational structure.",
+        "source_ids": ["web:195", "web:198"]
+      },
+      {
+        "date": "2016-08-03",
+        "event": "IS appoints Abu Musab al-Barnawi leader; group formally splits from Shekau",
+        "impact": "Formation of ISWAP as distinct entity; Shekau retains followers as separate Boko Haram faction.",
+        "source_ids": ["web:196", "web:198"]
+      },
+      {
+        "date": "2019-03-23",
+        "event": "Islamic State in Greater Sahara (ISGS) incorporated as ISWAP faction",
+        "impact": "ISWAP expands territorial reach to Sahel; dual-faction structure emerges.",
+        "source_ids": ["web:198"]
+      },
+      {
+        "date": "2021-05-20",
+        "event": "ISWAP defeats and kills Abubakar Shekau",
+        "impact": "Thousands of Shekau's fighters surrender to ISWAP; consolidates Lake Chad control.",
+        "source_ids": ["web:196", "web:200"]
+      },
+      {
+        "date": "2021-10-13",
+        "event": "Death of Abu Musab al-Barnawi announced",
+        "impact": "Leadership succession; group maintains operational continuity under new leadership.",
+        "source_ids": ["web:196", "web:198"]
+      },
+      {
+        "date": "2024-06-01",
+        "event": "ISWAP releases high-quality propaganda video after years of silence",
+        "impact": "Indicates renewed international IS support and coordination; signals resurgence.",
+        "source_ids": ["web:215"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Sunni Islamist", "Takfiri"],
+    "core_objectives": [
+      "Establish Islamic caliphate governance in West Africa",
+      "Eliminate apostates and heretics (including Shekau's faction)",
+      "Govern territories according to strict Islamic law"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in Lake Chad Basin",
+      "Eliminate competing insurgent groups",
+      "Maximize revenue extraction from civilian populations",
+      "Conduct coordinated military operations against regional forces"
+    ],
+    "long_term_goals": [
+      "Establish permanent Islamic caliphate state in Lake Chad region",
+      "Expand to West African capitals",
+      "Integrate with broader IS global network",
+      "Perfect governance model for IS franchises"
+    ],
+    "narrative_and_justification": "ISWAP frames itself as disciplined alternative to Shekau's indiscriminate violence, positioning as legitimate Islamic governance providing services and protection. Justifies violence through takfiri theology (declaring enemies apostates), religious duty to establish caliphate, and self-defense against oppression by secular Nigerian state.",
+    "target_selection_logic": "Military bases (to acquire weapons and consolidate control), government infrastructure, rival Boko Haram faction, civilians in controlled areas (taxation and governance), foreign military forces, and infrastructure serving state interests."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["NGA", "NER", "TCD", "CMR", "MLI"],
+    "territorial_control": [
+      {
+        "location_name": "Lake Chad islands (Tumbun Alura, Tumbun Kurma, Kabalboa)",
+        "geocoordinates": {"lat": 13.0, "lon": 14.0},
+        "control_type": "firm_control",
+        "control_period": {"from": "2016-08-03", "to": null},
+        "notes": "Primary rear bases; ISWAP headquarters; hundreds of islands; safe haven for leadership and families.",
+        "source_ids": ["web:204", "web:211"]
+      },
+      {
+        "location_name": "Nigerian northeast (Borno, Yobe, Adamawa states)",
+        "geocoordinates": {"lat": 11.5, "lon": 13.0},
+        "control_type": "contested",
+        "control_period": {"from": "2016-08-03", "to": null},
+        "notes": "Rural and semi-rural control; competition with JAS (Shekau faction); multiple military bases overrun.",
+        "source_ids": ["web:204", "web:210"]
+      },
+      {
+        "location_name": "Niger-Nigeria-Cameroon border (tri-border)",
+        "geocoordinates": {"lat": 12.5, "lon": 13.5},
+        "control_type": "presence",
+        "control_period": {"from": "2020-01-01", "to": null},
+        "notes": "Operations and transit routes; porous borders exploited for movement and logistics.",
+        "source_ids": ["web:205", "web:204"]
+      },
+      {
+        "location_name": "Liptako-Gourma region (Mali-Burkina-Niger)",
+        "geocoordinates": {"lat": 14.5, "lon": -0.5},
+        "control_type": "presence",
+        "control_period": {"from": "2019-03-23", "to": null},
+        "notes": "ISGS faction operations; expanding presence via ISWAP integration.",
+        "source_ids": ["web:198", "web:182"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Lake Chad islands",
+        "type": "rural",
+        "notes": "Bunkers, family compounds; difficult military access; natural sanctuary."
+      },
+      {
+        "location_name": "Sambisa Forest (Nigeria)",
+        "type": "rural",
+        "notes": "Former Shekau stronghold; now contested with JAS."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Niger",
+        "community_size_estimate": "operational cells",
+        "activities": ["recruitment", "logistics", "tax collection"],
+        "source_ids": ["web:204", "web:207"]
+      },
+      {
+        "country": "Mali",
+        "community_size_estimate": "fighters",
+        "activities": ["operations", "coordination with ISGS"],
+        "source_ids": ["web:198"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Abu Musab al-Barnawi",
+          "aliases": ["Habib Yusuf (caretaker title)"],
+          "role": "Former Wali (Governor/Leader)",
+          "last_seen": "2021-08-01",
+          "status": "killed",
+          "biographical_notes": "Appointed IS leader of ISWAP 2016; son of Boko Haram founder Mohammed Yusuf; led disciplined organizational transformation; killed in 2021, officially announced October 2021.",
+          "source_ids": ["web:196", "web:200"]
+        },
+        {
+          "name": "Current Wali (Name Redacted)",
+          "aliases": [],
+          "role": "Current Wali (Governor)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Identity closely guarded; selected by IS central; maintains organizational structure and international coordination.",
+          "source_ids": ["web:215"]
+        },
+        {
+          "name": "Mustafa Kirmima",
+          "aliases": [],
+          "role": "Amir ul-Jaysh (Senior Military Commander)",
+          "last_seen": "2023-01-01",
+          "status": "unknown",
+          "biographical_notes": "Wielded significant influence over military operations; drove tactical evolution toward sophisticated attacks.",
+          "source_ids": ["web:200"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "IS central appoints wali through consultation with senior shura council; rapid succession following deaths; emphasis on organizational continuity over personality cult (contrast with Shekau's Boko Haram)."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing (Jaysh)",
+        "function": "Combat operations, military base assaults, tactical warfare",
+        "size_estimate": {"min": 1_500, "max": 3_000, "confidence": "high"},
+        "leader": "Military Commander (Kirmima or successor)",
+        "notes": "Most active component; employs drones, IEDs, ambushes; recent emphasis on coordinated multi-pronged attacks."
+      },
+      {
+        "component_name": "Governance and Administration (Dawawin)",
+        "function": "Tax collection, service provision, civilian administration",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "medium"},
+        "leader": "Governor of Resources",
+        "notes": "Operates courts, manages revenues, provides social services; key to population control and legitimacy."
+      },
+      {
+        "component_name": "Morality Police (Hisbah)",
+        "function": "Law enforcement, civilian discipline, Islamic law implementation",
+        "size_estimate": {"min": 200, "max": 500, "confidence": "medium"},
+        "leader": "Hisbah Commander",
+        "notes": "Enforces dress codes, prayer attendance, moral conduct; maintains civil order."
+      },
+      {
+        "component_name": "Media and Communications",
+        "function": "Propaganda production, Amaq claims, recruitment messaging",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Media Director",
+        "notes": "Recently revived high-quality video production; uses AI-generated content; multilingual operations."
+      },
+      {
+        "component_name": "Financial Administration (Al-Karrar/Al-Furqan)",
+        "function": "Revenue collection, fund distribution, money movement",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "leader": "Finance Chief",
+        "notes": "Channels $36M+ annually through Nigerian financial system; manages IS payments to fighters."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Islamic State Greater Sahara (ISGS)",
+        "relationship_type": "integrated_faction",
+        "jurisdiction": ["MLI", "BFA", "NER"],
+        "notes": "Incorporated into ISWAP March 2019; operates as semi-autonomous faction with separate command structure."
+      },
+      {
+        "name": "Boko Haram (Shekau faction/JAS)",
+        "relationship_type": "rival",
+        "jurisdiction": ["NGA"],
+        "notes": "Bitter enemies since 2021; compete for territorial control; occasional tactical cooperation 2016-2020."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized: Wali holds supreme authority; Majlis al-Shura (Consultation Council) advises on strategic matters and theological issues; IS central provides oversight and strategic guidance; field commanders have operational autonomy.",
+      "discipline_and_enforcement": "Islamic courts administer Sharia law; severe punishment for violations (execution for espionage, desertion); use of collective punishment against civilians for non-compliance."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 2_000, "max": 12_000, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 1_500, "max": 8_000},
+      "support_personnel": {"min": 500, "max": 3_000},
+      "foreign_fighters": {"min": 200, "max": 500},
+      "female_participation": "Women serve in Hisbah, medical roles, recruitment; some participation in combat; used as suicide bombers (inherited from Shekau era); estimated 10-15% of force."
+    },
+    "recruitment_demographics": {
+      "age_range": "14-45",
+      "education_levels": ["primary", "secondary", "quranic schools"],
+      "socioeconomic_background": "Predominantly rural, impoverished Lake Chad populations; internally displaced persons; unemployed youth; farmers and fishermen forced into group; some coercive recruitment.",
+      "gender_distribution": "Predominantly male (85-90%); increasing female recruitment for support and combat roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military", "ideological", "drone operation", "IED construction", "medical", "administrative"],
+      "training_locations": ["Lake Chad islands", "rural camps in Nigeria", "Sahel bases (ISGS faction)", "Iran (reported)"],
+      "notes": "Evidence of six Middle Eastern trainers deployed by IS to accelerate tactical evolution; training emphasizes discipline, obedience, Islamic theology."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "regional",
+    "known_attack_types": ["military base assaults", "armed drones", "IEDs", "armed ambushes", "kidnapping", "extortion", "armed robbery", "sexual violence", "executions"],
+    "notable_operations": [
+      {
+        "operation_name": "Camp Holocaust",
+        "date": "2024-01-01",
+        "location": "Lake Chad Basin military bases",
+        "method_category": "coordinated multi-site assault campaign",
+        "casualties_killed": 80,
+        "casualties_injured": 120,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:204"]
+      },
+      {
+        "operation_name": "Malam Fatori Base Assault",
+        "date": "2025-01-24",
+        "location": "Nigeria-Niger border",
+        "method_category": "coordinated armed assault",
+        "casualties_killed": 20,
+        "casualties_injured": 45,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:204"]
+      },
+      {
+        "operation_name": "Wajikoro Drone Attack",
+        "date": "2025-05-12",
+        "location": "Borno State, Nigeria",
+        "method_category": "weaponized drone strike",
+        "casualties_killed": 12,
+        "casualties_injured": 25,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:224"]
+      },
+      {
+        "operation_name": "New Marte Base Assault",
+        "date": "2025-05-19",
+        "location": "Nigeria",
+        "method_category": "coordinated four-hour assault",
+        "casualties_killed": 15,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:215"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["Islamic State central", "Iran (limited/indirect)"],
+      "criminal_partnerships": ["arms smuggling networks", "money laundering via Nigerian banks"],
+      "transnational_network_links": ["IS central coordination", "ISGS (Sahel faction)", "Middle East IS trainers"],
+      "notes": "IS core provides monthly payments to fighters, strategic guidance, technical advisers, media support; estimated $36M+ annual financial support channeled through legitimate Nigerian financial system."
+    },
+    "operations_tempo_and_patterning": "Escalating frequency: 15+ attacks on military bases in 2024-2025; seasonal pattern tied to agricultural/fishing cycles; nighttime assaults on remote outposts; increasing use of coordinated multi-site operations; drone strikes 2-4 times monthly since late 2024."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "rocket_launchers", "mortars", "drones", "sniper_rifles"],
+      "acquisition_routes": "battlefield capture from Nigerian military bases (primary), black market smuggling, arms trafficking networks through porous borders, artisanal construction",
+      "notes": "Recent assault on New Marte base seized significant weapons cache; access to commercial drones (DJI models) modified with explosive payloads; increasingly sophisticated weaponry indicates external support."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda dissemination via Telegram", "AI-generated video content", "encrypted communications", "surveillance drone footage broadcasting"],
+      "notes": "Focus on information warfare and propaganda rather than offensive cyber operations; active use of generative AI for media production."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram", "Radio al-Bayan", "encrypted messengers", "Amaq News Agency"],
+      "propaganda_platforms": ["Telegram", "social media (periodically)", "dedicated websites", "high-quality video releases"],
+      "notes": "Telegram primary platform; renewed video propaganda since June 2024; use of Hausa subtitles targeting local recruitment."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks (technicals)", "boats (Lake Chad)", "canoes"],
+      "boxes": "Lake Chad islands provide strategic logistics hub; boat transport across water; motorcycles for raids; limited heavy equipment; mobile small-unit tactics."
+    },
+    "technical_gaps_and_weaknesses": "Limited air defense; vulnerable to artillery and airstrikes; dependent on smuggling for sustained ammunition supply; no armor or heavy weapons; vulnerable communication networks."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 191_000_000, "currency": "USD", "confidence": "high"},
+    "revenue_streams": [
+      {
+        "type": "taxation",
+        "description": "Extortion from farmers, fishers, livestock owners in Lake Chad region",
+        "estimated_share_percent": 75,
+        "notes": "$191M annually from Lake Chad taxation alone (2024-2025); arbitrary and coercive; includes fishing permits ($38/permit, 67% increase), cattle taxes, agricultural levies."
+      },
+      {
+        "type": "state_support",
+        "description": "Monthly payments and operational support from IS central",
+        "estimated_share_percent": 15,
+        "notes": "$36M+ annually (2021 ECOWAS assessment); transfers through legitimate Nigerian banks via Maktab al-Furqan financial office."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments from military personnel and civilians",
+        "estimated_share_percent": 5,
+        "notes": "Secondary revenue source; sporadic but significant events."
+      },
+      {
+        "type": "illicit_trade",
+        "description": "Smuggling, contraband, weapons trafficking",
+        "estimated_share_percent": 3,
+        "notes": "Exploits porous borders for trade diversification."
+      },
+      {
+        "type": "reward_payments",
+        "description": "IS payments for captured military equipment",
+        "estimated_share_percent": 2,
+        "notes": "Incentivizes weapons acquisition from battlefield."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Maktab al-Furqan (financial office), al-Karrar (support), al-Siddiq; legitimate Nigerian bank transfers; hawala networks.",
+      "notes": "Highly resilient dual-track system: informal channels for field operations; formal channels for strategic transfers. ECOWAS sanctions ineffective against ISWAP's localized revenue model."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International financial sanctions, asset freezes",
+        "implementing_body": "UN, US, EU, Nigeria",
+        "date": "2014-09-24",
+        "effectiveness_assessment": "low"
+      },
+      {
+        "measure": "Counter-ISIS Finance Group (CIFG) coordination",
+        "implementing_body": "Multi-national",
+        "date": "2024-08-07",
+        "effectiveness_assessment": "low"
+      },
+      {
+        "measure": "Nigerian bank account freezes",
+        "implementing_body": "Nigeria",
+        "date": "2021-12-01",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["coercive conscription", "local Islamic preachers", "family networks", "revenge motives", "Telegram/online", "displacement camps"],
+    "recruitment_tactics": ["promise of salaries and stipends", "provision of services in controlled areas", "coercive forced recruitment", "family pressure", "revenge against military", "utopian governance narrative"],
+    "target_profiles": ["unemployed youth (14-35)", "internally displaced persons", "military deserters", "farmers and fishers", "those with grievances against government", "orphans and vulnerable children"],
+    "recruitment_geography": ["Lake Chad Basin (primary)", "Sahel region (via ISGS)", "Niger, Chad, Cameroon, Mali"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 8, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; Telegram targeting youth with employment messaging; propaganda exploiting socioeconomic grievances; coercive recruitment of children; limited education and employment alternatives fuel vulnerability."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "Amaq news bulletins", "Al-Naba magazine", "execution videos", "drone footage", "AI-generated news broadcasts"],
+    "languages_used": ["Arabic", "Hausa", "English", "French"],
+    "messaging_themes": ["disciplined Islamic governance", "resistance to oppression", "martyrdom", "technical prowess (drones)", "service provision", "anti-Western/anti-Nigerian government"],
+    "audience_targeting": "Local West African populations (primary emphasis post-2024); recruitment of youth; projection of power to military audiences; global jihadi networks.",
+    "platform_policy_responses": "Periodic Telegram channel takedowns; Amaq bulletins rapidly re-posted; high-quality video content distributed via multiple channels; shift toward encrypted platforms reduces platform control effectiveness."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Nigeria",
+        "case_ref": "Federal prosecutions (multiple ongoing)",
+        "defendants": ["Multiple ISWAP fighters and former members"],
+        "outcome": "Convictions for terrorism-related offences; sentences ranging from 10-life imprisonment.",
+        "notes": "Prosecutions include charges for sexual and gender-based violence crimes."
+      },
+      {
+        "jurisdiction": "Multi-national (indirect)",
+        "case_ref": "ICC investigations",
+        "defendants": ["ISWAP leadership and fighters"],
+        "outcome": "Ongoing investigations; no formal indictments as of 2025.",
+        "notes": "Crimes against humanity and war crimes investigations."
+      }
+    ],
+    "human_rights_concerns": "Widespread and systematic sexual violence including rape, forced marriage, sexual slavery; abduction of women and children; use of child soldiers; use of girls as suicide bombers; mass executions of civilians; indiscriminate killings; extrajudicial killings; displacement of millions; destruction of infrastructure; forced taxation (coercive governance); torture and punishment; environmental destruction (burning agricultural land)."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq attack claims surge", "type": "communications", "thresholds": ">5 claims/week signals major campaign phase"},
+      {"indicator": "High-quality video propaganda release", "type": "communications", "thresholds": "major tactical or strategic action imminent or recent"},
+      {"indicator": "Drone surveillance activity", "type": "geospatial", "thresholds": "coordinated drone operations precede military base assaults by 2-7 days"}
+    ],
+    "early_warning_signals": ["Increased Telegram recruitment messaging", "Drone reconnaissance patterns near military bases", "Amaq announcement of new operations", "Large weapons shipment movements", "Leadership announcements"],
+    "data_needed_for_monitoring": ["satellite imagery (territorial control)", "SIGINT (encrypted communications, drone signals)", "financial transaction analysis (bank transfers)", "HUMINT from informants and defectors", "open-source social media analysis"],
+    "recommended_analytic_methods": ["temporal clustering of attack patterns", "network analysis (command structure)", "financial flow analysis", "geospatial conflict mapping"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISWAP represents the most resilient and operationally sophisticated IS affiliate globally. Recent tactical evolution incorporating drone warfare, increasing financial sophistication, and renewal of high-quality propaganda signals resurgence and external IS support. Territorial consolidation in Lake Chad Basin creates de facto quasi-state with governance structures resistant to military pressure.",
+    "vulnerable_sectors": ["military infrastructure", "civilian transportation and commerce", "agricultural/fishing sectors", "government administration", "critical infrastructure"],
+    "likely_future_trends": "Continued territorial consolidation in Lake Chad Basin; expansion toward West African cities; intensification of drone warfare; possible spread to previously unaffected regions; deepening IS central coordination; financial resilience despite sanctions; exploitation of Western military withdrawal from Sahel.",
+    "recommended_mitigation_measures": [
+      "Multi-national Lake Chad Basin joint military operations with adequate resources and coordination",
+      "Advanced counter-drone capabilities and air defense systems",
+      "Enhanced intelligence sharing on IS central-ISWAP financial flows",
+      "Economic development and employment programs targeting youth recruitment demographics",
+      "Support for regional governments' civilian administration in contested areas",
+      "Disruption of arms smuggling networks across porous borders",
+      "Counter-propaganda and rehabilitation programs",
+      "Prosecution of financiers and arms suppliers in Western countries",
+      "Support for repatriation and deradicalization of ISWAP detainees"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:195",
+        "type": "open_source",
+        "description": "Wikipedia: Comprehensive Boko Haram history and ISWAP split",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Boko_Haram",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:196",
+        "type": "open_source",
+        "description": "BBC: ISWAP leader Abu Musab al-Barnawi death announcement",
+        "url_or_reference": "https://www.bbc.com/news/world-africa-59011087",
+        "date": "2021-10-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:198",
+        "type": "open_source",
+        "description": "ACLED: Methodology for coding Boko Haram and ISWAP factions",
+        "url_or_reference": "https://www.acleddata.com/analysis/boko-haram-iswap-methodology/",
+        "date": "2019-08-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS–West Africa terrorist group profile",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups.html",
+        "date": "2024-08-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:204",
+        "type": "open_source",
+        "description": "Institute for Security Studies: Lake Chad military base attacks analysis",
+        "url_or_reference": "https://issafrica.org/lake-chad-basin-military-bases-iswap-crosshairs",
+        "date": "2025-07-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:205",
+        "type": "open_source",
+        "description": "ADF Magazine: ISWAP taxation of Lake Chad region ($191M annually)",
+        "url_or_reference": "https://www.adf-magazine.com/iswap-taxation-lake-chad-region/",
+        "date": "2025-08-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:208",
+        "type": "open_source",
+        "description": "GNET: Combating Islamic State Finance in West Africa",
+        "url_or_reference": "https://gnet-research.org/combating-is-finance-west-africa/",
+        "date": "2025-02-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:215",
+        "type": "open_source",
+        "description": "Soufan Center: ISWAP tactical evolution and propaganda resurgence",
+        "url_or_reference": "https://thesoufancenter.org/iswap-tactical-evolution-2025/",
+        "date": "2025-05-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:222",
+        "type": "open_source",
+        "description": "GNET: Drones and ISWAP warfare in Lake Chad Basin",
+        "url_or_reference": "https://gnet-research.org/techno-caliphate-iswap-drones/",
+        "date": "2025-07-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:136",
+        "type": "open_source",
+        "description": "ICCT: Islamic State in 2025 threat assessment (Africa focus)",
+        "url_or_reference": "https://icct.nl/publication/islamic-state-2025/",
+        "date": "2025-07-10",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
