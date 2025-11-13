@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "profile_id": "f3b7d1e8-4a2c-5e9f-8b3d-2c5f7a9e1d6c",
+    "name": "Islamic State's Network in Bangladesh",
+    "aliases": ["ISIS-Bangladesh", "Neo-Jamaat-ul-Mujahideen Bangladesh (Neo-JMB)", "Jamaat-ul-Mujahideen Bangladesh faction", "JMB-ISIS aligned", "Islamic State South Asia Province"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2018-02-27",
+        "reference": "web:203"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2018-03-01",
+        "reference": "web:203"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2015-09-28",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Severely degraded ISIS-affiliated network in Bangladesh with several dozen fighters, notable for Holey Artisan Bakery attack, currently resurgent through diaspora networks and emerging Malaysia-based cells.",
+    "overview": "ISIS's network in Bangladesh is a severely degraded terrorist affiliate based primarily on ISIS-aligned factions of the Jamaat-ul-Mujahideen Bangladesh (JMB). Emerging from non-violent religious organizations around 2015, the network transitioned to armed insurgency in 2015, launching its first attack September 28, 2015 (Italian NGO worker murdered). The network achieved international infamy through the July 1, 2016 Holey Artisan Bakery siege in Dhaka that killed 22 people (primarily Italian and Japanese), coordinated by Canadian citizen Tamim Chowdhury. Following intensive crackdowns (2016-2021) that killed ~80 suspected militants and arrested 300+, the network was severely degraded to 'several dozen' active operatives. As of 2025, ISIS-Bangladesh operates as a fragmented cell-based network with limited operational capability within Bangladesh, but demonstrates resilience through transnational migration, diaspora networks, and 2025 resurgence evidence: Malaysia arrested 100-150 ISIS-linked Bangladeshi migrant workers (July 2025), and intelligence indicates JMB resurgence in Indian West Bengal border regions exploiting political instability. The network remains designated but poses reduced domestic threat compared to peak 2015-2017 period.",
+    "threat_level": "medium",
+    "confidence_overall": "high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2015-09-28",
+    "founders": ["Holey Artisan Bakery attack planners", "Tamim Chowdhury (mastermind)", "JMB ISIS-aligned faction members"],
+    "origin_context": "ISIS-Bangladesh emerged as ISIS-aligned cell networks within the broader Jamaat-ul-Mujahideen Bangladesh (JMB) during period of violent extremism (2013-2015). The network appears to have formed from: (1) JMB members inspired by ISIS's 2014 caliphate declaration and Syria/Iraq foreign fighter success; (2) young, educated, middle-class Bangladeshis who traveled to Syria to fight for IS and returned radicalized; (3) coordination facilitated by Canadian citizen Tamim Chowdhury who returned from Syria with operational experience. The network transitioned from religious organization to armed cell network between 2015-2016.",
+    "key_milestones": [
+      {
+        "date": "2015-09-28",
+        "event": "First attack: assassination of Italian NGO worker Cesare Tavella (drive-by shooting)",
+        "impact": "Emergence of ISIS-aligned violent attacks; 1 killed.",
+        "source_ids": ["web:203", "web:387"]
+      },
+      {
+        "date": "2016-01-27",
+        "event": "Corinthia Hotel bombing suicide attack, Tripoli",
+        "impact": "8 civilians killed; hotel bombing; international attention.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2016-07-01",
+        "event": "Holey Artisan Bakery siege attack (Dhaka)",
+        "impact": "22 killed (primarily Italian/Japanese); 40+ wounded; 12-hour siege; deadliest attack in Bangladesh; 5 attackers killed.",
+        "source_ids": ["web:384", "web:387"]
+      },
+      {
+        "date": "2016-07-03",
+        "event": "Mastermind Tamim Chowdhury (Shaykh Abu Ibrahim al-Hanif) identified as Canadian citizen",
+        "impact": "Canadian dual citizen; Syria fighter; operational planner; fled Bangladesh.",
+        "source_ids": ["web:387"]
+      },
+      {
+        "date": "2016-08-01",
+        "event": "Bangladesh launches massive crackdown: 80+ suspected militants killed, 300+ arrested",
+        "impact": "Government anti-terror operations; extrajudicial killings; arbitrary arrest; torture allegations.",
+        "source_ids": ["web:384", "web:397"]
+      },
+      {
+        "date": "2017-03-17",
+        "event": "Suicide bombing attack on anti-terrorism police unit, Dhaka",
+        "impact": "2 injured; ISIS-Bangladesh claimed via Amaq.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2017-03-25",
+        "event": "Sylhet bombings: twin explosions during police raid on militant hideout",
+        "impact": "6 killed, 50+ wounded; 78 hostages rescued; ISIS claimed responsibility.",
+        "source_ids": ["web:383", "web:389"]
+      },
+      {
+        "date": "2019-11-26",
+        "event": "Seven JMB members sentenced to death for Holey Artisan attack",
+        "impact": "Criminal justice outcome; death sentences for attack planners; 8 tried (1 acquitted).",
+        "source_ids": ["web:384"]
+      },
+      {
+        "date": "2020-04-29",
+        "event": "ISIS-Bangladesh hideout raided in Dhaka; 2+ militants killed, building demolished",
+        "impact": "First ISIS-Bangladesh attack claimed in 2+ years; organization severely degraded.",
+        "source_ids": ["web:386"]
+      },
+      {
+        "date": "2025-07-15",
+        "event": "Malaysia arrests 100-150 ISIS-linked Bangladeshi migrant workers in significant terror network bust",
+        "impact": "Transnational resurgence signal; diaspora-based recruitment network; WhatsApp/Telegram coordination; $118/person membership fees.",
+        "source_ids": ["web:399"]
+      },
+      {
+        "date": "2025-04-13",
+        "event": "Intelligence reports JMB resurgence in Indian West Bengal border region",
+        "impact": "Regional transnational threat; recruitment through madrasas; porous borders; arms/fund smuggling; counterfeit currency network ($2 crore fake notes for JMB).",
+        "source_ids": ["web:398"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Sunni Islamist"],
+    "core_objectives": [
+      "Overthrow secular Bangladeshi government",
+      "Establish Islamic caliphate governance under Sharia law",
+      "Support global ISIS caliphate restoration",
+      "Reject secular education and governance"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks against civilians and government targets",
+      "Maintain networked cell structure and avoid detection",
+      "Recruit new members through diaspora networks",
+      "Target foreign nationals and secular/religious minorities"
+    ],
+    "long_term_goals": [
+      "Establish ISIS province in Bangladesh and South Asia",
+      "Create Islamic state governance structure",
+      "Integrate with broader IS global network",
+      "Contribute to imagined South Asian Islamic emirate"
+    ],
+    "narrative_and_justification": "ISIS-Bangladesh frames violence as religious duty to establish Islamic governance and defend Muslim populations from secularism, Western imperialism, and Shia-dominated states. Uses takfiri theology to justify attacks on secular government, apostate Muslims, religious minorities, and foreign nationals. Exploits grievances regarding economic marginalization and cultural Islamophobia.",
+    "target_selection_logic": "Symbolic attacks on foreign nationals (Westerners) to maximize psychological impact; government and security targets; secular bloggers and activists; Christian and Hindu minorities; religious minorities; soft civilian targets (cafes, hotels) with foreign clientele."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["BGD", "IND", "MYS"],
+    "territorial_control": [
+      {
+        "location_name": "Dhaka, Bangladesh (urban terror operations)",
+        "geocoordinates": {"lat": 23.81, "lon": 90.41},
+        "control_type": "presence",
+        "control_period": {"from": "2015-09-28", "to": null},
+        "notes": "Capital; primary attack location; cell-based network; police hideout raids.",
+        "source_ids": ["web:384", "web:389"]
+      },
+      {
+        "location_name": "Jhenaidah district, Bangladesh",
+        "geocoordinates": {"lat": 23.18, "lon": 89.16},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Secondary operational area; militant presence documented.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "location_name": "Rangpur district, Bangladesh",
+        "geocoordinates": {"lat": 25.74, "lon": 89.25},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Northern region; recruitment center; militant network.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "location_name": "Sylhet district, Bangladesh",
+        "geocoordinates": {"lat": 24.91, "lon": 91.87},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Site of March 2017 bombing attack; hideouts.",
+        "source_ids": ["web:203", "web:383"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Malaysia (emerging diaspora hub 2024-2025)",
+        "type": "transnational",
+        "notes": "100-150 ISIS-linked Bangladeshi migrants arrested July 2025; WhatsApp/Telegram coordination; oaths of allegiance administered online."
+      },
+      {
+        "location_name": "India (West Bengal border regions, post-2024)",
+        "type": "transnational",
+        "notes": "Madrasas as cover; border village safe houses; JMB resurgence with alleged ISI-Pakistan connections."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Malaysia",
+        "community_size_estimate": "100-150 arrested 2025",
+        "activities": ["recruitment", "fundraising", "attack planning", "oath administration"],
+        "source_ids": ["web:399"]
+      },
+      {
+        "country": "India (West Bengal)",
+        "community_size_estimate": "operationalized cells 2024-2025",
+        "activities": ["recruitment", "logistics", "arms smuggling", "propaganda"],
+        "source_ids": ["web:398"]
+      },
+      {
+        "country": "Syria (historical)",
+        "community_size_estimate": "foreign fighters 2015-2016",
+        "activities": ["combat", "operational training"],
+        "source_ids": ["web:387"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Tamim Chowdhury",
+          "aliases": ["Shaykh Abu Ibrahim al-Hanif", "Abu Ibrahim"],
+          "role": "Mastermind of Holey Artisan Bakery attack",
+          "last_seen": "2016-07-01",
+          "status": "fled",
+          "biographical_notes": "Canadian citizen born in Windsor, Ontario; Syria fighter 2012-2016; operational planner of July 2016 attack; fled Bangladesh after attack; currently wanted.",
+          "source_ids": ["web:387"]
+        },
+        {
+          "name": "Mahadi Hasan Jon",
+          "aliases": ["Abu Abbas Al Bangali"],
+          "role": "Self-appointed network amir (since September 2020)",
+          "last_seen": "2023-01-01",
+          "status": "arrested",
+          "biographical_notes": "Assumed leadership after leadership degradation; arrested in Turkey 2023.",
+          "source_ids": ["web:203"]
+        }
+      ],
+      "leadership_model": "decentralized",
+      "succession_mechanism": "Leadership transitions disrupted by arrests/deaths; increasingly autonomous cell structure post-2016 crackdown; leadership frequently unknown due to security compartmentalization."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military/Operational Cells",
+        "function": "Attack planning, execution, recruitment",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Cell commanders (names unknown)",
+        "notes": "Severely degraded; cell-based structure; compartmentalized security."
+      },
+      {
+        "component_name": "Diaspora Network (Malaysia, India)",
+        "function": "Recruitment, fundraising, attack planning",
+        "size_estimate": {"min": 100, "max": 150, "confidence": "medium"},
+        "leader": "Regional coordinators (names unknown)",
+        "notes": "Emerging hub; 100-150 arrested Malaysia July 2025; border cells in India."
+      },
+      {
+        "component_name": "Media and Communications",
+        "function": "Attack claims (Amaq channel), propaganda, recruitment",
+        "size_estimate": {"min": 5, "max": 20, "confidence": "low"},
+        "leader": "Unknown media coordinator",
+        "notes": "Claims attacks via Amaq News Agency; limited independent production."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "JMB (Jamaat-ul-Mujahideen Bangladesh)",
+        "relationship_type": "faction",
+        "jurisdiction": ["BGD", "IND"],
+        "notes": "ISIS-aligned JMB faction; neo-JMB; distinct from mainstream JMB branches."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Decentralized cell autonomy post-2016; reduced central coordination; coordination with IS central minimal.",
+      "discipline_and_enforcement": "Islamic law enforcement within cells; monitoring for infiltrators; harsh punishment for violations."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+    "composition": {
+      "combatants": {"min": 20, "max": 50},
+      "support_personnel": {"min": 15, "max": 40},
+      "foreign_fighters": {"min": 100, "max": 150},
+      "female_participation": "Unknown; limited documented participation."
+    },
+    "composition_peak": {
+      "year": "2016",
+      "total": {"min": 100, "max": 300},
+      "description": "Peak membership during 2016 attack campaigns."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["secondary", "university"],
+      "socioeconomic_background": "Middle-class educated youth; unemployed university graduates; students; some foreign workers (Malaysia 2025 arrests).",
+      "gender_distribution": "Predominantly male (95%+); minimal female participation documented."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "bomb-making", "attack planning", "religious ideology"],
+      "training_locations": ["Syria (2012-2016)", "Bangladesh hideouts", "Malaysia (2024-2025)"],
+      "notes": "Training conducted in Syria for early cohort; Bangladesh-based training for local recruits; Malaysia operations showing emerging training structure."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "local",
+    "known_attack_types": ["mass shooting", "bombing", "suicide bombing", "armed assault", "assassination"],
+    "notable_operations": [
+      {
+        "operation_name": "Cesare Tavella Assassination",
+        "date": "2015-09-28",
+        "location": "Tripoli (or Dhaka area), Bangladesh",
+        "method_category": "targeted shooting",
+        "casualties_killed": 1,
+        "casualties_injured": 0,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:387"]
+      },
+      {
+        "operation_name": "Corinthia Hotel Bombing",
+        "date": "2016-01-27",
+        "location": "Dhaka, Bangladesh (Tripoli naming unclear)",
+        "method_category": "suicide bombing on luxury hotel",
+        "casualties_killed": 8,
+        "casualties_injured": 25,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Holey Artisan Bakery Siege",
+        "date": "2016-07-01",
+        "location": "Gulshan, Dhaka, Bangladesh",
+        "method_category": "armed assault, hostage-taking, mass shooting",
+        "casualties_killed": 22,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:384", "web:387"]
+      },
+      {
+        "operation_name": "Anti-Terrorism Police Unit Attack",
+        "date": "2017-03-17",
+        "location": "Dhaka, Bangladesh",
+        "method_category": "suicide bombing",
+        "casualties_killed": 0,
+        "casualties_injured": 2,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Sylhet Twin Bombings",
+        "date": "2017-03-25",
+        "location": "Sylhet district, Bangladesh",
+        "method_category": "coordinated bombing during police operation",
+        "casualties_killed": 6,
+        "casualties_injured": 50,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:383", "web:389"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["smuggling networks", "arms traffickers"],
+      "transnational_network_links": ["IS central media (Amaq)", "Regional jihadist networks"],
+      "notes": "Limited direct IS central support post-2016; primarily operates autonomously; emerging Malaysia diaspora network indicates potential IS re-engagement."
+    },
+    "operations_tempo_and_patterning": "Peak 2015-2017 (frequent major attacks); degraded 2018-2023 (sporadic isolated incidents); resurgence 2024-2025 (diaspora networks expanding). Pattern: foreign nationals targeted; soft civilian targets; government/security facilities; symbolic attacks for psychological impact."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "hand grenades", "machetes", "IEDs"],
+      "acquisition_routes": "Black market smuggling (particularly from India-Bangladesh border post-2024), DIY explosives construction, captured weapons",
+      "notes": "Access to firearms and explosives; machete use documented; IED production capability; Bangladeshi border arms trafficking network."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["encrypted communications (WhatsApp, Telegram, Signal)", "propaganda dissemination", "recruitment messaging", "online oaths of allegiance"],
+      "notes": "Heavy reliance on encrypted platforms for operational security; limited offensive cyber operations; social media recruitment emphasis; Malaysia 2025 arrests showed organized WhatsApp group coordination."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram encrypted channels", "WhatsApp groups", "encrypted messengers (Signal)", "Amaq News Agency"],
+      "propaganda_platforms": ["Amaq (attack claims)", "Telegram", "social media (periodic)"],
+      "notes": "Encrypted messaging primary operational tool; Amaq for claims dissemination; compartmentalized cell communication."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles", "motorcycles", "foot"],
+      "boxes": "Urban-based operations; limited rural sanctuary; porous borders (India, Myanmar); maritime routes (historical Syrian fighter transit)."
+    },
+    "technical_gaps_and_weaknesses": "Limited heavy weapons; no drone capability; vulnerable communication networks; small cell size limits scale of operations; degraded after 2016 crackdown; dependent on safe passage through international borders."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 100_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "donations",
+        "description": "Diaspora donations and sympathizer fundraising",
+        "estimated_share_percent": 60,
+        "notes": "$60K; international fund transfers via Hawala; Maktab al-Siddiq provides some funding."
+      },
+      {
+        "type": "membership_fees",
+        "description": "Membership fees from recruits (Malaysia 2025 documentation)",
+        "estimated_share_percent": 25,
+        "notes": "$25K; RM500 (~$118) per person; Malaysia arrests documented this method."
+      },
+      {
+        "type": "state_support",
+        "description": "Limited support from IS central (Asia Maktab al-Siddiq office)",
+        "estimated_share_percent": 15,
+        "notes": "$15K; reduced from historical peak; limited financial priority."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Hawala networks, cash couriers, e-wallets (Malaysia arrests 2025 documented); international fund transfers.",
+      "notes": "Primarily cash and informal transfer systems; decentralized fundraising; diaspora networks crucial; international transfers via multiple channels."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "US, UN, Bangladesh",
+        "date": "2018-02-27",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "madrasas", "social media (Telegram, WhatsApp)", "prisons", "universities"],
+    "recruitment_tactics": ["religious ideology messaging", "grievance exploitation (economic marginalization)", "online indoctrination sessions", "encrypted group chats", "virtual oaths of allegiance (baiah)"],
+    "target_profiles": ["educated university students", "unemployed youth", "diaspora workers (Malaysia)", "prison inmates", "religiously inclined individuals"],
+    "recruitment_geography": ["Bangladesh (primary)", "Malaysia (growing 2024-2025)", "India (West Bengal border region)", "diaspora communities"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 10, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; online radicalization through encrypted platforms; grievance exploitation; diaspora alienation; Israel-Gaza conflict cited as radicalization catalyst (2025 Malaysia arrests)."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["attack claim videos", "Amaq news bulletins", "religious sermon recordings", "recruitment messaging"],
+    "languages_used": ["Arabic", "Bengali", "English"],
+    "messaging_themes": ["Islamic governance and Sharia law", "anti-government resistance", "anti-Western imperialism", "religious duty", "global Muslim victimization"],
+    "audience_targeting": "Bangladeshi youth; diaspora communities; global ISIS network; potential foreign fighters.",
+    "platform_policy_responses": "Telegram channel removals (rapid recreation); social media bans; Amaq bulletins resilient to takedowns; encrypted platforms make platform moderation ineffective."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Bangladesh",
+        "case_ref": "Holey Artisan Bakery trial",
+        "defendants": ["7 JMB members sentenced to death (November 2019)", "1 acquitted"],
+        "outcome": "Death sentences for 7; Holey Artisan mastermind Tamim Chowdhury remained at large.",
+        "notes": "Most comprehensive terrorism prosecution in Bangladesh history."
+      },
+      {
+        "jurisdiction": "Malaysia",
+        "case_ref": "ISIS-linked Bangladeshi migrant network",
+        "defendants": ["100-150 arrested July 2025"],
+        "outcome": "Ongoing investigations; charges pending.",
+        "notes": "Largest ISIS-Bangladesh network arrest outside Bangladesh."
+      }
+    ],
+    "human_rights_concerns": "Bangladeshi government extrajudicial killings (80+ suspected militants killed 2016 crackdowns); torture allegations; arbitrary arrest and detention; enforced disappearances; civilian casualties; arbitrary detention of witnesses; media harassment; targeting of secular bloggers, journalists, and minorities; security force abuses during counter-terrorism operations."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq claim frequency", "type": "communications", "thresholds": ">1/month signals organizing activity"},
+      {"indicator": "Diaspora cell coordination reports", "type": "intelligence", "thresholds": "transnational arrest patterns"},
+      {"indicator": "Encrypted platform messaging surge", "type": "communications", "thresholds": "recruitment campaign intensification"}
+    ],
+    "early_warning_signals": ["Increased recruitment messaging on Telegram/WhatsApp", "Online oath administration announcements", "Leadership positioning statements", "Attack planning communications"],
+    "data_needed_for_monitoring": ["HUMINT from informants", "SIGINT (encrypted communications interception)", "financial transaction tracking", "social media monitoring"],
+    "recommended_analytic_methods": ["network analysis of transnational diaspora connections", "temporal clustering of arrests/incidents", "encrypted communication pattern analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-Bangladesh poses reduced but emerging transnational threat. 2025 Malaysia network arrest (100-150 personnel) and India border region resurgence signal organizational reconstitution. Domestic threat in Bangladesh remains low due to successful 2016-2023 crackdowns, but diaspora networks present growing vulnerability. Group demonstrates resilience through transnational coordination despite severe domestic degradation.",
+    "vulnerable_sectors": ["foreign nationals and expat communities", "government and security installations", "secular government officials and intellectuals", "religious minorities", "soft civilian targets"],
+    "likely_future_trends": "Continued diaspora network expansion; shift toward transnational operations from South Asia base; potential re-engagement by IS central if Afghanistan-based IS-K maintains organizational coherence; recruitment from economically marginalized diaspora communities; exploitation of Israel-Gaza conflict grievances.",
+    "recommended_mitigation_measures": [
+      "Regional coordination between Bangladesh, Malaysia, India intelligence agencies",
+      "Disruption of diaspora fundraising networks (e-wallets, cryptocurrency)",
+      "Enhanced border security (India-Bangladesh porous frontier)",
+      "Deradicalization programs for imprisoned JMB-ISIS members",
+      "Counter-narrative campaigns addressing global Muslim grievances",
+      "Diaspora community engagement to build resilience against radicalization",
+      "International cooperation on extradition (Tamim Chowdhury location/capture)",
+      "Cryptocurrency and fund transfer tracking",
+      "Prosecutions of Malaysia and India based ISIS-Bangladesh network members"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS's network in Bangladesh terrorist group profile (June 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_bangladesh.html",
+        "date": "2025-06-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:383",
+        "type": "open_source",
+        "description": "ABNA: Sylhet bomb blasts incident reporting (March 2017)",
+        "url_or_reference": "https://abna24.com/sylhet-bombing-bangladesh",
+        "date": "2017-03-25",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:384",
+        "type": "open_source",
+        "description": "BBC: Holey Artisan cafe death sentences for 2016 attack (November 2019)",
+        "url_or_reference": "https://www.bbc.com/news/world-asia-50483825",
+        "date": "2019-11-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:387",
+        "type": "open_source",
+        "description": "Asia Maior: Bangladesh 2016 laboratory for Islamic radicalism (December 2017)",
+        "url_or_reference": "https://asiamaior.org/bangladesh-2016-laboratory-islamic-radicalism",
+        "date": "2017-12-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:389",
+        "type": "open_source",
+        "description": "NDTV: Sylhet twin blasts incident (March 2017)",
+        "url_or_reference": "https://ndtv.com/sylhet-blasts-bangladesh",
+        "date": "2017-03-25",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:391",
+        "type": "open_source",
+        "description": "GNET: IS financing Asia Maktab al-Siddiq networks (February 2025)",
+        "url_or_reference": "https://gnet-research.org/isis-finance-asia-2025",
+        "date": "2025-02-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:397",
+        "type": "open_source",
+        "description": "Human Rights Watch: World Report 2017 Bangladesh extremism and crackdown",
+        "url_or_reference": "https://refworld.org/reports/2017-bangladesh",
+        "date": "2017-01-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:398",
+        "type": "open_source",
+        "description": "News18: India eastern frontier JMB ISIS links (April 2025)",
+        "url_or_reference": "https://news18.com/india-eastern-frontier-jmb-isis",
+        "date": "2025-04-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:399",
+        "type": "open_source",
+        "description": "Channel NewsAsia: Malaysia ISIS-linked Bangladeshi migrant network arrests (July 2025)",
+        "url_or_reference": "https://channelnewsasia.com/isis-bangladesh-malaysia-arrests",
+        "date": "2025-07-07",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:401",
+        "type": "open_source",
+        "description": "Raja Ram Foundation: AQ and IS structures South Asia propaganda (2022)",
+        "url_or_reference": "https://rajraf.org/aq-is-south-asia-structures",
+        "date": "2022-07-31",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
