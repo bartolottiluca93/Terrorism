@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "profile_id": "d5e9f1c2-3a4b-6c7d-8e9f-0a1b2c3d4e5f",
+    "name": "Islamic State–Sahel Province",
+    "aliases": ["ISIS-Sahel", "ISSP", "Islamic State in the Greater Sahara", "ISIS-GS", "ISGS", "Islamic State Greater Sahel", "Wilayat Sahel"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2018-05-15",
+        "reference": "web:405"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2018-05-23",
+        "reference": "web:405"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2015-05-15",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Rapidly expanding ISIS affiliate in Sahel with 2,000-3,000 fighters (425 in 2018), controlling Liptako-Gourma region worth billions in gold/uranium, claiming 400+ attacks in Apr-Jul 2025 killing 2,870 people.",
+    "overview": "Islamic State–Sahel Province (ISSP), formerly Islamic State in the Greater Sahara (ISGS), is the most dynamically expanding and militarily capable ISIS affiliate in Africa. Emerging from al-Mourabitoun faction under Western Saharan Adnan Abu Walid al-Sahrawi in May 2015, ISIS-Sahel evolved from anti-Al-Qaeda split into formal ISIS affiliate (recognized October 2016), upgraded to autonomous province March 2022. The group operates across Burkina Faso, Mali, and Niger, controlling portions of the strategically critical Liptako-Gourma tri-border region rich in gold and uranium deposits. Membership surged from 425 fighters (2018) to 2,000-3,000 (2025)—a 4-6x expansion—driven by political instability, Western military withdrawal, and resource competition with Al-Qaeda-affiliated JNIM. Commanded by Adnan Abu Walid al-Sahrawi until French drone strike (August 2021, confirmed September 2021), ISIS-Sahel demonstrates unprecedented operational sophistication: 400+ attacks April-July 2025 killing 2,870 civilians/soldiers, integration of AI and commercial drones, coordinated multi-site operations, and evolving governance structures. The group generates $6 million+ annually through resource extraction (gold/uranium taxation), kidnap-for-ransom, extortion, and IS central support. As of 2025, ISIS-Sahel represents the primary terrorist threat to West African stability and regional energy infrastructure.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2015-05-15",
+    "founders": ["Adnan Abu Walid al-Sahrawi", "Al-Mourabitoun faction members"],
+    "origin_context": "ISIS-Sahel emerged from ideological schism within al-Mourabitoun (itself a 2013 merger of MUJAO and Al-Mulathameen). Western Saharan Adnan Abu Walid al-Sahrawi, previously MUJAO spokesman and member of al-Mourabitoun's Shura Council, led faction rejecting Al-Qaeda's strategic direction. This faction pledged allegiance to ISIS leader Abu Bakr al-Baghdadi on May 15, 2015, representing shift toward salafi jihadism and decentralized caliphate model. The group initially operated independently under name 'Islamic State in the Greater Sahara (ISGS)' before formal IS recognition (October 30, 2016).",
+    "key_milestones": [
+      {
+        "date": "2013-08-22",
+        "event": "Formation of al-Mourabitoun from merger of MUJAO and Al-Mulathameen",
+        "impact": "Creation of predecessor organization; Adnan Abu Walid al-Sahrawi becomes prominent member.",
+        "source_ids": ["web:409", "web:412"]
+      },
+      {
+        "date": "2015-05-15",
+        "event": "Adnan Abu Walid al-Sahrawi and faction pledge allegiance to ISIS",
+        "impact": "Formation of Islamic State in the Greater Sahara (ISGS); approximately 200-300 initial fighters.",
+        "source_ids": ["web:404", "web:409"]
+      },
+      {
+        "date": "2016-10-30",
+        "event": "ISIS officially recognizes ISGS as affiliate branch",
+        "impact": "Formal IS recognition; organizational legitimacy; access to IS networks and coordination.",
+        "source_ids": ["web:404", "web:409"]
+      },
+      {
+        "date": "2017-10-04",
+        "event": "Tongo Tongo ambush: 100+ ISIS-Sahel fighters kill 4 US soldiers, 6 Nigerien troops",
+        "impact": "International attention; deadliest US combat loss in Africa since 1993 Black Hawk Down; confirms operational capability.",
+        "source_ids": ["web:406", "web:410"]
+      },
+      {
+        "date": "2018-05-15",
+        "event": "US designates ISIS-Sahel as Foreign Terrorist Organization",
+        "impact": "International terrorist designation; international sanctions regime.",
+        "source_ids": ["web:405", "web:409"]
+      },
+      {
+        "date": "2018-04-26",
+        "event": "Menaka, Mali attack; 40+ civilians killed",
+        "impact": "Major mass casualty incident; demonstrated willingness to target civilian populations.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2020-01-09",
+        "event": "Chinagodrar, Niger: 89 Nigerien military members killed",
+        "impact": "Largest single military casualty event; sophisticated military operation.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2020-08-09",
+        "event": "Koure National Park attack: 6 French aid workers, 2 tourist guides killed",
+        "impact": "Targeted international workers; psychological impact; transnational threat signal.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2021-08-17",
+        "event": "French airstrike kills Adnan Abu Walid al-Sahrawi (confirmed September 2021)",
+        "impact": "Leadership decapitation; $5 million US bounty; succession transition; group fragmentation concerns.",
+        "source_ids": ["web:411"]
+      },
+      {
+        "date": "2022-03-01",
+        "event": "ISIS formally redesignates ISGS as autonomous Wilayat Sahel (separate from ISWAP)",
+        "impact": "Enhanced provincial status; direct IS central coordination; strategic autonomy.",
+        "source_ids": ["web:404"]
+      },
+      {
+        "date": "2024-06-23",
+        "event": "Tinatassen, Mali ambush: 15 Malian soldiers and Vagner mercenaries killed",
+        "impact": "Demonstrated capability against mixed professional forces; continues post-al-Sahrawi operations.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2025-04-01",
+        "event": "ISIS-Sahel launches 'Burning the Camps' campaign targeting military bases",
+        "impact": "Coordinated multi-site operations; drone-IED integration; 400+ attacks April-July 2025.",
+        "source_ids": ["web:414"]
+      },
+      {
+        "date": "2025-07-31",
+        "event": "UN records 400+ attacks in Sahel (Apr-Jul 2025); 2,870+ killed",
+        "impact": "Peak operational tempo; historical casualty record; regional destabilization.",
+        "source_ids": ["web:414"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Pan-Islamic caliphate"],
+    "core_objectives": [
+      "Establish Islamic caliphate governance in Sahel",
+      "Control strategic resource zones (gold, uranium, livestock)",
+      "Expel foreign military forces (French, US, ECOWAS)",
+      "Replace secular governments with Sharia law"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in Liptako-Gourma tri-border",
+      "Maximize resource extraction and taxation revenue",
+      "Degrade competing Al-Qaeda affiliates (particularly JNIM)",
+      "Conduct mass-casualty attacks against military/civilian targets"
+    ],
+    "long_term_goals": [
+      "Establish permanent ISIS caliphate state encompassing Sahel",
+      "Create proto-state governance model across West Africa",
+      "Integrate with broader IS African network",
+      "Expand southward toward coastal West Africa"
+    ],
+    "narrative_and_justification": "ISIS-Sahel frames violence as religious obligation to establish Islamic governance and liberate Muslim populations from secular state oppression. Uses grievances of marginalized ethnic groups (Fulani herders, Tuareg minorities) exploited by governments and rival militias. Justifies resource extraction through Islamic taxation framework (jizya, zakat, spoils of war).",
+    "target_selection_logic": "Foreign military forces (foreign occupation narrative), government/military infrastructure, civilians in controlled areas (population control and resource extraction), rival jihadist groups competing for territory/resources, French/Western interests (anti-colonial messaging), humanitarian workers (pressure on international presence)."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["BFA", "MLI", "NER"],
+    "territorial_control": [
+      {
+        "location_name": "Liptako-Gourma tri-border region (Mali-Niger-Burkina Faso)",
+        "geocoordinates": {"lat": 14.5, "lon": -0.5},
+        "control_type": "contested",
+        "control_period": {"from": "2016-01-01", "to": null},
+        "notes": "Strategic zone rich in gold and uranium; growing territorial consolidation 2024-2025; densely forested terrain difficult for military access.",
+        "source_ids": ["web:414"]
+      },
+      {
+        "location_name": "Eastern Mali (Menaka, Kidal, Gao regions)",
+        "geocoordinates": {"lat": 16.0, "lon": 2.0},
+        "control_type": "presence",
+        "control_period": {"from": "2017-01-01", "to": null},
+        "notes": "Operational presence; periodic attacks; competition with JNIM; remote desert terrain.",
+        "source_ids": ["web:407", "web:410"]
+      },
+      {
+        "location_name": "Northern Niger (Tilaberi, Niamey regions)",
+        "geocoordinates": {"lat": 15.0, "lon": 2.0},
+        "control_type": "presence",
+        "control_period": {"from": "2015-09-01", "to": null},
+        "notes": "Cross-border operations; Chinagodrar military base area; porous borders exploit.",
+        "source_ids": ["web:407", "web:410"]
+      },
+      {
+        "location_name": "Burkina Faso (Soum, Loroum provinces)",
+        "geocoordinates": {"lat": 14.5, "lon": -2.0},
+        "control_type": "presence",
+        "control_period": {"from": "2018-01-01", "to": null},
+        "notes": "Expanding presence; operations intensifying; government control minimal.",
+        "source_ids": ["web:414"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Liptako-Gourma tri-border dense forest and desert",
+        "type": "rural",
+        "notes": "Ungoverned space; inaccessible to government/international forces; training camps; family compounds."
+      },
+      {
+        "location_name": "Mali Dangerous Forest (Forêt du Sahel)",
+        "type": "rural",
+        "notes": "Remote sanctuary; al-Sahrawi killed here August 2021; command posts."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Libya",
+        "community_size_estimate": "border coordination network",
+        "activities": ["logistics", "arms smuggling"],
+        "source_ids": ["web:407"]
+      },
+      {
+        "country": "Algeria",
+        "community_size_estimate": "recruitment cells",
+        "activities": ["recruitment", "fundraising"],
+        "source_ids": ["web:407"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Adnan Abu Walid al-Sahrawi",
+          "aliases": ["Abou Walid el-Sahraoui", "Walid al-Sahrawi"],
+          "role": "Founding leader, 2015-2021",
+          "last_seen": "2021-08-17",
+          "status": "killed",
+          "biographical_notes": "Western Saharan native; MUJAO/al-Mourabitoun veteran; founded ISGS 2015; led 2015-2021; French drone strike August 17, 2021 (death confirmed September 16, 2021); US bounty $5 million.",
+          "source_ids": ["web:411"]
+        },
+        {
+          "name": "Successor leadership (name unknown/protected)",
+          "aliases": [],
+          "role": "Current Wali (Governor post-2021)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Identity protected; leads 'Burning the Camps' campaign 2025; directs territorial consolidation and resource extraction.",
+          "source_ids": ["web:414"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "IS central appointed successor following al-Sahrawi's death; maintained organizational coherence despite leadership decapitation; direct coordination with IS Global Directorate of Provinces."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing (Katibahs)",
+        "function": "Armed combat, coordinated attacks, territorial control",
+        "size_estimate": {"min": 1_500, "max": 2_500, "confidence": "high"},
+        "leader": "Regional military commanders",
+        "notes": "Two main katibas: Daoussahak-dominant and Fulani-dominant units; mobile cell operations; sophisticated coordination demonstrated in 2025 'Burning the Camps' campaign."
+      },
+      {
+        "component_name": "Resource Exploitation and Finance",
+        "function": "Gold/uranium taxation, smuggling networks, livestock rustling",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "leader": "Finance and resources administrator",
+        "notes": "Generates $6M+ annually; operates as quasi-state taxation bureau; coordinates with smuggling organizations."
+      },
+      {
+        "component_name": "Governance and Administration",
+        "function": "Islamic law enforcement, civilian population control, service provision",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Administrative governor",
+        "notes": "Emerging governance structures in controlled areas; sharia courts; resource distribution."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack documentation, Amaq claims, recruitment messaging",
+        "size_estimate": {"min": 30, "max": 80, "confidence": "low"},
+        "leader": "Media director",
+        "notes": "Produces high-quality combat videos; coordinates with IS central media; AI-generated content emerging."
+      },
+      {
+        "component_name": "Intelligence and Security",
+        "function": "Counterintelligence, infiltrator detection, internal discipline",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Security chief",
+        "notes": "Limited capacity; compartmentalized cell operations reduce vulnerability."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "ISIS-West Africa Province (ISWAP)",
+        "relationship_type": "sibling_affiliate",
+        "jurisdiction": ["NGA", "CMR", "TCD"],
+        "notes": "Previously ISIS-Sahel's parent organization (2019-2022 as ISWAP-Greater Sahara); now separate provinces; occasional coordination."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized leadership with regional autonomy; Wali holds supreme authority; Shura Council advises; direct IS central coordination.",
+      "discipline_and_enforcement": "Islamic law enforcement; sharia courts; harsh punishment for violations; collective punishment against civilians for non-compliance."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 2_000, "max": 3_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 1_500, "max": 2_500},
+      "support_personnel": {"min": 300, "max": 600},
+      "foreign_fighters": {"min": 200, "max": 400},
+      "female_participation": "5-10% in support and administrative roles; increasing participation documented."
+    },
+    "composition_baseline": {
+      "year": "2018",
+      "total": 425,
+      "description": "425 combatants estimated late 2018; 4-6x expansion to 2025."
+    },
+    "recruitment_demographics": {
+      "age_range": "14-45",
+      "education_levels": ["primary", "secondary", "quranic schools"],
+      "socioeconomic_background": "Marginalized Fulani herders, Tuareg minorities, unemployed youth, economically disadvantaged communities; exploitation of farmer-herder violence grievances.",
+      "gender_distribution": "Predominantly male (90%+); 10% female in support/administrative roles; some combatant participation reported."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["guerrilla warfare", "military tactics", "IED/drone operation", "Islamic theology", "sharia law", "resource extraction"],
+      "training_locations": ["Liptako-Gourma region camps", "Mali desert bases", "Niger border areas"],
+      "notes": "Training emphasizes Islamic theology, military discipline, drone operation (emerging in 2024-2025), and governance responsibilities. Foreign fighters receiving advanced training documented."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "regional",
+    "known_attack_types": ["ambush", "armed assault", "military base attack", "drone strike", "IED/VBIED", "mass shooting", "kidnap-for-ransom"],
+    "notable_operations": [
+      {
+        "operation_name": "Tongo Tongo Ambush",
+        "date": "2017-10-04",
+        "location": "Tongo Tongo, Niger",
+        "method_category": "coordinated ambush",
+        "casualties_killed": 10,
+        "casualties_injured": 21,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:406", "web:410"]
+      },
+      {
+        "operation_name": "Menaka Massacre",
+        "date": "2018-04-26",
+        "location": "Menaka, Mali",
+        "method_category": "armed assault on civilian village",
+        "casualties_killed": 40,
+        "casualties_injured": 60,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Chinagodrar Military Base Attack",
+        "date": "2020-01-09",
+        "location": "Chinagodrar, Niger",
+        "method_category": "coordinated military base assault",
+        "casualties_killed": 89,
+        "casualties_injured": 120,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Koure National Park Attack",
+        "date": "2020-08-09",
+        "location": "Koure National Park, Niger",
+        "method_category": "armed assault on aid workers/tourists",
+        "casualties_killed": 8,
+        "casualties_injured": 10,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Tinatassen Convoy Ambush",
+        "date": "2024-06-23",
+        "location": "Tinatassen, Mali",
+        "method_category": "coordinated ambush",
+        "casualties_killed": 15,
+        "casualties_injured": 30,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["gold smuggling networks", "uranium trafficking organizations", "arms smugglers", "livestock rustling gangs"],
+      "transnational_network_links": ["IS central direct coordination", "Al-Furqan regional office (West Africa oversight)", "Sahel regional jihadist networks"],
+      "notes": "Direct IS central support and coordination; monthly operational guidance; financial transfers; propaganda amplification; integration with regional criminal networks critical to revenue."
+    },
+    "operations_tempo_and_patterning": "Escalating: 400+ attacks April-July 2025 (2,870+ killed); peak operational tempo post-2021 leadership succession; pattern of dawn raids on military bases, coordinated multi-site operations, drone reconnaissance preceding ground attacks, mass casualty civilian targeting."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "RPGs", "mortars", "explosives", "IEDs", "VBIEDs", "drones"],
+      "acquisition_routes": "Black market arms smuggling networks, captured government weaponry, Mali military stockpiles, weapons trafficking from Libya/Algeria/Chad, artisanal bomb-making",
+      "notes": "Access to commercial drones (DJI models modified with explosives); IED production capabilities; limited heavy weapons; recent escalation in drone deployment for reconnaissance and strikes; AI-assisted targeting emerging."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["encrypted communications (Telegram, WhatsApp)", "propaganda video production and upload", "drone-related digital coordination", "artificial intelligence application emerging"],
+      "notes": "Heavy reliance on encrypted platforms for operational security; limited offensive cyber operations; growing use of AI for targeting and content creation (2024-2025)."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram encrypted channels", "WhatsApp secure groups", "Radio broadcasts", "encrypted messengers"],
+      "propaganda_platforms": ["Amaq News Agency (attack claims)", "Mujahideen media production", "social media (periodically)", "YouTube (sporadic)"],
+      "notes": "Centralized messaging with IS central; rapid propaganda dissemination; encrypted platform resilience to platform takedowns."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks", "camels (desert)", "foot"],
+      "boxes": "Mobile small-unit tactics; decentralized cell operations; extensive use of desert terrain; limited heavy logistics; long-distance mobility exploits porous borders."
+    },
+    "technical_gaps_and_weaknesses": "Limited sustained air defense; vulnerable to airstrikes/drone surveillance; communication networks susceptible to interception; supply chain vulnerabilities; ammunition resupply constraints; dependence on smuggling networks; limited heavy mechanized warfare capability."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 6_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "resource_extraction",
+        "description": "Gold mining taxation and uranium extraction fees; spoils of war plunder",
+        "estimated_share_percent": 50,
+        "notes": "$3M annually; controls key gold/uranium zones in Liptako-Gourma; taxation of illicit mining operations and legitimate extraction."
+      },
+      {
+        "type": "livestock_taxation",
+        "description": "Taxation of cattle herds and livestock trade in pastoral regions",
+        "estimated_share_percent": 20,
+        "notes": "$1.2M; targets Fulani herders and merchant caravans; integration with smuggling networks."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments from kidnappings of foreign nationals (Canadian Kirk Woodman killed)",
+        "estimated_share_percent": 15,
+        "notes": "$900K; high-profile abductions; targeting of humanitarian workers and aid organizations."
+      },
+      {
+        "type": "state_support",
+        "description": "Monthly transfers from IS central and al-Furqan regional office",
+        "estimated_share_percent": 10,
+        "notes": "$600K; operational support; Sahel strategic priority for IS."
+      },
+      {
+        "type": "extortion",
+        "description": "Extortion of merchants, businesses, and smuggling operations",
+        "estimated_share_percent": 5,
+        "notes": "$300K; arbitrary taxation of commercial activity."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, hawala networks, gold bullion smuggling, informal trade networks integrated with organized crime.",
+      "notes": "Primarily cash and commodity-based (gold, livestock); decentralized fund management; integration with regional criminal financial systems; limited formal banking use."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions, sanctions designations",
+        "implementing_body": "US, UN, EU",
+        "date": "2018-05-15",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "religious networks", "coercive conscription", "grievance exploitation", "economic incentives"],
+    "recruitment_tactics": ["religious ideology messaging", "exploitation of farmer-herder violence grievances", "economic incentives", "protection promises", "coercive forced recruitment", "promise of governance participation"],
+    "target_profiles": ["Fulani herders (primary target)", "Tuareg minorities", "unemployed youth", "economically marginalized populations", "former combatants"],
+    "recruitment_geography": ["Mali (primary)", "Niger", "Burkina Faso", "border regions"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 5, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; exploitation of economic desperation; grievance-based recruitment; promises of resource access; coercive recruitment of children; propaganda targeting youth via Telegram and WhatsApp."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "drone footage", "Amaq news bulletins", "attack documentation", "religious sermons", "recruitment messaging"],
+    "languages_used": ["Arabic", "French", "Bambara", "Fulani", "Tamasheq"],
+    "messaging_themes": ["Islamic governance and Sharia law", "anti-colonial resistance", "defense of Muslim/Fulani communities", "resource justice and equality", "martyrdom and sacrifice"],
+    "audience_targeting": "Local West African populations (Fulani, Tuareg minorities primary); global ISIS network; potential recruits; regional jihadist movements.",
+    "platform_policy_responses": "Periodic Amaq takedowns; Telegram channel removals (rapid recreation); social media suspensions; encrypted platform resilience to moderation; platform policies largely ineffective against core operations."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Mali/Burkina Faso/Niger",
+        "case_ref": "Military and civilian court proceedings",
+        "defendants": ["Dozens of captured ISIS-Sahel fighters"],
+        "outcome": "Limited prosecutions; many cases lack judicial capacity; extrajudicial killings documented.",
+        "notes": "Weak judicial infrastructure; government security force abuses; arbitrary detention."
+      },
+      {
+        "jurisdiction": "International (ICC preliminary examinations)",
+        "case_ref": "Crimes against humanity investigations",
+        "defendants": ["ISIS-Sahel command structures"],
+        "outcome": "Preliminary investigations; no formal indictments as of 2025.",
+        "notes": "Focus on systematic violence against civilian populations."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties (2,870+ April-July 2025); mass displacement (4M+ Sahel region); systematic targeting of ethnic/religious minorities; kidnapping and enslavement; sexual violence; forced child recruitment (100s of children); torture and extrajudicial execution; destruction of schools/hospitals; targeting of humanitarian aid; government counter-terrorism abuses (extrajudicial killings by security forces documented)."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency via Amaq", "type": "communications", "thresholds": ">20/week signals major campaign"},
+      {"indicator": "Drone deployment reports", "type": "operational", "thresholds": "coordinated drone-IED strikes precede ground offensives"},
+      {"indicator": "Resource extraction activity", "type": "financial", "thresholds": "gold/uranium taxation increases correlate with military expansion"}
+    ],
+    "early_warning_signals": ["Increased recruitment messaging on Telegram/WhatsApp", "Drone video releases", "Mass movement of fighters", "Attack planning communications", "Leadership announcements"],
+    "data_needed_for_monitoring": ["SIGINT (encrypted communications)", "financial transaction tracking (gold smuggling)", "satellite imagery (territorial control)", "HUMINT from informants"],
+    "recommended_analytic_methods": ["network analysis of command structure", "temporal attack pattern clustering", "geospatial conflict mapping", "resource extraction trend analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-Sahel poses the most critical terrorism threat to West Africa and global security. Exponential 4-6x membership expansion (425→2,500+ fighters 2018-2025), operational sophistication surge (drone-IED integration, AI assistance, 400+ attacks Apr-Jul 2025 killing 2,870), control of resource-rich strategic zones (gold/uranium worth billions), and demonstrated capacity for mass casualties represent unprecedented regional threat. Leadership decapitation (al-Sahrawi 2021) did not degrade capability, suggesting resilient organizational structure. Group's control of Liptako-Gourma and southward expansion threaten regional stability, international energy security, and civilian populations across Sahel.",
+    "vulnerable_sectors": ["military bases and infrastructure", "civilian populations in rural areas", "humanitarian aid organizations", "government and state institutions", "critical resource zones (gold/uranium mining)"],
+    "likely_future_trends": "Continued territorial expansion southward toward coastal West Africa; increased drone-IED-AI integration; resource consolidation and quasi-state governance; possible attacks on international interests; deepening competition with JNIM for strategic territory and resources; recruitment of foreign fighters (North African, Middle Eastern); potential mass-casualty terrorism campaigns.",
+    "recommended_mitigation_measures": [
+      "Sustained multinational military operations (G5 Sahel coordination, French Barkhane successor, ECOWAS)",
+      "Enhanced counter-drone capabilities and air defense systems",
+      "Disruption of gold/uranium smuggling networks and resource taxation systems",
+      "Border security improvements (Mali-Niger-Burkina Faso-Algeria-Libya)",
+      "Intelligence sharing and coordination among regional/international partners",
+      "Counter-finance operations targeting kidnap-ransom networks and money transfers",
+      "Governance and service provision in recovered areas (critical stabilization gap)",
+      "Deradicalization programs for captured fighters and prisoners",
+      "Counter-propaganda operations addressing resource justice grievances",
+      "Economic development targeting Fulani/Tuareg marginalized communities",
+      "Support for JNIM fragmentation to prevent jihadist consolidation"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS-Sahel terrorist group profile (September 2024)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_sahel.html",
+        "date": "2024-09-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:404",
+        "type": "open_source",
+        "description": "Wikipedia: Islamic State Sahel Province comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Islamic_State_Sahel_Province",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:405",
+        "type": "open_source",
+        "description": "OFAC: ISIS-Sahel terrorist designation (May 2018)",
+        "url_or_reference": "https://ofac.treasury.gov/media/48771",
+        "date": "2018-05-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:406",
+        "type": "open_source",
+        "description": "Boreas: Tongo Tongo ambush analysis (October 2021)",
+        "url_or_reference": "https://borealisthreatandrisk.com/tongo-tongo-ambush-october-4-2017",
+        "date": "2021-10-03",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:408",
+        "type": "open_source",
+        "description": "Task & Purpose: Mohamed Ag Almouner elimination (August 2018)",
+        "url_or_reference": "https://taskandpurpose.com/isis-leader-killed",
+        "date": "2018-08-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:409",
+        "type": "open_source",
+        "description": "Soufan Center: ISIS in Greater Sahara threat analysis (June 2020)",
+        "url_or_reference": "https://thesoufancenter.org/isis-greater-sahara/",
+        "date": "2020-06-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:411",
+        "type": "open_source",
+        "description": "ABC News: Drone strike kills Adnan Abu Walid al-Sahrawi (September 2021)",
+        "url_or_reference": "https://abcnews.go.com/International/drone-strike-kills-isis-leader",
+        "date": "2021-09-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:136",
+        "type": "open_source",
+        "description": "ICCT: Islamic State in 2025 threat assessment (July 2025)",
+        "url_or_reference": "https://icct.nl/publication/islamic-state-2025/",
+        "date": "2025-07-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:413",
+        "type": "open_source",
+        "description": "International Center for Terrorism Studies: Rise of ISIS Africa Sahel (October 2025)",
+        "url_or_reference": "https://ict.org.il/isis-africa-sahel-2025/",
+        "date": "2025-10-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:414",
+        "type": "open_source",
+        "description": "Asharq Al-Awsat: Blood Emirate Sahel expansion (November 2025)",
+        "url_or_reference": "https://english.aawsat.com/sahel-isis-expansion-november-2025",
+        "date": "2025-11-04",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
