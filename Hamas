@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "profile_id": "e391a728-2035-4849-b16a-8c0e2cd8fac2",
+    "name": "Hamas",
+    "aliases": ["Islamic Resistance Movement", "Harakat al-Muqawama al-Islamiyya", "حماس"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "1997-10-08",
+        "reference": "web:8"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization",
+        "designation_date": "2003-09-12",
+        "reference": "web:55"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Proscribed terrorist group",
+        "designation_date": "2001-03-01",
+        "reference": "web:58"
+      },
+      {
+        "country_or_body": "Canada",
+        "designation": "Terrorist entity",
+        "designation_date": "2002-11-27",
+        "reference": "web:55"
+      },
+      {
+        "country_or_body": "Australia",
+        "designation": "Terrorist organization",
+        "designation_date": "2003-11-14",
+        "reference": "web:69"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "1987-12-14",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Palestinian Islamist movement, dominant in Gaza, with global terrorist designation and robust military, political, and social wings.",
+    "overview": "Hamas is a Palestinian Sunni Islamist militant group, governing Gaza since 2007, with significant paramilitary and political infrastructure. Funded by Iran and supported by the 'axis of resistance,' Hamas conducts military, terror, and propaganda operations against Israel and rivals, and runs extensive social services. Designated as a terrorist organization by the US, EU, and other states; the group remains central to regional conflict.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "1987-12-14",
+    "founders": ["Sheikh Ahmed Yassin", "Abdel Aziz al-Rantisi", "Mahmoud Zahar", "Mohammed Deif"],
+    "origin_context": "Founded during the First Intifada as an offshoot of the Muslim Brotherhood, responding to Israeli occupation and perceived failures of secular Palestinian groups. Hamas framed itself as the Islamist alternative, broadening its base among Palestinians through resistance and social welfare.",
+    "key_milestones": [
+      {
+        "date": "1988-08-18",
+        "event": "Publication of Hamas Charter",
+        "impact": "Institutionalized Islamist and anti-Israel ideology.",
+        "source_ids": ["web:54"]
+      },
+      {
+        "date": "2006-01-25",
+        "event": "Hamas wins Palestinian legislative elections",
+        "impact": "Assumes governance responsibilities in Gaza.",
+        "source_ids": ["web:74"]
+      },
+      {
+        "date": "2007-06-15",
+        "event": "Takeover of Gaza Strip",
+        "impact": "Eliminated Fatah rival control, solidified Hamas rule, drew international blockade.",
+        "source_ids": ["web:74"]
+      },
+      {
+        "date": "2023-10-07",
+        "event": "Al-Aqsa Flood Operation and mass assault on Israel",
+        "impact": "Dramatic escalation; triggered Israel-Gaza war and historic global ramifications.",
+        "source_ids": ["web:75"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Sunni Islamist", "Muslim Brotherhood", "National Liberation"],
+    "core_objectives": [
+      "Liberate all historic Palestine",
+      "Establish an Islamic state",
+      "Oppose Israeli presence"
+    ],
+    "short_term_goals": [
+      "Undermine Israeli stability",
+      "Mobilize regional support",
+      "Maintain Gaza governance"
+    ],
+    "long_term_goals": [
+      "Establishment of an Islamist state in Palestine",
+      "Global Islamic unity against perceived oppression",
+      "Perpetual armed resistance against Israel"
+    ],
+    "narrative_and_justification": "Frames its violent actions as religious duty—fighting occupation and defending Palestinian rights against external, especially Israeli, aggression.",
+    "target_selection_logic": "Israeli military, civilians deemed complicit, rival Palestinian factions, infrastructure, symbolic sites."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["PSE", "ISR", "EGY", "QAT", "TUR"],
+    "territorial_control": [
+      {
+        "location_name": "Gaza Strip",
+        "geocoordinates": {"lat": 31.5, "lon": 34.47},
+        "control_type": "firm_control",
+        "control_period": {"from": "2007-06-15", "to": null},
+        "notes": "Complete governance, security, and territorial administration.",
+        "source_ids": ["web:74","web:79"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Doha, Qatar",
+        "type": "transnational_haven",
+        "notes": "Political bureau HQ, negotiations, fundraising."
+      },
+      {
+        "location_name": "Istanbul, Turkey",
+        "type": "transnational_haven",
+        "notes": "Key external leadership offices, meeting point for affiliates."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Qatar",
+        "community_size_estimate": "dozens",
+        "activities": ["leadership", "fundraising", "diplomacy"],
+        "source_ids": ["web:101","web:107"]
+      },
+      {
+        "country": "Turkey",
+        "community_size_estimate": "unknown",
+        "activities": ["leadership", "fundraising", "propaganda"],
+        "source_ids": ["web:110"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Yahya Sinwar",
+          "aliases": [],
+          "role": "Gaza Chief",
+          "last_seen": "2025-10-17",
+          "status": "killed",
+          "biographical_notes": "Mastermind of major attacks; led military/political integration until killed by Israel in 2025.",
+          "source_ids": ["web:61"]
+        },
+        {
+          "name": "Ismail Haniyeh",
+          "aliases": [],
+          "role": "Political Bureau Chief",
+          "last_seen": "2025-10-17",
+          "status": "killed",
+          "biographical_notes": "External political leader; directed global diplomacy from Doha and Turkey.",
+          "source_ids": ["web:91"]
+        },
+        {
+          "name": "Mohammed Deif",
+          "aliases": [],
+          "role": "Military Commander",
+          "last_seen": "2025-02-01",
+          "status": "killed",
+          "biographical_notes": "Key architect of suicide bombings and October 7 attacks.",
+          "source_ids": ["web:94"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Crisis council selection from political and military elite, often influenced by external allies (Iran, Qatar)."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Izz ad-Din al-Qassam Brigades",
+        "function": "Military operations, guerrilla warfare, terror attacks",
+        "size_estimate": {"min": 20_000, "max": 30_000, "confidence": "high"},
+        "leader": "Military Chief (previously Mohammed Deif)",
+        "notes": "Armed wing; high discipline and operational secrecy."
+      },
+      {
+        "component_name": "Political Bureau",
+        "function": "External governance, diplomacy, strategic planning",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "high"},
+        "leader": "Ismail Haniyeh",
+        "notes": "Located mostly outside Gaza (Doha, Istanbul)."
+      },
+      {
+        "component_name": "Social Services Division",
+        "function": "Provision of welfare, education, health",
+        "size_estimate": {"min": 2_000, "max": 5_000, "confidence": "medium"},
+        "leader": "Welfare chief (name redacted)",
+        "notes": "Runs vast support networks, clinics, charities."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Palestinian Islamic Jihad",
+        "relationship_type": "ally",
+        "jurisdiction": ["PSE"],
+        "notes": "Assists in operations; coordination in Gaza and West Bank."
+      },
+      {
+        "name": "Muslim Brotherhood International",
+        "relationship_type": "ally",
+        "jurisdiction": ["EGY", "JOR"],
+        "notes": "Shared ideological roots and personnel."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Supreme Shura Council combines military and political elite; consensus seeking, strong deference to senior clerics.",
+      "discipline_and_enforcement": "Military code enforced by brigades; use of religious and social pressure among civilian personnel."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 25_000, "max": 40_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 20_000, "max": 30_000},
+      "support_personnel": {"min": 5_000, "max": 10_000},
+      "foreign_fighters": {"min": 400, "max": 1_000},
+      "female_participation": "Women serve as logistics and medical support; recent publicized emergence of female combat training and operations units."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Predominantly working-class and impoverished Palestinian youth; many from refugee families.",
+      "gender_distribution": "90%+ male; rising female logistical and intelligence roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military", "technical", "ideological"],
+      "training_locations": ["Gaza", "Sinai", "Iran"],
+      "notes": "Training includes rocket assembly, tunnel operations, religious doctrine, tactical warfare."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "local",
+    "known_attack_types": ["rocket barrage", "armed assault", "tunnel infiltration", "suicide attacks", "hostage taking", "IEDs"],
+    "notable_operations": [
+      {
+        "operation_name": "Al-Aqsa Flood (Oct 7, 2023)",
+        "date": "2023-10-07",
+        "location": "Southern Israel, Gaza Strip",
+        "method_category": "cross-border armed incursion, rocket attacks, mass hostage taking",
+        "casualties_killed": 1476,
+        "casualties_injured": 3000,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:75","web:77"]
+      },
+      {
+        "operation_name": "2021 Gaza War",
+        "date": "2021-05-12",
+        "location": "Gaza, Israel",
+        "method_category": "rocket barrage, urban conflict",
+        "casualties_killed": 256,
+        "casualties_injured": 2000,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:75"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["Iran", "Qatar"],
+      "criminal_partnerships": ["smuggling (Sinai)", "financial networks"],
+      "transnational_network_links": ["Axis of Resistance", "Iran-Hezbollah Coordination"],
+      "notes": "Iran is the primary supplier of arms, funding, training. Qatar provides political and humanitarian cover."
+    },
+    "operations_tempo_and_patterning": "Frequent rocket launches against Israel, mass operations every 2-4 years; surge after major escalations; high reliance on tunnels and surprise attacks."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "rockets", "mortars", "drones"],
+      "acquisition_routes": "smuggling via Sinai, local production in Gaza, Iranian supply",
+      "notes": "Arsenals range from crude to medium-range rockets (up to 100km), military drones, grenades, and small arms."
+    },
+    "cyber_capabilities": {
+      "capability_level": "moderate",
+      "observed_activities": ["propaganda distribution", "surveillance malware", "cyber reconnaissance"],
+      "notes": "Active in information warfare, targeted phishing of Israeli individuals."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["radio", "secure messengers", "Al-Aqsa TV", "social media"],
+      "propaganda_platforms": ["Al-Aqsa TV", "Telegram", "Facebook"],
+      "notes": "Heavy investment in media operations and broadcast infrastructure."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["tunnels", "vehicles", "smuggling boats"],
+      "boxes": "Extensive tunnel systems for arms transport, infiltration, and escape networks."
+    },
+    "technical_gaps_and_weaknesses": "Extreme vulnerability to airstrikes, signal interception, and siege logistics."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 270_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "state_support",
+        "description": "Iran funds military and social programs directly.",
+        "estimated_share_percent": 60,
+        "notes": "Proven via captured Israeli intelligence documents."
+      },
+      {
+        "type": "donations",
+        "description": "Qatari and Turkish fundraising, social outreach",
+        "estimated_share_percent": 15,
+        "notes": "Channeled via charities and NGOs."
+      },
+      {
+        "type": "illicit_trade",
+        "description": "Smuggling, taxation, cross-border criminal activity",
+        "estimated_share_percent": 15,
+        "notes": "Sinai smuggling and diaspora fundraising."
+      },
+      {
+        "type": "legitimate_business",
+        "description": "Business ventures, real estate, Gaza enterprises",
+        "estimated_share_percent": 10,
+        "notes": "Used for money laundering and asset shielding."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Qatari banks, charitable fronts, informal hawala networks.",
+      "notes": "Adapts rapidly to countermeasures, moves funds via multi-jurisdictional pipelines."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International banking bans, asset freezes",
+        "implementing_body": "US/EU/UN",
+        "date": "2024-10-06",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["mosques", "schools", "social services", "online"],
+    "recruitment_tactics": ["martyrdom messaging", "community and welfare provision", "family networks"],
+    "target_profiles": ["Palestinian youth", "refugee community members", "religious activists"],
+    "recruitment_geography": ["Gaza", "West Bank", "diaspora (Qatar, Turkey, Europe)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 2, "confidence": "low"},
+    "youth_and_online_vulnerability": "Very high; grooming via social media, religious education, social service dependency."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["broadcasts", "magazines", "videos", "social media posts", "posters"],
+    "languages_used": ["Arabic", "Hebrew", "English"],
+    "messaging_themes": ["resistance", "martyrdom", "liberation", "anti-Israel", "anti-Western"],
+    "audience_targeting": "Palestinian youth, global Muslim diaspora, Israeli public for psychological warfare.",
+    "platform_policy_responses": "Al-Aqsa TV satellite broadcasts repeatedly banned; mass takedowns by social media companies since 2024 escalations."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "International Criminal Court",
+        "case_ref": "ICC Arrest Warrants (2024)",
+        "defendants": ["Yahya Sinwar", "Ismail Haniyeh", "Mohammed Deif"],
+        "outcome": "Warrants issued for war crimes, murder, hostage taking; physical elimination of two leaders by Israel in 2025.",
+        "notes": "Pending international justice proceedings."
+      }
+    ],
+    "human_rights_concerns": "Major civilian casualties and displacement in Gaza due to Hamas military operations and Israeli responses; allegations of using civilian sites for military activity; extensive destruction of infrastructure; violations documented by UN, ICC, HRW.",
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Rocket launch spike from Gaza", "type": "weapons", "thresholds": "more than 100 launches/week"},
+      {"indicator": "Increased encrypted messaging traffic", "type": "communications", "thresholds": "sustained surge above baseline"},
+      {"indicator": "Financial transfers to Gaza charities", "type": "financial", "thresholds": "single transfers exceeding USD 1m/month"}
+    ],
+    "early_warning_signals": ["Mass movement at border tunnels", "Online calls for mobilization", "Shutdown of Al-Aqsa TV ahead of operations"],
+    "data_needed_for_monitoring": ["satellite", "SIGINT", "financial transaction data", "HUMINT", "open source reporting"],
+    "recommended_analytic_methods": ["link analysis", "network mapping", "temporal patterning"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Hamas poses direct military and terror threat to Israel and civilians in Gaza; indirect destabilizing risk to neighboring Egypt, Jordan, and broader Middle East.",
+    "vulnerable_sectors": ["civilian infrastructure", "transport", "government", "health sector"],
+    "likely_future_trends": "Persistence of terror threat and regional proxy dynamics; arms replenishment via Iran; propaganda campaigns targeting youth; possible expansion outside Gaza in event of operational defeat.",
+    "recommended_mitigation_measures": [
+      "Enhanced intelligence cooperation on financial flows and cyber activity",
+      "Strengthened border security and tunnel detection",
+      "Expanded deradicalization and social resilience programs",
+      "International pressure on state and non-state sponsors"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:54",
+        "type": "open_source",
+        "description": "Wikipedia: Hamas overview",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Hamas",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:74",
+        "type": "open_source",
+        "description": "Wikipedia: Gaza Strip under Hamas",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Gaza_Strip_under_Hamas",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:75",
+        "type": "open_source",
+        "description": "Wikipedia: Gaza War",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Gaza_War",
+        "date": "2023-10-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:91",
+        "type": "open_source",
+        "description": "International Criminal Court arrest warrants (ICJ)",
+        "url_or_reference": "https://www.icj.org/palestine-israel-icc-arrest-warrants",
+        "date": "2024-12-09",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:93",
+        "type": "open_source",
+        "description": "IFMAT: Hamas-Iran alliance, funding and operational coordination",
+        "url_or_reference": "https://www.ifmat.org/hamas-iran-alliance",
+        "date": "2024-11-19",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:101",
+        "type": "open_source",
+        "description": "Middle East Monitor: political bureau external offices and diaspora",
+        "url_or_reference": "https://www.middleeastmonitor.com/hamas-political-bureau-egypt-qatar-turkey",
+        "date": "2024-11-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:110",
+        "type": "open_source",
+        "description": "BBC: Hamas leaders and external offices in Qatar, Turkey",
+        "url_or_reference": "https://bbc.com/hamas-office-qatar",
+        "date": "2024-11-19",
+        "credibility_assessment": "high"
+      }
+      // Additional sources omitted for brevity.
+    ]
+  }
+}
