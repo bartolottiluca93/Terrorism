@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "profile_id": "f7a3e1d2-4c9b-5e6f-8a1d-3b7c2e9f4d5a",
+    "name": "Islamic State–Khorasan Province",
+    "aliases": ["ISIS-K", "ISKP", "Islamic State Khorasan", "IS-K", "Wilayat Khorasan"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2016-01-14",
+        "reference": "web:289"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2015-12-09",
+        "reference": "web:289"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization",
+        "designation_date": "2015-09-16",
+        "reference": "web:58"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Proscribed terrorist organization",
+        "designation_date": "2015-08-05",
+        "reference": "web:58"
+      },
+      {
+        "country_or_body": "Canada",
+        "designation": "Listed terrorist entity",
+        "designation_date": "2015-09-16",
+        "reference": "web:58"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2015-01-26",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Islamic State's most lethal global affiliate, responsible for deadliest external operations since territorial collapse, with 2,000-6,000 fighters operating across Central Asia, South Asia, and increasingly targeting Europe and the West.",
+    "overview": "Islamic State–Khorasan Province (ISIS-K) is the Afghanistan-based affiliate of the Islamic State, formed in 2015 through consolidation of Pakistani Taliban (TTP), Islamic Movement of Uzbekistan (IMU), and other Central Asian jihadist factions. Under leadership of Sanaullah Ghafari (appointed 2020), ISIS-K has transformed into the IS's most operationally capable affiliate for external operations, conducting mass-casualty attacks in Russia (Crocus City Hall, 144+ killed), Iran (Kerman bombing, 80+ killed), Pakistan, Afghanistan, and targeting Europe and the United States. With estimated 2,000-6,000 fighters operating from remote bases in Afghanistan and Pakistan, ISIS-K receives direct strategic guidance and financial support from IS central, receives up to $25,000 monthly in cryptocurrency, and maintains expansionist recruitment networks across Central Asia, with particular appeal to Tajik and Uzbek minorities alienated by regional governance. As of 2025, ISIS-K represents the predominant transnational terrorist threat to Afghanistan, Central Asia, and the West, with demonstrated capability and intent for external attacks.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2015-01-26",
+    "founders": ["Hafiz Saeed Khan", "Islamic Movement of Uzbekistan", "Tehrik-e Taliban Pakistan", "Afghan Taliban dissidents"],
+    "origin_context": "ISIS-K emerged from consolidation of multiple Central Asian and South Asian jihadist factions. Beginning 2012, Pakistani Taliban (TTP) leader Hafiz Saeed Khan dispatched fighters to Syria to support IS insurgency. By 2014, thousands of Afghan and Pakistani fighters had joined IS in Syria and Iraq through organized recruitment networks. IS central leadership, seeking to expand the caliphate eastward and appreciate these foreign fighters' contributions, appointed Khan to lead a new 'Khorasan Province' in late 2014, formally announced January 2015. The name 'Khorasan' references the historical Islamic region encompassing modern Afghanistan, Pakistan, Tajikistan, Uzbekistan, and parts of Iran.",
+    "key_milestones": [
+      {
+        "date": "2015-01-26",
+        "event": "Formal announcement of ISIS-K by IS chief spokesman Abu Muhammad al-Adnani",
+        "impact": "Official creation of new province; consolidation of multiple militant factions; received IS organizational support and funding.",
+        "source_ids": ["web:291"]
+      },
+      {
+        "date": "2016-01-14",
+        "event": "US designates ISIS-K as Foreign Terrorist Organization",
+        "impact": "International terrorist organization status; sanctions imposed on leadership and supporters.",
+        "source_ids": ["web:289"]
+      },
+      {
+        "date": "2016-07-01",
+        "event": "Peak membership estimated at 3,000+ fighters",
+        "impact": "Height of territorial control in eastern Afghanistan; centralized command structure.",
+        "source_ids": ["web:291", "web:297"]
+      },
+      {
+        "date": "2018-04-01",
+        "event": "Start of Taliban military operations against ISIS-K",
+        "impact": "Severe losses; forced retreat from eastern Afghanistan strongholds; tactical shift to more mobile operations.",
+        "source_ids": ["web:291"]
+      },
+      {
+        "date": "2020-06-01",
+        "event": "Sanaullah Ghafari appointed ISIS-K emir by IS central leadership",
+        "impact": "Strategic transformation toward external operations; enhanced coordination with IS central; increased recruitment diversification.",
+        "source_ids": ["web:289", "web:292"]
+      },
+      {
+        "date": "2021-08-26",
+        "event": "ISIS-K attack outside Kabul Airport during US evacuation",
+        "impact": "Killed 13 US servicemembers and 170+ civilians; demonstrated capability for mass-casualty attacks; international infamy.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2021-11-16",
+        "event": "First ISIS-K suicide bombings in Uganda (Kampala Parliament attack)",
+        "impact": "First successful external operation outside South Asia; 7 killed; demonstrated geographic expansion.",
+        "source_ids": ["web:308"]
+      },
+      {
+        "date": "2024-01-03",
+        "event": "Kerman, Iran bombing during Soleimani commemoration",
+        "impact": "80+ killed; sophisticated external operation; claimed by ISIS-K; demonstrated capability to coordinate transnational attack.",
+        "source_ids": ["web:299", "web:300"]
+      },
+      {
+        "date": "2024-03-22",
+        "event": "Crocus City Hall attack in Moscow",
+        "impact": "144+ killed; deadliest terrorist attack in Russia since 2004; ISIS-K claimed; US warned Russia in advance.",
+        "source_ids": ["web:290", "web:292"]
+      },
+      {
+        "date": "2024-07-01",
+        "event": "ISIS-K plots against European targets disrupted",
+        "impact": "Plans for Vienna concert venue attack foiled; expansion of external operations targeting Europe.",
+        "source_ids": ["web:308"]
+      },
+      {
+        "date": "2025-03-06",
+        "event": "Alleged Crocus City Hall coordinator Mohammad Sharifullah arrested in US",
+        "impact": "Operational planner detained; direct link between ISIS-K and attack confirmed; international criminal coordination revealed.",
+        "source_ids": ["web:293"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Pan-Islamic caliphate"],
+    "core_objectives": [
+      "Establish Islamic caliphate throughout Khorasan region (Afghanistan, Pakistan, Central Asia, Iran)",
+      "Destabilize secular regional governments",
+      "Conduct global external operations",
+      "Expand Islamic State brand and franchise model"
+    ],
+    "short_term_goals": [
+      "Maintain insurgent presence in Afghanistan",
+      "Conduct high-profile mass-casualty attacks against regional and Western targets",
+      "Recruit from Central Asian diaspora and minorities",
+      "Expand operational reach beyond South Asia"
+    ],
+    "long_term_goals": [
+      "Establish permanent territorial control in eastern Afghanistan",
+      "Expand into Central Asia and destabilize governments",
+      "Build capacity for sustained global external operations",
+      "Position as primary Islamic State affiliate"
+    ],
+    "narrative_and_justification": "ISIS-K frames itself as defender of Islamic civilization against Western imperialism and Shia-dominated regimes (particularly Iran). Uses takfiri theology to justify attacks on civilians, Shia populations, and rival groups. Exploits sectarian grievances, economic marginalization of minorities, and anti-Western sentiment. Positions attacks as revenge (Syria, Afghanistan, Iran military involvement).",
+    "target_selection_logic": "Shia Muslims (primary ideological target), Western interests (symbolic targets), regional governments and militaries (strategic targets), Hazara and other religious minorities, rival jihadist groups, foreign nationals, soft civilian targets (concert halls, markets, mosques) for maximum psychological impact."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["AFG", "PAK", "TJK", "UZB", "IRN"],
+    "territorial_control": [
+      {
+        "location_name": "Kunar and Nangarhar provinces, eastern Afghanistan",
+        "geocoordinates": {"lat": 34.8, "lon": 70.6},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-26", "to": null},
+        "notes": "Historically core base; now degraded by Taliban pressure; maintains small operational cells; remote mountain sanctuary.",
+        "source_ids": ["web:291", "web:301"]
+      },
+      {
+        "location_name": "Northern Afghanistan (Badakhshan, Takhar provinces)",
+        "geocoordinates": {"lat": 37.5, "lon": 71.5},
+        "control_type": "presence",
+        "control_period": {"from": "2017-01-01", "to": null},
+        "notes": "Expansion area among Tajik populations; recruitment hub; contested with Taliban.",
+        "source_ids": ["web:134", "web:301"]
+      },
+      {
+        "location_name": "Balochistan Province, Pakistan",
+        "geocoordinates": {"lat": 28.0, "lon": 65.0},
+        "control_type": "presence",
+        "control_period": {"from": "2020-06-01", "to": null},
+        "notes": "Leadership sanctuary; base of Sanaullah Ghafari (reported); limited territorial control; cross-border operations.",
+        "source_ids": ["web:292"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Hindu Kush mountains, Afghanistan",
+        "type": "rural",
+        "notes": "Remote sanctuary; difficult military access; training camps; family compounds."
+      },
+      {
+        "location_name": "Balochistan border regions",
+        "type": "rural",
+        "notes": "Porous Pakistan-Afghanistan border; leadership safe houses."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Tajikistan",
+        "community_size_estimate": "recruitment cells",
+        "activities": ["recruitment", "fundraising", "radicalization"],
+        "source_ids": ["web:302", "web:304"]
+      },
+      {
+        "country": "Uzbekistan",
+        "community_size_estimate": "operational network",
+        "activities": ["recruitment", "logistics", "foreign fighter smuggling"],
+        "source_ids": ["web:134"]
+      },
+      {
+        "country": "Russia",
+        "community_size_estimate": "migrant cells",
+        "activities": ["recruitment", "operational support", "attack coordination"],
+        "source_ids": ["web:290", "web:292"]
+      },
+      {
+        "country": "Turkey",
+        "community_size_estimate": "financial facilitation network",
+        "activities": ["money transfer", "cryptocurrency conversion", "logistics hub"],
+        "source_ids": ["web:139"]
+      },
+      {
+        "country": "Europe (Austria, France, Germany)",
+        "community_size_estimate": "plot networks",
+        "activities": ["attack planning", "recruitment", "propaganda"],
+        "source_ids": ["web:308"]
+      },
+      {
+        "country": "United States",
+        "community_size_estimate": "support cells",
+        "activities": ["propaganda", "recruitment", "financial support"],
+        "source_ids": ["web:289"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Sanaullah Ghafari",
+          "aliases": ["Shahab al-Muhajir", "Abu Ubaidah"],
+          "role": "Amir (Supreme Leader)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Age 29-30 (as of 2024); Afghan Tajik; former Afghan military officer before joining ISIS-K. Appointed by IS central June 2020. Has overseen strategic shift to external operations. Survived assassination attempts; operates from Balochistan Pakistan. Leads operational planning of high-profile attacks. US bounty of $10 million since February 2022.",
+          "source_ids": ["web:289", "web:292", "web:295"]
+        },
+        {
+          "name": "Sultan Aziz Azam",
+          "aliases": [],
+          "role": "Spokesperson",
+          "last_seen": "2025-09-01",
+          "status": "alive",
+          "biographical_notes": "Senior media official; coordinates propaganda and attack claims; interfaces with IS central media apparatus.",
+          "source_ids": ["web:203"]
+        },
+        {
+          "name": "Ismatullah Khalozai",
+          "aliases": [],
+          "role": "International Facilitator",
+          "last_seen": "2024-06-01",
+          "status": "alive",
+          "biographical_notes": "Manages international financial transfer networks via Turkey; coordinates global fundraising and money movement; hawala network coordinator.",
+          "source_ids": ["web:292"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Appointed by IS central Global Caliph; Ghafari selected through consultation with senior IS leadership. Emphasis on organizational continuity despite targeted killings by Afghan, Taliban, and US forces."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed operations, tactical planning, coordinated attacks",
+        "size_estimate": {"min": 1_500, "max": 4_000, "confidence": "high"},
+        "leader": "Senior Military Commander",
+        "notes": "Conducts ambushes, military assaults, suicide bombings, external operations. Operates in decentralized cell structure for operational security."
+      },
+      {
+        "component_name": "External Operations Directorate",
+        "function": "Planning and execution of attacks outside Afghanistan/Pakistan",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "leader": "External Operations Chief",
+        "notes": "Established under Ghafari; coordinated Crocus City Hall, Kerman, Peshawar operations. Direct coordination with IS central."
+      },
+      {
+        "component_name": "Finance and International Facilitation",
+        "function": "Fundraising, money movement, cryptocurrency transactions",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "medium"},
+        "leader": "Ismatullah Khalozai",
+        "notes": "Receives funds from IS central ($25K/month in cryptocurrency); moves funds via Turkey, hawala networks, cryptocurrency exchanges; coordinates international support."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Video production, attack claims, recruitment messaging",
+        "size_estimate": {"min": 40, "max": 100, "confidence": "low"},
+        "leader": "Media Director",
+        "notes": "Produces high-quality combat videos; coordinates with IS central media (Amaq News Agency); multilingual content (Arabic, English, Tajik, Uzbek)."
+      },
+      {
+        "component_name": "Recruitment and Radicalization",
+        "function": "Targeted recruitment from Central Asia and diaspora communities",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Recruitment Chief",
+        "notes": "Focus on Tajik and Uzbek minorities; targets migrants, marginalized communities; uses Telegram, encrypted platforms."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "ISIS-Khorasan Kashmir branch",
+        "relationship_type": "sub-affiliate",
+        "jurisdiction": ["IND", "PAK"],
+        "notes": "Focuses on South Asian operations; coordinates with ISIS-K leadership."
+      },
+      {
+        "name": "Tajik and Uzbek recruitment networks",
+        "relationship_type": "facilitation_network",
+        "jurisdiction": ["TJK", "UZB", "RUS"],
+        "notes": "Decentralized recruitment cells targeting Central Asian diaspora; semi-autonomous cells connected to ISIS-K central."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized: Ghafari holds supreme authority; appointed by IS central; Shura Council advises on strategic matters; direct coordination with IS Global Directorate of Provinces; rapid decision-making for external operations.",
+      "discipline_and_enforcement": "Strict Islamic law enforcement; execution for collaboration/spying; collective punishment; internal security apparatus monitors for infiltrators; uses religious justification for discipline."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 2_000, "max": 6_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 1_500, "max": 4_000},
+      "support_personnel": {"min": 300, "max": 800},
+      "foreign_fighters": {"min": 200, "max": 600},
+      "female_participation": "Women serve in medical, administrative, and propaganda roles; increasing participation in recruitment; estimated 3-5% of force."
+    },
+    "recruitment_demographics": {
+      "age_range": "15-40",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Diverse: Central Asian migrants in Russia (economically marginalized, discriminated against), Afghan minorities (Tajiks, Uzbeks), Pakistani minorities, unemployed youth, former combatants from other groups.",
+      "gender_distribution": "Predominantly male (95%+); increasing female recruitment for support roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "explosives and bomb-making", "religious ideology", "operational security", "assassination techniques"],
+      "training_locations": ["Eastern Afghanistan mountain camps", "Pakistani Balochistan", "Turkey (transit)", "Yemen (reported)"],
+      "notes": "6-12 month training cycles for combatants; emphasizes external operations; operational security training for international operatives; religious theology focus."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "transnational",
+    "known_attack_types": ["suicide bombing", "armed assault", "targeted assassination", "mass shooting", "coordinated multi-site attack", "IED"],
+    "notable_operations": [
+      {
+        "operation_name": "Kabul Airport Attack",
+        "date": "2021-08-26",
+        "location": "Kabul, Afghanistan",
+        "method_category": "suicide bombing coordinated with armed assault",
+        "casualties_killed": 183,
+        "casualties_injured": 200,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Peshawar Mosque Bombing",
+        "date": "2022-03-04",
+        "location": "Peshawar, Pakistan",
+        "method_category": "suicide bombing in Shia mosque",
+        "casualties_killed": 56,
+        "casualties_injured": 194,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Quetta Political Rally Bombing",
+        "date": "2023-07-29",
+        "location": "Khar, Pakistan",
+        "method_category": "suicide bombing",
+        "casualties_killed": 63,
+        "casualties_injured": 123,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Kerman Commemorative Ceremony Bombing",
+        "date": "2024-01-03",
+        "location": "Kerman, Iran",
+        "method_category": "coordinated suicide bombing",
+        "casualties_killed": 80,
+        "casualties_injured": 120,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:299", "web:300"]
+      },
+      {
+        "operation_name": "Crocus City Hall Attack",
+        "date": "2024-03-22",
+        "location": "Krasnogorsk, Moscow, Russia",
+        "method_category": "armed assault with gunfire and incendiary",
+        "casualties_killed": 144,
+        "casualties_injured": 551,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:290", "web:293"]
+      },
+      {
+        "operation_name": "Kabul Hotel Bombing",
+        "date": "2024-12-11",
+        "location": "Kabul, Afghanistan",
+        "method_category": "suicide bombing",
+        "casualties_killed": 7,
+        "casualties_injured": 30,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["Islamic State central"],
+      "criminal_partnerships": ["smuggling networks", "hawala operators", "cryptocurrency exchanges"],
+      "transnational_network_links": ["IS Global Directorate of Provinces", "IS Al-Karrar financial office", "Central Asian jihadist networks"],
+      "notes": "Direct financial support from IS central ($25K/month in cryptocurrency); monthly operational guidance; media coordination; training advisers deployed; facilitates recruitment and planning."
+    },
+    "operations_tempo_and_patterning": "Escalating external operations: 4 major attacks in 2024 (Kerman, Crocus, other incidents); shift toward mass-casualty attacks designed for maximum psychological impact; targeting of high-profile dates/events; high operational security; significant planning cycles suggesting coordination with IS central."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "suicide_vests", "IEDs", "mortars"],
+      "acquisition_routes": "Captured from Afghan military bases, black market procurement via Pakistan/Afghanistan/Central Asia, smuggling networks across porous borders, DIY bomb-making from commercially available materials",
+      "notes": "Sophisticated explosive manufacturing capability; suicide vest production; small arms sourced from various channels; no evidence of advanced weapons like MANPADS or drones."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["Telegram encrypted communications", "cryptocurrency transactions", "propaganda video distribution", "encrypted messaging (Signal, WhatsApp)"],
+      "notes": "Focus on operational security and communication rather than offensive cyber; sophisticated use of encryption; cryptocurrency expertise; limited evidence of hacking capabilities."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram encrypted channels", "WhatsApp", "Signal", "Radio al-Bayan", "Cryptocurrency transactions"],
+      "propaganda_platforms": ["Amaq News Agency (IS-affiliated)", "Telegram channels", "YouTube (periodically)", "social media (sporadic)"],
+      "notes": "Telegram primary command and control; decentralized encrypted network architecture; rapid content dissemination; platform resilience through backup accounts and channels."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks", "foot (mountain operations)", "long-distance travel via transit countries"],
+      "boxes": "Small mobile units; exploit porous Afghanistan-Pakistan-Iran borders; use smuggling routes; limited heavy logistics; capable of international coordination via Turkey."
+    },
+    "technical_gaps_and_weaknesses": "No air defense capability; vulnerable to airstrikes; limited heavy weapons; no drone capabilities (unlike some affiliates); communication networks susceptible to interception; logistic supply chain vulnerabilities; low production capacity for sophisticated weapons."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 10_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "state_support",
+        "description": "Direct funding from IS central monthly payments",
+        "estimated_share_percent": 50,
+        "notes": "$25K/month in cryptocurrency confirmed; $300K/year baseline; additional operational funding for major attacks."
+      },
+      {
+        "type": "donations",
+        "description": "Diaspora fundraising, sympathizer donations via cryptocurrency",
+        "estimated_share_percent": 25,
+        "notes": "$2.5M annually; collected via cryptocurrency, hawala networks, online campaigns; targeted at Central Asian diaspora."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom from kidnappings of foreign nationals and wealthy individuals",
+        "estimated_share_percent": 15,
+        "notes": "$1.5M; secondary but significant revenue; sporadic high-value cases."
+      },
+      {
+        "type": "criminal_activity",
+        "description": "Extortion, drug trafficking, smuggling",
+        "estimated_share_percent": 10,
+        "notes": "$1M; involvement in regional smuggling networks; extortion from businesses."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cryptocurrency exchanges in Turkey, hawala networks spanning Pakistan-Afghanistan-Central Asia, cash couriers, cryptocurrency wallets (Bitcoin, Tether, Ethereum, Monero).",
+      "notes": "Sophisticated cryptocurrency operations; receives monthly transfers from IS-Somalia Al-Karrar office; converts crypto to cash in Turkey; operates decentralized payment system for fighters; resistant to traditional sanctions due to crypto reliance."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, OFAC designations",
+        "implementing_body": "US, UN, EU",
+        "date": "2016-01-14",
+        "effectiveness_assessment": "low"
+      },
+      {
+        "measure": "Cryptocurrency exchange monitoring",
+        "implementing_body": "FinCEN, international",
+        "date": "2023-01-01",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["online Telegram", "encrypted messaging", "family networks", "migrant communities", "prisons", "universities"],
+    "recruitment_tactics": ["grievance exploitation (economic marginalization, discrimination against minorities)", "ideological messaging", "technological prowess messaging", "promise of financial benefits", "sense of belonging to global community"],
+    "target_profiles": ["Tajik and Uzbek minorities", "Central Asian migrants in Russia", "economically disadvantaged youth", "politically alienated intellectuals", "former combatants", "Western-educated recruits"],
+    "recruitment_geography": ["Afghanistan", "Pakistan", "Tajikistan", "Uzbekistan", "Russia (migrant communities)", "Europe", "North America"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 2, "confidence": "low"},
+    "youth_and_online_vulnerability": "Extremely high; Telegram-based recruitment targeting youth; exploitation of economic desperation among Central Asian migrants in Russia; discrimination and social exclusion driving radicalization; technological sophistication appeals to educated youth; anti-Western messaging resonates with marginalized populations."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "Amaq news bulletins", "religious sermons", "attack claim statements", "infographics", "cryptocurrency solicitation"],
+    "languages_used": ["Arabic", "English", "Dari", "Pashto", "Tajik", "Uzbek", "Russian", "Uyghur"],
+    "messaging_themes": ["global jihad and caliphate establishment", "anti-Western imperialism", "anti-Shia ideology", "revenge against oppressors", "technological prowess", "martyrdom and sacrifice", "defensive jihad"],
+    "audience_targeting": "Central Asian diaspora (primary focus for recruitment), global Muslim ummah, Western audiences (showing capability), potential jihadist recruits, sympathizers with anti-Western grievances.",
+    "platform_policy_responses": "Periodic Telegram channel removals; rapid re-establishment on alternative platforms; YouTube account suspensions; cryptocurrency fundraising campaigns disrupted; platform moderation generally ineffective against resilient core network."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "United States",
+        "case_ref": "Mohammad Sharifullah et al.",
+        "defendants": ["Mohammad Sharifullah", "Crocus City Hall coordinators"],
+        "outcome": "Sharifullah arrested March 2025; charged with coordinating Moscow attack; life sentence potential.",
+        "notes": "First US arrest directly linked to Crocus City Hall attack; operational planner detained."
+      },
+      {
+        "jurisdiction": "Russia",
+        "case_ref": "Crocus City Hall perpetrators",
+        "defendants": ["Four initial gunmen", "additional co-conspirators"],
+        "outcome": "Several detained; Russian military tribunals ongoing; sentences pending.",
+        "notes": "Criminal proceedings inside Russia; torture allegations during detention."
+      },
+      {
+        "jurisdiction": "Pakistan",
+        "case_ref": "Peshawar and Quetta attacks",
+        "defendants": ["Multiple ISIS-K members"],
+        "outcome": "Convictions for terror offences; sentences vary; many captured operatives executed extrajudicially.",
+        "notes": "Pakistani military and intelligence services conduct targeted killings."
+      },
+      {
+        "jurisdiction": "International (ICC)",
+        "case_ref": "Preliminary investigations",
+        "defendants": ["ISIS-K leadership"],
+        "outcome": "No formal indictments as of 2025; preliminary investigations ongoing.",
+        "notes": "Focus on crimes against humanity and war crimes investigations."
+      }
+    ],
+    "human_rights_concerns": "Mass-casualty attacks against civilians; indiscriminate bombings; suicide attacks targeting soft civilian targets; assassination and extrajudicial killing of perceived enemies; targeted attacks on Shia communities and religious minorities (Hazaras); forced recruitment of children; sexual violence; kidnapping and ransom; torture; forced labor."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq News Agency attack claims surge", "type": "communications", "thresholds": ">2 claims/week signals major campaign phase"},
+      {"indicator": "High-quality propaganda video release", "type": "communications", "thresholds": "new operational footage indicates recent/imminent operations"},
+      {"indicator": "Cryptocurrency transaction spike", "type": "financial", "thresholds": "monthly transfers from IS-Somalia office $25K+"}
+    ],
+    "early_warning_signals": ["Increased Telegram recruitment messaging", "Religious sermon distributions calling for jihad", "Cryptocurrency crowdfunding campaigns", "Travel of operatives through transit countries", "Attack planning communications intercepted"],
+    "data_needed_for_monitoring": ["SIGINT (encrypted communications monitoring)", "financial transaction tracking (cryptocurrency/hawala)", "HUMINT from informants", "open-source social media analysis", "travel intelligence"],
+    "recommended_analytic_methods": ["network analysis of global support structure", "temporal attack pattern analysis", "financial flow mapping", "cryptocurrency blockchain analysis", "propaganda content analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-K represents the most acute transnational terrorist threat globally. With demonstrated capability for mass-casualty attacks across multiple continents (Russia, Iran, Pakistan, Afghanistan), direct coordination with IS central, and expanding recruitment networks spanning Central Asia to Western nations, ISIS-K poses critical risk to US homeland, Europe, and allied interests. Group's strategic shift toward external operations under Ghafari's leadership, combined with financial sophistication (cryptocurrency), makes counterterrorism efforts significantly more complex.",
+    "vulnerable_sectors": ["soft civilian targets (concert venues, restaurants, markets)", "government and military installations", "transportation hubs (airports, train stations)", "religious facilities (mosques, shrines)", "diplomatic facilities", "international events"],
+    "likely_future_trends": "Continued external operations targeting Western nations; expansion of European attack plotting; exploitation of Central Asian migrant communities in Russia; potential attacks on international sporting events; increased sophistication of attacks; deeper integration with IS central; possible expansion of geographic footprint to new regions.",
+    "recommended_mitigation_measures": [
+      "Enhanced counterterrorism operations in Afghanistan-Pakistan border regions",
+      "Disruption of cryptocurrency networks facilitating ISIS-K funding",
+      "Intelligence sharing on ISIS-K external plots (joint US-European-Russian intelligence)",
+      "Targeted sanctions on IS Al-Karrar office and ISIS-K financial facilitators",
+      "Community engagement programs targeting Central Asian diaspora vulnerability",
+      "Counter-propaganda messaging targeting recruitment demographics",
+      "Hardening of soft civilian targets and security protocol enhancements",
+      "International prosecution of ISIS-K operatives and supporters",
+      "Deradicalization programs for captured fighters and prisoners",
+      "Border security enhancements across Central Asian nations"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS-Khorasan terrorist group profile (March 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_khorasan.html",
+        "date": "2025-03-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:289",
+        "type": "open_source",
+        "description": "Just Security: UN Security Council report on ISIS and al-Qaeda (August 2024)",
+        "url_or_reference": "https://justsecurity.org/wake-up-call-isis-al-qaeda/",
+        "date": "2024-08-04",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:290",
+        "type": "open_source",
+        "description": "OSCE US Mission: Crocus City Hall terrorist attack analysis (April 2024)",
+        "url_or_reference": "https://osce.usmission.gov/crocus-city-hall-attack/",
+        "date": "2024-04-11",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:291",
+        "type": "open_source",
+        "description": "Wikipedia: Islamic State Khorasan Province comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Islamic_State_Khorasan_Province",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:292",
+        "type": "open_source",
+        "description": "Reuters: ISIS-K leader Sanaullah Ghafari biography and external operations (March 2024)",
+        "url_or_reference": "https://reuters.com/sanaullah-ghafari-isis-k-leader/",
+        "date": "2024-03-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:293",
+        "type": "open_source",
+        "description": "Novaya Gazeta: Crocus City Hall attack coordinator Mohammad Sharifullah arrest (March 2025)",
+        "url_or_reference": "https://novayagazeta.eu/crocus-sharifullah-arrest/",
+        "date": "2025-03-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:299",
+        "type": "open_source",
+        "description": "The Conversation: Iran Kerman bombing analysis (January 2024)",
+        "url_or_reference": "https://theconversation.com/iran-terror-blast-isis-k/",
+        "date": "2024-01-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:128",
+        "type": "open_source",
+        "description": "FinCEN: ISIS Financing Advisory (April 2025)",
+        "url_or_reference": "https://fincen.gov/isis-financing-advisory-2025",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:134",
+        "type": "open_source",
+        "description": "OSW: Islamic State Khorasan global jihad threat analysis (2024)",
+        "url_or_reference": "https://osw.waw.pl/isis-khorasan-2024/",
+        "date": "2024-06-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:308",
+        "type": "open_source",
+        "description": "USIP: Counter-terrorism implications second Trump administration (November 2024)",
+        "url_or_reference": "https://usip.org/counter-terrorism-implications-second-trump/",
+        "date": "2024-11-18",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
