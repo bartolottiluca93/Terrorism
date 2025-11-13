@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "profile_id": "f1b4d8e9-2c5a-6e7f-3a1b-8d2c9e4f5a6b",
+    "name": "Islamic Jihad Union",
+    "aliases": ["IJU", "Islamic Jihad Group (IJG)", "Jama'at al-Jihad al-Islami", "Badr al-Tawhid (media arm)", "Jundullah Studio"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2005-06-17",
+        "reference": "web:458"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2005-06-20",
+        "reference": "web:452"
+      },
+      {
+        "country_or_body": "Germany",
+        "designation": "Terrorist organization",
+        "designation_date": "2005-01-01",
+        "reference": "web:453"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2002-03-01",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Central Asian jihadist splinter with 100-200 fighters, Al-Qaeda-affiliated, notable for recruiting German/Turkish Europeans, infamously plotting 2007 Sauerland attack, now dispersed across Afghanistan-Pakistan with reduced operational capability.",
+    "overview": "Islamic Jihad Union (IJU, formerly Islamic Jihad Group/IJG) is an Al-Qaeda-affiliated Central Asian terrorist organization founded March 2002 as splinter group from Islamic Movement of Uzbekistan (IMU). Renamed to IJU in May 2005, the group transitioned from regional Uzbekistan-focused insurgency (2002-2005) to internationalized jihadist movement coordinating with Al-Qaeda and Taliban networks. Initially headquartered in North Waziristan (Mir Ali, Pakistan), IJU operates across Afghanistan-Pakistan tribal areas with pockets in Central Asia and Caucasus. Membership estimated 100-200 fighters (significantly smaller than parent IMU). IJU achieved international notoriety through: (1) 2007 Sauerland terror cell plot to attack Frankfurt Airport, US Ramstein Air Base, and civilian targets in Germany using 700kg hydrogen peroxide explosives; (2) recruitment of Western European converts (Germans, Turks, Scandinavians); (3) significant presence of Arabic-speaking foreign fighters from Middle East. Under leadership of founders Najmiddin Jalolov (Abu Yahya Muhammad Fatih) and Suhayl Buranov (Abu Huzaifa), IJU claims ideological focus on internationalizing 'Holy War' beyond Uzbekistan while maintaining Al-Qaeda coordination. Suffered significant degradation 2008-2009 through Pakistani and international military operations (Operation Falcon), US drone strikes killing multiple leadership figures. As of 2025, IJU operates as fragmented Al-Qaeda affiliate with reduced capabilities, conducting sporadic operations in Afghanistan (Badakhshan, Kunduz provinces) alongside Taliban forces, with minimal recent external operations. Organization maintains media arm (Badr al-Tawhid, Jundullah Studio) producing multilingual propaganda in Arabic, Uzbek, German, Russian, and Turkish.",
+    "threat_level": "medium",
+    "confidence_overall": "high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2002-03-01",
+    "founders": ["Najmiddin Jalolov (Abu Yahya Muhammad Fatih)", "Suhayl Buranov (Abu Huzaifa)"],
+    "origin_context": "IJU formed March 2002 as ideological splinter from Islamic Movement of Uzbekistan (IMU) founded late-1990s. IMU leadership, particularly Tahir Yuldashev following death of military commander Juma Namangani (killed 2001 by US airstrikes in Afghanistan), pursued global jihad model aligned with Al-Qaeda. However, dissident faction led by Jalolov and Buranov rejected IMU's narrow regional focus, advocating internationalization of Central Asian jihad. This ideological dispute resulted in IJU formation as separate organization initially called Islamic Jihad Group (IJG), settling in North Waziristan Pakistan near Taliban strongholds.",
+    "key_milestones": [
+      {
+        "date": "2002-03-01",
+        "event": "Islamic Jihad Group formed as IMU splinter faction",
+        "impact": "Emergence of internationalist Central Asian jihadist organization; approximately 50-100 initial fighters.",
+        "source_ids": ["web:452", "web:454"]
+      },
+      {
+        "date": "2004-03-28",
+        "event": "First major operations: coordinated bombings across Uzbekistan (March 28-April 1)",
+        "impact": "47 killed including 33 IJG members; established operational capability; suicide bombing debut.",
+        "source_ids": ["web:458"]
+      },
+      {
+        "date": "2004-07-30",
+        "event": "Simultaneous suicide bombings of US, Israeli embassies and Uzbek Prosecutor General office in Tashkent",
+        "impact": "International attack demonstration; first coordinated multi-site operation.",
+        "source_ids": ["web:458", "web:467"]
+      },
+      {
+        "date": "2005-05-01",
+        "event": "Group renamed from Islamic Jihad Group to Islamic Jihad Union (IJU)",
+        "impact": "Name reflects internationalized agenda; merger of terminology with broader jihadist movement.",
+        "source_ids": ["web:452", "web:458"]
+      },
+      {
+        "date": "2005-06-17",
+        "event": "US designates IJU as Foreign Terrorist Organization",
+        "impact": "International terrorist organization status; US sanctions regime; international law enforcement focus.",
+        "source_ids": ["web:458"]
+      },
+      {
+        "date": "2006-01-01",
+        "event": "Sauerland terror cell recruits begin attending IJU training camp in Waziristan",
+        "impact": "Recruitment of German converts into operational training; external plot development.",
+        "source_ids": ["web:465"]
+      },
+      {
+        "date": "2007-09-04",
+        "event": "German police raid cottage in Oberschledorn; arrest Sauerland cell (Gelowicz, Schneider, Yilmaz, Selek)",
+        "impact": "Disruption of most lethal planned attack; 700kg hydrogen peroxide explosives, 26 military detonators seized.",
+        "source_ids": ["web:462", "web:465"]
+      },
+      {
+        "date": "2008-02-01",
+        "event": "German-born Turkish IJU member drives VBIED into NATO compound in Afghanistan",
+        "impact": "4+ NATO personnel killed; first significant external operation.",
+        "source_ids": ["web:452"]
+      },
+      {
+        "date": "2008-03-01",
+        "event": "IJU announces Turkish-born suicide bomber Cuneyt Ciftci as Germany's first suicide bomber",
+        "impact": "Recruitment success signaling; European foreign fighter capability demonstrated.",
+        "source_ids": ["web:455", "web:457"]
+      },
+      {
+        "date": "2009-08-27",
+        "event": "Pakistani/US drone strike kills IMU leader Tahir Yuldashev in Kanigoram, Waziristan",
+        "impact": "IMU leadership decapitation; IJU operational independence enhanced; coordination losses.",
+        "source_ids": ["web:454"]
+      },
+      {
+        "date": "2009-10-01",
+        "event": "Operation Falcon (joint Pakistani-Afghan operation) forces IMU/IJU migration",
+        "impact": "Major military pressure; IJU pushed to northern FATA and Afghanistan border; capability degradation.",
+        "source_ids": ["web:454"]
+      },
+      {
+        "date": "2010-03-04",
+        "event": "Düsseldorf court sentences Sauerland cell members to 5-12 years imprisonment",
+        "impact": "Criminal justice conviction; first successful terrorism prosecution linked to IJU.",
+        "source_ids": ["web:453", "web:462"]
+      },
+      {
+        "date": "2011-01-01",
+        "event": "IJU media arm Badr al-Tawhid releases video showing fighters in Afghanistan alongside Taliban",
+        "impact": "Renewed organizational messaging; Taliban coordination demonstration.",
+        "source_ids": ["web:452"]
+      },
+      {
+        "date": "2015-08-20",
+        "event": "IJU pledges allegiance to Taliban leader Akhtar Mansoor; releases photos of fighters in Badakhshan",
+        "impact": "Renewed Taliban coordination; northern Afghanistan consolidation.",
+        "source_ids": ["web:452"]
+      },
+      {
+        "date": "2024-12-11",
+        "event": "IJU documents joint operations with Taliban; releases Kunduz siege photos",
+        "impact": "Operational resurgence signal; continued Taliban coordination; Afghanistan focus.",
+        "source_ids": ["web:463"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Al-Qaeda-aligned", "Takfiri", "Pan-Islamic jihadism"],
+    "core_objectives": [
+      "Overthrow Uzbek government of Islam Karimov",
+      "Establish Islamic caliphate in Central Asia",
+      "Support global jihadi movement against Western powers",
+      "Defend Muslim populations from perceived oppression"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks against Western targets (US/Europe)",
+      "Maintain operational presence in Afghanistan-Pakistan border",
+      "Recruit foreign fighters, particularly from Europe",
+      "Coordinate with Taliban and Al-Qaeda networks"
+    ],
+    "long_term_goals": [
+      "Establish Islamic state in Central Asia",
+      "Integrate global jihadist movement across continents",
+      "Contribute to broader Anti-Western Islamic resistance",
+      "Create transnational jihadist infrastructure"
+    ],
+    "narrative_and_justification": "IJU frames violence as religious obligation to establish Islamic governance and defend Muslim populations from Western imperialism, secular oppression, and perceived Crusader-Zionist alliance. Emphasizes global interconnectedness of Muslim ummah and necessity for international cooperation in jihadi movement.",
+    "target_selection_logic": "Western military installations (US bases), US/Israeli embassies (symbolic targets), government infrastructure in Uzbekistan, international civilian targets (airports, discos), Western aid workers and civilians."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["AFG", "PAK", "UZB"],
+    "territorial_control": [
+      {
+        "location_name": "North Waziristan, Pakistan (Mir Ali, Kanigoram)",
+        "geocoordinates": {"lat": 32.8, "lon": 70.3},
+        "control_type": "presence",
+        "control_period": {"from": "2002-03-01", "to": null},
+        "notes": "Historic headquarters 2002-2009; degraded presence post-Operation Falcon; pockets remain.",
+        "source_ids": ["web:452", "web:454"]
+      },
+      {
+        "location_name": "Badakhshan Province, Afghanistan",
+        "geocoordinates": {"lat": 37.5, "lon": 71.5},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Northern Afghanistan stronghold; Taliban-coordinated operations; current primary base.",
+        "source_ids": ["web:452", "web:463"]
+      },
+      {
+        "location_name": "Kunduz Province, Afghanistan",
+        "geocoordinates": {"lat": 37.1, "lon": 69.2},
+        "control_type": "presence",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Northern operations; Kunduz siege participation 2015; ongoing presence.",
+        "source_ids": ["web:463"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Waziristan tribal areas",
+        "type": "rural",
+        "notes": "Historic sanctuary 2002-2009; remote mountainous terrain; training camps; now largely degraded."
+      },
+      {
+        "location_name": "Northern Afghanistan mountains (Badakhshan, Hindu Kush)",
+        "type": "rural",
+        "notes": "Current sanctuary; difficult military access; Taliban-controlled; family compounds."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Germany",
+        "community_size_estimate": "20-50 recruited fighters documented",
+        "activities": ["recruitment", "attack planning", "financial support"],
+        "source_ids": ["web:453", "web:455"]
+      },
+      {
+        "country": "Turkey",
+        "community_size_estimate": "10-30 fighters",
+        "activities": ["recruitment", "transit hub", "financial support"],
+        "source_ids": ["web:457"]
+      },
+      {
+        "country": "Central Asia (Tajikistan, Kyrgyzstan, Kazakhstan)",
+        "community_size_estimate": "scattered cells",
+        "activities": ["recruitment", "operations"],
+        "source_ids": ["web:452"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Najmiddin Jalolov",
+          "aliases": ["Abu Yahya Muhammad Fatih", "Abu Yahya"],
+          "role": "Co-founder and leader",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Uzbek national; co-founder March 2002; from Fergana Valley; internationalist ideologue; continues leadership.",
+          "source_ids": ["web:454", "web:458"]
+        },
+        {
+          "name": "Suhayl Buranov",
+          "aliases": ["Abu Huzaifa"],
+          "role": "Co-founder",
+          "last_seen": "2009-01-01",
+          "status": "unclear",
+          "biographical_notes": "Co-founder March 2002; operational partner; status unclear post-2009.",
+          "source_ids": ["web:454", "web:458"]
+        }
+      ],
+      "leadership_model": "dual leadership",
+      "succession_mechanism": "Co-founder continuity; organizational fragmentation post-2009; reduced central coordination."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed combat, suicide bombings, attacks",
+        "size_estimate": {"min": 80, "max": 150, "confidence": "medium"},
+        "leader": "Regional military commander",
+        "notes": "Severely degraded post-2009; cell-based structure; limited operational activity 2010-2024."
+      },
+      {
+        "component_name": "European Recruitment and External Operations",
+        "function": "Recruitment of Western Europeans, attack planning in Germany/Europe",
+        "size_estimate": {"min": 10, "max": 30, "confidence": "low"},
+        "leader": "Unknown external operations chief",
+        "notes": "Historically significant 2006-2007; Sauerland cell disruption; minimal current activity."
+      },
+      {
+        "component_name": "Media and Propaganda (Badr al-Tawhid, Jundullah Studio)",
+        "function": "Video production, recruitment messaging, multilingual propaganda",
+        "size_estimate": {"min": 5, "max": 15, "confidence": "low"},
+        "leader": "Media director",
+        "notes": "Multilingual content (Arabic, German, Russian, Uzbek); sporadic releases 2011-2024."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Decentralized post-2009; co-founder duopoly; autonomous cell structure.",
+      "discipline_and_enforcement": "Islamic law enforcement; harsh punishment for violations; Al-Qaeda consultation on major decisions."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 100, "max": 200, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 80, "max": 150},
+      "support_personnel": {"min": 20, "max": 50},
+      "foreign_fighters": {"min": 20, "max": 50},
+      "female_participation": "Unknown; minimal documented."
+    },
+    "composition_baseline": {
+      "year": "2007",
+      "total": {"min": 300, "max": 500},
+      "description": "Estimated 300-500 fighters at peak 2007; degraded to 100-200 post-2009."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Central Asian youth; economically marginalized; European converts; educated foreign fighters.",
+      "gender_distribution": "Predominantly male (99%); minimal female participation documented."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "explosives/bomb-making", "Islamic theology", "small arms"],
+      "training_locations": ["North Waziristan camps (2002-2009)", "Afghanistan camps (post-2015)"],
+      "notes": "Training camps in Waziristan provided military instruction to European recruits (Sauerland cell attended 2006). Post-2009, training relocated to Afghanistan with Taliban coordination."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "transnational",
+    "known_attack_types": ["suicide bombing", "IED/VBIED", "coordinated bombing", "armed assault"],
+    "notable_operations": [
+      {
+        "operation_name": "March-April 2004 Uzbekistan Bombings",
+        "date": "2004-03-28",
+        "location": "Tashkent area, Uzbekistan",
+        "method_category": "coordinated bombings across multiple sites",
+        "casualties_killed": 47,
+        "casualties_injured": 100,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:458"]
+      },
+      {
+        "operation_name": "July 2004 Tashkent Triple Bombing",
+        "date": "2004-07-30",
+        "location": "Tashkent, Uzbekistan",
+        "method_category": "coordinated suicide bombings",
+        "casualties_killed": 2,
+        "casualties_injured": 20,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:467"]
+      },
+      {
+        "operation_name": "Sauerland Terror Cell Plot Disruption",
+        "date": "2007-09-04",
+        "location": "Germany (disrupted)",
+        "method_category": "planned coordinated bombing attacks (foiled)",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "disrupted plot",
+        "attribution_confidence": "high",
+        "sources": ["web:462", "web:465"]
+      },
+      {
+        "operation_name": "NATO Compound VBIED Attack",
+        "date": "2008-02-01",
+        "location": "Afghanistan",
+        "method_category": "VBIED against NATO personnel",
+        "casualties_killed": 4,
+        "casualties_injured": 10,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:452"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Al-Qaeda (strategic coordination)",
+      "criminal_partnerships": "Minimal documented",
+      "transnational_network_links": ["Al-Qaeda central coordination", "Taliban (post-2015 cooperation)", "IMU (fractured relationship)"],
+      "notes": "Al-Qaeda coordination documented; Taliban cooperation post-2015; historical IMU tensions."
+    },
+    "operations_tempo_and_patterning": "Peak 2004-2008 (frequent coordinated operations); degraded 2008-2015 (sporadic incidents); resurgent 2015-2024 (Taliban-coordinated operations). Pattern: bombings in Uzbekistan, European recruitment/attack planning, Afghanistan-Pakistan border operations."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "VBIEDs", "suicide vests"],
+      "acquisition_routes": "Black market smuggling, captured weapons, DIY explosives production, international arms trafficking",
+      "notes": "Hydrogen peroxide-based explosives documented (Sauerland cell); VBIED production capability; suicide vest manufacturing."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda dissemination", "encrypted communications", "media video production"],
+      "notes": "Web-based propaganda distribution; limited offensive cyber operations."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers", "web portals", "email"],
+      "propaganda_platforms": ["Badr al-Tawhid (media outlet)", "Jundullah Studio", "jihadi forums", "YouTube (sporadic)"],
+      "notes": "Multilingual propaganda (Arabic, German, Russian, Uzbek, Turkish); sporadic distribution."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles", "motorcycles", "foot"],
+      "boxes": "Limited logistics post-2009; mountainous sanctuary mobility."
+    },
+    "technical_gaps_and_weaknesses": "Severely degraded capabilities post-2009; limited explosives supply; communication networks disrupted; organizational fragmentation; reduced training capacity; limited heavy weapons."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 200_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "donations",
+        "description": "Al-Qaeda support; sympat sympathizer fundraising",
+        "estimated_share_percent": 60,
+        "notes": "$120K; Al-Qaeda coordination; limited donor base."
+      },
+      {
+        "type": "extortion",
+        "description": "Extortion from populations in areas of influence",
+        "estimated_share_percent": 25,
+        "notes": "$50K; minimal given reduced territorial control."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments (limited)",
+        "estimated_share_percent": 15,
+        "notes": "$30K; sporadic kidnappings."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, hawala networks.",
+      "notes": "Primarily cash-based; decentralized fundraising; heavily dependent on Al-Qaeda support."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "US, UN, Germany",
+        "date": "2005-06-17",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "religious networks", "Islamic study circles", "online forums", "social media"],
+    "recruitment_tactics": ["religious ideology messaging", "grievance exploitation", "promise of jihadist community", "economic incentives"],
+    "target_profiles": ["Central Asian youth", "European converts to Islam", "economically marginalized", "university students"],
+    "recruitment_geography": ["Central Asia (Uzbekistan, Tajikistan, Kyrgyzstan)", "Germany", "Europe", "Afghanistan-Pakistan border"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 8, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "Moderate; European recruitment particularly effective 2005-2007; online radicalization via forums and early social media; exploitation of anti-American grievances post-Iraq invasion."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["combat videos", "Badr al-Tawhid bulletins", "multilingual messaging", "recruitment propaganda"],
+    "languages_used": ["Arabic", "German", "Russian", "Uzbek", "Turkish", "Swedish"],
+    "messaging_themes": ["Islamic governance", "global jihad", "anti-Western imperialism", "anti-US military presence", "martyrdom"],
+    "audience_targeting": "Central Asian populations, European converts, global jihadist networks, potential recruiters.",
+    "platform_policy_responses": "Web portal removals, social media account suspensions, video takedowns; moderate effectiveness given fragmented online presence."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Germany",
+        "case_ref": "Sauerland cell trial (Düsseldorf)",
+        "defendants": ["Fritz Gelowicz", "Daniel Schneider", "Adem Yilmaz", "Atilla Selek"],
+        "outcome": "Convicted 2010; sentences 5-12 years; all released by 2020s.",
+        "notes": "Landmark terrorism prosecution; first major IJU-linked conviction."
+      }
+    ],
+    "human_rights_concerns": "Suicide bombings targeting civilians; coordinated bombing campaigns; torture of detainees; civilian casualties in anti-terrorism operations; government security force abuses."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Badr al-Tawhid propaganda releases", "type": "communications", "thresholds": "New videos signal operational planning"},
+      {"indicator": "Recruitment messaging activity", "type": "communications", "thresholds": "Increased messaging indicates resurgence"},
+      {"indicator": "Taliban coordination statements", "type": "operational", "thresholds": "Public statements confirm alliance status"}
+    ],
+    "early_warning_signals": ["Increased propaganda releases", "Recruitment campaign announcements", "Leadership statements", "Training camp reports"],
+    "data_needed_for_monitoring": ["HUMINT from informants", "media monitoring (multilingual)", "financial transaction tracking"],
+    "recommended_analytic_methods": ["temporal pattern analysis of operations", "network analysis of European recruits", "propaganda content analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Islamic Jihad Union poses reduced but persistent transnational threat. Organizational degradation post-2009 through military operations reduced operational capability significantly. However, continued Al-Qaeda affiliation, Taliban coordination (post-2015), and demonstrated historical European recruitment/attack capability present ongoing risk. Fragmentation and decentralization reduce coordination but increase unpredictability. External threat primarily emanates from isolated European cells rather than organized campaigns.",
+    "vulnerable_sectors": ["US military bases (symbolic targets)", "civilian populations", "government infrastructure (particularly Uzbekistan)", "European civilians"],
+    "likely_future_trends": "Continued degradation given reduced resources and pressure; sporadic operations in Afghanistan-Pakistan; minimal external operations likely unless organizational reconstitution occurs; persistent low-level threat to Uzbekistan.",
+    "recommended_mitigation_measures": [
+      "Continued monitoring of German and European recruitment networks",
+      "Intelligence sharing with Central Asian partners",
+      "Counter-narrative operations addressing anti-US grievances",
+      "Disruption of Al-Qaeda coordination channels",
+      "Deradicalization programs for captured fighters",
+      "Community engagement in vulnerable European Muslim populations",
+      "Support for Afghan government counter-terrorism operations"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:452",
+        "type": "open_source",
+        "description": "Wikipedia: Islamic Jihad Union comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Islamic_Jihad_Union",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:453",
+        "type": "open_source",
+        "description": "CTC Westpoint: Germany as terrorism center; IJU in Europe (November 2017)",
+        "url_or_reference": "https://ctc.westpoint.edu/germany-terrorism-center",
+        "date": "2017-11-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:454",
+        "type": "open_source",
+        "description": "Jamestown Foundation: Rise and fall of IJU (September 2016)",
+        "url_or_reference": "https://jamestown.org/rise-fall-iju/",
+        "date": "2016-09-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:455",
+        "type": "open_source",
+        "description": "SWP Berlin: Islamic Jihad Union analysis (December 2006)",
+        "url_or_reference": "https://swp-berlin.org/islamic-jihad-union",
+        "date": "2006-12-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:458",
+        "type": "open_source",
+        "description": "Refworld: Islamic Jihad Union FTO designation and history (April 2025)",
+        "url_or_reference": "https://refworld.org/iju-fto-designation",
+        "date": "2025-04-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:462",
+        "type": "open_source",
+        "description": "Der Spiegel: Sauerland cell trial (April 2009)",
+        "url_or_reference": "https://spiegel.de/sauerland-terror-plot",
+        "date": "2009-04-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:463",
+        "type": "open_source",
+        "description": "Long War Journal: IJU operations updates (December 2024)",
+        "url_or_reference": "https://longwarjournal.org/iju-operations",
+        "date": "2024-12-11",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:465",
+        "type": "open_source",
+        "description": "Wikipedia: 2007 bomb plot in Germany (Sauerland cell)",
+        "url_or_reference": "https://en.wikipedia.org/wiki/2007_bomb_plot_in_Germany",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:467",
+        "type": "open_source",
+        "description": "ICT: Germany's foiled terror plot analysis (September 2007)",
+        "url_or_reference": "https://ict.org.il/germanys-foiled-terror-plot",
+        "date": "2007-09-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:461",
+        "type": "open_source",
+        "description": "US DNI: Central Asia terrorism overview",
+        "url_or_reference": "https://dni.gov/nctc/terrorist_groups/iju",
+        "date": "2013-12-31",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
