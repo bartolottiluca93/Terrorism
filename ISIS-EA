@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "profile_id": "e8c3f2a1-6b5d-4e9f-1a2c-7d8b3e5f4c9a",
+    "name": "Islamic State–East Asia",
+    "aliases": ["ISIS-EA", "ISIS-Philippines", "Daulah Islamiyah", "DI", "Islamic State East Asia", "IS-Ranao", "IS-Basilan"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2018-02-09",
+        "reference": "web:312"
+      },
+      {
+        "country_or_body": "Philippines",
+        "designation": "Terrorist organization",
+        "designation_date": "2017-06-01",
+        "reference": "web:313"
+      },
+      {
+        "country_or_body": "Australia",
+        "designation": "Terrorist organization",
+        "designation_date": "2018-06-15",
+        "reference": "web:58"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2014-06-25",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "ISIS-East Asia is a small but lethal Southeast Asian ISIS affiliate based in the southern Philippines with fewer than 300 fighters, notable for pioneering female suicide bombings in Asia and threatening regional stability.",
+    "overview": "Islamic State–East Asia (ISIS-EA), also known as Daulah Islamiyah (DI), is the Islamic State's regional affiliate operating primarily in the southern Philippines, particularly in Mindanao. With an estimated 200-300 fighters, ISIS-EA emerged from an alliance of the Maute Group and Abu Sayyaf Group (ASG) factions that formally pledged allegiance to ISIS in 2014-2016. The group achieved international infamy through the May-October 2017 siege of Marawi City, which showcased unprecedented urban combat capability for Southeast Asian jihadists. ISIS-EA is historically unique for deploying female suicide bombers in coordinated attacks beginning around 2018, representing a significant tactical innovation in Asian extremism. Despite heavy military losses, ISIS-EA has demonstrated operational resilience through reorganization under successive leaders, continuing attacks through 2024-2025. With ties to foreign fighters from Indonesia, Malaysia, and Middle Eastern countries, ISIS-EA maintains direct coordination with IS central leadership through propaganda networks and represents a persistent transnational threat to Philippine and regional security.",
+    "threat_level": "high",
+    "confidence_overall": "high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2014-06-25",
+    "founders": ["Isnilon Hapilon (Abu Sayyaf faction)", "Omarkhali Maute (Maute Group)", "Farhana Romate Maute"],
+    "origin_context": "ISIS-EA emerged from a convergence of two militant movements: (1) The Maute Group, a relatively young insurgent faction founded by the Maute brothers in Lanao del Sur province around 2010, and (2) the Hapilon faction of the Abu Sayyaf Group, a longer-established separatist organization founded in 1991. Following IS territorial success in Iraq and Syria from 2014, both groups independently pledged allegiance to IS by mid-2014. This marked a strategic shift: while historically focused on local Philippine separatism, the groups adopted global jihadist branding to gain international credibility, material support, and operational guidance. The merger created IS-Ranao (Maute faction) and IS-Basilan (Hapilon faction), which gradually coordinated operations through 2015-2017.",
+    "key_milestones": [
+      {
+        "date": "2014-06-25",
+        "event": "Isnilon Hapilon pledges Abu Sayyaf faction allegiance to ISIS",
+        "impact": "First formal IS allegiance by Philippine group; international terrorist designation follows.",
+        "source_ids": ["web:318"]
+      },
+      {
+        "date": "2016-01-23",
+        "event": "ISIS appoints Isnilon Hapilon 'Emir of Southeast Asia' in official video",
+        "impact": "Formal IS recognition; elevates group profile; direct coordination with IS central.",
+        "source_ids": ["web:315", "web:318"]
+      },
+      {
+        "date": "2017-05-23",
+        "event": "Marawi City Siege begins; 1,000+ ISIS-affiliated militants occupy city",
+        "impact": "Largest urban ISIS combat operation in Southeast Asia; 5-month siege; unprecedented coordination.",
+        "source_ids": ["web:313", "web:314", "web:315"]
+      },
+      {
+        "date": "2017-10-17",
+        "event": "Isnilon Hapilon killed in military operations; Omar Maute also killed",
+        "impact": "Leadership decapitation; estimated 80% of Marawi siege fighters killed (978+ total).",
+        "source_ids": ["web:315", "web:316"]
+      },
+      {
+        "date": "2018-02-09",
+        "event": "US designates ISIS-EA as Foreign Terrorist Organization",
+        "impact": "International terrorist designation; sanctions imposed on leadership.",
+        "source_ids": ["web:312"]
+      },
+      {
+        "date": "2018-01-24",
+        "event": "First female suicide bomber attack in Philippines (Jolo Island)",
+        "impact": "Pioneering tactic in Southeast Asia; 23 killed; marked shift in operational methods.",
+        "source_ids": ["web:321"]
+      },
+      {
+        "date": "2019-01-27",
+        "event": "Jolo Cathedral bombings; 23 killed, 100+ wounded by suicide bombers",
+        "impact": "High-profile attack targeting Christian civilian target; demonstrated persistent capability.",
+        "source_ids": ["web:203", "web:321"]
+      },
+      {
+        "date": "2023-06-01",
+        "event": "Abu Zacharia killed in military operations in Marawi City",
+        "impact": "Former regional leader eliminated; succession to Abu Turaife (Esmael Abdulmalik of BIFF).",
+        "source_ids": ["web:319"]
+      },
+      {
+        "date": "2023-12-03",
+        "event": "Mindanao State University bombing in Marawi; 4 killed, 40+ wounded",
+        "impact": "Catholic mass attack; ISIS-EA claimed responsibility; latest major attack; demonstrated resurgence.",
+        "source_ids": ["web:203", "web:319"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Sunni Islamist", "Jihadist separatism"],
+    "core_objectives": [
+      "Establish Islamic caliphate/emirate in Mindanao and southern Philippines",
+      "Support global ISIS caliphate restoration",
+      "Eliminate Christian dominance in Muslim-majority regions"
+    ],
+    "short_term_goals": [
+      "Maintain insurgent presence in Mindanao",
+      "Conduct high-profile mass-casualty attacks",
+      "Recruit from local Muslim populations",
+      "Demonstrate ISIS affiliation through coordinated operations"
+    ],
+    "long_term_goals": [
+      "Establish permanent ISIS province in Philippines",
+      "Create Islamic state in southern Mindanao",
+      "Position Philippines as regional jihadi hub",
+      "Recruit foreign fighters transiting through Southeast Asia"
+    ],
+    "narrative_and_justification": "ISIS-EA frames violence as religious duty to establish Islamic governance and defend Muslim Moro populations from Christian-dominated Philippine government. Uses takfiri theology to justify attacks on civilians and Christian targets. Positions organization as part of global jihadist movement fighting Crusader-Zionist-Shia alliance.",
+    "target_selection_logic": "Christian civilians (churches, religious events), Philippine military and police, government infrastructure, civilian soft targets (shopping areas, public events), foreign nationals, Christian minorities, and rival groups competing for territorial control."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["PHL"],
+    "territorial_control": [
+      {
+        "location_name": "Marawi City, Lanao del Sur Province",
+        "geocoordinates": {"lat": 8.0, "lon": 124.27},
+        "control_type": "contested",
+        "control_period": {"from": "2017-05-23", "to": "2017-10-17"},
+        "notes": "Five-month siege; government victory; city heavily destroyed; ongoing presence through cells.",
+        "source_ids": ["web:313", "web:314", "web:315"]
+      },
+      {
+        "location_name": "Basilan Island, particularly Jolo area",
+        "geocoordinates": {"lat": 6.0, "lon": 121.0},
+        "control_type": "presence",
+        "control_period": {"from": "2014-06-25", "to": null},
+        "notes": "Historic Abu Sayyaf stronghold; ISIS-EA maintains cells and operational presence.",
+        "source_ids": ["web:321"]
+      },
+      {
+        "location_name": "Lanao del Sur, particularly Butig and Piagapo",
+        "geocoordinates": {"lat": 7.8, "lon": 124.1},
+        "control_type": "presence",
+        "control_period": {"from": "2016-12-01", "to": null},
+        "notes": "Maute Group origin; recruitment centers; mountainous terrain provides sanctuary.",
+        "source_ids": ["web:314"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Mindanao mountainous regions",
+        "type": "rural",
+        "notes": "Remote mountain areas provide strategic sanctuary from military operations."
+      },
+      {
+        "location_name": "Sulu archipelago islands",
+        "type": "rural",
+        "notes": "Island sanctuaries with limited government presence; smuggling routes."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Indonesia",
+        "community_size_estimate": "recruited fighters",
+        "activities": ["recruitment", "foreign fighter supply"],
+        "source_ids": ["web:315", "web:325"]
+      },
+      {
+        "country": "Malaysia",
+        "community_size_estimate": "foreign fighters",
+        "activities": ["recruitment", "logistics"],
+        "source_ids": ["web:315"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Isnilon Hapilon",
+          "aliases": [],
+          "role": "Former Emir (ISIS-appointed)",
+          "last_seen": "2017-10-17",
+          "status": "killed",
+          "biographical_notes": "First ISIS-appointed regional emir (Southeast Asia); Abu Sayyaf faction leader; killed in military operations October 2017 during Marawi siege.",
+          "source_ids": ["web:312", "web:318"]
+        },
+        {
+          "name": "Abu Zacharia",
+          "aliases": [],
+          "role": "Former regional leader",
+          "last_seen": "2023-06-01",
+          "status": "killed",
+          "biographical_notes": "Successor leadership; led Daulah Islamiyah post-Marawi; killed in June 2023 military operation in Marawi.",
+          "source_ids": ["web:319"]
+        },
+        {
+          "name": "Esmael Abdulmalik",
+          "aliases": ["Abu Turaife"],
+          "role": "Current leader (estimated)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "BIFF faction leader; succeeded Abu Zacharia June 2023; current estimated regional leader; maintains low profile.",
+          "source_ids": ["web:319"]
+        }
+      ],
+      "leadership_model": "decentralized",
+      "succession_mechanism": "Transitional and informal; leadership frequently disrupted by military operations; succession chosen by remaining shura council members or designated by IS central."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed operations, suicide bombings, tactical assaults",
+        "size_estimate": {"min": 150, "max": 250, "confidence": "medium"},
+        "leader": "Regional military commander",
+        "notes": "Depleted post-Marawi; reorganizing through cell-based structure."
+      },
+      {
+        "component_name": "Suicide Bombing Unit",
+        "function": "Coordinated suicide attacks (IEDs, VBIEDs, suicide vests)",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Unknown operations chief",
+        "notes": "Notable for female suicide bomber deployment; unprecedented in regional context."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack claims, propaganda video production, recruitment messaging",
+        "size_estimate": {"min": 10, "max": 30, "confidence": "low"},
+        "leader": "Unknown media director",
+        "notes": "Coordinates with IS central Amaq News Agency; uses local languages (Maranao, Tausug)."
+      },
+      {
+        "component_name": "Recruitment and Radicalization",
+        "function": "Targeting Muslim youth, university campuses, family networks",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Unknown recruitment chief",
+        "notes": "Emphasis on social media recruitment via Facebook; leverages economic marginalization."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Maute Group",
+        "relationship_type": "core_component",
+        "jurisdiction": ["PHL"],
+        "notes": "Founding component; largely decimated post-Marawi; survivors reorganized."
+      },
+      {
+        "name": "Abu Sayyaf Group (Hapilon faction)",
+        "relationship_type": "core_component",
+        "jurisdiction": ["PHL"],
+        "notes": "Hapilon's faction merged with ISIS-EA; distinct from Sahiron-led Sulu faction."
+      },
+      {
+        "name": "BIFF (Bangsamoro Islamic Freedom Fighters)",
+        "relationship_type": "coordination",
+        "jurisdiction": ["PHL"],
+        "notes": "Loose coordination; shared Mindanao operations; some fighter movement."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Decentralized cell structure post-Marawi; limited central coordination; regional commanders retain autonomy.",
+      "discipline_and_enforcement": "Islamic law enforcement; execution for collaboration; religious justification for violence; family/clan social pressure maintains cohesion."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 200, "max": 300, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 150, "max": 200},
+      "support_personnel": {"min": 30, "max": 80},
+      "foreign_fighters": {"min": 80, "max": 120},
+      "female_participation": "15-20%; notable for suicide bombing operations (70% of Southeast Asia's suicide bombings since 2018 were female)."
+    },
+    "recruitment_demographics": {
+      "age_range": "15-40",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Predominantly Muslim Moro youth from Mindanao; marginalized communities; unemployed; university students; economically disadvantaged.",
+      "gender_distribution": "Predominantly male (80-85%); notable 15-20% female participation primarily in support and suicide bombing roles."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["guerrilla warfare", "IED construction", "urban combat", "religious ideology"],
+      "training_locations": ["Mindanao mountain camps", "Marawi ruins (post-2017)", "Syria (limited)"],
+      "notes": "Multi-week training courses; emphasis on Quranic interpretation and takfiri theology; urban combat instruction during Marawi siege; bomb-making training by experienced operatives."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "local",
+    "known_attack_types": ["suicide bombing", "armed assault", "IED", "VBIED", "mass shooting", "targeted assassination"],
+    "notable_operations": [
+      {
+        "operation_name": "Marawi City Siege",
+        "date": "2017-05-23",
+        "location": "Marawi City, Lanao del Sur",
+        "method_category": "urban occupation and coordinated combat",
+        "casualties_killed": 1681,
+        "casualties_injured": 3000,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:313", "web:314", "web:315", "web:316"]
+      },
+      {
+        "operation_name": "Jolo Cathedral Bombings",
+        "date": "2019-01-27",
+        "location": "Jolo Island, Sulu Province",
+        "method_category": "coordinated suicide bombing",
+        "casualties_killed": 23,
+        "casualties_injured": 100,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:321"]
+      },
+      {
+        "operation_name": "Jolo Military-Police Bombing",
+        "date": "2020-08-24",
+        "location": "Jolo Island, Sulu Province",
+        "method_category": "coordinated suicide bombing",
+        "casualties_killed": 15,
+        "casualties_injured": 77,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Marawi MSU Bombing",
+        "date": "2023-12-03",
+        "location": "Mindanao State University, Marawi City",
+        "method_category": "IED attack on Catholic mass",
+        "casualties_killed": 4,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203", "web:319"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["smuggling networks", "kidnapping for ransom"],
+      "transnational_network_links": ["IS central media (Amaq)", "Regional jihadist networks", "Foreign fighter facilitation networks"],
+      "notes": "IS central provides strategic guidance, propaganda support, and limited material aid; facilitates foreign fighter recruitment."
+    },
+    "operations_tempo_and_patterning": "Reduced tempo post-2017 Marawi (decimated forces); periodic resurges with suicide bombings and targeted attacks; pattern of Christmas/religious holiday targeting; increased attacks 2023-2024 suggesting reorganization and resurgence."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "IEDs", "suicide_vests", "VBIEDs"],
+      "acquisition_routes": "Captured military weapons (Marawi siege), black market procurement, smuggling across porous borders, DIY bomb construction",
+      "notes": "Access to commercial explosives; capability for sophisticated IED and VBIED production; suicide vest manufacturing; limited to small arms for conventional operations."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["social media recruitment and coordination", "encrypted messaging", "propaganda dissemination"],
+      "notes": "Facebook as primary recruitment platform; operational security via encrypted messengers (WhatsApp, Signal); limited offensive cyber capability."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Facebook", "Telegram", "encrypted messengers", "encrypted chat groups"],
+      "propaganda_platforms": ["Facebook", "YouTube (sporadic)", "Amaq News Agency", "local language Telegram channels"],
+      "notes": "Heavy reliance on social media (Facebook most interconnected in world, second only to Afghanistan per network analysis); rapid migration to encrypted platforms after takedowns."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "small boats/canoes", "pickup trucks", "foot (jungle operations)"],
+      "boxes": "Limited heavy logistics; small-unit mobile tactics; access to maritime smuggling routes for weapons and personnel."
+    },
+    "technical_gaps_and_weaknesses": "No air defense; vulnerable to airstrikes; limited advanced weapons; no drone capabilities; communication networks vulnerable to interception; heavily dependent on social media platforms subject to moderation."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 1_000_000, "currency": "USD", "confidence": "low"},
+    "revenue_streams": [
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom from kidnappings of civilians and foreign nationals",
+        "estimated_share_percent": 50,
+        "notes": "$500K annually; primary revenue source; targeting wealthy and foreign nationals."
+      },
+      {
+        "type": "extortion",
+        "description": "Extortion of local businesses and communities",
+        "estimated_share_percent": 30,
+        "notes": "$300K; taxation of merchants and transporters in controlled areas."
+      },
+      {
+        "type": "state_support",
+        "description": "Limited IS central support",
+        "estimated_share_percent": 15,
+        "notes": "$150K; reduced compared to pre-Marawi levels."
+      },
+      {
+        "type": "donations",
+        "description": "Diaspora and sympathizer donations",
+        "estimated_share_percent": 5,
+        "notes": "$50K; collected through informal networks."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, informal remittance networks, personal transfers.",
+      "notes": "Primarily cash-based operations; limited use of formal financial institutions due to sanctions; decentralized funding structure."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "Asset freezes, banking restrictions",
+        "implementing_body": "US, Philippines, UN",
+        "date": "2018-02-09",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["Facebook", "family networks", "university campuses", "Islamic study circles", "encrypted messaging"],
+    "recruitment_tactics": ["grievance exploitation (marginalization of Moro Muslims)", "ideological messaging (global jihad)", "social media propaganda", "promise of community and purpose"],
+    "target_profiles": ["Muslim youth 15-40", "university students", "economically marginalized", "religious seekers", "women seeking emancipatory roles"],
+    "recruitment_geography": ["Mindanao (primary)", "Sulu archipelago", "some recruitment in Indonesia and Malaysia"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 10, "confidence": "low"},
+    "youth_and_online_vulnerability": "Very high; Facebook-based recruitment targeting youth; exploitation of economic desperation and political marginalization; ideological appeal to sense of belonging and global significance; notable female recruitment for support and suicide bombing roles."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["combat videos", "attack claims (Amaq)", "religious sermons", "recruitment posters", "social media posts", "martyrdom glorification"],
+    "languages_used": ["Arabic", "English", "Tagalog", "Maranao", "Tausug"],
+    "messaging_themes": ["Islamic state establishment", "anti-Christian sentiment", "martyrdom and sacrifice", "defense of Muslims", "global jihad participation", "female empowerment (for female recruitment)"],
+    "audience_targeting": "Local Mindanao Muslim youth (primary), Southeast Asian jihadist networks, global IS supporters, marginalized Moro communities.",
+    "platform_policy_responses": "Facebook account removals (though network highly resilient); Telegram channel periodic takedowns; rapid re-establishment on alternative platforms; platform policies ineffective at disrupting core recruitment networks."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Philippines",
+        "case_ref": "Multiple ongoing terrorism prosecutions",
+        "defendants": ["Various ISIS-EA operatives captured in military operations"],
+        "outcome": "Convictions for terrorism offences; sentences vary; many cases ongoing.",
+        "notes": "Philippine military and security forces conduct both prosecutions and extrajudicial operations."
+      },
+      {
+        "jurisdiction": "Malaysia",
+        "case_ref": "Foreign fighter prosecutions",
+        "defendants": ["Malaysian nationals who fought in Marawi siege"],
+        "outcome": "Convictions under terrorism laws; varying sentences.",
+        "notes": "Repatriated foreign fighters from Marawi."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties during Marawi siege; indiscriminate bombing of civilian areas; targeting of churches and Christian communities; sexual violence; kidnapping; forced recruitment; use of suicide bombing tactics causing civilian casualties; displacement of populations; destruction of critical infrastructure."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack claims via Amaq", "type": "communications", "thresholds": ">1 claim/week signals elevated activity"},
+      {"indicator": "Facebook recruitment activity surge", "type": "communications", "thresholds": "coordinated online campaign precedes planned operations"},
+      {"indicator": "Weapons cache discoveries", "type": "geospatial", "thresholds": "military findings of IED materials or bomb-making workshops"}
+    ],
+    "early_warning_signals": ["Increased Telegram recruitment messaging", "Religious sermon distributions", "Social media celebration of martyrs", "Reports of foreign fighter arrivals"],
+    "data_needed_for_monitoring": ["HUMINT from informants", "social media monitoring (Facebook, Telegram)", "military intelligence on cell locations", "financial transaction tracking"],
+    "recommended_analytic_methods": ["social network analysis of Facebook recruitment", "temporal clustering of attacks", "geospatial mapping of incidents"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-EA poses persistent though reduced threat to Philippines and Southeast Asia. Post-Marawi organizational degradation significantly reduced capability; however, 2023-2024 reorganization signals resurgence. Female suicide bomber deployment represents tactical innovation and recruitment vulnerability. Small size but geographic isolation and porous borders with Indonesia/Malaysia complicate counterterrorism. Limited resources but access to international jihadist networks maintain threat viability.",
+    "vulnerable_sectors": ["religious facilities (churches)", "civilian soft targets", "military installations", "government personnel"],
+    "likely_future_trends": "Continued cell-based attacks; possible terrorist attacks during religious holidays; recruitment via social media persistence; potential coordination with Indonesian ISIS cells; possible expansion efforts toward Sulu archipelago.",
+    "recommended_mitigation_measures": [
+      "Sustained Philippine military operations against ISIS-EA strongholds",
+      "Enhanced social media monitoring and counter-narrative campaigns",
+      "Border security improvements with Indonesia to prevent foreign fighter influx",
+      "Deradicalization programs for detained fighters and potential recruits",
+      "Community resilience programs targeting vulnerable youth",
+      "International cooperation with Indonesia and Malaysia on transnational threats",
+      "Female-focused counter-radicalization initiatives",
+      "Intelligence sharing on foreign fighters and network coordination"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS–East Asia terrorist group profile (March 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_ea.html",
+        "date": "2025-03-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:312",
+        "type": "open_source",
+        "description": "US ODNI: ISIS-Philippines terrorist group designation (August 2020 archived)",
+        "url_or_reference": "https://www.odni.gov/nctc/terrorist_groups/isis_philippines",
+        "date": "2020-08-23",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:313",
+        "type": "open_source",
+        "description": "USAID OIG: Operation Pacific Eagle Philippines assessment (2017-2020)",
+        "url_or_reference": "https://oig.usaid.gov/operation-pacific-eagle-philippines",
+        "date": "2020-12-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:314",
+        "type": "open_source",
+        "description": "CSIS: Southeast Asia Marawi battle analysis (June 2017)",
+        "url_or_reference": "https://csis.org/marawi-battle-highlights",
+        "date": "2017-06-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:315",
+        "type": "open_source",
+        "description": "Wikipedia: Philippines and the Islamic State (2017-2019 events)",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Philippines_and_the_Islamic_State",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:316",
+        "type": "open_source",
+        "description": "New York Times: Marawi siege narrative and military operations (June 2017)",
+        "url_or_reference": "https://nytimes.com/marawi-siege-philippine-isis",
+        "date": "2017-06-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:318",
+        "type": "open_source",
+        "description": "Counter Extremism Project: Isnilon Hapilon biography (October 2017)",
+        "url_or_reference": "https://www.counterextremism.com/isnilon-hapilon",
+        "date": "2017-10-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:319",
+        "type": "open_source",
+        "description": "Counter Extremism Project: Philippines extremism overview (2024)",
+        "url_or_reference": "https://www.counterextremism.com/philippines-extremism",
+        "date": "2024-03-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:321",
+        "type": "open_source",
+        "description": "New York Times: Jolo Cathedral bombing analysis (January 2019)",
+        "url_or_reference": "https://nytimes.com/jolo-cathedral-isis-bombing",
+        "date": "2019-01-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:325",
+        "type": "open_source",
+        "description": "Asia Foundation: Understanding violent extremism messaging in Philippines (2017-2019)",
+        "url_or_reference": "https://asiafoundation.org/extremism-messaging-philippines",
+        "date": "2017-12-31",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
