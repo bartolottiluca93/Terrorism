@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "profile_id": "c1f6e3a9-2d4b-5c8e-7a1f-9b2d3e4f5a6b",
+    "name": "Islamic State–Mozambique",
+    "aliases": ["ISIS-M", "ISIS-Mozambique", "Ansar al-Sunna", "ASWJ", "Ahlu Sunnah Wal Jamaah", "Al-Shabaab (Mozambique)", "Wilayat Mozambique"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2021-03-10",
+        "reference": "web:360"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2021-03-31",
+        "reference": "web:363"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2015-01-01",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Resurging ISIS affiliate in Mozambique with 300-800 fighters, infamous for mass beheadings and child abductions, threatening regional energy infrastructure and displacing 700,000+ civilians.",
+    "overview": "Islamic State–Mozambique (ISIS-M), also known as Ansar al-Sunna (ASWJ) and locally as Al-Shabaab, is a Mozambican ISIS affiliate based in Cabo Delgado province. Originally emerging as a non-violent religious organization in 2015, ISIS-M launched its first attack in October 2017, escalating into one of Africa's deadliest insurgencies. At its peak in 2020-2021, the group controlled territory including the strategic port town of Mocímboa da Praia and executed the devastating March 2021 Palma attack (100+ deaths). Following military intervention by Rwanda and regional forces (2021-2023), ISIS-M was degraded to 300-500 fighters and dispersed to desert cell-based operations. However, in 2024-2025, ISIS-M has demonstrated remarkable resurgence, expanding southward into previously unaffected districts, adapting governance approaches, incorporating 100+ child fighters, and attracting foreign recruits. The group is notorious for systematic mass beheadings (often of children), sexual slavery of girls as young as seven, and targeting of critical TotalEnergies LNG infrastructure. With 700,000+ displaced and 6,000+ killed, ISIS-M poses a critical transnational threat to Mozambique, the region, and global energy security.",
+    "threat_level": "high",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2015-01-01",
+    "founders": ["Abou Yasir Hassan (later leader)", "Local religious leaders from Mocímboa da Praia"],
+    "origin_context": "ISIS-M emerged from youth-focused religious revival in Mocímboa da Praia (2015), founded by young men, some educated in Islamic schools in Somalia and with links to Salafi groups in Tanzania/Kenya. Initially non-violent, the movement emerged in response to perceived government marginalization of Muslims and Sufi Islamic leadership's perceived passivity. The group gradually radicalized, transitioned to violent insurgency, and pledged allegiance to ISIS by 2018 (formally recognized August 2019 as ISCAP, then designated separate Wilayat Mozambique May 2022).",
+    "key_milestones": [
+      {
+        "date": "2015-01-01",
+        "event": "Formation of Ansar al-Sunna as religious organization in Mocímboa da Praia",
+        "impact": "Emergence of youth-focused Islamist group; initially non-violent religious movement.",
+        "source_ids": ["web:362", "web:365"]
+      },
+      {
+        "date": "2017-10-05",
+        "event": "First attack: assault on three police stations in Mocímboa da Praia; 2-16 killed",
+        "impact": "Transition to armed insurgency; international attention; government response.",
+        "source_ids": ["web:362", "web:373"]
+      },
+      {
+        "date": "2018-04-01",
+        "event": "Group pledges allegiance to ISIS (reported but initially unconfirmed)",
+        "impact": "Operational upgrade; access to IS networks and technical support.",
+        "source_ids": ["web:362", "web:366"]
+      },
+      {
+        "date": "2019-08-01",
+        "event": "ISIS central officially recognizes group as part of ISCAP",
+        "impact": "Formal IS recognition; inclusion in Central Africa Province; media amplification.",
+        "source_ids": ["web:361", "web:362"]
+      },
+      {
+        "date": "2020-06-27",
+        "event": "ISIS-M captures Mocímboa da Praia town (first sustained urban control)",
+        "impact": "Peak territorial control; proto-state governance structure; 3,000+ fighters estimated.",
+        "source_ids": ["web:373", "web:374"]
+      },
+      {
+        "date": "2020-08-11",
+        "event": "ISIS-M maintains control of Mocímboa da Praia after major assault",
+        "impact": "Establishes year-long occupation; peak strength period; resource control.",
+        "source_ids": ["web:373", "web:376"]
+      },
+      {
+        "date": "2021-03-24",
+        "event": "Palma attack: 200+ fighters assault town; 100+ killed including 10+ foreigners",
+        "impact": "Deadliest attack on foreign workers; TotalEnergies force majeure declared; international crisis.",
+        "source_ids": ["web:361", "web:364"]
+      },
+      {
+        "date": "2021-08-11",
+        "event": "Rwanda and SAMIM forces retake Mocímboa da Praia after year-long occupation",
+        "impact": "End of major territorial control; ISIS-M dispersal to desert cells; membership collapse to 300-500.",
+        "source_ids": ["web:374", "web:376"]
+      },
+      {
+        "date": "2022-05-01",
+        "event": "ISIS formally designates group as Wilayat Mozambique (separate province status)",
+        "impact": "Enhanced organizational status; increased IS central support.",
+        "source_ids": ["web:369"]
+      },
+      {
+        "date": "2024-03-01",
+        "event": "ISIS-M resurgence signaling begins; expanded attacks in southern districts",
+        "impact": "Geographic expansion; operational adaptation; 100,000+ newly displaced.",
+        "source_ids": ["web:369"]
+      },
+      {
+        "date": "2024-05-01",
+        "event": "ISIS-M captures multiple barracks around Macomia and seizes town for two days",
+        "impact": "Operational resurgence demonstrated; military capability persistence.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2025-01-15",
+        "event": "ISIS-M captures Mucojo and implements Sharia law governance",
+        "impact": "Territorial consolidation in southern regions; 70+ children kidnapped in March 2025 attack.",
+        "source_ids": ["web:369"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Sunni Islamist"],
+    "core_objectives": [
+      "Establish Islamic caliphate/emirate in Mozambique",
+      "Overthrow secular FRELIMO government",
+      "Implement strict Sharia law nationwide",
+      "Expel foreign influences and military"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in Cabo Delgado and expand south",
+      "Establish governance structures in captured towns",
+      "Conduct coordinated mass-casualty attacks",
+      "Disrupt TotalEnergies LNG operations"
+    ],
+    "long_term_goals": [
+      "Establish ISIS caliphate branch encompassing southern Africa",
+      "Create logistical and financial hub for IS African operations",
+      "Prevent development and foreign investment",
+      "Integrate with Sahel jihadist networks for pan-African caliphate"
+    ],
+    "narrative_and_justification": "ISIS-M frames violence as religious duty to establish Islamic governance and defend marginalized Muslim populations from secular state oppression. Exploits local grievances against government neglect despite resource wealth (natural gas, minerals). Uses takfiri theology to justify extreme violence against civilians, religious minorities, and perceived collaborators.",
+    "target_selection_logic": "Strategic: TotalEnergies LNG infrastructure, government facilities, military bases; Tactical: civilians in controlled/contested areas (population control), foreign workers (pressure on international investors); Ideological: Christians and religious minorities, collaborators with government."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["MOZ", "TZA", "MWI"],
+    "territorial_control": [
+      {
+        "location_name": "Mocímboa da Praia, central Cabo Delgado coast",
+        "geocoordinates": {"lat": -11.35, "lon": 39.25},
+        "control_type": "contested",
+        "control_period": {"from": "2017-10-01", "to": null},
+        "notes": "Historic stronghold; port town; periodic occupation August 2020–August 2021, periodic insurgent incursions post-2021.",
+        "source_ids": ["web:361", "web:373", "web:376"]
+      },
+      {
+        "location_name": "Palma district, southern Cabo Delgado",
+        "geocoordinates": {"lat": -10.5, "lon": 39.75},
+        "control_type": "contested",
+        "control_period": {"from": "2021-03-24", "to": "2021-03-28"},
+        "notes": "Site of March 2021 major attack; TotalEnergies LNG base proximity; ongoing operations.",
+        "source_ids": ["web:361", "web:364", "web:370"]
+      },
+      {
+        "location_name": "Macomia district, central Cabo Delgado",
+        "geocoordinates": {"lat": -11.8, "lon": 39.6},
+        "control_type": "contested",
+        "control_period": {"from": "2019-01-01", "to": null},
+        "notes": "Strategic inland position; May 2024 barracks captures; ongoing military operations.",
+        "source_ids": ["web:369", "web:371"]
+      },
+      {
+        "location_name": "Southern Cabo Delgado districts (Chiure, Mecúfi, Quissanga, Mucojo)",
+        "geocoordinates": {"lat": -11.5, "lon": 39.0},
+        "control_type": "presence",
+        "control_period": {"from": "2023-12-01", "to": null},
+        "notes": "2024-2025 expansion into previously unaffected areas; new governance implementation.",
+        "source_ids": ["web:369"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Cabo Delgado rural areas and forests",
+        "type": "rural",
+        "notes": "Ungoverned spaces; mobile cell-based operations; training camps."
+      },
+      {
+        "location_name": "Cross-border regions with Tanzania",
+        "type": "transnational",
+        "notes": "October 2020 first cross-border attack into Tanzania; ongoing operations."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Tanzania",
+        "community_size_estimate": "200-400 fighters",
+        "activities": ["operations", "recruitment", "logistics"],
+        "source_ids": ["web:369", "web:374"]
+      },
+      {
+        "country": "Rwanda",
+        "community_size_estimate": "recruitment network",
+        "activities": ["recruitment", "foreign fighter supply"],
+        "source_ids": ["web:369"]
+      },
+      {
+        "country": "South Africa",
+        "community_size_estimate": "foreign fighter cells",
+        "activities": ["recruitment", "fundraising"],
+        "source_ids": ["web:369"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Abu Yasir Hassan",
+          "aliases": ["Yaseer Hassan", "Abu Qasim"],
+          "role": "Former leader (SDGT designation)",
+          "last_seen": "2021-03-24",
+          "status": "alive",
+          "biographical_notes": "Tanzanian national (born 1981-1983); assumed leadership October 2017; co-commanded Palma attack March 2021; designated SDGT US March 10, 2021; current status unclear.",
+          "source_ids": ["web:360", "web:366"]
+        },
+        {
+          "name": "Current leadership (name unknown)",
+          "aliases": [],
+          "role": "Current Wali (Governor)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Identity protected; leads post-2021 reorganization; directs southward expansion 2024-2025.",
+          "source_ids": ["web:369"]
+        }
+      ],
+      "leadership_model": "decentralized",
+      "succession_mechanism": "Leadership transitions disrupted by military deaths; increasingly cell-based autonomous structure; IS central provides strategic guidance."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed combat, coordinated attacks, territorial control",
+        "size_estimate": {"min": 200, "max": 500, "confidence": "high"},
+        "leader": "Regional military commanders",
+        "notes": "Cell-based structure post-2021; estimated 300-800 total fighters (low end conservative, high end including support)."
+      },
+      {
+        "component_name": "Governance and Administration",
+        "function": "Territorial governance, Sharia law implementation, service provision",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "medium"},
+        "leader": "Administrative governor",
+        "notes": "Implements Islamic governance in captured areas; evolving from extraction/brutality to welfare provision."
+      },
+      {
+        "component_name": "Financial and Extortion Networks",
+        "function": "Revenue extraction, taxation, kidnap-ransom coordination",
+        "size_estimate": {"min": 30, "max": 80, "confidence": "low"},
+        "leader": "Financial coordinator",
+        "notes": "Targets civilians, businesses, LNG workers for extortion and ransom."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack claims, propaganda videos, recruitment messaging",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Media director",
+        "notes": "Produces Mujahideen TV content; coordinates with IS central media (Amaq); Telegram distribution."
+      },
+      {
+        "component_name": "Recruitment and Child Indoctrination",
+        "function": "Recruitment targeting youth and children; indoctrination programs",
+        "size_estimate": {"min": 50, "max": 100, "confidence": "low"},
+        "leader": "Recruitment chief",
+        "notes": "100+ child fighters incorporated 2024-2025; family network-based recruitment."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "ISCAP (Islamic State Central Africa Province) 2019-2022",
+        "relationship_type": "former_parent",
+        "jurisdiction": ["MOZ", "COD"],
+        "notes": "ISIS-Mozambique operated as ISCAP component until May 2022 formal designation as separate Wilayat."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Decentralized post-2021; cell autonomy; regional commanders operate independently; IS central provides strategic guidance.",
+      "discipline_and_enforcement": "Islamic law enforcement; harsh punishment for violations; religious justification; collective punishment against civilians."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 300, "max": 800, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 200, "max": 500},
+      "support_personnel": {"min": 50, "max": 150},
+      "foreign_fighters": {"min": 100, "max": 200},
+      "female_participation": "5-10%; increasing in administrative and support roles; some combatant roles.",
+      "child_fighters": "100+ incorporated 2024; kidnapped boys; recent escalation."
+    },
+    "composition_peak": {
+      "year": "2020",
+      "total": {"min": 2_000, "max": 3_000},
+      "description": "Peak membership during Mocímboa da Praia occupation."
+    },
+    "recruitment_demographics": {
+      "age_range": "13-45",
+      "education_levels": ["primary", "secondary", "quranic schools"],
+      "socioeconomic_background": "Predominantly unemployed youth from marginalized Mwani/Makua ethnic groups; economically disadvantaged; coercive child recruitment increasing.",
+      "gender_distribution": "90%+ male; 10% female in support roles; increasing."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "Sharia law", "recruitment", "guerrilla warfare", "governance"],
+      "training_locations": ["Cabo Delgado camps", "Mocímboa da Praia (during occupation)", "desert mobile camps"],
+      "notes": "Training emphasizes Islamic theology; military basics; governance responsibilities; child soldiers integrated into operational units."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "regional",
+    "known_attack_types": ["mass beheading", "armed assault", "kidnapping", "IED", "extortion", "village raids", "cross-border attack", "resource targeting"],
+    "notable_operations": [
+      {
+        "operation_name": "Mocímboa da Praia Occupation",
+        "date": "2020-08-11",
+        "location": "Mocímboa da Praia, Cabo Delgado",
+        "method_category": "urban military occupation and governance",
+        "casualties_killed": 500,
+        "casualties_injured": 800,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:373", "web:376"]
+      },
+      {
+        "operation_name": "Palma Attack",
+        "date": "2021-03-24",
+        "location": "Palma, Cabo Delgado",
+        "method_category": "coordinated multi-directional assault on town",
+        "casualties_killed": 100,
+        "casualties_injured": 200,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:361", "web:364"]
+      },
+      {
+        "operation_name": "24 de Marco Village Beheading Massacre",
+        "date": "2020-11-01",
+        "location": "24 de Marco village, Muidumbe, Cabo Delgado",
+        "method_category": "mass beheading of adolescent boys",
+        "casualties_killed": 20,
+        "casualties_injured": 0,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:377"]
+      },
+      {
+        "operation_name": "Tanzania Cross-Border Attack",
+        "date": "2020-10-15",
+        "location": "Kitaya, Mtwara Region, Tanzania",
+        "method_category": "armed assault",
+        "casualties_killed": 22,
+        "casualties_injured": 50,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "Macomia Barracks Captures",
+        "date": "2024-05-01",
+        "location": "Macomia district, Cabo Delgado",
+        "method_category": "military barracks assault",
+        "casualties_killed": 30,
+        "casualties_injured": 60,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["kidnapping networks", "smuggling routes"],
+      "transnational_network_links": ["IS central media (Amaq)", "IS ISCAP coordination (pre-2022)", "Sahel jihadist networks", "Tanzania jihadist networks"],
+      "notes": "IS central provides strategic guidance, propaganda amplification; limited direct financial support; integration with regional criminal networks."
+    },
+    "operations_tempo_and_patterning": "Peak 2020-2021 (frequent major operations); degraded 2021-2023 (sporadic desert cell attacks); resurgence 2024-2025 (increasing frequency and sophistication). Pattern: night raids on civilian areas and military positions; periodic town occupations; accelerating expansion into new districts."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "RPGs", "mortars", "machetes"],
+      "acquisition_routes": "Captured from Mozambican military bases, black market smuggling networks, regional arms trafficking, battlefield acquisitions",
+      "notes": "Heavy reliance on machetes for mass killings; access to military weapons through battlefield captures and smuggling; limited heavy weapons; IED production capability."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda dissemination via Telegram", "encrypted communications", "video production and upload", "attack documentation"],
+      "notes": "Heavy reliance on central IS media outlets; limited independent cyber operations; Telegram primary platform for operational security and propaganda."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram encrypted channels", "Radio broadcasts", "encrypted messengers"],
+      "propaganda_platforms": ["Amaq News Agency", "Mujahideen TV (Telegram)", "social media (sporadic)"],
+      "notes": "Centralized messaging through IS media; Telegram resilient to platform takedowns via rapid channel recreation."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks", "boats (coastal)", "foot (bush/forest)"],
+      "boxes": "Mobile small-unit tactics; decentralized cell operations; coastal maritime smuggling routes; limited heavy logistics."
+    },
+    "technical_gaps_and_weaknesses": "No air defense; vulnerable to airstrikes and helicopter gunships; limited advanced weaponry; communication networks susceptible to interception; dependence on smuggling networks for supply; low ammunition resupply capacity."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 2_000_000, "currency": "USD", "confidence": "low"},
+    "revenue_streams": [
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom for kidnapped civilians, businesspeople, and LNG workers",
+        "estimated_share_percent": 50,
+        "notes": "$1M annually; primary revenue source; targeting wealthy individuals and foreigners."
+      },
+      {
+        "type": "extortion",
+        "description": "Taxation of local populations, merchants, and LNG workers",
+        "estimated_share_percent": 30,
+        "notes": "$600K; systematic extortion from businesses and communities in controlled areas."
+      },
+      {
+        "type": "looting",
+        "description": "Direct looting of cash, goods, and supplies from attacked locations",
+        "estimated_share_percent": 15,
+        "notes": "$300K; opportunistic looting during attacks; food warehouse raids (Palma)."
+      },
+      {
+        "type": "state_support",
+        "description": "Limited support from IS central",
+        "estimated_share_percent": 5,
+        "notes": "$100K; reduced from peak operational capability."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, informal remittance networks, personal smuggling networks.",
+      "notes": "Primarily cash-based; decentralized fund management; integration with local smuggling networks for money movement."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions",
+        "implementing_body": "US, UN",
+        "date": "2021-03-10",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "coercive conscription", "religious networks", "economic incentives", "kidnapping"],
+    "recruitment_tactics": ["religious ideology messaging", "economic incentives ($30-50/month soldiers)", "coercive forced recruitment", "family/clan networks", "promises of governance participation"],
+    "target_profiles": ["unemployed youth (13-45)", "marginalized Mwani/Makua ethnic groups", "economically disadvantaged", "children (forcibly)", "women (coercive)"],
+    "recruitment_geography": ["Cabo Delgado (primary)", "Tanzania", "Mozambique-Tanzania border"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 5, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; exploitation of economic desperation and ethnic marginalization; weak government services enabling recruitment; coercive child recruitment increasing 2024-2025; family pressure dynamics."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "attack documentation videos", "Amaq news agency claims", "Mujahideen TV content", "attack glorification", "martyrdom messaging"],
+    "languages_used": ["Arabic", "Portuguese", "Makua", "Swahili"],
+    "messaging_themes": ["Islamic governance and Sharia law", "anti-colonial liberation", "anti-foreign investment", "religious duty", "community protection", "anti-government"],
+    "audience_targeting": "Local Mozambican youth (primary); regional East African militants; global ISIS supporters; foreign worker intimidation.",
+    "platform_policy_responses": "Telegram channel removals (rapid recreation); social media account suspensions; Amaq bulletins resilient; platform policies ineffective against encrypted core networks."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Mozambique",
+        "case_ref": "Military court proceedings",
+        "defendants": ["Various ISIS-M fighters captured by joint forces"],
+        "outcome": "Limited prosecutions; many cases lack judicial capacity; some extrajudicial operations.",
+        "notes": "Weak judicial infrastructure; transitional justice challenges."
+      }
+    ],
+    "human_rights_concerns": "Mass systematic beheadings (including children as young as 11); sexual violence and slavery (girls as young as 7); forced child soldier recruitment (100+ child fighters); mass displacement (700,000+ civilians); civilian massacres; summary executions; torture; extrajudicial killings by government forces; attacks on humanitarian aid; destruction of schools and health facilities; sexual assault by security forces; environmental destruction (burned villages)."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq attack claims frequency", "type": "communications", "thresholds": ">2/week signals major campaign"},
+      {"indicator": "Ransom demand increases", "type": "financial", "thresholds": "spike in kidnappings/ransom requests"},
+      {"indicator": "District expansion reports", "type": "geospatial", "thresholds": "operations in new geographic areas"}
+    ],
+    "early_warning_signals": ["Increased recruitment messaging", "Mass movement of fighters to new areas", "Leadership announcement releases", "Prisoner breakout planning"],
+    "data_needed_for_monitoring": ["satellite imagery (Cabo Delgado territorial control)", "SIGINT (encrypted communications)", "HUMINT from informants", "financial transaction tracking"],
+    "recommended_analytic_methods": ["network analysis of command structure", "temporal attack clustering", "geospatial conflict mapping", "propaganda content analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-Mozambique poses critical and escalating threat. 2024-2025 resurgence demonstrates organizational resilience despite military degradation. Geographic expansion into southern districts, intensified child recruitment, and strategic targeting of TotalEnergies LNG infrastructure (critical global energy asset) elevate transnational significance. 700,000+ displaced civilians and 6,000+ deaths represent humanitarian catastrophe. Group's integration with regional networks and IS central coordination suggests long-term strategic commitment.",
+    "vulnerable_sectors": ["critical energy infrastructure (TotalEnergies LNG)", "civilian populations in rural areas", "military and security forces", "humanitarian aid organizations", "transport and commerce"],
+    "likely_future_trends": "Continued southward geographic expansion; possible territorial consolidation in Fezzan-like desert sanctuary; increasing child soldier incorporation; potential attacks on LNG infrastructure; cross-border operations expansion into Tanzania; integration with Sahel networks; possible negotiations with government (tactical pause).",
+    "recommended_mitigation_measures": [
+      "Sustained military operations with adequate resources and coordination (Rwanda + SAMIM + Mozambique)",
+      "LNG infrastructure hardening and security enhancement",
+      "Border security improvements (Mozambique-Tanzania-Malawi)",
+      "Governance and service provision in recovered areas (critical gap)",
+      "Disruption of kidnapping and ransom networks",
+      "Child soldier deradicalization and rehabilitation programs",
+      "Counter-propaganda operations addressing resurgence messaging",
+      "International cooperation with regional partners (Tanzania, Rwanda, regional forces)",
+      "Accountability mechanisms for war crimes (beheadings, sexual violence, child soldiers)",
+      "Economic development targeting marginalized communities and youth"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS–Mozambique terrorist group profile (April 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_mozambique.html",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:360",
+        "type": "open_source",
+        "description": "Counter Extremism Project: Abu Yasir Hassan leadership profile (March 2021)",
+        "url_or_reference": "https://www.counterextremism.com/abu-yasir-hassan",
+        "date": "2021-03-09",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:361",
+        "type": "open_source",
+        "description": "CTC Westpoint: Palma attack analysis (April 2021)",
+        "url_or_reference": "https://ctc.westpoint.edu/palma-attack-evolving-jihadi-threat/",
+        "date": "2021-04-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:362",
+        "type": "open_source",
+        "description": "Tony Blair Institute: Mozambique conflict and deteriorating security (June 2020)",
+        "url_or_reference": "https://institute.global/mozambique-conflict",
+        "date": "2020-06-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:363",
+        "type": "open_source",
+        "description": "Soufan Center: ISIS in Mozambique regional threat (March 2021)",
+        "url_or_reference": "https://thesoufancenter.org/isis-mozambique-regional-threat/",
+        "date": "2021-03-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:364",
+        "type": "open_source",
+        "description": "Human Rights Watch: Civilians prevented from fleeing fighting (Palma aftermath)",
+        "url_or_reference": "https://www.hrw.org/mozambique-civilians-prevented-fleeing",
+        "date": "2021-03-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:365",
+        "type": "open_source",
+        "description": "Wikipedia: Al-Shabaab Mozambique comprehensive history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Al-Shabaab_Mozambique",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:369",
+        "type": "open_source",
+        "description": "Soufan Center: ISIS-Mozambique resurgence March 2024",
+        "url_or_reference": "https://thesoufancenter.org/isis-mozambique-resurging-2024/",
+        "date": "2024-03-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:374",
+        "type": "open_source",
+        "description": "Counter Extremism Project: Mozambique extremism overview (January 2022)",
+        "url_or_reference": "https://www.counterextremism.com/mozambique-extremism",
+        "date": "2022-01-30",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:380",
+        "type": "open_source",
+        "description": "Amnesty International: War crimes in Mozambique Cabo Delgado (2020)",
+        "url_or_reference": "https://amnesty.org/mozambique-war-crimes/",
+        "date": "2020-12-31",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
