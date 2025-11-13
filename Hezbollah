@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "profile_id": "fbc47b97-d41b-4f28-8858-d5a52cbb7392",
+    "name": "Hezbollah",
+    "aliases": ["Hizbollah", "Party of God", "حزب الله"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "1997-10-08",
+        "reference": "web:47"
+      },
+      {
+        "country_or_body": "European Union",
+        "designation": "Terrorist organization (military wing)",
+        "designation_date": "2013-07-22",
+        "reference": "web:48"
+      },
+      {
+        "country_or_body": "Canada",
+        "designation": "Terrorist organization",
+        "designation_date": "2002-12-10",
+        "reference": "web:49"
+      },
+      {
+        "country_or_body": "United Kingdom",
+        "designation": "Terrorist organization (full designation from 2019)",
+        "designation_date": "2019-03-01",
+        "reference": "web:50"
+      },
+      {
+        "country_or_body": "Germany",
+        "designation": "Terrorist organization",
+        "designation_date": "2020-04-30",
+        "reference": "web:50"
+      },
+      {
+        "country_or_body": "Australia",
+        "designation": "Terrorist organization (ESO since 2003, full group since 2022)",
+        "designation_date": "2022-11-24",
+        "reference": "web:5"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "1982-07-01",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Lebanese Shiite Islamist group with regional military and political influence, designated terrorist by many states.",
+    "overview": "Hezbollah is a Shiite Islamist armed movement and political party based in Lebanon, with significant military, social, and political roles in Lebanon and the broader Middle East. Backed by Iran, it holds seats in Lebanon's parliament and has a powerful paramilitary wing, engaging in regional conflicts and global criminality. It is designated as a terrorist organization by numerous states and bodies due to its attacks, illicit funding, and destabilizing operations.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "1982-07-01",
+    "founders": ["Iranian Revolutionary Guards", "Lebanese Shia clerics", "Subhi al-Tufayli", "Hussein al-Musawi"],
+    "origin_context": "Hezbollah emerged during the Lebanese Civil War, in response to the Israeli invasion of Lebanon and ongoing sectarian conflict, primarily among the Shia community seeking protection and empowerment, with Iranian support.",
+    "key_milestones": [
+      {
+        "date": "1985-02-16",
+        "event": "Release of open letter outlining ideological doctrine",
+        "impact": "Stated aim to expel Western powers and eliminate Israel",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2000-05-25",
+        "event": "Israeli withdrawal from southern Lebanon",
+        "impact": "Boosted Hezbollah's reputation as a 'resistance' force",
+        "source_ids": ["web:4"]
+      },
+      {
+        "date": "2006-07-12",
+        "event": "War with Israel",
+        "impact": "Demonstrated military capacity; increased support among Lebanese Shia",
+        "source_ids": ["web:4"]
+      },
+      {
+        "date": "2013-07-22",
+        "event": "EU military wing terrorist designation",
+        "impact": "Increased global pressure and sanctions",
+        "source_ids": ["web:48"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Shiite Islamist", "Political Islam", "Revolutionary Islamic Nationalism"],
+    "core_objectives": [
+      "Establish Islamic governance in Lebanon",
+      "Resistance against Israel",
+      "Oppose Western influence"
+    ],
+    "short_term_goals": [
+      "Maintain deterrence against Israel",
+      "Expand influence in Lebanese politics",
+      "Support allied regional groups"
+    ],
+    "long_term_goals": [
+      "Liberation of Palestine",
+      "Global Shiite empowerment",
+      "Removal of Western powers from the region"
+    ],
+    "narrative_and_justification": "Hezbollah frames its violent actions as defensive resistance to oppression and foreign occupation, invoking religious duty and self-defense for the Shia and Lebanese population.",
+    "target_selection_logic": "Israeli military/political interests, Western assets, perceived collaborators, rival armed groups."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["LBN", "SYR", "IRQ"],
+    "territorial_control": [
+      {
+        "location_name": "South Beirut, Dahiyeh",
+        "geocoordinates": {"lat": 33.8333, "lon": 35.5131},
+        "control_type": "firm_control",
+        "control_period": {"from": "2000-05-01", "to": null},
+        "notes": "Hezbollah maintains strong security and political control in southern Beirut suburbs.",
+        "source_ids": ["web:37","web:40"]
+      },
+      {
+        "location_name": "Southern Lebanon",
+        "geocoordinates": {"lat": 33.3496, "lon": 35.4846},
+        "control_type": "firm_control",
+        "control_period": {"from": "2000-05-01", "to": null},
+        "notes": "Key operational and rocket launch territories.",
+        "source_ids": ["web:46","web:43"]
+      },
+      {
+        "location_name": "Qalamoun, Syria",
+        "geocoordinates": {"lat": 33.9026, "lon": 36.4634},
+        "control_type": "presence",
+        "control_period": {"from": "2013-05-15", "to": null},
+        "notes": "Joint Hezbollah-Syrian operations and logistics hub.",
+        "source_ids": ["web:38"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Bekaa Valley",
+        "type": "rural",
+        "notes": "Key rear base and logistics hub"
+      },
+      {
+        "location_name": "Beirut suburbs",
+        "type": "urban",
+        "notes": "Political, social, and command sites"
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Germany",
+        "community_size_estimate": "low thousands",
+        "activities": ["fundraising", "propaganda"],
+        "source_ids": ["web:50"]
+      },
+      {
+        "country": "Latin America (Paraguay, Brazil, Venezuela)",
+        "community_size_estimate": "unknown",
+        "activities": ["fundraising", "illicit trade", "money laundering"],
+        "source_ids": ["web:30","web:33"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Hassan Nasrallah",
+          "aliases": ["Sayyed Nasrallah"],
+          "role": "General Secretary",
+          "last_seen": "2025-09-27",
+          "status": "alive",
+          "biographical_notes": "Supreme leader and main strategist since 1992, spearheading political-military transformation.",
+          "source_ids": ["web:6","web:49"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Internal consultation among senior clerics and military chiefs; Iranian input likely."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Wing (Islamic Resistance)",
+        "function": "Armed operations, defense, guerrilla tactics",
+        "size_estimate": {"min": 20_000, "max": 30_000, "confidence": "high"},
+        "leader": "Unspecified field commander, under Nasrallah",
+        "notes": "Engaged in combat with Israel and Syria operations"
+      },
+      {
+        "component_name": "Political Wing",
+        "function": "Parliamentary participation, policy, social services",
+        "size_estimate": {"min": 50, "max": 100, "confidence": "high"},
+        "leader": "Senior Shura Council",
+        "notes": "Influences Lebanese legislative agenda"
+      },
+      {
+        "component_name": "External Security Organization (ESO)",
+        "function": "Intelligence, overseas operations, special missions",
+        "size_estimate": {"min": 200, "max": 500, "confidence": "medium"},
+        "leader": "Unspecified",
+        "notes": "Coordinates international operations"
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Kata'ib Hezbollah",
+        "relationship_type": "ally",
+        "jurisdiction": ["IRQ"],
+        "notes": "Iraqi militia aligned with Hezbollah and IRGC"
+      },
+      {
+        "name": "Popular Mobilization Forces (PMF)",
+        "relationship_type": "ally",
+        "jurisdiction": ["IRQ"],
+        "notes": "Network of Iranian-backed Iraqi Shiite militias"
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized by Shura Council, Nasrallah holds veto; key decisions with Iranian consultation.",
+      "discipline_and_enforcement": "Strict internal code; enforcement via religious and military hierarchy."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 25_000, "max": 45_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 20_000, "max": 30_000},
+      "support_personnel": {"min": 5_000, "max": 10_000},
+      "foreign_fighters": {"min": 500, "max": 2_000},
+      "female_participation": "Mostly auxiliary, logistical, medical, communications; few in combat."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-40",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Predominantly lower-middle-class Shia; increasing recruitment among youth with limited opportunities.",
+      "gender_distribution": "Overwhelmingly male; <10% female involvement."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["paramilitary", "ideological", "technical/communications"],
+      "training_locations": ["Southern Lebanon", "Bekaa Valley", "Syria"],
+      "notes": "Training includes arms handling, guerrilla tactics, religious indoctrination."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "regional",
+    "known_attack_types": ["rocket artillery", "armed assault", "IEDs", "kidnapping", "information warfare", "propaganda"],
+    "notable_operations": [
+      {
+        "operation_name": "2006 Lebanon-Israel War",
+        "date": "2006-07-12",
+        "location": "Southern Lebanon, Israel",
+        "method_category": "cross-border raid, rocket launches",
+        "casualties_killed": 160,
+        "casualties_injured": 600,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1","web:4"]
+      },
+      {
+        "operation_name": "AMIA bombing",
+        "date": "1994-07-18",
+        "location": "Buenos Aires, Argentina",
+        "method_category": "car bomb",
+        "casualties_killed": 85,
+        "casualties_injured": 300,
+        "claim_status": "attributed",
+        "attribution_confidence": "medium",
+        "sources": ["web:33"]
+      },
+      {
+        "operation_name": "Operations in Syria",
+        "date": "2012-08-01",
+        "location": "Qalamoun, Syria",
+        "method_category": "military support, urban combat",
+        "casualties_killed": 200,
+        "casualties_injured": 500,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:38","web:41"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["Iran", "Syria"],
+      "criminal_partnerships": ["drug trafficking (Latin America)", "money laundering"],
+      "transnational_network_links": ["Iranian IRGC", "Iraqi militias", "Syrian regime"],
+      "notes": "Extensive coordination for logistics, finance, and training."
+    },
+    "operations_tempo_and_patterning": "Frequent rocket launches and border clashes with Israel; support for Syrian regime; targeted assassinations and propaganda in diverse geographies."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "manpads", "rocket_systems", "mortars"],
+      "acquisition_routes": "primarily supplied by Iran/Syria, supplemented by black market and battlefield capture",
+      "notes": "Possesses advanced drones and precision-guided rockets."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda distribution", "media hacking attempts"],
+      "notes": "Focuses primarily on communication and narrative warfare."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted apps", "Al-Manar TV", "social media"],
+      "propaganda_platforms": ["Al-Manar", "social media", "websites"],
+      "notes": "Television and web media play central role in mobilization and recruitment."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["land convoys", "small vehicles", "maritime"],
+      "boxes": "Robust supply networks span Iran–Syria–Lebanon; includes clandestine and civilian channels."
+    },
+    "technical_gaps_and_weaknesses": "Limited air-defense; exposed to advanced surveillance and airstrikes."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 450_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "state_support",
+        "description": "Direct funding from Iran, estimated 70-80% of budget",
+        "estimated_share_percent": 75,
+        "notes": "Sustained despite sanctions"
+      },
+      {
+        "type": "illicit_trade",
+        "description": "Money laundering, drug trafficking, smuggling",
+        "estimated_share_percent": 15,
+        "notes": "Operates via global networks, especially in Latin America."
+      },
+      {
+        "type": "donations",
+        "description": "Local and global Shia fundraising",
+        "estimated_share_percent": 5,
+        "notes": "Religious and social outreach"
+      },
+      {
+        "type": "legitimate_business",
+        "description": "Owned enterprises in Lebanon and abroad",
+        "estimated_share_percent": 5,
+        "notes": "Front companies and investments"
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Front companies and cash couriers operate mainly in Lebanon and Europe.",
+      "notes": "Layered, resilient structure; adapts to international pressure."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "Banking and travel restrictions",
+        "implementing_body": "EU, US, Australia, UK",
+        "date": "2020-04-30",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["community centers", "religious institutions", "online propaganda"],
+    "recruitment_tactics": ["ideological messaging", "provision of social services", "family and peer networks"],
+    "target_profiles": ["young male Shia", "low-income", "politically alienated youth"],
+    "recruitment_geography": ["Lebanon", "Syria", "diaspora/Europe"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 3, "confidence": "low"},
+    "youth_and_online_vulnerability": "High; targeted messaging via social media and local religious organizations."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["videos", "television shows", "social media posts", "magazines"],
+    "languages_used": ["Arabic", "English", "French"],
+    "messaging_themes": ["resistance", "martyrdom", "anti-Israel", "anti-Western", "community development"],
+    "audience_targeting": "Local Shia, Arab world, expatriates in Latin America, Europe",
+    "platform_policy_responses": "Al-Manar has been banned on major Western satellites; periodic takedowns of Hezbollah-linked social accounts."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Cyprus",
+        "case_ref": "Yaacoub (2013)",
+        "defendants": ["Hossam Taleb Yaacoub"],
+        "outcome": "Convicted for plot planning",
+        "notes": "Foiled attack on Israeli interests"
+      },
+      {
+        "jurisdiction": "Argentina",
+        "case_ref": "AMIA bombing (1994)",
+        "defendants": ["Hezbollah operatives"],
+        "outcome": "Ongoing investigation, international arrest warrants",
+        "notes": "Suspected Hezbollah involvement"
+      }
+    ],
+    "human_rights_concerns": "Hezbollah's operations contribute to civilian displacement, coercive taxation, and have caused casualties in urban conflicts; accused of using civilian infrastructure for military purposes."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Spike in encrypted communications in southern Lebanon", "type": "communications", "thresholds": "increase by >50% over baseline"},
+      {"indicator": "Unusual cross-border movements", "type": "geospatial", "thresholds": "multiple groups active at border"},
+      {"indicator": "Sudden financial transfers to NGOs", "type": "financial", "thresholds": ">USD 2m in anomalous patterns"}
+    ],
+    "early_warning_signals": ["Rocket or drone preparations", "Al-Manar broadcasts calling for mobilization", "Social media spike in martyrdom rhetoric"],
+    "data_needed_for_monitoring": ["satellite", "banking/financial reports", "HUMINT", "open-source"],
+    "recommended_analytic_methods": ["link analysis", "temporal clustering", "network analysis"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Hezbollah's hybrid status as both political actor and paramilitary group enables significant threat projection—missile attacks, intelligence operations, and destabilizing alliances—across Lebanon, Israel, Syria, and beyond.",
+    "vulnerable_sectors": ["infrastructure", "government", "transport", "energy"],
+    "likely_future_trends": "Continued arms buildup by Iran, resilience against sanctions, persistent regional involvement including possible escalation with Israel.",
+    "recommended_mitigation_measures": [
+      "Sustain coordinated international sanctions on finance and logistics",
+      "Strengthen intelligence exchange",
+      "Boost civil society engagement in Lebanese Shia regions",
+      "Increase technical countermeasures against propaganda and cyber activities"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "open_source",
+        "description": "Encyclopedic overview and timeline",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Hezbollah",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:4",
+        "type": "open_source",
+        "description": "Hezbollah background and activities (Council on Foreign Relations)",
+        "url_or_reference": "https://www.cfr.org/backgrounder/what-hezbollah",
+        "date": "2023-09-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:6",
+        "type": "open_source",
+        "description": "Al Jazeera report on Hassan Nasrallah 2025",
+        "url_or_reference": "https://www.aljazeera.com/news/nasrallah-2025",
+        "date": "2025-09-27",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:30",
+        "type": "open_source",
+        "description": "Analysis of Hezbollah's Latin America activities",
+        "url_or_reference": "https://latinoamerica21.com/en/hezbollah-illicit-activities",
+        "date": "2024-09-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:33",
+        "type": "open_source",
+        "description": "Small Wars Journal on Hezbollah drug and terror networks",
+        "url_or_reference": "https://smallwarsjournal.com/hezbollah-cocaine",
+        "date": "2023-04-25",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:37",
+        "type": "open_source",
+        "description": "Long War Journal: Israeli operations inside Lebanon and Hezbollah control",
+        "url_or_reference": "https://longwarjournal.org/2025/04/idf-hezbollah-dahiyeh",
+        "date": "2025-04-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:40",
+        "type": "open_source",
+        "description": "Foreign Policy: Disarmament and Dahiyeh stronghold",
+        "url_or_reference": "https://foreignpolicy.com/2025/10/01/dahiyeh-hezbollah-disarmament",
+        "date": "2025-10-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:48",
+        "type": "open_source",
+        "description": "EU designation of Hezbollah's military wing",
+        "url_or_reference": "https://transatlanticinstitute.org/eu-hezbollah-terrorist-organization",
+        "date": "2013-07-22",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:49",
+        "type": "open_source",
+        "description": "Government of Canada and US legal status of Hezbollah",
+        "url_or_reference": "https://www.irb-cisr.gc.ca/",
+        "date": "2018-06-04",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:50",
+        "type": "open_source",
+        "description": "Full designation list of countries banning Hezbollah",
+        "url_or_reference": "https://terrorism-info.org.il/en/countries-designate-hezbollah/",
+        "date": "2020-11-23",
+        "credibility_assessment": "high"
+      }
+      // Additional sources omitted for brevity; see collected search results for full documentation.
+    ]
+  }
+}
