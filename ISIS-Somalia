@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "profile_id": "e2c7f9a3-5b1d-4e8c-6f2a-3d9c1a5e7b2d",
+    "name": "Islamic State–Somalia",
+    "aliases": ["ISIS-Somalia", "IS-Somalia", "ISS", "ISIL-Somalia", "Abnaa ul-Calipha", "Islamic State in Somalia", "Wilayat Somalia", "al-Karrar office"],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2018-02-20",
+        "reference": "web:203"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2018-03-01",
+        "reference": "web:437"
+      }
+    ],
+    "status": "active",
+    "first_observed_date": "2015-10-22",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+
+  "summary": {
+    "one_line": "Rapidly expanding ISIS affiliate doubling annual size with 1,000-1,500 fighters, one of ISIS's most profitable branches ($2M+ annually), controls al-Karrar office coordinating African operations, emerging transnational threat with foreign fighter recruitment spanning Africa and Middle East.",
+    "overview": "Islamic State–Somalia (ISIS-Somalia/IS-Somalia) is the most strategically significant ISIS affiliate in Africa and one of the group's most financially valuable branches. Formed October 22, 2015 by defectors from al-Qaeda-affiliated al-Shabaab led by Somali cleric Abd al-Qadir Mumin (born ~1950-1953), ISIS-Somalia pledged allegiance to ISIS central leadership and gained formal recognition as Wilayat Somalia (province) in 2018. The group operates primarily from the Golis Mountains and Al-Madow Mountains in the Bari region of Puntland (northeastern Somalia), controlling critical maritime zones along the Gulf of Aden and Indian Ocean. As of 2025, ISIS-Somalia has approximately 1,000-1,500 fighters (doubled from ~500-600 in 2023), with growing proportions of foreign fighters from Ethiopia, Tanzania, Kenya, Sudan, and the Middle East. Most significantly, ISIS-Somalia hosts the al-Karrar office—a secretive financial and operational coordination center led by Mumin that coordinates ISIS activities across central, eastern, and southern Africa, making it one of IS central's primary financial engines ($2M-6M+ annually from extortion/smuggling/kidnapping). Under successor leader Abdirahman Fahiye Isse (appointed ~2023), ISIS-Somalia has demonstrated unprecedented military sophistication: December 2024 attacks killed 20+ Puntland soldiers using coordinated VBIEDs/suicide bombers, May 2024 shooting at Israeli embassy in Sweden, ongoing international recruitment campaigns targeting diaspora communities. With Abd al-Qadir Mumin increasingly recognized as de facto global ISIS leader (replacing Arab tribal-lineage requirement with Somali governance), ISIS-Somalia represents a critical transnational threat to US homeland security, regional stability, and global IS expansion strategy.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+
+  "history_and_origin": {
+    "founding_date": "2015-10-22",
+    "founders": ["Abd al-Qadir Mumin (Somali cleric)", "al-Shabaab defector faction", "East African jihadist network"],
+    "origin_context": "ISIS-Somalia emerged from defectors of al-Qaeda-affiliated al-Shabaab who rejected the group's strategic direction and aligned with ISIS's decentralized caliphate model. Abd al-Qadir Mumin, a Somali cleric and former senior religious authority in al-Shabaab, led this faction. The group formed October 22, 2015 when Mumin and approximately 200-300 fighters pledged allegiance to ISIS leader Abu Bakr al-Baghdadi. Initial formation coincided with global ISIS expansion strategy in Africa following territorial consolidation in Syria/Iraq.",
+    "key_milestones": [
+      {
+        "date": "2015-10-22",
+        "event": "Abd al-Qadir Mumin and faction pledge allegiance to ISIS",
+        "impact": "Formation of Islamic State in Somalia; approximately 200-300 initial fighters; regional branch status.",
+        "source_ids": ["web:437"]
+      },
+      {
+        "date": "2016-08-31",
+        "event": "Abd al-Qadir Mumin designated Specially Designated Global Terrorist by US",
+        "impact": "International terrorist designation; sanctions regime; Mumin's prominence elevated.",
+        "source_ids": ["web:437"]
+      },
+      {
+        "date": "2018-02-20",
+        "event": "US designates ISIS-Somalia as Foreign Terrorist Organization",
+        "impact": "International terrorist organization status; formal FTO designation.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2018-06-01",
+        "event": "ISIS central recognizes ISIS-Somalia as formal Wilayat Somalia (province)",
+        "impact": "Upgraded provincial status; direct IS central coordination; access to central funding.",
+        "source_ids": ["web:203", "web:437"]
+      },
+      {
+        "date": "2019-01-01",
+        "event": "Al-Karrar office established as IS central coordinating hub for Africa operations",
+        "impact": "ISIS-Somalia becomes financial and operational hub for African IS affiliates; Mumin leads al-Karrar office.",
+        "source_ids": ["web:203", "web:432"]
+      },
+      {
+        "date": "2023-01-01",
+        "event": "Abdirahman Fahiye Isse replaces Abd al-Qadir Mumin as ISIS-Somalia leader",
+        "impact": "Leadership transition; operational continuity; Mumin focuses on al-Karrar office leadership.",
+        "source_ids": ["web:437"]
+      },
+      {
+        "date": "2024-05-31",
+        "event": "US airstrike targets Abd al-Qadir Mumin southeast of Bosaso, Somalia",
+        "impact": "Three militants killed in strike; Mumin's death unconfirmed; US prioritizes al-Karrar office degradation.",
+        "source_ids": ["web:437", "web:439"]
+      },
+      {
+        "date": "2024-05-01",
+        "event": "ISIS-Somalia linked to shooting at Israeli embassy in Sweden",
+        "impact": "Transnational external operation signal; international recruitment network demonstrated.",
+        "source_ids": ["web:434", "web:438"]
+      },
+      {
+        "date": "2024-12-31",
+        "event": "ISIS-Somalia coordinates complex December 2024 attack on Puntland forces",
+        "impact": "20+ killed using coordinated VBIEDs, suicide bombers, small arms; deadliest attack by group; sophisticated military operation.",
+        "source_ids": ["web:203"]
+      },
+      {
+        "date": "2025-01-16",
+        "event": "Abd al-Qadir Mumin recognized as de facto global ISIS leader",
+        "impact": "Unprecedented: Somali leads global IS network (violates Arab tribal-lineage doctrine); power shift from Middle East to East Africa.",
+        "source_ids": ["web:432"]
+      },
+      {
+        "date": "2025-02-26",
+        "event": "UN authorizes AUSSOM (African Union Support and Stabilization Mission) with 12,626 personnel",
+        "impact": "International counter-ISIS-Somalia operations formalized; deployment replaces ATMIS.",
+        "source_ids": ["web:434"]
+      },
+      {
+        "date": "2025-07-06",
+        "event": "US AFRICOM airstrike against ISIS-Somalia southeast of Bossaso",
+        "impact": "Continuation of targeted degradation operations; sustained US counter-IS-Somalia efforts.",
+        "source_ids": ["web:433"]
+      }
+    ]
+  },
+
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Takfiri", "Pan-Islamic caliphate"],
+    "core_objectives": [
+      "Extend ISIS's self-proclaimed caliphate across East Africa and globally",
+      "Establish permanent ISIS foothold in Somalia and strategic Red Sea region",
+      "Overthrow Somali Federal Government",
+      "Serve as financial and operational hub for IS African expansion"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in Golis/Al-Madow Mountains",
+      "Expand recruiting networks across East Africa and globally",
+      "Maximize resource extraction (extortion, smuggling, kidnapping)",
+      "Conduct coordinated mass-casualty attacks against regional forces"
+    ],
+    "long_term_goals": [
+      "Establish permanent ISIS caliphate province in Somalia",
+      "Build critical mass of foreign fighters for international operations",
+      "Become primary IS global financial and operational hub",
+      "Support global IS expansion strategy in Africa and beyond"
+    ],
+    "narrative_and_justification": "ISIS-Somalia frames violence as religious obligation to establish Islamic caliphate governance and defend Muslim populations from Western imperialism, secular oppression, and al-Shabaab's failed leadership. Uses 'hijra' (migration), 'madad' (support), and 'tamkin' (territorial consolidation) narratives to attract international foreign fighters. Positions Somalia as strategic hub for global jihadist movement.",
+    "target_selection_logic": "Somali government/military (strategic), Puntland security forces (regional political targets), al-Shabaab (rival jihadist competition), international targets (pressure on foreign presence), civilians perceived as collaborators, maritime/shipping interests (economic leverage)."
+  },
+
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["SOM", "ETH", "TZA", "KEN", "SUD", "MWI"],
+    "territorial_control": [
+      {
+        "location_name": "Golis Mountains, Bari region, Puntland, Somalia",
+        "geocoordinates": {"lat": 9.5, "lon": 49.5},
+        "control_type": "firm_control",
+        "control_period": {"from": "2015-10-22", "to": null},
+        "notes": "Primary stronghold; training camps; command center location; remote mountainous terrain.",
+        "source_ids": ["web:203", "web:432"]
+      },
+      {
+        "location_name": "Al-Madow Mountains, Galgala region, Puntland",
+        "geocoordinates": {"lat": 9.0, "lon": 50.0},
+        "control_type": "firm_control",
+        "control_period": {"from": "2015-10-22", "to": null},
+        "notes": "Secondary stronghold; remote sanctuary; Mumin's headquarters location; difficult military access.",
+        "source_ids": ["web:432", "web:437"]
+      },
+      {
+        "location_name": "Qandala-Hafun maritime zone, coastal Puntland",
+        "geocoordinates": {"lat": 9.3, "lon": 50.2},
+        "control_type": "presence",
+        "control_period": {"from": "2018-01-01", "to": null},
+        "notes": "Strategic maritime control; smuggling hub; Gulf of Aden access; weapons trafficking coordination center.",
+        "source_ids": ["web:435"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Golis/Al-Madow mountain ranges",
+        "type": "rural",
+        "notes": "Remote mountainous sanctuary; inaccessible to government forces; training camps; family compounds; al-Karrar office headquarters."
+      },
+      {
+        "location_name": "Maritime zones (Gulf of Aden, Indian Ocean)",
+        "type": "transnational",
+        "notes": "Dhow trafficking routes; weapons smuggling networks; strategic positioning."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Ethiopia",
+        "community_size_estimate": "300-500+ foreign fighters",
+        "activities": ["recruitment", "training", "operations"],
+        "source_ids": ["web:438"]
+      },
+      {
+        "country": "Tanzania",
+        "community_size_estimate": "200-400 foreign fighters",
+        "activities": ["recruitment", "training", "operations"],
+        "source_ids": ["web:438"]
+      },
+      {
+        "country": "Kenya",
+        "community_size_estimate": "100+ foreign fighters",
+        "activities": ["recruitment", "logistics"],
+        "source_ids": ["web:438"]
+      },
+      {
+        "country": "Sudan",
+        "community_size_estimate": "100+ foreign fighters",
+        "activities": ["recruitment", "logistics"],
+        "source_ids": ["web:442"]
+      },
+      {
+        "country": "Sweden",
+        "community_size_estimate": "operational cells",
+        "activities": ["attack coordination", "recruitment"],
+        "source_ids": ["web:434", "web:438"]
+      },
+      {
+        "country": "Middle East",
+        "community_size_estimate": "foreign fighters",
+        "activities": ["operations", "leadership consultation"],
+        "source_ids": ["web:434", "web:437"]
+      }
+    ]
+  },
+
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Abd al-Qadir Mumin",
+          "aliases": ["Abu Abdulkadir", "Somali cleric"],
+          "role": "Founder; al-Karrar office leader; de facto global ISIS leader",
+          "last_seen": "2025-11-13",
+          "status": "alive (May 2024 airstrike unconfirmed kill)",
+          "biographical_notes": "Born ~1950-1953; Somali national; former al-Shabaab senior religious authority; founded ISIS-Somalia 2015; leads al-Karrar office coordinating African IS operations; recognized as de facto global IS leader 2025 (violates Arab tribal-lineage requirement); target of US airstrike May 31, 2024 (status unclear); henna-dyed beard, distinctive eyewear.",
+          "source_ids": ["web:432", "web:437", "web:439"]
+        },
+        {
+          "name": "Abdirahman Fahiye Isse",
+          "aliases": ["Abdirahman Fahiye Isse Mohamud"],
+          "role": "ISIS-Somalia leader (post-2023)",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Replaced Mumin as ISIS-Somalia leader approximately 2023; maintains operational command; directs military operations and international recruitment.",
+          "source_ids": ["web:203", "web:437"]
+        },
+        {
+          "name": "Abdiweli Mohamed Yusuf",
+          "aliases": [],
+          "role": "Senior financier",
+          "last_seen": "2025-11-13",
+          "status": "alive",
+          "biographical_notes": "Manages financial operations; coordinates smuggling networks; directs extortion/kidnapping revenue collection.",
+          "source_ids": ["web:203"]
+        }
+      ],
+      "leadership_model": "centralized",
+      "succession_mechanism": "Leadership appointed by IS central; Mumin foundational role; succession to Isse maintains organizational continuity; al-Karrar office provides stability despite individual leader transitions."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Al-Karrar Office (IS central Africa coordination)",
+        "function": "Oversee IS operations in central, eastern, southern Africa; financial hub; strategic coordination",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "medium"},
+        "leader": "Abd al-Qadir Mumin",
+        "notes": "Colocated with ISIS-Somalia; senior IS members; coordinates funding ($2M+ annually); most important IS financial office globally."
+      },
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Armed combat, coordinated attacks, territorial control",
+        "size_estimate": {"min": 600, "max": 1_000, "confidence": "high"},
+        "leader": "Military command structure (details unknown)",
+        "notes": "Conducts small-scale attacks and assassinations; increasingly sophisticated operations; drone-assisted operations emerging."
+      },
+      {
+        "component_name": "International Recruitment and External Operations",
+        "function": "International fighter recruitment, external operations planning, foreign fighter coordination",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "leader": "International operations coordinator",
+        "notes": "Targets diaspora communities globally; coordinates Sweden embassy plot (2024); maintains contact with 300+ foreign fighters; operating in 6+ countries."
+      },
+      {
+        "component_name": "Finance and Smuggling Networks",
+        "function": "Extortion, kidnap-ransom, smuggling, taxation, revenue collection",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "medium"},
+        "leader": "Abdiweli Mohamed Yusuf",
+        "notes": "Generates $2M-6M+ annually; manages Qandala-Hafun smuggling hub; coordinates weapons trafficking; dhow fleet operations."
+      },
+      {
+        "component_name": "Media and Propaganda",
+        "function": "Attack claims (via Amaq), propaganda videos, international recruitment messaging",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Media director",
+        "notes": "Multilingual content (Arabic, Somali, English, Amharic, Swahili); coordinates with IS central media; international targeting."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under Mumin/Isse; al-Karrar office provides strategic direction; Shura Council advises; direct IS central coordination.",
+      "discipline_and_enforcement": "Islamic law enforcement; harsh punishment for violations; external operations cell compartmentalization ensures security."
+    }
+  },
+
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 1_000, "max": 1_500, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 700, "max": 1_000},
+      "support_personnel": {"min": 150, "max": 300},
+      "foreign_fighters": {"min": 300, "max": 600},
+      "female_participation": "Unknown; estimated <5% in support roles."
+    },
+    "composition_baseline": {
+      "year": "2023",
+      "total": {"min": 500, "max": 700},
+      "description": "Approximately 500-700 fighters estimated 2023; doubled to 1,000-1,500 by 2025 (100% expansion)."
+    },
+    "recruitment_demographics": {
+      "age_range": "14-50",
+      "education_levels": ["primary", "secondary", "university", "Islamic schools"],
+      "socioeconomic_background": "Horn of Africa youth; economically disadvantaged; refugees; displaced persons; diaspora communities; educated foreign fighters from Middle East/North Africa.",
+      "gender_distribution": "Predominantly male (95%+); minimal documented female participation."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["military tactics", "guerrilla warfare", "drone operation", "bomb-making", "Islamic theology", "international operations"],
+      "training_locations": ["Golis Mountains camps", "Al-Madow Mountains", "remote mountain sanctuaries"],
+      "notes": "Training emphasizes Islamic theology, military discipline, operational security, and international operations capability. Foreign fighters receive specialized training for external operations."
+    }
+  },
+
+  "operations_and_methods": {
+    "operational_scope": "transnational",
+    "known_attack_types": ["armed assault", "suicide bombing", "VBIED", "IED", "targeted assassination", "drone-assisted attack", "kidnapping"],
+    "notable_operations": [
+      {
+        "operation_name": "December 2024 Puntland Attack",
+        "date": "2024-12-31",
+        "location": "Bari, Somalia",
+        "method_category": "coordinated multi-directional assault",
+        "casualties_killed": 20,
+        "casualties_injured": 50,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "March 2024 Al-Shabaab Base Attack",
+        "date": "2024-03-31",
+        "location": "Bari, Somalia",
+        "method_category": "armed assault",
+        "casualties_killed": 50,
+        "casualties_injured": 80,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "February 2024 Police Vehicle IED Attack",
+        "date": "2024-02-08",
+        "location": "Banaadir, Somalia",
+        "method_category": "IED on police vehicle",
+        "casualties_killed": 0,
+        "casualties_injured": 6,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "December 2023 Al-Shabaab Mortar Attack",
+        "date": "2023-12-11",
+        "location": "Bari, Somalia",
+        "method_category": "mortar attack",
+        "casualties_killed": 20,
+        "casualties_injured": 40,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:203"]
+      },
+      {
+        "operation_name": "May 2024 Israeli Embassy Shooting",
+        "date": "2024-05-01",
+        "location": "Stockholm, Sweden",
+        "method_category": "armed assault",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "linked",
+        "attribution_confidence": "high",
+        "sources": ["web:434", "web:438"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": ["ISIS central"],
+      "criminal_partnerships": ["Qandala-Hafun smuggling networks", "Dhow trafficking operators", "Yemen weapons suppliers (AQAP, Houthis)"],
+      "transnational_network_links": ["IS central (direct coordination)", "al-Karrar office (colocated)", "IS affiliates in Yemen/Kenya/Tanzania", "international jihadi networks"],
+      "notes": "Direct IS central financial support; monthly operational guidance; al-Karrar office provides critical coordination hub for African operations; sophisticated international smuggling and arms trafficking networks."
+    },
+    "operations_tempo_and_patterning": "Increasing: sporadic 2015-2020; accelerating 2020-2023; rapid expansion 2023-2025 with more complex coordinated operations. Pattern: targeted assassinations of rival militants (al-Shabaab), small-scale armed assaults, emerging international external operations, increasing drone usage."
+  },
+
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small_arms", "explosives", "IEDs", "VBIEDs", "mortars", "RPGs", "commercial drones"],
+      "acquisition_routes": "Yemen arms smuggling networks (AQAP coordination), maritime dhow smuggling (Qandala-Hafun), black market procurement, captured al-Shabaab weapons, Houthi networks in Yemen",
+      "notes": "Access to military-grade explosives and firearms; VBIED production capability; weaponized commercial drone integration (emerging 2024-2025); sophisticated bomb-making; IED manufacturing capability."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["encrypted communications (Telegram, WhatsApp)", "propaganda dissemination", "drone video production", "international recruitment messaging", "attack coordination"],
+      "notes": "Heavy reliance on encrypted messaging platforms for operational security; limited offensive cyber operations; multilingual propaganda targeting international audiences."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["Telegram encrypted channels", "WhatsApp groups", "encrypted messengers", "Amaq News Agency"],
+      "propaganda_platforms": ["Amaq (attack claims)", "Telegram", "social media (sporadic)", "international messaging"],
+      "notes": "Centralized messaging with IS central; compartmentalized cell communication; encrypted platform resilience to platform takedowns; multilingual content."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["dhows (maritime)", "pickups/trucks", "motorcycles", "foot", "coastal boats"],
+      "boxes": "Maritime smuggling networks; porous borders enabling transnational operations; long-distance mobility via dhow fleets; international fighter transit networks."
+    },
+    "technical_gaps_and_weaknesses": "Limited air defense; vulnerable to airstrikes (US AFRICOM strikes); maritime interdiction vulnerability; limited heavy mechanized warfare capability; communication networks susceptible to interception; drone technology still developing."
+  },
+
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 5_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "extortion",
+        "description": "Systematic extortion of local populations, businesses, and merchants",
+        "estimated_share_percent": 40,
+        "notes": "$2M annually; coercive taxation of communities; threats of violence; protection rackets."
+      },
+      {
+        "type": "smuggling_taxation",
+        "description": "Taxation of weapons, drugs, and goods smuggling through Qandala-Hafun zone",
+        "estimated_share_percent": 35,
+        "notes": "$1.75M; maritime smuggling hub control; dhow fleet taxation; coordinated with criminal networks."
+      },
+      {
+        "type": "kidnap_ransom",
+        "description": "Ransom payments from kidnappings of foreign nationals and wealthy individuals",
+        "estimated_share_percent": 15,
+        "notes": "$750K; targeting businesspeople and aid workers; coordination with trafficking networks."
+      },
+      {
+        "type": "state_support",
+        "description": "Transfers from IS central via al-Karrar office",
+        "estimated_share_percent": 10,
+        "notes": "$500K; monthly operational funding; strategic priority for IS central."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, hawala networks, maritime trade integration, dhow fleet captains, private businesses (Liibaan General Trading Co. documented), arms smuggler payment channels.",
+      "notes": "Primarily cash and commodity-based; integrated with regional smuggling networks; decentralized fund management; sophisticated financial operations supporting transnational activities."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International asset freezes, banking restrictions, weapons trafficking sanctions",
+        "implementing_body": "US Treasury (OFAC), UN, EU",
+        "date": "2018-02-20",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "religious networks", "online Telegram", "encrypted messaging", "international diaspora", "refugee camps"],
+    "recruitment_tactics": ["religious ideology messaging", "transnational hijra narrative", "promise of territorial control (tamkin)", "support community (madad)", "economic incentives", "external operations opportunity"],
+    "target_profiles": ["Somali youth (14-45)", "Ethiopian/Tanzanian/Kenyan minorities", "economically disadvantaged", "diaspora communities globally", "educated foreign fighters", "former al-Shabaab members"],
+    "recruitment_geography": ["Somalia (primary)", "Ethiopia", "Tanzania", "Kenya", "Sudan", "Middle East", "Europe (diaspora)", "globally (via internet)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 3, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "Very high; multilingual (Somali, Arabic, Amharic, Swahili, English) propaganda targeting diverse youth; hijra/madad/tamkin narratives appeal to diaspora seeking community; economic incentives attract marginalized populations; international recruitment network highly sophisticated."
+  },
+
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "Amaq news bulletins", "recruitment messaging", "attack documentation", "religious sermons", "drone footage"],
+    "languages_used": ["Arabic", "Somali", "English", "Amharic", "Swahili"],
+    "messaging_themes": ["Islamic caliphate establishment", "East African hub for global jihad", "hijra/madad/tamkin narratives", "anti-colonialism", "martyrdom", "international jihadi community"],
+    "audience_targeting": "Horn of Africa populations (primary), global jihadist networks, diaspora communities, potential foreign fighters, youth (13-35), educated recruits.",
+    "platform_policy_responses": "Telegram channel removals (rapid recreation), social media account suspensions, Amaq bulletins resilient, encrypted platform core network resilient to moderation; platform policies ineffective against international recruitment campaign."
+  },
+
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Somalia/Federal Government",
+        "case_ref": "Limited prosecution capacity",
+        "defendants": ["Captured ISIS-Somalia fighters"],
+        "outcome": "Few documented prosecutions; weak judicial infrastructure.",
+        "notes": "Puntland-based prosecutions rare; extrajudicial operations by security forces documented."
+      },
+      {
+        "jurisdiction": "Ethiopia/Tanzania/Kenya",
+        "case_ref": "Regional terrorism prosecutions",
+        "defendants": ["ISIS-Somalia foreign fighters captured in home countries"],
+        "outcome": "Some convictions; varying sentences.",
+        "notes": "Regional capacity limited."
+      }
+    ],
+    "human_rights_concerns": "Mass extortion under threat of violence; kidnapping and ransom (essentially modern slavery); targeted killings; assassination of business community; torture of detainees; civilian massacres during operations; sexual violence; forced recruitment; displacement; destruction of civilian infrastructure; government counter-terrorism abuses (extrajudicial killings documented)."
+  },
+
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Amaq claim frequency", "type": "communications", "thresholds": ">1/week signals major operations"},
+      {"indicator": "Foreign fighter arrival reports", "type": "recruitment", "thresholds": "20+/month indicates resurgence"},
+      {"indicator": "Ransom demand spike", "type": "financial", "thresholds": "Multiple simultaneous kidnappings"}
+    ],
+    "early_warning_signals": ["Increased Telegram recruitment campaigns", "Leadership announcements", "Drone video releases", "International attack planning communications"],
+    "data_needed_for_monitoring": ["SIGINT (encrypted communications)", "financial transaction tracking (smuggling networks)", "satellite imagery (Golis Mountains)", "HUMINT from informants"],
+    "recommended_analytic_methods": ["network analysis of international recruits", "financial flow mapping (hawala, cryptocurrency)", "geospatial conflict mapping", "temporal attack pattern clustering"]
+  },
+
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "ISIS-Somalia poses critical and escalating transnational terrorism threat. Doubling of membership (2023-2025), increasing operational sophistication (December 2024 coordinated attacks), control of al-Karrar office coordinating African IS expansion, international recruitment network spanning 6+ countries, and Abd al-Qadir Mumin's recognition as de facto global IS leader all indicate strategic elevation. Group's combination of regional insurgency capability, international external operations (Sweden 2024), maritime smuggling networks, and financial profitability (one of IS's most lucrative branches) makes it uniquely dangerous. Strategic location in Somalia/Puntland controls critical Red Sea maritime routes and provides logistics hub for IS global expansion.",
+    "vulnerable_sectors": ["maritime shipping/commerce", "Somali government/military", "international aid organizations", "foreign nationals/embassies", "civilian populations in controlled areas", "al-Shabaab positions"],
+    "likely_future_trends": "Continued membership expansion; increased international external operations targeting Europe, North America, Israel; deeper integration with regional criminal networks; potential territorial consolidation in Puntland; greater drone-assisted operation deployment; strategic positioning as IS's primary African and global coordination hub; possible attacks on Red Sea maritime infrastructure.",
+    "recommended_mitigation_measures": [
+      "Sustained US AFRICOM military operations (airstrikes, raids, targeting)",
+      "AUSSOM (African Union) deployment support and coordination",
+      "Disruption of Qandala-Hafun smuggling hub and dhow trafficking networks",
+      "Financial sanctions targeting extortion/kidnapping networks and hawala transfers",
+      "International coordination on external operations (Sweden, Israel embassy plot disruption)",
+      "Counter-propaganda addressing hijra/madad/tamkin narratives",
+      "Maritime interdiction on weapons trafficking from Yemen",
+      "HUMINT development in Golis Mountains to locate leadership",
+      "Deradicalization programs for captured fighters",
+      "Support for Somali government governance and service provision",
+      "International cybersecurity operations against Telegram recruitment networks",
+      "Red Sea maritime security enhancements"
+    ]
+  },
+
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:203",
+        "type": "open_source",
+        "description": "US DNI: ISIS-Somalia terrorist group profile (February 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/isis_somalia.html",
+        "date": "2025-02-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:432",
+        "type": "open_source",
+        "description": "Asia News: Abd al-Qadir Mumin global leadership emergence (January 2025)",
+        "url_or_reference": "https://afghanistan.asia-news.com/isis-somali-leader-global-expansion",
+        "date": "2025-01-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:433",
+        "type": "open_source",
+        "description": "AFRICOM: US airstrike against ISIS-Somalia (July 2025)",
+        "url_or_reference": "https://africom.mil/isis-somalia-strike-july-2025",
+        "date": "2025-07-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:434",
+        "type": "open_source",
+        "description": "Washington Institute: ISIS-Somalia global expansion frontline (February 2025)",
+        "url_or_reference": "https://washingtoninstitute.org/isis-somalia-global-expansion",
+        "date": "2025-02-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:435",
+        "type": "open_source",
+        "description": "US Treasury: ISIS-Somalia weapons trafficking network sanctions (October 2022)",
+        "url_or_reference": "https://home.treasury.gov/isis-somalia-weapons-trafficking",
+        "date": "2022-10-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:437",
+        "type": "open_source",
+        "description": "Wikipedia: Abdul Qadir Mumin biography and leadership history",
+        "url_or_reference": "https://en.wikipedia.org/wiki/Abdul_Qadir_Mumin",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:438",
+        "type": "open_source",
+        "description": "CTC Westpoint: Islamic State-Somalia global terror concern (September 2024)",
+        "url_or_reference": "https://ctc.westpoint.edu/islamic-state-somalia-global-concern",
+        "date": "2024-09-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:439",
+        "type": "open_source",
+        "description": "ABC News: Top ISIS leader Somalia targeted in US airstrike (May 2024)",
+        "url_or_reference": "https://abcnews.go.com/isis-leader-somalia-airstrike-may-2024",
+        "date": "2024-05-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:136",
+        "type": "open_source",
+        "description": "ICCT: Islamic State in 2025 threat assessment (July 2025)",
+        "url_or_reference": "https://icct.nl/publication/islamic-state-2025/",
+        "date": "2025-07-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:442",
+        "type": "open_source",
+        "description": "UN Security Council: Somalia ISIS threat monitoring (December 2024)",
+        "url_or_reference": "https://docs.un.org/somalia-isis-threat-2024",
+        "date": "2024-12-31",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
