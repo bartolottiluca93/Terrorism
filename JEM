@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "profile_id": "jem-nov2025-v1",
+    "name": "Jaish-e-Mohammad (JEM)",
+    "aliases": [
+      "Army of Mohammad",
+      "Jaish-i-Mohammad",
+      "Kashmir Tigers (proxy)",
+      "Afzal Guru Squad",
+      "Al-Murabitoon",
+      "Tehreek-al-Furqan",
+      "Jama'ah al-Jihad",
+      "AJT"
+    ],
+    "primary_language": "Urdu",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2001-12-26",
+        "reference": "web:565"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2002-01-21",
+        "reference": "web:565"
+      },
+      {
+        "country_or_body": "Pakistan",
+        "designation": "Banned/Proscribed organization (de facto operations continue)",
+        "designation_date": "2002-01-14",
+        "reference": "web:570"
+      }
+    ],
+    "status": "active (significantly degraded by Operation Sindoor May 2025)",
+    "first_observed_date": "2000-01-31",
+    "last_verified_date": "2025-11-14",
+    "version": "2025.11.14.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Pakistan-based Deobandi jihadist group with ~500 fighters, founded 2000 by Masood Azhar, responsible for 2019 Pulwama attack (40 killed), devastated by Indian Operation Sindoor (May 2025) killing Abdul Rauf Asghar and 26 others, recently established women's wing for recruitment.",
+    "overview": "Jaish-e-Mohammad (JEM) is a Pakistan-based Deobandi jihadist militant group founded January 31, 2000 by Masood Azhar (released from Indian custody after 1999 IC-814 hijacking by his brother Abdul Rauf Asghar). The group's stated objective is to liberate Kashmir from Indian rule and establish Pakistani sovereignty over the disputed region. JEM operates primarily from Bahawalpur, Punjab Province, where it maintained a 15-acre training complex (Markaz Usman-o-Ali) housing 600+ cadres before destruction during Indian Operation Sindoor (May 7, 2025). The group maintains approximately 500 active fighters and operates through proxy organizations including Kashmir Tigers (responsible for 2024 Doda/Kathua attacks). Historically aligned with al-Qaeda and the Taliban, JEM received significant support from Pakistan's Inter-Services Intelligence (ISI). After the devastating 2019 Pulwama attack (40 CRPF personnel killed; single deadliest in Kashmir since 1989), Pakistan increased pressure on JEM, though the group continued sporadic operations through 2024-2025. Abdul Rauf Asghar (Masood's brother, senior military commander, IC-814 hijacking mastermind) was killed in Indian Operation Sindoor (May 7, 2025) along with 26 JEM members and 10 family members of Masood Azhar. Masood Azhar himself was reportedly critically injured in the strikes. JEM has expanded recruitment efforts by establishing Jamat ul-Muminat (women's wing) in October 2025, led by Sadiya Azhar (Masood's sister), actively recruiting economically disadvantaged women through online courses and facilities in Bahawalpur, Karachi, Muzaffarabad, and Mansehra. The group maintains connections to al-Qaeda, Taliban, Lashkar-e-Taiba, and other jihadist organizations.",
+    "threat_level": "medium-to-high",
+    "confidence_overall": "high"
+  },
+  "history_and_origin": {
+    "founding_date": "2000-01-31",
+    "founders": ["Masood Azhar", "Former Harakat ul-Mujahidin members"],
+    "origin_context": "JEM was formed by dissidents from Harakat ul-Mujahidin (HUM), an older Pakistan-based jihadist group active in Afghanistan since the 1980s. After being released from Indian prison in December 1999 as part of the IC-814 hijacking negotiated settlement, cleric Masood Azhar established JEM with support from Pakistan's ISI, reportedly meeting Taliban leader Mullah Omar and al-Qaeda leader Osama bin Laden during their time in Afghanistan. The group emerged during a period of escalated Kashmir militancy following the 1992 Babri Masjid demolition and intensified Indian security operations in the region.",
+    "key_milestones": [
+      {
+        "date": "1999-12-31",
+        "event": "IC-814 hijacking mastermind Abdul Rauf Asghar negotiates release of Masood Azhar from Indian prison",
+        "impact": "Masood Azhar freed, sets stage for JEM formation.",
+        "source_ids": ["web:569", "web:570"]
+      },
+      {
+        "date": "2000-01-31",
+        "event": "Masood Azhar establishes Jaish-e-Mohammad in Bahawalpur",
+        "impact": "JEM formally founded; begins recruitment and training.",
+        "source_ids": ["web:570"]
+      },
+      {
+        "date": "2001-10-01",
+        "event": "First major attack: car bomb outside Kashmir Legislative Assembly, Srinagar",
+        "impact": "31 killed; shootout with security forces; establishes operational capability.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2001-12-13",
+        "event": "Suspected JEM involvement in attack on Indian Parliament, New Delhi",
+        "impact": "13 killed (security personnel); JEM denies; triggers international pressure; Pakistan bans JEM.",
+        "source_ids": ["web:565", "web:568"]
+      },
+      {
+        "date": "2001-12-26",
+        "event": "US designates JEM as Foreign Terrorist Organization",
+        "impact": "International sanctions regime; asset freezes; travel bans.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2002-01-14",
+        "event": "Pakistan bans JEM; Masood Azhar placed under house arrest until December 2002",
+        "impact": "Official ban; group goes underground; continues operations covertly.",
+        "source_ids": ["web:570", "web:572"]
+      },
+      {
+        "date": "2016-01-02",
+        "event": "Pathankot Air Force Station attack",
+        "impact": "7 killed; 12-hour gunfight; demonstrates resurgent capability.",
+        "source_ids": ["web:1", "web:566"]
+      },
+      {
+        "date": "2016-09-18",
+        "event": "Uri Army base attack linked to JEM",
+        "impact": "19 soldiers killed; severe India-Pakistan tensions; surgical strikes follow.",
+        "source_ids": ["web:569"]
+      },
+      {
+        "date": "2019-02-14",
+        "event": "Pulwama attack: suicide bombing on CRPF convoy",
+        "impact": "40-46 killed; deadliest attack in Kashmir since 1989; near India-Pakistan war.",
+        "source_ids": ["web:1", "web:565", "web:568"]
+      },
+      {
+        "date": "2021-08-30",
+        "event": "Taliban takeover of Afghanistan; JEM meets Taliban leaders (Mullah Baradar) for Kashmir support",
+        "impact": "Renewed Taliban coordination; strategic planning; operational expansion plans.",
+        "source_ids": ["web:572", "web:574"]
+      },
+      {
+        "date": "2024-07-08",
+        "event": "Kashmir Tigers (JEM proxy) attack: 5 Indian Army personnel killed, Kathua District",
+        "impact": "Demonstrates continued operational capability; proxy strategy.",
+        "source_ids": ["web:1", "web:576"]
+      },
+      {
+        "date": "2024-07-15",
+        "event": "Kashmir Tigers attack: 4 Indian soldiers killed, Doda District",
+        "impact": "Continued operations; two attacks in one week.",
+        "source_ids": ["web:1", "web:576"]
+      },
+      {
+        "date": "2025-05-07",
+        "event": "Indian Operation Sindoor: airstrikes on JEM facilities Bahawalpur and Muridke",
+        "impact": "Abdul Rauf Asghar killed; 26 JEM members + 10 family members killed; Markaz Usman-o-Ali destroyed; major leadership blow.",
+        "source_ids": ["web:566", "web:577", "web:580"]
+      },
+      {
+        "date": "2025-10-08",
+        "event": "JEM announces Jamat ul-Muminat (women's wing); recruitment begins online",
+        "impact": "Organizational adaptation; women's recruitment through online courses; revenue generation model.",
+        "source_ids": ["web:574"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Deobandi", "Salafi-jihadist", "Takfiri", "Kashmir separatist"],
+    "core_objectives": [
+      "Liberate Kashmir from Indian rule",
+      "Establish Pakistani sovereignty over Kashmir",
+      "Overthrow secular Indian government (ideologically)",
+      "Establish Islamic governance in Kashmir under sharia law"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks against Indian military/security forces",
+      "Sustain operational presence in Kashmir despite military pressure",
+      "Expand recruitment through Kashmir Tigers proxy and women's wing",
+      "Maintain Taliban coordination and support"
+    ],
+    "long_term_goals": [
+      "Achieve Kashmir independence from India / merger with Pakistan",
+      "Establish Islamic caliphate across Kashmir region",
+      "Integrate Kashmir independence struggle with global jihadi movement",
+      "Support Taliban governance in Afghanistan"
+    ],
+    "narrative_and_justification": "JEM frames violence as defensive jihad against Indian occupation of Muslim-majority Kashmir. Uses grievances of Kashmiri civilians, perceived Indian military abuses, and historical regional tensions. Emphasizes religious obligation to liberate Muslim territory from 'Hindu' India.",
+    "target_selection_logic": "Indian military/security forces (strategic), security installations (camps, convoys, air bases), government infrastructure, civilian targets perceived as collaborators or security threats."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IND (Kashmir)", "PAK (Punjab, PoK)"],
+    "territorial_control": [
+      {
+        "location_name": "Bahawalpur, Punjab, Pakistan",
+        "geocoordinates": {"lat": 29.39, "lon": 71.69},
+        "control_type": "headquarters",
+        "control_period": {"from": "2000-01-01", "to": null},
+        "notes": "Markaz Usman-o-Ali 15-acre complex destroyed May 7, 2025; housed 600+ cadres; now under reconstruction.",
+        "source_ids": ["web:574", "web:577"]
+      },
+      {
+        "location_name": "Muridke, Punjab, Pakistan",
+        "geocoordinates": {"lat": 31.82, "lon": 74.39},
+        "control_type": "operations",
+        "control_period": {"from": "2000-01-01", "to": null},
+        "notes": "Shared region with Lashkar-e-Taiba bases; destroyed in Operation Sindoor May 7, 2025.",
+        "source_ids": ["web:577"]
+      },
+      {
+        "location_name": "Muzaffarabad, Pakistan-administered Kashmir (PoK)",
+        "geocoordinates": {"lat": 34.32, "lon": 73.48},
+        "control_type": "transit_camp",
+        "control_period": {"from": "2000-01-01", "to": null},
+        "notes": "Syedna Bilal Masjid complex; transit camp for infiltration into Kashmir; 50-100 cadres at any time.",
+        "source_ids": ["web:577", "web:580"]
+      },
+      {
+        "location_name": "Indian-administered Kashmir (Jammu, Srinagar, Doda, Kathua)",
+        "geocoordinates": {"lat": 34.27, "lon": 75.58},
+        "control_type": "operations",
+        "control_period": {"from": "2001-01-01", "to": null},
+        "notes": "Target region; ongoing terrorist operations; 2024 attacks via Kashmir Tigers proxy.",
+        "source_ids": ["web:1", "web:576"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Bahawalpur, Punjab (now degraded post-Operation Sindoor)",
+        "type": "urban",
+        "notes": "Main headquarters with madrassa and training facilities; madrassas in area teach militant ideology to children."
+      },
+      {
+        "location_name": "Afghanistan (post-Taliban 2021)",
+        "type": "transnational",
+        "notes": "Renewed sanctuary post-Taliban takeover; coordination with Taliban leadership."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Masood Azhar",
+          "aliases": ["Maulana Muhammad Azhar", "Maulana Masood Azhar", "JEM Chief"],
+          "role": "Founder and amir",
+          "last_seen": "2025-05-07",
+          "status": "critically injured (May 2025 Operation Sindoor)",
+          "biographical_notes": "Born ~1968; released from Indian custody December 1999 after IC-814 hijacking; founded JEM January 31, 2000; designated SDGT; reportedly met Osama bin Laden and Mullah Omar; 10 family members killed in May 2025 strikes.",
+          "source_ids": ["web:565", "web:566", "web:570"]
+        },
+        {
+          "name": "Abdul Rauf Asghar",
+          "aliases": ["Mufti Abdul Rauf Asghar", "Rauf Asghar"],
+          "role": "Deputy amir; senior military commander; supreme commander (2007-2025)",
+          "last_seen": "2025-05-07",
+          "status": "killed",
+          "biographical_notes": "Born ~1974; brother of Masood Azhar; mastermind IC-814 hijacking (age 24) 1999; took JEM command April 21, 2007; orchestrated Pulwama attack; killed in Operation Sindoor May 7, 2025.",
+          "source_ids": ["web:566", "web:569"]
+        },
+        {
+          "name": "Sadiya Azhar",
+          "aliases": ["Sadiya"],
+          "role": "Leader of Jamat ul-Muminat (women's wing, established October 2025)",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Sister of Masood Azhar; leads women's recruitment operations; conducts online theological courses.",
+          "source_ids": ["web:574"]
+        }
+      ],
+      "leadership_model": "Brother-led family organization; operational hierarchy; Masood Azhar ideological leader; Rauf Asghar was operational commander until death May 2025; succession/current leader unclear post-strikes.",
+      "succession_mechanism": "Family continuity (Masood → Rauf as deputy); potential succession challenges post-Operation Sindoor; women's wing expansion suggests organizational adaptation."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military/Combat Operations",
+        "function": "Terrorist attacks, infiltration coordination, training",
+        "size_estimate": {"min": 400, "max": 600, "confidence": "medium"},
+        "leader": "Unknown (post-Rauf Asghar death)",
+        "notes": "Divided into regional teams; Kashmir-focused cells; coordination with proxy Kashmir Tigers."
+      },
+      {
+        "component_name": "Kashmir Tigers (Proxy Organization)",
+        "function": "Attack claims, operational security, indigenous appearance",
+        "size_estimate": {"min": 50, "max": 100, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "Shadow group created to give attacks indigenous appearance; active 2024-2025; claims responsibility for Doda/Kathua attacks."
+      },
+      {
+        "component_name": "Jamat ul-Muminat (Women's Wing)",
+        "function": "Female recruitment, online indoctrination, revenue generation",
+        "size_estimate": {"min": 20, "max": 100, "confidence": "low"},
+        "leader": "Sadiya Azhar",
+        "notes": "Established October 2025; recruiting economically disadvantaged women; online course 'Tufat al-Muminat' starting November 8, 2025; Rs.500 donation per participant."
+      },
+      {
+        "component_name": "Training Infrastructure",
+        "function": "Militant indoctrination, military training, religious education",
+        "size_estimate": {"min": 10_000, "max": 30_000, "confidence": "low"},
+        "leader": "Markaz instructors (destroyed post-Operation Sindoor)",
+        "notes": "500+ madrassas in Bahawalpur teach violent Islam to children; 15-acre Markaz complex destroyed May 7, 2025; reconstruction underway."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under Masood Azhar (founder/ideological authority); operational decisions by Rauf Asghar until May 2025; Taliban coordination post-2021.",
+      "discipline_and_enforcement": "Islamic law enforcement; sharia courts; harsh punishment for disloyalty; family-based loyalty system."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 300, "max": 500, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 250, "max": 400},
+      "support_personnel": {"min": 50, "max": 100},
+      "foreign_fighters": "minimal documented; some Afghan/Pakistani Pashtun recruits",
+      "female_participation": "<1% historically; Jamat ul-Muminat aims to increase (October 2025)"
+    },
+    "composition_peak": {
+      "year": "2019",
+      "total": {"min": 700, "max": 1_000},
+      "description": "Peak membership around Pulwama attack (2019); degraded to ~500 by 2025; catastrophic losses May 2025."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45 (combatants); some children in madrassas",
+      "education_levels": ["primary", "secondary", "madrassas", "university"],
+      "socioeconomic_background": "Lower/middle-class Pakistani youth; economically disadvantaged; Kashmir-affected families; ideologically motivated university students.",
+      "gender_distribution": "95%+ male historically; women's wing recruitment emerging 2025."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "explosives/IEDs",
+        "guerrilla warfare",
+        "religious ideology (Deobandi)",
+        "tactical infiltration",
+        "anti-tank weapons"
+      ],
+      "training_locations": [
+        "Bahawalpur (Markaz Usman-o-Ali, destroyed May 2025)",
+        "Muzaffarabad (PoK transit camps)",
+        "Afghanistan (Taliban camps post-2021)",
+        "Peshawar (Khyber-Pakhtunkhwa)",
+        "300+ madrassas in Punjab region"
+      ],
+      "notes": "Multi-phase training: religious indoctrination in madrassas, military training in camps, operational preparation for Kashmir infiltration. Children inducted in madrassas with violent extremist curriculum."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional (Kashmir insurgency)",
+    "known_attack_types": ["suicide bombing", "armed assault", "car bombs", "ambushes", "IED", "small arms fire", "grenade attacks"],
+    "notable_operations": [
+      {
+        "operation_name": "Kashmir Legislative Assembly Car Bomb",
+        "date": "2001-10-01",
+        "location": "Srinagar, Kashmir, India",
+        "method_category": "car bomb + armed assault",
+        "casualties_killed": 31,
+        "casualties_injured": 6,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "Pathankot Air Force Station Attack",
+        "date": "2016-01-02",
+        "location": "Pathankot, Punjab, India",
+        "method_category": "armed assault, 12-hour gunfight",
+        "casualties_killed": 7,
+        "casualties_injured": 20,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:566"]
+      },
+      {
+        "operation_name": "Pulwama Attack",
+        "date": "2019-02-14",
+        "location": "Pulwama, Kashmir, India",
+        "method_category": "suicide VBIED on CRPF convoy",
+        "casualties_killed": 40,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:565", "web:568"]
+      },
+      {
+        "operation_name": "Kathua District Ambush (Kashmir Tigers proxy)",
+        "date": "2024-07-08",
+        "location": "Kathua District, Jammu, India",
+        "method_category": "armed ambush with grenades",
+        "casualties_killed": 5,
+        "casualties_injured": 5,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:576"]
+      },
+      {
+        "operation_name": "Doda District Attack (Kashmir Tigers proxy)",
+        "date": "2024-07-15",
+        "location": "Doda District, Jammu, India",
+        "method_category": "armed assault",
+        "casualties_killed": 4,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:576"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Pakistan (ISI support, though official ban since 2002)",
+      "criminal_partnerships": ["heroin trafficking networks", "arms smuggling", "hawala money laundering"],
+      "transnational_network_links": ["Taliban (post-2021 coordination)", "al-Qaeda (historical ties)", "Lashkar-e-Taiba", "Harakat ul-Mujahidin"]
+    },
+    "operations_tempo_and_patterning": "Sporadic 2001-2014; accelerating 2014-2019 (peak with Pulwama); degraded 2020-2023 due to Pakistan pressure; resurgent 2024 via proxy Kashmir Tigers; catastrophic operational losses May 2025."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small arms (AK-47s)", "grenades", "IEDs", "suicide vests", "car bombs", "RPGs", "light machine guns"],
+      "acquisition_routes": "Black market smuggling, Pakistani military procurement, captured Indian weapons, heroin trafficking networks facilitate arms acquisition",
+      "notes": "Sophisticated bomb-making capability; suicide vest construction; access to military-grade explosives; coordination with arms smuggling organizations."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": ["propaganda video production", "WhatsApp/Telegram operational coordination", "online recruitment through women's wing courses"],
+      "notes": "Basic communications security; recent online course infrastructure for women's recruitment."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers (WhatsApp, Telegram)", "courier networks", "ISI liaison (historically)"],
+      "propaganda_platforms": ["Kashmir Tigers proxy announcements", "Al-Qalam Media (propaganda outlet)", "social media (Telegram channels)"],
+      "notes": "Decentralized communications; proxy organizations manage claims; women's wing online platform emerging."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles", "motorcycles", "infiltration on foot through porous Kashmir border"],
+      "notes": "High mobility cross-border operations; porous LoC exploited; established smuggling routes."
+    },
+    "technical_gaps_and_weaknesses": "Severely degraded post-Operation Sindoor (May 2025); lost major training facilities; leadership decapitated (Abdul Rauf Asghar killed); communication networks compromised; Pakistan military intelligence now less supportive."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 500_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "heroin_trafficking",
+        "description": "Facilitation of narcotics smuggling from Afghanistan through Pakistan",
+        "estimated_share_percent": 50,
+        "notes": "$250K; integration with drug trafficking networks; Pakistani military involvement documented."
+      },
+      {
+        "type": "extortion_kidnapping",
+        "description": "Extortion from businesses, ransom demands from kidnappings",
+        "estimated_share_percent": 25,
+        "notes": "$125K; sporadic kidnappings; protection rackets."
+      },
+      {
+        "type": "zakat_donations",
+        "description": "Religious alms during Ramadan and other donations from supporters",
+        "estimated_share_percent": 15,
+        "notes": "$75K; diaspora funding; Pakistani religious networks."
+      },
+      {
+        "type": "state_support",
+        "description": "ISI financial support (declining post-2019)",
+        "estimated_share_percent": 10,
+        "notes": "$50K; reduced after international pressure; now minimal/covert."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Hawala networks, cash couriers, heroin proceeds converted to clean cash, zakat collection centers, madrassas.",
+      "notes": "Cash-dominated; heroin profits critical; Falah-e-Insaniyat Foundation (JEM front, Pakistan-based charity) receives funding; Islamic donations exploit religious frameworks."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, asset freezes, sanctions on leaders",
+        "implementing_body": "US, UN, India",
+        "date": "2001-12-26-present",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["madrassas (300+ in Punjab)", "family networks", "mosque networks", "university Islamic societies", "online courses (women's wing)"],
+    "recruitment_tactics": [
+      "religious indoctrination in madrassas",
+      "promise of martyrdom rewards (paradise)",
+      "economic incentives (~$50-200/month)",
+      "nationalist Kashmir liberation narrative",
+      "grievance exploitation (Kashmiri civilian casualties)",
+      "online theological courses (women's wing)"
+    ],
+    "target_profiles": [
+      "Pakistani youth 16-35",
+      "madrassah students (child recruitment)",
+      "economically disadvantaged",
+      "Kashmir-affected families",
+      "women (recent focus, Jamat ul-Muminat)",
+      "religious college students"
+    ],
+    "recruitment_geography": ["Punjab (Bahawalpur, Muridke, Peshawar)", "Kashmir (infiltration of new recruits)", "Karachi", "Muzaffarabad (PoK)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 2, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "High; 300+ madrassas teach militant ideology to children; new online course model (Jamat ul-Muminat) designed for economic exploitation of disadvantaged women; Kashmir grievance narrative highly effective with youth."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "attack documentation", "religious sermons", "online recruitment courses", "Al-Qalam Media bulletins"],
+    "languages_used": ["Urdu", "Arabic", "English", "Kashmiri"],
+    "messaging_themes": [
+      "Kashmir liberation struggle",
+      "martyrdom glorification",
+      "anti-India nationalism",
+      "Islamic governance",
+      "defense of Muslim population",
+      "women's Islamic duty (new)"
+    ],
+    "audience_targeting": "Pakistani youth, Kashmir-affected populations, diaspora communities, economically marginalized women, jihadist networks globally.",
+    "platform_policy_responses": "Telegram channel removals (rapid recreation); social media account suspensions; limited effectiveness given decentralized proxy structure and new women's online course model."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "India",
+        "case_ref": "Multiple terrorism cases",
+        "defendants": ["Pulwama attack operatives", "Pathankot attackers", "Kashmir cell members"],
+        "outcome": "Some convictions; many cases pending; limited prosecutions of Pakistani-based leaders.",
+        "notes": "Most JEM leadership remains in Pakistan; extradition unlikely."
+      },
+      {
+        "jurisdiction": "Pakistan",
+        "case_ref": "Limited prosecutions (de facto support continues)",
+        "defendants": ["Masood Azhar (released 2021, reports vary)", "Rauf Asghar (killed May 2025)"],
+        "outcome": "House arrest periods; de facto immunity; international pressure limited effectiveness.",
+        "notes": "Pakistan claims action but evidence suggests continued covert ISI support; legal cases often dismissed."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties from terror attacks; suicide bombings including children as operational planners; abductions and murders; extortion; militia violence; forced recruitment of youth and children into madrassas; exploitation of economically disadvantaged women through recruitment."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency (Kashmir Tigers proxy)", "type": "operational", "thresholds": ">2 attacks/month signals resurgence"},
+      {"indicator": "Women's wing recruitment numbers", "type": "recruitment", "thresholds": "Online course enrollment >1,000 indicates expansion"},
+      {"indicator": "Funding transfers via hawala", "type": "financial", "thresholds": "Increased transfers post-Operation Sindoor signal reconstruction"}
+    ],
+    "early_warning_signals": ["Kashmir Tigers attack announcements", "Leadership statements (Al-Noor magazine)", "Women's wing course announcements", "Infiltration intelligence", "Madrassah recruitment surges"],
+    "data_needed_for_monitoring": ["HUMINT from informants in Pakistan", "SIGINT (encrypted communications)", "financial transaction tracking (hawala)", "social media monitoring (Telegram, online courses)"],
+    "recommended_analytic_methods": ["network analysis of recruitment chains", "temporal attack pattern clustering", "financial flow mapping (heroin/hawala)", "propaganda content analysis"]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "JEM poses significant but degraded terrorism threat post-Operation Sindoor (May 2025). Catastrophic organizational losses (Abdul Rauf Asghar death, 26 operatives, Masood Azhar critically injured, major facility destruction) severely impair operational capability. However, organizational resilience through proxy Kashmir Tigers, renewed Taliban coordination post-2021, and innovative women's wing recruitment (October 2025) suggest adaptation and potential reconstitution. Heroin trafficking integration provides independent funding. Risk remains primarily Kashmir-focused rather than transnational; threat to India/regional stability significant but not imminent.",
+    "vulnerable_sectors": ["Indian security forces in Kashmir", "government installations", "civilian Indian targets", "Indian border regions", "Pakistani civilian areas (collateral)"],
+    "likely_future_trends": "Slow organizational recovery post-Operation Sindoor; shift toward proxy operations (Kashmir Tigers) to obscure links; women's wing recruitment to diversify operations; Taliban-coordinated planning; sporadic attacks likely 2025-2026; potential reconstitution with international jihadist support if stability achieved.",
+    "recommended_mitigation_measures": [
+      "Sustained Indian military pressure on Kashmir infiltration routes",
+      "Pakistan pressure to enforce JEM ban and ISI coordination cutoff",
+      "Counter-finance operations on heroin trafficking networks",
+      "Disruption of hawala networks facilitating JEM funding",
+      "Digital counter-operations against Telegram channels and women's wing online courses",
+      "HUMINT penetration of JEM command structure (post-Rauf Asghar deaths)",
+      "International pressure on Taliban to deny JEM sanctuary/support",
+      "Community engagement in Punjab to reduce madrassah recruitment",
+      "Targeted operations against reconstructed facilities in Bahawalpur",
+      "Financial sanctions on Falah-e-Insaniyat Foundation and related front organizations"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: JEM terrorist group profile (December 2024)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/jem.html",
+        "date": "2024-12-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:565",
+        "type": "media",
+        "description": "BBC: Pulwama attack and JEM profile (February 2019)",
+        "url_or_reference": "https://www.bbc.com/news/world-south-asia-47165433",
+        "date": "2019-02-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:566",
+        "type": "media",
+        "description": "India TV: Abdul Rauf Asghar killed Operation Sindoor (May 2025)",
+        "url_or_reference": "https://www.indiatvnews.com/news/operation-sindoor-abdul-rauf-asghar-killed",
+        "date": "2025-05-07",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:569",
+        "type": "secondary",
+        "description": "Wikipedia: Abdul Rauf Azhar biography, IC-814 hijacking, JEM command",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:570",
+        "type": "secondary",
+        "description": "Britannica: JEM founding, history, structure (September 2025)",
+        "url_or_reference": "https://britannica.com/jem-jaish-e-mohammad",
+        "date": "2025-09-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:572",
+        "type": "secondary",
+        "description": "EFSAS: JEM profile, Pakistan state involvement (2017 updated 2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:574",
+        "type": "secondary",
+        "description": "Wikipedia: Jamat ul-Muminat women's wing, reconstruction post-Sindoor",
+        "date": "2024-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:576",
+        "type": "media",
+        "description": "India Today: Kashmir Tigers 2024 attacks Doda/Kathua (July 2024)",
+        "url_or_reference": "https://indiatoday.in/kashmir-tigers-attacks-doda-kathua",
+        "date": "2024-07-17",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:577",
+        "type": "media",
+        "description": "Hindustan Times: Operation Sindoor 9 terror camps destroyed (May 2025)",
+        "url_or_reference": "https://www.hindustantimes.com/operation-sindoor-jem-camps",
+        "date": "2025-05-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:578",
+        "type": "research",
+        "description": "CLAWS: Pakistan's terrorism financing and military patronage networks (June 2025)",
+        "url_or_reference": "https://www.claws.co.in/pakistan-terror-finance",
+        "date": "2025-06-11",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
