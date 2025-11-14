@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "profile_id": "imu-nov2025-v1",
+    "name": "Islamic Movement of Uzbekistan (IMU)",
+    "aliases": [
+      "Oʻzbekiston islomiy harakati",
+      "IDU",
+      "Islamic Party of Turkestan (post-2014/2015, splinter)",
+      "Adolat (early name)",
+      "IMU"
+    ],
+    "primary_language": "Uzbek",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2000-09-25",
+        "reference": "web:8"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2001-10-06",
+        "reference": "web:514"
+      }
+    ],
+    "status": "fragmented, significantly weakened; elements aligned with ISKP and Taliban",
+    "first_observed_date": "1998-08-01",
+    "last_verified_date": "2025-11-14",
+    "version": "2025.11.14.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Formerly al-Qaeda-aligned Uzbek jihadist group, now fractured between ISKP and Taliban, with diminished regional threat but sporadic influence in Afghanistan/Pakistan.",
+    "overview": "The Islamic Movement of Uzbekistan (IMU) was founded in 1998 by Juma Namangani (military leader) and Tahir Yuldashev (political/ideological leader), with a stated goal of overthrowing the government of Uzbekistan and establishing an Islamic state. Originally based in Tajikistan after fleeing Uzbek security crackdowns, the group relocated to Taliban-ruled Afghanistan in the late 1990s, forging close ties with both the Taliban and al-Qaeda. IMU launched a campaign of armed incursions into Uzbekistan and Kyrgyzstan (1999-2001), bombed sites in Tashkent, and sent fighters to support Taliban/al-Qaeda in Afghanistan. After Namangani’s death in 2001 and Yuldashev’s in 2009 (both killed by US strikes), IMU leadership fractured. In the 2010s, elements moved operations to northwest Pakistan, participated in cross-border attacks, and eventually some pledged allegiance to Islamic State–Khorasan Province (ISKP) circa 2015. Others maintained or reverted to Taliban alignment. By 2025, the IMU has lost organizational coherence, with most fighters integrated into either ISKP or Taliban networks in Afghanistan and a small remnant in Afghanistan’s north and Pakistan’s tribal belt. Its direct threat to Uzbekistan is now marginal, but its legacy persists in Central Asian jihadist networks.",
+    "threat_level": "low-to-moderate (regional), but elements can be enablers of larger threats",
+    "confidence_overall": "high"
+  },
+  "history_and_origin": {
+    "founding_date": "1998-08-01",
+    "founders": [
+      "Juma Namangani",
+      "Tahir Yuldashev"
+    ],
+    "origin_context": "The IMU traces its origins to the Adolat (Justice) movement in Namangan, Uzbekistan’s Fergana Valley. After Uzbek security forces cracked down on Islamist movements, founding members fled to Tajikistan, participating in the Tajik civil war (1992–1997) and aligning with other Islamist combatants. With the end of that war, IMU leaders shifted to Afghanistan and in 1998 formed a formal organization with explicit allegiance to the Taliban; the group’s ideology became more radical and pan-Islamic. The IMU declared jihad on President Islam Karimov and launched attacks on Uzbekistan aiming to topple the secular government.",
+    "key_milestones": [
+      {
+        "date": "1999-02-16",
+        "event": "Tashkent bombings",
+        "impact": "IMU suspected in car bomb attacks in Tashkent targeting President Karimov, resulting in 16 deaths.",
+        "source_ids": ["web:518", "web:514"]
+      },
+      {
+        "date": "1999-08-21",
+        "event": "Kyrgyzstan Batken incursions",
+        "impact": "Cross-border abductions and siege in Batken, Kygryzstan; hundreds taken hostage, international attention.",
+        "source_ids": ["web:514", "web:515"]
+      },
+      {
+        "date": "2001-11-01",
+        "event": "Battle of Kunduz; Namangani killed",
+        "impact": "IMU suffers heavy losses fighting for Taliban/al-Qaeda; Namangani killed by US airstrikes, group flees to Pakistan.",
+        "source_ids": ["web:514"]
+      },
+      {
+        "date": "2009-08-27",
+        "event": "Tahir Yuldashev killed by US drone strike in FATA",
+        "impact": "Leadership crisis and fragmentation.",
+        "source_ids": ["web:514"]
+      },
+      {
+        "date": "2014-2015",
+        "event": "Split in Afghanistan; some IMU factions align with ISKP",
+        "impact": "Pragmatic shift as Taliban alliance weakened; other remnants pledge loyalty to Taliban, lose cohesion.",
+        "source_ids": ["web:518", "web:521"]
+      },
+      {
+        "date": "2016-2025",
+        "event": "IMU virtually disappears as independent group; sporadic mentions as enablers for ISKP and Taliban, no independent military campaigns.",
+        "impact": "No known cross-border attacks on Central Asia since 2010s; survivors integrated into Afghan/Pakistani networks.",
+        "source_ids": ["web:514", "web:521"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Pan-Islamist", "Takfiri"],
+    "core_objectives": [
+      "Overthrow Uzbek and Central Asian secular governments",
+      "Establish an Islamic state across ‘Turkestan’",
+      "Support wider global jihad alongside Taliban/Al-Qaeda or ISKP (depending on current affiliation)"
+    ],
+    "short_term_goals": [
+      "Sustain operational base in Afghanistan’s north or Taliban-controlled areas.",
+      "Recruit Central Asian diaspora for combat and support roles.",
+      "Abet other jihadist groups’ operations in Afghanistan, especially ISKP."
+    ],
+    "long_term_goals": [
+      "Return to Central Asia with increased combat capacity",
+      "Establish regional emirate under sharia",
+      "Integrate Turkic and Central Asian global jihad recruitment"
+    ],
+    "narrative_and_justification": "The IMU frames its actions as defensive jihad against secular, ‘apostate’ regimes supported by Russia and the US. The group has referenced anti-Russian, anti-American, and anti-Uzbek government grievances, emphasizing pan-Islamic and pan-Turkic brotherhood.",
+    "target_selection_logic": "Mainly Uzbek government, security, and border targets in early years, shifting to Afghan and international forces after 2002; post-2010s, indirect support for ISKP and Taliban’s targeting efforts."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["AFG", "PAK"],
+    "territorial_control": [
+      {
+        "location_name": "Badakhshan, Kunduz, Jowzjan, Faryab (Afghanistan, 2010s), Waziristan (Pakistan, 2002–2010)",
+        "geocoordinates": {"lat": 37.5, "lon": 70.6},
+        "control_type": "presence",
+        "control_period": {"from": "1999-01-01", "to": null},
+        "notes": "Now mostly enclaved or absorbed into ISKP/Taliban."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Germany/Turkey",
+        "community_size_estimate": "dozens per country historically (not active now)",
+        "activities": ["recruitment", "logistics"],
+        "source_ids": ["web:514", "web:525"]
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Tahir Yuldashev",
+          "aliases": ["Tahir Yuldashev", "Qari Tahir"],
+          "role": "Co-founder, ideological leader",
+          "last_seen": "2009-08-27",
+          "status": "deceased",
+          "biographical_notes": "Died in US drone strike FATA, Pakistan."
+        },
+        {
+          "name": "Juma Namangani",
+          "role": "Co-founder, military commander",
+          "last_seen": "2001-11-01",
+          "status": "deceased",
+          "biographical_notes": "Died in US bombing, Afghanistan."
+        },
+        {
+          "name": "Usman Ghazi",
+          "aliases": [],
+          "role": "Later IMU emir, led ISKP alignment",
+          "last_seen": "2015-2016",
+          "status": "presumed deceased or inactive",
+          "biographical_notes": "Led shift toward ISKP after Taliban fallout."
+        }
+      ],
+      "leadership_model": "central committee (now defunct), splinter factions integrated into ISKP/Taliban."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military/Combat Detachments (historically active)",
+        "notes": "Dispersed, many subsumed by ISKP and Taliban."
+      },
+      {
+        "component_name": "Media/Recruitment Unit (disbanded)",
+        "notes": "Produced videos in Uzbek, Russian, Turkish, Arabic in the 2000s–early 2010s."
+      }
+    ]
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 30, "max": 150, "confidence": "low"},
+    "composition": {
+      "combatants": {"min": 20, "max": 100},
+      "support_personnel": {"min": 10, "max": 50},
+      "foreign_fighters": "small, mostly Uzbek/Turkic diaspora, some Chechens, Uighurs in earlier years",
+      "female_participation": "unknown, minimal"
+    },
+    "composition_peak": {
+      "year": "1999–2001",
+      "total": {"min": 500, "max": 1_000},
+      "description": "At zenith pre-2001 invasion, hundreds of fighters, ran multiple camps."
+    },
+    "recruitment_demographics": {
+      "age_range": "18–45",
+      "education_levels": "low to mid; some radicalized students from urban centers",
+      "socioeconomic_background": "Central Asian rural youth, refugees",
+      "gender_distribution": "male dominated"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "IED/car bomb",
+        "mountain and guerrilla warfare",
+        "religious ideology"
+      ],
+      "training_locations": [
+        "Afghanistan (early years)",
+        "NW Pakistan/FATA (2002–2010)"
+      ]
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional, formerly cross-border (Central Asia)",
+    "known_attack_types": [
+      "small arms raids",
+      "abductions",
+      "IEDs and VBIEDs",
+      "assassinations",
+      "suicide bombings"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "Tashkent government bombing",
+        "date": "1999-02-16",
+        "location": "Tashkent, Uzbekistan",
+        "method_category": "VBIED",
+        "casualties_killed": 16,
+        "sources": ["web:518", "web:514"]
+      },
+      {
+        "operation_name": "Kyrgyzstan Batken Incursion",
+        "date": "1999-08-21",
+        "location": "Batken region, Kyrgyzstan",
+        "method_category": "armed incursion/hostage-taking",
+        "casualties_killed": "multiple",
+        "sources": ["web:514"]
+      },
+      {
+        "operation_name": "Afghan Taliban/Al-Qaeda combat",
+        "date": "1999–2001",
+        "location": "Afghanistan",
+        "method_category": "co-belligerent fighting",
+        "casualties_killed": "unknown",
+        "sources": ["web:514"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "None documented; dependent on Taliban, Al-Qaeda, ISKP alliances",
+      "criminal_partnerships": "opportunistic arms smuggling",
+      "transnational_network_links": ["Al-Qaeda", "Taliban (pre-2015, post-2021)", "ISKP (2015–2020s; elements still affiliated)"]
+    },
+    "operations_tempo_and_patterning": "Active 1998–2001 (collapse post-Kunduz); intermittent activity 2001–2015; very limited after ISKP split and leadership deaths."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": [
+        "small arms",
+        "IEDs",
+        "VBIEDs",
+        "rocket-propelled grenades"
+      ],
+      "acquisition_routes": "Taliban/Al-Qaeda supply, black market, battlefield capture"
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited (propaganda, encrypted chat)",
+      "observed_activities": ["propaganda videos, online statements"]
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted apps", "jihadi web forums", "local networks"]
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["on foot", "small vehicles"],
+      "notes": "Mountainous/remote terrain favored"
+    },
+    "technical_gaps_and_weaknesses": "Cohesion loss, no access to advanced tech, limited independent logistics."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 50_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "Al-Qaeda/Taliban/ISKP support",
+        "description": "Operational support, shared criminal proceeds"
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "Asset freezes, travel bans",
+        "implementing_body": "US, UN, regional",
+        "effectiveness_assessment": "high (group now marginalized, fragmented)"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": [
+      "family networks",
+      "refugee/IDP camps",
+      "prison/jail recruitment"
+    ],
+    "target_profiles": [
+      "Uzbek/Turkic-speaking youth",
+      "radicalized students",
+      "former Tajik/Afghan civil war fighters"
+    ]
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "videos/statements (early 2000s–2010s)"
+    ],
+    "languages_used": ["Uzbek", "Russian", "Arabic", "Turkish"],
+    "messaging_themes": [
+      "anti-Uzbek regime",
+      "pan-Islamic jihad",
+      "solidarity with global jihadi movements"
+    ]
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Uzbekistan & allies",
+        "outcome": "Hundreds convicted or sentenced, including in absentia."
+      }
+    ],
+    "human_rights_concerns": "IMU responsible for killings, bombings, abductions. Central Asian crackdown led to widespread abuses and draconian repression."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "propaganda video/statements", "thresholds": "rare; any signals re-emergence"},
+      {"indicator": "Taliban/ISKP mentions", "thresholds": "reports of IMU subunits in Afghan fighting"}
+    ]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "The IMU as a standalone entity is now largely defunct, with most residual risk stemming from integration of Uzbek fighters into ISKP or the Taliban. Limited potential for cross-border Uzbek raids; greater risk as a support/enabler for other networks.",
+    "vulnerable_sectors": [
+      "Afghan government/ethnic targets",
+      "potential cross-border targets (should group re-emerge)"
+    ],
+    "recommended_mitigation_measures": [
+      "continued regional intelligence cooperation",
+      "monitor ISKP/Taliban alliances for Uzbek/Turkic involvement",
+      "local engagement to prevent diaspora radicalization"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:514",
+        "type": "academic/NGO",
+        "description": "START: IMU narrative and evolution (2012)",
+        "url": "https://www.start.umd.edu/gtd/search/IncidentSummary.aspx?gtdid=201203230005"
+      },
+      {
+        "id": "web:515",
+        "type": "open_source",
+        "description": "Wikipedia: IMU group history, leadership, operations",
+        "url": "https://en.wikipedia.org/wiki/Islamic_Movement_of_Uzbekistan"
+      },
+      {
+        "id": "web:518",
+        "type": "think_tank",
+        "description": "Soufan Center: Taliban, ISKP, and IMU alliances (2022)",
+        "url": "https://thesoufancenter.org/uzbekistan-taliban-imu"
+      },
+      {
+        "id": "web:521",
+        "type": "academic/NGO",
+        "description": "CTC West Point: IMU, Taliban, IS-K alignment",
+        "url": "https://ctc.westpoint.edu/imu-is-ties/"
+      },
+      {
+        "id": "web:8",
+        "type": "official",
+        "description": "State Department: FTO designation 2000",
+        "url": "https://www.state.gov/foreign-terrorist-organizations/"
+      }
+    ]
+  }
+}
