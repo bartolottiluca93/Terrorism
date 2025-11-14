@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "profile_id": "jaa-nov2025-v1",
+    "name": "Jaysh al-Adl (JAA), formerly Jundallah",
+    "aliases": [
+      "Army of Justice",
+      "Jundallah",
+      "Jundullah",
+      "People's Resistance of Iran",
+      "Peoples Resistance Movement of Iran",
+      "Soldiers of God",
+      "Ansar al-Furqan (affiliated)",
+      "Baloch Peoples Resistance Movement",
+      "BPRM"
+    ],
+    "primary_language": "Balochi",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization (Jundallah 2010, amended JAA 2019)",
+        "designation_date": "2010-11-04",
+        "reference": "web:603"
+      },
+      {
+        "country_or_body": "Iran",
+        "designation": "Terrorist organization",
+        "designation_date": "2010-01-01",
+        "reference": "web:603"
+      },
+      {
+        "country_or_body": "Pakistan",
+        "designation": "Terrorist organization",
+        "designation_date": "2010-01-01",
+        "reference": "web:603"
+      }
+    ],
+    "status": "active (degraded by leadership decapitation November 2024; recovering August 2025)",
+    "first_observed_date": "2002-01-01",
+    "last_verified_date": "2025-11-14",
+    "version": "2025.11.14.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Sunni-Baloch separatist group, <500 fighters, founded 2002, renamed 2012, leader Salahuddin Farooqui killed November 2024 (joint Pakistan-Iran operation), continues attacks Iran's Sistan-Baluchistan province (6 civilians killed July 2025), operates Pakistan border sanctuaries.",
+    "overview": "Jaysh al-Adl (JAA, 'Army of Justice'), formerly known as Jundallah, is a Sunni Deobandi separatist militant organization based in Iran's Sistan-Baluchistan province with operations extending into Pakistan's Balochistan and Afghanistan. Jundallah was founded 2002-2003 by Abdolmalek Rigi to advance Baloch ethnic rights and oppose perceived Shia discrimination. After Rigi's execution (June 19, 2010), the group fragmented; surviving members reconstituted as Jaysh al-Adl (JAA) in 2012 under leadership of Salahuddin Farooqui (Abdolrahim Mullahzadeh). JAA operates primarily in Iran's Sistan-Baluchistan province with estimated <500 active fighters (CIA 2023 assessment), conducting sporadic attacks against Iranian Revolutionary Guard Corps (IRGC), border guards, and civilian targets. Unlike ethnic/resource-focused predecessors, JAA combines Baloch nationalist grievances with Salafi-jihadist ideology. The group faced major setback November 5, 2024 when a joint Pakistan-Iran operation killed Salahuddin Farooqui, deputy leader Mullah Omar Darakhshan, and senior commander (12 militants total), severely degrading leadership structure. However, recent attacks (July-August 2025: courthouse bombing killed 6 civilians; police station assault killed 4) demonstrate operational resilience. JAA is believed financed through kidnapping-for-ransom, extortion of smuggling operations, and alleged external support from US and Saudi Arabia (per Iranian claims; unconfirmed). Cross-border sanctuaries in Pakistan's Balochistan remain critical to operations, with JAA using porous Iran-Pakistan border for infiltration, resupply, and retreat. Group maintains loose ties to Pakistani Baloch separatist groups (Balochistan Liberation Army/BLA, Balochistan Liberation Front/BLF) and reportedly produces explosives and suicide vests in clandestine workshops (August 2025 discovery near Iranshahr). As of November 2025, JAA remains a persistent but contained regional threat, lacking capacity for transnational operations or broader insurgency beyond Baluchistan.",
+    "threat_level": "medium",
+    "confidence_overall": "high"
+  },
+  "history_and_origin": {
+    "founding_date": "2002-01-01",
+    "founders": ["Abdolmalek Rigi"],
+    "origin_context": "Jundallah emerged from historical Baloch grievances against Iranian state policies, economic marginalization of Baloch minority, and perceived Shia-centric governance. Founded by Abdolmalek Rigi (born ~1970s), a Sunni ideologue from Rask district, Jundallah initially focused on Baloch cultural/political rights advocacy before radicalizing into armed insurgency post-2005. The group was influenced by global jihadist movements and Pakistani-based Baloch nationalist groups (ethnic kinship ties). Rigi established training camps initially in Taliban-controlled Afghanistan, coordinating with al-Qaeda networks. After 2001 US invasion of Afghanistan, Rigi shifted operations to Pakistan's Balochistan, exploiting porous Iran-Pakistan border for cross-border raids.",
+    "key_milestones": [
+      {
+        "date": "2002-01-01",
+        "event": "Jundallah founded by Abdolmalek Rigi",
+        "impact": "Emergence of Sunni-Baloch militant group; estimated ~100 initial fighters.",
+        "source_ids": ["web:600", "web:603"]
+      },
+      {
+        "date": "2005-10-01",
+        "event": "First major operations begin; Jundallah conducts initial armed attacks",
+        "impact": "Insurgency transition from political movement to armed group.",
+        "source_ids": ["web:600"]
+      },
+      {
+        "date": "2009-05-28",
+        "event": "Zahedan Grand Mosque suicide bombing",
+        "impact": "30 killed, 300 injured; deadliest attack against Iranian civilians; Jundallah blamed.",
+        "source_ids": ["web:1", "web:603"]
+      },
+      {
+        "date": "2009-10-18",
+        "event": "Pishin marketplace suicide bombing",
+        "impact": "40+ killed; suspected US support allegations by Iran.",
+        "source_ids": ["web:1", "web:606"]
+      },
+      {
+        "date": "2010-02-23",
+        "event": "Abdolmalek Rigi arrested in Kyrgyzstan (captured on flight from Dubai)",
+        "impact": "Leadership crisis; Rigi imprisoned.",
+        "source_ids": ["web:600", "web:606"]
+      },
+      {
+        "date": "2010-06-19",
+        "event": "Abdolmalek Rigi executed by Iranian Government",
+        "impact": "Jundallah leadership decapitated; group fragments; organizational crisis.",
+        "source_ids": ["web:1", "web:600"]
+      },
+      {
+        "date": "2010-12-15",
+        "event": "Chabahar mosque suicide bombing (Jundallah)",
+        "impact": "40 civilians killed, 100 wounded; continued high-profile attacks post-Rigi.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2010-11-04",
+        "event": "US designates Jundallah as Foreign Terrorist Organization",
+        "impact": "International terrorist status; sanctions regime.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2012-01-01",
+        "event": "Jundallah survivors formally rename group Jaysh al-Adl (JAA)",
+        "impact": "Organizational reorganization; new leadership structure; Salahuddin Farooqui emerges as emir.",
+        "source_ids": ["web:603", "web:600"]
+      },
+      {
+        "date": "2013-10-25",
+        "event": "JAA kills 14 border guards in Saravan; escalation begins",
+        "impact": "First major operation under JAA banner; retaliation for death row prisoners.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2013-11-06",
+        "event": "JAA assassinates Zabol city prosecutor Musa Nuri",
+        "impact": "Targeted killing of high-profile government official.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2015-04-06",
+        "event": "JAA cross-border attack; 8 Iranian border guards killed",
+        "impact": "Coordination with Pakistan-based cells; transnational capability.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2019-02-13",
+        "event": "JAA suicide bombing of IRGC bus (Khash-Zahedan)",
+        "impact": "27 IRGC personnel killed; sophisticated operation; international attention.",
+        "source_ids": ["web:602", "web:603", "web:605"]
+      },
+      {
+        "date": "2023-07-08",
+        "event": "JAA police station attack, Zahedan",
+        "impact": "2 police officers killed; 4 attackers died; resurgence signal.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2023-12-15",
+        "event": "JAA police station attack, Rask",
+        "impact": "11 police officers killed; increased sophistication and casualty rates.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2024-01-16",
+        "event": "Iran launches ballistic missiles/drones on alleged JAA bases Pakistan",
+        "impact": "Cross-border military strike; Pakistan condemns violation; escalation risk.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2024-01-17",
+        "event": "Pakistan retaliates with strikes on BLA/BLF targets Iran",
+        "impact": "Tit-for-tat military exchanges; border instability.",
+        "source_ids": ["web:603"]
+      },
+      {
+        "date": "2024-02-22",
+        "event": "JAA claims bombing of Housing Foundation Chabahar",
+        "impact": "Building destroyed; JAA signals opposition to government development.",
+        "source_ids": ["web:599"]
+      },
+      {
+        "date": "2024-11-05",
+        "event": "Joint Pakistan-Iran operation kills Salahuddin Farooqui (JAA leader) and 11 others",
+        "impact": "Leadership decapitation; second- and third-in-command killed; 12 militants total; major organizational blow.",
+        "source_ids": ["web:603", "web:611"]
+      },
+      {
+        "date": "2025-07-26",
+        "event": "JAA attacks courthouse Sistan-Baluchistan",
+        "impact": "6 civilians killed, 20+ wounded; 3-hour battle; demonstrates recovery post-November 2024.",
+        "source_ids": ["web:609"]
+      },
+      {
+        "date": "2025-08-10",
+        "event": "JAA police station assault",
+        "impact": "4 killed including police officer; 3 militants neutralized, 2 detained.",
+        "source_ids": ["web:609"]
+      },
+      {
+        "date": "2025-08-22",
+        "event": "JAA ambush on police; 5 killed",
+        "impact": "Triggers Iranian counterterrorism campaign.",
+        "source_ids": ["web:609"]
+      },
+      {
+        "date": "2025-08-28",
+        "event": "Iranian IRGC counterterrorism operation kills 13 JAA militants; discovers explosives workshop",
+        "impact": "13 militants killed in joint IRGC/police/intelligence operation; Chah Jamal workshop seized producing explosives and suicide vests.",
+        "source_ids": ["web:603", "web:609"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Sunni Deobandi", "Baloch separatist", "Salafi-jihadist", "Ethnic nationalist"],
+    "core_objectives": [
+      "Secure Baloch independence from Iran",
+      "Establish Baloch self-determination across Iran, Pakistan, Afghanistan",
+      "Advance Baloch cultural, economic, and political rights",
+      "Resist perceived Shia-centric Iranian governance",
+      "Oppose foreign resource exploitation in Balochistan"
+    ],
+    "short_term_goals": [
+      "Conduct attacks against Iranian security forces",
+      "Sustain armed insurgency in Sistan-Baluchistan",
+      "Maintain cross-border sanctuaries in Pakistan",
+      "Gain international attention and support for Baloch cause"
+    ],
+    "long_term_goals": [
+      "Establish independent Baloch state",
+      "Unite Baloch populations across Iran-Pakistan-Afghanistan borders",
+      "Create autonomous Balochistan region",
+      "Integrate with broader Baloch nationalist movements (BLA, BLF)"
+    ],
+    "narrative_and_justification": "JAA frames violence as defensive struggle against Iranian oppression, economic marginalization of Baloch minority, and perceived discrimination of Sunni population in Shia-majority Iran. Emphasizes resource exploitation (Chabahar port expansion), governmental neglect, and sectarian bias. Combines ethnic nationalism with Salafi-jihadist ideology.",
+    "target_selection_logic": "Iranian security forces (IRGC, border guards, police) as primary targets; government officials and symbolic targets (courthouses, administrative buildings); civilian soft targets for psychological impact; infrastructure related to perceived exploitation."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IRN (Sistan-Baluchistan)", "PAK (Balochistan)"],
+    "territorial_control": [
+      {
+        "location_name": "Sistan-Baluchistan Province, Iran (southeastern border)",
+        "geocoordinates": {"lat": 26.5, "lon": 61.0},
+        "control_type": "operational_presence",
+        "control_period": {"from": "2002-01-01", "to": null},
+        "notes": "Primary operating area; no territorial control but conducts raids; cross-border infiltration zone.",
+        "source_ids": ["web:603", "web:607"]
+      },
+      {
+        "location_name": "Balochistan Province, Pakistan (southwestern border)",
+        "geocoordinates": {"lat": 28.0, "lon": 64.0},
+        "control_type": "sanctuary/rear_base",
+        "control_period": {"from": "2002-01-01", "to": null},
+        "notes": "Pakistan-based sanctuaries; less active Iranian operations; shared with BLA/BLF; porous border exploited.",
+        "source_ids": ["web:603", "web:607"]
+      },
+      {
+        "location_name": "Afghanistan (sporadic presence)",
+        "geocoordinates": {"lat": 32.0, "lon": 62.0},
+        "control_type": "limited_presence",
+        "control_period": {"from": "2002-2014", "to": "sporadic"},
+        "notes": "Historical presence under Taliban (pre-2001, 2021+); diminished post-2001.",
+        "source_ids": ["web:600"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Pakistan's Balochistan Province",
+        "type": "rural",
+        "notes": "Primary rear base; family compounds; training areas; porous border enables cross-border operations."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Salahuddin Farooqui",
+          "aliases": ["Abdolrahim Mullahzadeh", "Salahoodin Farooqi", "Farooqi"],
+          "role": "Leader 2012-November 2024",
+          "last_seen": "2024-11-05",
+          "status": "deceased",
+          "biographical_notes": "Born 1979 Rask district; strong tribal ties to Pakistani Baloch militants; publicly advocated Iran fragmentation; supported Israeli-American Syria operations; led group 12+ years; killed November 5, 2024 joint Pakistan-Iran operation.",
+          "source_ids": ["web:598", "web:603", "web:611"]
+        },
+        {
+          "name": "Mullah Omar Darakhshan",
+          "aliases": ["Mullah Darakhshan"],
+          "role": "Deputy leader",
+          "last_seen": "2024-11-05",
+          "status": "deceased",
+          "biographical_notes": "Brother of Mullah Mauluk Darakhshan (Sipah-e-Rasool Allah founder); killed November 5, 2024 with Farooqui.",
+          "source_ids": ["web:611"]
+        },
+        {
+          "name": "Current leadership (unknown)",
+          "aliases": [],
+          "role": "Leader post-November 2024",
+          "last_seen": "2025-11-14",
+          "status": "unclear",
+          "biographical_notes": "Third-in-command killed November 2024; succession structure unclear; leadership vacuum suggests potential organizational fracturing.",
+          "source_ids": ["web:603"]
+        }
+      ],
+      "leadership_model": "centralized under emir; deputy structure; regional commanders",
+      "succession_mechanism": "Unknown post-November 2024 decapitation; potential factional splits; Pakistan/Iran may have degraded succession planning."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Combat Operations Wing",
+        "function": "Armed attacks, ambushes, assassinations",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "low"},
+        "leader": "Unknown regional commanders",
+        "notes": "Platoon-sized elements (12-20 fighters) conduct operations; increasing sophistication 2023-2025."
+      },
+      {
+        "component_name": "Logistics and Cross-border Cells",
+        "function": "Supply lines, infiltration coordination, Pakistan sanctuary management",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "Critical to operations; porous border management; resupply coordination."
+      },
+      {
+        "component_name": "Explosives Workshop",
+        "function": "IED/VBIED production, suicide vest manufacturing",
+        "size_estimate": {"min": 10, "max": 30, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "August 2025 workshop discovered near Iranshahr producing explosives and suicide vests; destroyed by Iranian forces."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under leader (deceased Farooqui); deputy structure; regional operational autonomy.",
+      "discipline_and_enforcement": "Islamic law enforcement; tribal/ethnic loyalty mechanisms; revenge cycles."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 200, "max": 500, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 150, "max": 350},
+      "support_personnel": {"min": 30, "max": 100},
+      "foreign_fighters": "minimal; mostly Pakistan-based Baloch from tribal networks",
+      "female_participation": "minimal (<1%)"
+    },
+    "composition_peak": {
+      "year": "2009",
+      "total": {"min": 1_000, "max": 2_000},
+      "description": "Estimated 1,000-2,000 fighters at Jundallah peak (2008-2010); degraded post-Rigi execution to 200-500 by 2025."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45; some youth indoctrination",
+      "education_levels": ["primary", "secondary", "Islamic schools"],
+      "socioeconomic_background": "Rural Baloch poor; economically marginalized; herding communities; border region residents.",
+      "gender_distribution": "99%+ male"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "explosives/IEDs/suicide vests",
+        "guerrilla tactics",
+        "Islamic theology (Salafi/Deobandi)",
+        "ambush/assassination techniques"
+      ],
+      "training_locations": [
+        "Pakistan Balochistan sanctuaries",
+        "Remote Iran-Pakistan border areas",
+        "Clandestine workshops (explosives training)"
+      ],
+      "notes": "Multi-phase training: religious indoctrination, military instruction, specialized roles. Grey Dynamics assessment: JAA likely utilizing US weapons left in Afghanistan (Bagram base stock)."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional (Iran-Pakistan border)",
+    "known_attack_types": [
+      "armed assault/ambush",
+      "suicide bombing",
+      "IED/VBIED",
+      "targeted assassination",
+      "kidnapping",
+      "small arms attack"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "Zahedan Grand Mosque suicide bombing",
+        "date": "2009-05-28",
+        "location": "Zahedan, Sistan-Baluchistan, Iran",
+        "method_category": "suicide bombing in mosque during prayer",
+        "casualties_killed": 30,
+        "casualties_injured": 300,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "Pishin marketplace suicide bombing",
+        "date": "2009-10-18",
+        "location": "Pishin, Sistan-Baluchistan, Iran",
+        "method_category": "suicide bombing in marketplace",
+        "casualties_killed": 40,
+        "casualties_injured": 57,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:606"]
+      },
+      {
+        "operation_name": "Chabahar mosque suicide bombing",
+        "date": "2010-12-15",
+        "location": "Chabahar, Sistan-Baluchistan, Iran",
+        "method_category": "suicide bombing in mosque",
+        "casualties_killed": 40,
+        "casualties_injured": 100,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "IRGC bus bombing",
+        "date": "2019-02-13",
+        "location": "Khash-Zahedan route, Iran",
+        "method_category": "SVBIED against bus carrying IRGC personnel",
+        "casualties_killed": 27,
+        "casualties_injured": 18,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:602", "web:603", "web:605"]
+      },
+      {
+        "operation_name": "Zahedan courthouse attack",
+        "date": "2025-07-26",
+        "location": "Zahedan courthouse, Iran",
+        "method_category": "armed assault and bombing",
+        "casualties_killed": 6,
+        "casualties_injured": 20,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:609"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Iran alleges US/Saudi Arabia support (unconfirmed); Pakistan provides sanctuary",
+      "criminal_partnerships": "Cross-border smuggling networks; heroin trafficking coordination (sporadic)",
+      "transnational_network_links": ["Pakistani Baloch separatists (BLA, BLF)", "Ansar al-Furqan (affiliated)", "Historical Taliban ties (pre-2001, post-2021)"]
+    },
+    "operations_tempo_and_patterning": "Sporadic 2002-2009 (pre-Rigi); intensifying 2009-2010 (peak mass-casualty attacks); degraded 2010-2023 (Rigi death impact); resurgent 2023-2025 (increasing sophistication); temporary disruption November 2024-August 2025 post-leadership decapitation; rapid recovery August 2025 (13 killed in counterterrorism suggests 100+ fighters remaining active)."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small arms (AK-47s)", "grenades", "IEDs", "suicide vests", "VBIEDs", "RPGs", "anti-tank weapons"],
+      "acquisition_routes": "Pakistan black market smuggling, US weapons abandoned Afghanistan (Bagram base), captured Iranian weapons, heroin trafficking network integration",
+      "notes": "Sophisticated bomb-making capability; suicide vest production (workshop discovered August 2025); SVBIED construction; Grey Dynamics: 'highly likely JAA utilizing US weapons left in Afghanistan.'"
+    },
+    "cyber_capabilities": {
+      "capability_level": "minimal",
+      "observed_activities": ["social media announcements", "Telegram claim dissemination", "WhatsApp coordination"],
+      "notes": "Basic digital presence; encrypted messaging for operations coordination."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers (Telegram, WhatsApp)", "courier networks", "radio (sporadic)"],
+      "propaganda_platforms": ["Telegram channels", "social media (limited)", "video releases"],
+      "notes": "Decentralized communications; Telegram primary platform for attack claims; social media presence limited."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "vehicles", "foot", "cross-border smuggling routes"],
+      "notes": "Highly mobile; exploit porous Iran-Pakistan border; remote terrain mobility high; Pakistan sanctuaries critical."
+    },
+    "technical_gaps_and_weaknesses": "Small size limits heavy weapons; vulnerable to airstrikes (January 2024 Iranian strikes); communications susceptible to interception; dependency on Pakistan sanctuaries (vulnerable to cross-border operations); ammunition supply constraints post-leadership decapitation."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 1_000_000, "currency": "USD", "confidence": "very_low"},
+    "revenue_streams": [
+      {
+        "type": "kidnapping_ransom",
+        "description": "Ransom from kidnappings of Iranian security personnel and civilians",
+        "estimated_share_percent": 50,
+        "notes": "$500K; sporadic operations; October 2018: 10+ security personnel kidnapped."
+      },
+      {
+        "type": "extortion",
+        "description": "Extortion of smuggling networks, traders crossing Iran-Pakistan border",
+        "estimated_share_percent": 30,
+        "notes": "$300K; taxation of heroin/goods smuggling; protection rackets."
+      },
+      {
+        "type": "donations_external",
+        "description": "Alleged support from US/Saudi Arabia (unconfirmed by Iran); diaspora support",
+        "estimated_share_percent": 20,
+        "notes": "$200K; unverified claims; social media fundraising attempts."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Cash couriers, smuggling network integration, informal value transfer via hawala-like systems.",
+      "notes": "Cash-based operations; heroin trafficking networks utilized for financial transfers; decentralized fund management; limited banking access due to sanctions."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings, asset freezes",
+        "implementing_body": "US, UN, Iran",
+        "date": "2010-11-04",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks (tribal)", "ethnic Baloch networks", "religious networks", "Pakistan-based sanctuaries"],
+    "recruitment_tactics": [
+      "ethnic/Baloch nationalist grievance exploitation",
+      "religious ideology messaging (Salafi/Deobandi)",
+      "retaliation narrative (prisoner executions)",
+      "economic incentives",
+      "revenge motivation (killed family members)"
+    ],
+    "target_profiles": [
+      "Baloch ethnic minorities (primary)",
+      "economically marginalized youth 16-40",
+      "border region residents",
+      "religiously inclined individuals",
+      "families of executed prisoners"
+    ],
+    "recruitment_geography": ["Sistan-Baluchistan Iran", "Balochistan Pakistan", "border communities"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 5, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "Moderate; ethnic grievance exploitation effective; family/tribal networks primary recruitment mechanism; social media campaigns emerging but limited reach."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": ["attack claim videos", "operational footage", "leadership statements", "recruitment messaging"],
+    "languages_used": ["Balochi", "Persian", "Arabic", "English (limited)"],
+    "messaging_themes": [
+      "Baloch independence",
+      "resource exploitation opposition",
+      "sectarian grievance (Sunni marginalization)",
+      "resistance to oppression",
+      "martyrdom glorification"
+    ],
+    "audience_targeting": "Baloch populations (Iran, Pakistan, diaspora), ethnic nationalist movements, extremist networks.",
+    "platform_policy_responses": "Telegram channel periodic suspensions (rapid recreation); social media account removals; limited effectiveness given localized nature and encrypted communications."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Iran",
+        "case_ref": "Military and civilian courts",
+        "defendants": ["Captured JAA fighters"],
+        "outcome": "Some convictions; executions documented; extrajudicial operations by IRGC reported.",
+        "notes": "August 27, 2025: 13 militants killed in IRGC counterterrorism; judicial proceedings for captured fighters."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties from terrorist attacks (suicide bombings); kidnapping and hostage-taking; extortion under threat; targeted killings of government officials; torture of detainees; Iranian government execution of prisoners (often documented as death row/drug trafficking but politically motivated); IRGC counterterrorism abuses (extrajudicial killings, drone strikes)."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency claims", "type": "operational", "thresholds": ">2/month signals resurgence"},
+      {"indicator": "Cross-border incident reports", "type": "operational", "thresholds": "Iran-Pakistan military exchanges indicate spillover"},
+      {"indicator": "Leadership/successor announcements", "type": "communications", "thresholds": "Formal succession statement indicates reorganization"}
+    ],
+    "early_warning_signals": ["Attack claim surges", "Leadership statements", "Recruitment announcements", "Cross-border mobilization intelligence", "Explosives workshop activity"],
+    "data_needed_for_monitoring": ["HUMINT from informants Pakistan/Iran", "SIGINT (encrypted communications)", "satellite imagery (camps, workshops)", "financial transaction tracking"],
+    "recommended_analytic_methods": ["temporal attack pattern clustering", "network analysis (tribal connections)", "geospatial conflict mapping (border zone)"]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Jaysh al-Adl poses a medium, contained regional threat focused on Iran's Sistan-Baluchistan province with minimal transnational operations. The November 2024 leadership decapitation (Farooqui death, 12 militants killed) temporarily degraded operational capacity but group demonstrated resilience through August 2025 attacks (courthouse bombing 6 killed, police station assault 4 killed) despite continued IRGC counterterrorism campaign (13 militants killed August 28, 2025). Current estimated 200-500 fighters represent 75%+ reduction from Jundallah peak (1,000-2,000). Group lacks capacity for major asymmetric operations or geographic expansion. Primary threat remains security force casualties and civilian attacks in Baluchistan. Cross-border sanctuaries in Pakistan critical to survival; Pakistan-Iran military exchanges risk regional escalation.",
+    "vulnerable_sectors": [
+      "Iranian security forces (IRGC, border guards, police)",
+      "civilian soft targets in Sistan-Baluchistan",
+      "government buildings/courthouses",
+      "border infrastructure",
+      "Pakistan-Iran border relations"
+    ],
+    "likely_future_trends": "Continued insurgency operations at reduced scale post-leadership decapitation; potential factional splits; sporadic high-casualty attacks; low-intensity ongoing violence; unlikely major transnational operations; possible coordination with other Baloch groups (BLA/BLF); Pakistan/Iran cross-border tensions likely to persist.",
+    "recommended_mitigation_measures": [
+      "Sustained intelligence cooperation Pakistan-Iran on border sanctuaries",
+      "Counter-finance operations on kidnapping-for-ransom networks",
+      "Disruption of explosives production workshops (continuing discovery/destruction)",
+      "Deradicalization programs targeting Baloch youth",
+      "Governance and service provision in Baluchistan (addressing grievances)",
+      "Border security improvements (porous zones)",
+      "Cyber operations against Telegram recruitment channels",
+      "Support for Pakistani military counter-terrorism operations in Balochistan",
+      "De-escalation initiatives to reduce Pakistan-Iran military tensions",
+      "Intelligence collection on successor leadership (post-Farooqui)"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: JAA terrorist group profile (October 2022)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/jaa.html",
+        "date": "2025-11-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:598",
+        "type": "media",
+        "description": "Tahlil Roz: Jaish al-Adl from rhetoric to action (February 2024)",
+        "date": "2024-02-06",
+        "credibility_assessment": "medium"
+      },
+      {
+        "id": "web:599",
+        "type": "media",
+        "description": "Iran International: JAA Chabahar Housing Foundation bombing (February 2025)",
+        "date": "2025-02-22",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:600",
+        "type": "secondary",
+        "description": "Global Security: Jundallah/BPRM comprehensive history and operations",
+        "date": "2024-11-03",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:603",
+        "type": "secondary",
+        "description": "Wikipedia: Jaysh al-Adl complete history, operations timeline, leadership (2014-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:602",
+        "type": "media",
+        "description": "BBC: IRGC bus bombing 27 killed February 2019",
+        "date": "2019-02-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:605",
+        "type": "media",
+        "description": "Long War Journal: JAA IRGC bus bombing operational analysis (February 2019)",
+        "date": "2019-02-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:606",
+        "type": "academic",
+        "description": "MEPEI: JAA/Jundallah post-9/11 role and US complicity allegations (August 2025)",
+        "date": "2025-08-02",
+        "credibility_assessment": "medium"
+      },
+      {
+        "id": "web:607",
+        "type": "think_tank",
+        "description": "Grey Dynamics: Jaysh al-Adl tactical assessment, Afghan weapons use (July 2024)",
+        "date": "2024-07-24",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:609",
+        "type": "research",
+        "description": "Special Eurasia: Iranian counterterrorism operations JAA Sistan-Baluchistan (August 2025)",
+        "date": "2025-08-28",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:611",
+        "type": "media",
+        "description": "Press TV: JAA leadership structure and Farooqui death (July 2025)",
+        "date": "2025-07-29",
+        "credibility_assessment": "medium"
+      }
+    ]
+  }
+}
