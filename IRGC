@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "profile_id": "irgc-nov2025-v2",
+    "name": "Islamic Revolutionary Guard Corps (IRGC) and IRGC-Qods Force",
+    "aliases": [
+      "Sepah-e Pasdaran-e Enqelab-e Eslami",
+      "Pasdaran",
+      "Sepah",
+      "Iranian Revolutionary Guards",
+      "IRGC-QF (Qods Force)",
+      "Jerusalem Force",
+      "Quds Force"
+    ],
+    "primary_language": "Persian (Farsi)",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization (entire IRGC)",
+        "designation_date": "2019-04-08",
+        "reference": "web:532"
+      },
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist (IRGC-QF)",
+        "designation_date": "2007-10-25",
+        "reference": "web:1"
+      }
+    ],
+    "status": "active (state military/intelligence organization)",
+    "first_observed_date": "1979-05-05",
+    "last_verified_date": "2025-11-14",
+    "version": "2025.11.14.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Iran's most powerful military branch with 150,000-190,000 personnel, designated FTO in 2019, operates global proxy network through IRGC-QF (5,000-15,000 personnel), generates billions through oil smuggling ($9B+ in 2024), conducts assassination plots against US officials including Donald Trump/John Bolton, provides $1B+ annually to Hezbollah, and controls Axis of Resistance spanning Iraq, Syria, Lebanon, Yemen, Gaza.",
+    "overview": "The Islamic Revolutionary Guard Corps (IRGC) is Iran's most powerful military and political organization, established May 5, 1979 by Ayatollah Ruhollah Khomeini to protect the Islamic Revolution and serve as counterweight to Iran's regular army (Artesh). Reporting directly to Supreme Leader Ali Khamenei, the IRGC comprises 150,000-190,000 active personnel organized into Ground Forces (150,000), Navy (20,000+), Aerospace Force, Basij militia (600,000 volunteers mobilizable), and the elite IRGC-Qods Force (5,000-15,000). The IRGC-QF, established 1989-1990, conducts extraterritorial asymmetric warfare, terrorism, and proxy coordination globally. Under legendary commander Qassim Soleimani (1997-2020, killed by US drone strike January 3, 2020), the IRGC-QF built the 'Axis of Resistance'—network of Shia militias, Palestinian groups, and regional proxies including Lebanese Hezbollah ($700M-$1B+ annually), Iraqi PMF/Kata'ib Hezbollah, Syrian militias, Yemeni Houthis, Hamas, and Palestinian Islamic Jihad. Current IRGC-QF commander Esmail Qaani (2020-present) lacks Soleimani's charisma but maintains operational continuity. The IRGC generates revenue through massive oil smuggling operations ($9B+ identified in 2024 through shadow banking, front companies in UAE/Singapore/Hong Kong), weapons trafficking, and economic control of 40%+ of Iranian economy. IRGC-QF Unit 840 specializes in overseas assassination operations, documented plots 2020-2025 targeting US officials (Donald Trump, Mike Pompeo, John Bolton, Robert O'Brien), Iranian dissidents, and Jewish/Israeli targets. As of November 2025, IRGC provides weaponry (drones, missiles, rockets) enabling Houthi Red Sea attacks disrupting global shipping, Hezbollah-Israel conflict (Operation Northern Arrows 2024-2025), and Iraqi militia operations against US forces.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+  "history_and_origin": {
+    "founding_date": "1979-05-05",
+    "founders": ["Ayatollah Ruhollah Khomeini (decree)", "Various revolutionary paramilitary leaders"],
+    "origin_context": "The IRGC emerged from consolidation of multiple Islamic paramilitary forces active during 1978-1979 Iranian Revolution. Khomeini established IRGC by decree May 5, 1979 to unify revolutionary militias (National Guard, Islamic Committees, Mujahidin of the Islamic Revolution, Pasdaran) and create counterweight to conventional army (Artesh) loyal to Shah. The IRGC-Qods Force formed 1989-1990 post-Iran-Iraq War through merger of four organizations: Islamic Liberation Movements Unit, Irregular Warfare Headquarters, Lebanon Guard, and Ramezan Headquarters, creating monopoly over extraterritorial operations.",
+    "key_milestones": [
+      {
+        "date": "1979-05-05",
+        "event": "IRGC formally established by Khomeini decree",
+        "impact": "Creation of revolutionary armed force parallel to regular military; initial size ~50,000.",
+        "source_ids": ["web:530", "web:532"]
+      },
+      {
+        "date": "1980-09-22",
+        "event": "Iran-Iraq War begins; IRGC transformed into conventional military force",
+        "impact": "Expansion to 350,000+ personnel; professionalization; battlefield experience; Basij human wave attacks.",
+        "source_ids": ["web:530", "web:556"]
+      },
+      {
+        "date": "1982-06-01",
+        "event": "IRGC deploys 1,000 fighters to Lebanon; establishes Hezbollah",
+        "impact": "First major extraterritorial operation; creation of model proxy relationship.",
+        "source_ids": ["web:534", "web:538"]
+      },
+      {
+        "date": "1989-1990",
+        "event": "IRGC-Qods Force formally established post-Iran-Iraq War",
+        "impact": "Consolidation of foreign operations; monopoly over extraterritorial warfare; Ahmad Vahidi first commander.",
+        "source_ids": ["web:535", "web:538"]
+      },
+      {
+        "date": "1992-03-17",
+        "event": "IRGC-QF bombs Israeli embassy Buenos Aires (29 killed)",
+        "impact": "First major international terrorism operation; established assassination/bombing capability.",
+        "source_ids": ["web:542"]
+      },
+      {
+        "date": "1994-07-18",
+        "event": "IRGC-QF bombs AMIA Jewish center Buenos Aires (85 killed)",
+        "impact": "Deadliest attack in Argentine history; international terrorism escalation.",
+        "source_ids": ["web:542"]
+      },
+      {
+        "date": "1997-09-01",
+        "event": "Qassim Soleimani appointed IRGC-QF commander; Esmail Qaani deputy",
+        "impact": "23-year Soleimani era begins; expansion of proxy networks; strategic genius recognized.",
+        "source_ids": ["web:533", "web:542"]
+      },
+      {
+        "date": "2003-04-01",
+        "event": "Post-Saddam Iraq: IRGC-QF trains Badr Organization, establishes Iraqi Shia militias",
+        "impact": "Creation of Iraqi proxy infrastructure; 600+ US soldiers killed by IRGC-supplied EFPs 2005-2011.",
+        "source_ids": ["web:536", "web:544"]
+      },
+      {
+        "date": "2007-10-25",
+        "event": "US designates IRGC-QF as FTO; Soleimani as SDGT",
+        "impact": "International terrorist organization status; sanctions regime.",
+        "source_ids": ["web:1", "web:539"]
+      },
+      {
+        "date": "2011-03-15",
+        "event": "Syrian Civil War: IRGC-QF deploys advisers, establishes foreign militias",
+        "impact": "Mobilization of 60,000+ Shia fighters from Afghanistan, Pakistan, Iraq, Lebanon to save Assad.",
+        "source_ids": ["web:534", "web:556"]
+      },
+      {
+        "date": "2014-06-01",
+        "event": "ISIS emerges: IRGC-QF leads counter-ISIS operations Iraq/Syria",
+        "impact": "Expansion of militia networks; PMF formalized Iraq; international legitimacy paradox.",
+        "source_ids": ["web:536", "web:556"]
+      },
+      {
+        "date": "2019-04-08",
+        "event": "Trump administration designates entire IRGC as Foreign Terrorist Organization",
+        "impact": "Unprecedented: first time nation-state military designated FTO; escalation.",
+        "source_ids": ["web:532", "web:545"]
+      },
+      {
+        "date": "2020-01-03",
+        "event": "US drone strike kills Qassim Soleimani and Abu Mahdi al-Muhandis (PMF deputy) Baghdad Airport",
+        "impact": "Soleimani killed; Esmail Qaani appointed successor; power vacuum; Iraqi militia crisis.",
+        "source_ids": ["web:533", "web:536", "web:542"]
+      },
+      {
+        "date": "2022-08-10",
+        "event": "US indicts Shahram Poursafi (IRGC-QF) for John Bolton assassination plot",
+        "impact": "First public indictment IRGC assassination operations US soil; $300K offered informant.",
+        "source_ids": ["web:550", "web:553", "web:560"]
+      },
+      {
+        "date": "2024-07-13",
+        "event": "Secret Service ramps security for Trump after Iran assassination plot intelligence",
+        "impact": "Human source intelligence confirms IRGC-QF plot against Trump; heightened protection.",
+        "source_ids": ["web:555", "web:558"]
+      },
+      {
+        "date": "2024-11-01",
+        "event": "US indictment reveals IRGC murder-for-hire network targeting Trump, Iranian dissidents, Jewish citizens",
+        "impact": "Criminal network recruitment for assassinations; ongoing threat confirmation.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2025-06-05",
+        "event": "US Treasury sanctions Zarringhalam brothers network laundering billions for IRGC-QF oil sales",
+        "impact": "Exposure of $9B+ shadow banking infrastructure; UAE/Hong Kong/China front companies.",
+        "source_ids": ["web:549", "web:557"]
+      },
+      {
+        "date": "2025-09-11",
+        "event": "Israel strikes IRGC-QF Unit 840 operatives in Lebanon/Syria; arrests in Syria",
+        "impact": "Exposure of Unit 840 assassination networks; European operations disrupted.",
+        "source_ids": ["web:531"]
+      },
+      {
+        "date": "2025-11-06",
+        "event": "US Treasury reports IRGC-QF transferred $1B to Hezbollah since January 2025",
+        "impact": "Record annual funding despite Israeli operations; financial resilience demonstrated.",
+        "source_ids": ["web:540"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Shia Islamist", "Revolutionary Islamism", "Khomeinist", "Anti-Western", "Anti-Zionist"],
+    "core_objectives": [
+      "Protect and export Islamic Revolution globally",
+      "Ensure survival of Islamic Republic regime",
+      "Establish Shia hegemony in Middle East",
+      "Eliminate State of Israel",
+      "Expel US military presence from Middle East"
+    ],
+    "short_term_goals": [
+      "Maintain Axis of Resistance proxy networks",
+      "Support Hezbollah, Hamas, Houthis operationally and financially",
+      "Conduct assassination operations against enemies (US officials, dissidents, Israelis)",
+      "Generate revenue through sanctions evasion",
+      "Deter Israeli/US military strikes on Iran"
+    ],
+    "long_term_goals": [
+      "Achieve regional hegemony through proxy dominance",
+      "Nuclear weapons capability (deterrence)",
+      "Destroy State of Israel",
+      "Create unified Shia crescent (Iran-Iraq-Syria-Lebanon)",
+      "Export Islamic Revolution to Muslim-majority countries"
+    ],
+    "narrative_and_justification": "IRGC frames actions as defensive jihad protecting oppressed Muslims (particularly Shia) from Western imperialism, Zionism, and Sunni extremism. Uses anti-colonial, anti-American, anti-Israeli rhetoric. Positions Iran as leader of Islamic Resistance against arrogance (US/Israel).",
+    "target_selection_logic": "US military installations and personnel (strategic), Israeli targets (ideological/existential), Iranian dissidents (regime survival), Saudi/UAE targets (regional rivalry), Sunni extremists (sectarian), Western interests (deterrence)."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IRN", "IRQ", "SYR", "LBN", "YEM", "PSE", "AFG"],
+    "territorial_control": [
+      {
+        "location_name": "Iran (IRGC headquarters Tehran)",
+        "geocoordinates": {"lat": 35.68, "lon": 51.42},
+        "control_type": "firm_control",
+        "control_period": {"from": "1979-05-05", "to": null},
+        "notes": "IRGC controls 31 provincial commands, Basij militia infrastructure, military bases nationwide.",
+        "source_ids": ["web:532", "web:556"]
+      },
+      {
+        "location_name": "Iraq (PMF bases, Baghdad operations)",
+        "geocoordinates": {"lat": 33.31, "lon": 44.36},
+        "control_type": "proxy_control",
+        "control_period": {"from": "2003-04-01", "to": null},
+        "notes": "IRGC-QF controls Popular Mobilization Forces (60,000+); Kata'ib Hezbollah, Badr Organization, Asa'ib Ahl al-Haq.",
+        "source_ids": ["web:536", "web:537"]
+      },
+      {
+        "location_name": "Syria (Damascus, Deir ez-Zor, T4 base)",
+        "geocoordinates": {"lat": 33.51, "lon": 36.27},
+        "control_type": "proxy_control",
+        "control_period": {"from": "2011-03-01", "to": null},
+        "notes": "IRGC-QF advisers embedded with Syrian military; foreign Shia militia coordination; weapons storage facilities.",
+        "source_ids": ["web:531", "web:534"]
+      },
+      {
+        "location_name": "Lebanon (Hezbollah strongholds Beirut southern suburbs, Beqaa Valley)",
+        "geocoordinates": {"lat": 33.89, "lon": 35.48},
+        "control_type": "proxy_control",
+        "control_period": {"from": "1982-01-01", "to": null},
+        "notes": "IRGC-QF trainers/advisers with Hezbollah; weapons transfer networks; $700M-$1B annual funding.",
+        "source_ids": ["web:534", "web:540"]
+      },
+      {
+        "location_name": "Yemen (Houthi-controlled areas Sana'a, Sa'ada)",
+        "geocoordinates": {"lat": 15.55, "lon": 44.21},
+        "control_type": "proxy_control",
+        "control_period": {"from": "2014-01-01", "to": null},
+        "notes": "IRGC-QF provides drones, anti-ship missiles, training enabling Red Sea shipping attacks.",
+        "source_ids": ["web:1"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Iran (sovereign territory)",
+        "type": "state_controlled",
+        "notes": "Complete sanctuary; training camps; weapons manufacturing; command centers."
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Iraq",
+        "community_size_estimate": "60,000+ PMF fighters",
+        "activities": ["military operations", "political influence", "economic control"],
+        "source_ids": ["web:536"]
+      },
+      {
+        "country": "Syria",
+        "community_size_estimate": "10,000+ IRGC advisers and foreign militias",
+        "activities": ["military operations", "training", "weapons storage"],
+        "source_ids": ["web:534"]
+      },
+      {
+        "country": "Lebanon",
+        "community_size_estimate": "IRGC advisers embedded with Hezbollah (45,000+ fighters)",
+        "activities": ["training", "weapons transfer", "strategic planning"],
+        "source_ids": ["web:534"]
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Hosein Salami",
+          "aliases": ["Hossein Salami"],
+          "role": "IRGC Commander-in-Chief (April 2019-present)",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Born 1960; IRGC Deputy Commander 2009-2019; former IRGC Aerospace Force commander; designated SDGT 2007 for WMD proliferation; hardliner close to Khamenei.",
+          "source_ids": ["web:1", "web:545"]
+        },
+        {
+          "name": "Esmail Qaani",
+          "aliases": ["Esmail Ghaani", "Ismail Qaani"],
+          "role": "IRGC-Qods Force Commander (January 2020-present)",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Born 1957; IRGC-QF Deputy Commander 1997-2020 under Soleimani; Afghanistan/Pakistan specialist; less charismatic than Soleimani; lacks Arabic fluency; designated SDGT March 2012.",
+          "source_ids": ["web:1", "web:533", "web:542"]
+        },
+        {
+          "name": "Qassim Soleimani",
+          "aliases": ["Qasem Soleimani", "Hajj Qassem"],
+          "role": "IRGC-QF Commander 1997-2020",
+          "last_seen": "2020-01-03",
+          "status": "deceased",
+          "biographical_notes": "Born 1957, killed January 3, 2020 US drone strike Baghdad; legendary commander; built Axis of Resistance; close to Khamenei; designated SDGT 2007; responsible for 600+ US soldier deaths Iraq.",
+          "source_ids": ["web:533", "web:539", "web:542"]
+        }
+      ],
+      "leadership_model": "hierarchical state military structure reporting directly to Supreme Leader Khamenei",
+      "succession_mechanism": "Supreme Leader appoints IRGC commanders; internal IRGC Shura Council advises; loyalty to regime paramount."
+    },
+    "organisational_components": [
+      {
+        "component_name": "IRGC Ground Forces",
+        "function": "Land warfare, internal security, provincial control",
+        "size_estimate": {"min": 140_000, "max": 150_000, "confidence": "high"},
+        "leader": "Brigadier General Mohammad Pakpour",
+        "notes": "31 provincial commands; armored/mechanized divisions; special forces (Saberin)."
+      },
+      {
+        "component_name": "IRGC Navy",
+        "function": "Persian Gulf operations, asymmetric naval warfare",
+        "size_estimate": {"min": 20_000, "max": 25_000, "confidence": "high"},
+        "leader": "Rear Admiral Alireza Tangsiri",
+        "notes": "Fast attack craft; mine warfare; 5,000 marines; controls Strait of Hormuz operations."
+      },
+      {
+        "component_name": "IRGC Aerospace Force",
+        "function": "Ballistic missiles, air defense, space program, drones",
+        "size_estimate": {"min": 15_000, "max": 20_000, "confidence": "medium"},
+        "leader": "Brigadier General Amir Ali Hajizadeh",
+        "notes": "Controls Iran's ballistic missile arsenal (2,000+ missiles); UAV production; cyber warfare."
+      },
+      {
+        "component_name": "Basij (Resistance Mobilization)",
+        "function": "Paramilitary militia, internal security, crowd control",
+        "size_estimate": {"min": 90_000, "max": 600_000, "confidence": "low"},
+        "leader": "Brigadier General Gholamreza Soleimani",
+        "notes": "Volunteer force; claims 600K mobilizable; university/mosque-based cells; protest suppression."
+      },
+      {
+        "component_name": "IRGC-Qods Force",
+        "function": "Extraterritorial operations, proxy warfare, terrorism, assassination",
+        "size_estimate": {"min": 5_000, "max": 15_000, "confidence": "medium"},
+        "leader": "Brigadier General Esmail Qaani",
+        "notes": "Elite force; handpicked loyalty; Unit 840 (assassination), regional departments (Iraq, Lebanon, Yemen, Afghanistan, etc.)."
+      },
+      {
+        "component_name": "IRGC Intelligence Organization",
+        "function": "Counterintelligence, surveillance, dissent suppression",
+        "size_estimate": {"min": 10_000, "max": 20_000, "confidence": "low"},
+        "leader": "Hossein Taeb (former), current unknown",
+        "notes": "Monitors regime opponents; coordinates with MOIS; cyber surveillance."
+      }
+    ],
+    "affiliates_and_franchises": [
+      {
+        "name": "Lebanese Hezbollah",
+        "relationship_type": "primary_proxy",
+        "jurisdiction": ["LBN", "SYR"],
+        "notes": "$700M-$1B annually; 45,000 fighters; advanced weapons (drones, missiles); Party of God."
+      },
+      {
+        "name": "Iraqi PMF (Popular Mobilization Forces)",
+        "relationship_type": "proxy_network",
+        "jurisdiction": ["IRQ"],
+        "notes": "60,000+ fighters; Kata'ib Hezbollah, Badr Organization, Asa'ib Ahl al-Haq; political influence."
+      },
+      {
+        "name": "Yemeni Houthis (Ansar Allah)",
+        "relationship_type": "proxy",
+        "jurisdiction": ["YEM"],
+        "notes": "Drones, anti-ship missiles, training; Red Sea shipping disruption 2024-2025."
+      },
+      {
+        "name": "Hamas (limited support post-2011)",
+        "relationship_type": "limited_proxy",
+        "jurisdiction": ["PSE"],
+        "notes": "Reduced support post-Syria; renewed 2023; weapons, training, funding."
+      },
+      {
+        "name": "Palestinian Islamic Jihad",
+        "relationship_type": "proxy",
+        "jurisdiction": ["PSE"],
+        "notes": "More reliable than Hamas; funding, training, weapons."
+      },
+      {
+        "name": "Afghan Fatemiyoun Brigade",
+        "relationship_type": "foreign_militia",
+        "jurisdiction": ["SYR", "IRQ", "AFG"],
+        "notes": "Afghan Shia fighters; 20,000+ deployed Syria; pay $500/month."
+      },
+      {
+        "name": "Pakistani Zainabiyoun Brigade",
+        "relationship_type": "foreign_militia",
+        "jurisdiction": ["SYR", "IRQ"],
+        "notes": "Pakistani Shia fighters; 5,000+ deployed Syria."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Supreme Leader Khamenei has absolute authority; IRGC commanders report directly; Shura Council advises; parallel to civilian government.",
+      "discipline_and_enforcement": "Military justice system; harsh punishment for disloyalty; purges of commanders; ideological vetting."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 150_000, "max": 190_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 140_000, "max": 170_000},
+      "support_personnel": {"min": 10_000, "max": 20_000},
+      "foreign_fighters": "N/A (state military; proxies separate)",
+      "female_participation": "Limited; some Basij units; intelligence roles."
+    },
+    "composition_irgc_qf": {
+      "total": {"min": 5_000, "max": 15_000},
+      "notes": "Handpicked from broader IRGC for regime loyalty; elite force; regional departments."
+    },
+    "recruitment_demographics": {
+      "age_range": "18-45 (conscripts 18-20)",
+      "education_levels": ["secondary", "university", "military academies"],
+      "socioeconomic_background": "Diverse; lower/middle class overrepresented; ideological commitment required; family regime connections advantageous.",
+      "gender_distribution": "95%+ male; limited female participation Basij/intelligence."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": ["conventional warfare", "asymmetric warfare", "missile operations", "naval special operations", "cyber warfare", "ideological indoctrination"],
+      "training_locations": ["Iran (nationwide bases)", "foreign training (Syria, Iraq)", "Imam Hussein University (IRGC academy)"],
+      "notes": "Emphasis on ideological loyalty, martyrdom culture, asymmetric tactics, proxy warfare coordination."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "global",
+    "known_attack_types": ["proxy warfare", "assassination", "terrorism", "cyber attacks", "drone strikes", "ballistic missiles", "naval asymmetric warfare", "IED/EFP"],
+    "notable_operations": [
+      {
+        "operation_name": "Buenos Aires Embassy Bombing",
+        "date": "1992-03-17",
+        "location": "Buenos Aires, Argentina",
+        "method_category": "VBIED on Israeli embassy",
+        "casualties_killed": 29,
+        "casualties_injured": 242,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:542"]
+      },
+      {
+        "operation_name": "AMIA Jewish Center Bombing",
+        "date": "1994-07-18",
+        "location": "Buenos Aires, Argentina",
+        "method_category": "VBIED on Jewish cultural center",
+        "casualties_killed": 85,
+        "casualties_injured": 300,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:542"]
+      },
+      {
+        "operation_name": "Khobar Towers Bombing",
+        "date": "1996-06-25",
+        "location": "Dhahran, Saudi Arabia",
+        "method_category": "VBIED on US military housing",
+        "casualties_killed": 19,
+        "casualties_injured": 498,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:556"]
+      },
+      {
+        "operation_name": "Iraq EFP Campaign",
+        "date": "2005-2011",
+        "location": "Iraq",
+        "method_category": "Explosively Formed Projectiles (EFPs) supplied to Shia militias",
+        "casualties_killed": 600,
+        "casualties_injured": 1000,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:539", "web:544"]
+      },
+      {
+        "operation_name": "John Bolton Assassination Plot",
+        "date": "2021-2022",
+        "location": "Washington DC/Maryland, USA",
+        "method_category": "murder-for-hire recruitment",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:550", "web:553", "web:560"]
+      },
+      {
+        "operation_name": "Donald Trump Assassination Plot",
+        "date": "2024-present",
+        "location": "United States",
+        "method_category": "murder-for-hire network",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "denied",
+        "attribution_confidence": "high",
+        "sources": ["web:555", "web:558"]
+      },
+      {
+        "operation_name": "Stephen Troell Murder",
+        "date": "2022-11-07",
+        "location": "Baghdad, Iraq",
+        "method_category": "targeted assassination US citizen",
+        "casualties_killed": 1,
+        "casualties_injured": 0,
+        "claim_status": "proxy operation",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Iranian government (state actor)",
+      "criminal_partnerships": ["oil smuggling networks", "money laundering", "arms trafficking", "narcotics trafficking"],
+      "transnational_network_links": ["Hezbollah", "Iraqi PMF", "Houthis", "Hamas", "Palestinian Islamic Jihad", "Afghan/Pakistani Shia militias"],
+      "notes": "State-sponsored terrorism; direct government authority; $40B+ annual budget (estimated 10-15% Iranian government spending)."
+    },
+    "operations_tempo_and_patterning": "Constant operations through proxies; assassination plots ongoing; regional proxy warfare sustained; Red Sea shipping attacks 2024-2025; Hezbollah-Israel operations; Iraqi militia attacks on US forces periodic; cyber operations continuous."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["ballistic missiles (2,000+)", "cruise missiles", "drones/UAVs", "naval mines", "torpedoes", "EFPs", "small arms", "advanced air defense (S-300)"],
+      "acquisition_routes": "Domestic production (IRGC Aerospace Force factories), Chinese/Russian procurement, smuggling networks",
+      "notes": "Largest ballistic missile arsenal in Middle East; advanced drone capability (Shahed-136, Mohajer-6); domestically produced weapons systems; transfers to proxies (Hezbollah, Houthis)."
+    },
+    "cyber_capabilities": {
+      "capability_level": "advanced",
+      "observed_activities": ["infrastructure attacks (Saudi Aramco 2012)", "US financial sector DDoS", "disinformation campaigns", "surveillance", "hack-and-leak operations"],
+      "notes": "IRGC cyber command; APT33, APT34 cyber groups; targets US, Israel, Saudi Arabia, UAE."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted communications", "courier networks", "diplomatic pouches", "IRGC intelligence networks"],
+      "propaganda_platforms": ["Iranian state media (Press TV, Tasnim)", "social media networks", "proxy media outlets"],
+      "notes": "Sophisticated operational security; compartmentalized communications; diplomatic cover for operations."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["civilian airlines (Mahan Air, Fly Baghdad)", "naval vessels (NITC tankers)", "land routes (Iran-Iraq-Syria-Lebanon)", "diplomatic shipments"],
+      "notes": "Global logistics network; sanctions evasion infrastructure; shadow fleet for oil; weapons smuggling routes."
+    },
+    "technical_gaps_and_weaknesses": "Vulnerable to Israeli/US intelligence penetration; communications interceptable; limited air force capability; navy vulnerable to US naval power; economic sanctions constraining; technology procurement difficult."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 40_000_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "state_budget",
+        "description": "Iranian government budget allocation",
+        "estimated_share_percent": 70,
+        "notes": "$28B; 10-15% government spending; official budget plus off-books."
+      },
+      {
+        "type": "oil_smuggling",
+        "description": "Sanctions evasion oil sales through shadow networks",
+        "estimated_share_percent": 20,
+        "notes": "$8B+; $9B+ identified 2024; UAE/Singapore/Hong Kong front companies; shadow banking."
+      },
+      {
+        "type": "economic_control",
+        "description": "Control of 40%+ Iranian economy through bonyads, front companies",
+        "estimated_share_percent": 10,
+        "notes": "$4B; Khatam al-Anbiya Construction Headquarters; telecommunications; ports; oil/gas."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Zarringhalam brothers network (UAE/Hong Kong), China Oil & Petroleum Company, exchange houses, shadow banking, bonyads (charitable foundations), IRGC front companies.",
+      "notes": "Sophisticated sanctions evasion; $9B+ laundered 2024; multiple currency accounts; UAE/Singapore/China hubs; cryptocurrency emerging."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings, sectoral sanctions, oil embargo",
+        "implementing_body": "US, UN, EU",
+        "date": "2007-present",
+        "effectiveness_assessment": "medium"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["military conscription (mandatory 24 months)", "ideological vetting", "university Basij", "family connections", "clerical networks"],
+    "recruitment_tactics": ["ideological indoctrination", "economic incentives", "regime loyalty rewards", "martyrdom culture", "nationalist appeals"],
+    "target_profiles": ["Iranian males 18-20 (conscription)", "ideologically committed youth", "regime loyalists", "lower/middle class seeking advancement"],
+    "recruitment_geography": ["Iran nationwide", "Iraqi Shia communities", "Lebanese Shia", "Afghan/Pakistani Shia refugees"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 1, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "High state control; mandatory conscription; ideological education from childhood; Basij university presence; limited defection."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": ["state TV/radio", "social media operations", "proxy media outlets", "documentary films", "martyrdom videos"],
+    "languages_used": ["Persian", "Arabic", "English", "Urdu", "Pashto"],
+    "messaging_themes": ["resistance to imperialism", "anti-Zionism", "Shia solidarity", "martyrdom glorification", "Islamic Revolution export", "anti-Americanism"],
+    "audience_targeting": "Iranian population (regime support), regional Shia populations (proxy recruitment), international Muslims (solidarity), Western audiences (deterrence).",
+    "platform_policy_responses": "Limited effectiveness; state-controlled media; proxy networks resilient; sanctions on media outlets; encrypted platforms."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "United States",
+        "case_ref": "Multiple indictments 2007-2025",
+        "defendants": ["Shahram Poursafi", "IRGC oil smuggling networks", "assassination plotters"],
+        "outcome": "Indictments in absentia; some convictions; no extraditions.",
+        "notes": "US courts prosecute IRGC operations; defendants remain in Iran."
+      },
+      {
+        "jurisdiction": "Argentina",
+        "case_ref": "AMIA bombing investigation",
+        "defendants": ["IRGC-QF officers", "Hezbollah operatives"],
+        "outcome": "International arrest warrants; no prosecutions.",
+        "notes": "2007 Argentine prosecutor Alberto Nisman issued warrants."
+      }
+    ],
+    "human_rights_concerns": "Systematic repression of dissent; torture; extrajudicial killings; mass executions; protest massacres (2019: 1,500+ killed); assassination of dissidents abroad; proxy warfare civilian casualties; support for Assad regime atrocities; Basij gender-based violence; arbitrary detention."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Oil smuggling transaction volumes", "type": "financial", "thresholds": ">$1B/quarter signals escalation"},
+      {"indicator": "Proxy attacks frequency", "type": "operational", "thresholds": ">10 attacks/month Iraq/Syria/Yemen"},
+      {"indicator": "Assassination plot intelligence", "type": "operational", "thresholds": "Human source reporting credible threats"},
+      {"indicator": "Hezbollah funding transfers", "type": "financial", "thresholds": ">$100M/quarter signals major operations"}
+    ],
+    "early_warning_signals": ["Supreme Leader speeches threatening retaliation", "IRGC exercises/missile tests", "Proxy mobilization announcements", "Financial network activity surges", "Unit 840 operational planning intelligence"],
+    "data_needed_for_monitoring": ["SIGINT (communications interception)", "HUMINT (human sources in IRGC/proxies)", "financial transaction data (sanctions evasion)", "satellite imagery (weapons transfers)", "cyber intelligence"],
+    "recommended_analytic_methods": ["network analysis (proxy coordination)", "financial flow mapping (oil smuggling)", "geospatial tracking (weapons shipments)", "communications analysis (encrypted platforms)", "temporal attack pattern clustering"]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "IRGC and IRGC-QF pose critical transnational terrorism threat. Organization combines state military capability with terrorist tactics, generating billions through oil smuggling while conducting assassination operations globally. $1B+ annual funding to Hezbollah enables regional warfare (Operation Northern Arrows 2024-2025); Houthi weapons transfers disrupt global shipping (Red Sea attacks 2024-2025); Iraqi militia operations target US forces; documented assassination plots against US officials including former President Trump. IRGC's Axis of Resistance controls territory across Lebanon, Syria, Iraq, Yemen, enabling sustained proxy warfare. Nuclear program development (enrichment ~60% U-235) combined with ballistic missile arsenal (2,000+ missiles) poses existential threat to Israel and regional stability.",
+    "vulnerable_sectors": ["US military personnel (Iraq, Syria, Gulf)", "Israeli military and civilians", "Iranian dissidents globally", "commercial shipping (Red Sea, Gulf)", "Jewish/Israeli targets worldwide", "former US officials", "critical infrastructure (cyberattacks)"],
+    "likely_future_trends": "Continued assassination operations targeting Trump/Bolton/US officials; sustained Hezbollah-Israel conflict; Red Sea shipping disruption continuation; Iraqi militia attacks on US forces; nuclear program advancement toward weapons capability; expansion of drone/missile transfers to proxies; cyber warfare escalation; sanctions evasion sophistication increase.",
+    "recommended_mitigation_measures": [
+      "Sustained enforcement of FTO designation and sanctions",
+      "Disruption of oil smuggling networks (shadow fleet interdiction)",
+      "Financial sanctions targeting Zarringhalam brothers and exchange houses",
+      "Intelligence cooperation Israel/US/Gulf states on IRGC-QF operations",
+      "Protection of US officials under credible threat (Trump, Bolton, Pompeo, O'Brien)",
+      "Counter-proliferation operations (nuclear program disruption)",
+      "Cyber defense against IRGC cyber warfare",
+      "Maritime security Red Sea/Persian Gulf (counter-Houthi operations)",
+      "Support for Iraqi government against militia influence",
+      "Pressure on China/Singapore/UAE to close front companies",
+      "Targeted strikes on IRGC-QF commanders and Unit 840 operatives",
+      "International coordination on assassination plot disruption"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: IRGC and IRGC-QF terrorist group profile (March 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/irgc.html",
+        "date": "2025-03-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:530",
+        "type": "secondary",
+        "description": "Britannica: Quds Force history and structure",
+        "date": "2020-01-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:531",
+        "type": "think_tank",
+        "description": "Long War Journal: Israel strikes IRGC Unit 840 Lebanon/Syria (September 2025)",
+        "date": "2025-09-11",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:532",
+        "type": "secondary",
+        "description": "Wikipedia: Islamic Revolutionary Guard Corps comprehensive history",
+        "date": "2024-12-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:533",
+        "type": "media",
+        "description": "BBC: Qassim Soleimani killing January 2020",
+        "date": "2020-01-02",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:536",
+        "type": "think_tank",
+        "description": "CTC Westpoint: Iranian-backed militias Iraq post-Soleimani",
+        "date": "2022-03-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:537",
+        "type": "official",
+        "description": "US Treasury: Kata'ib Hezbollah and Fly Baghdad sanctions (January 2024)",
+        "date": "2024-01-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:540",
+        "type": "think_tank",
+        "description": "Terrorism Info: Iran transferred $1B to Hezbollah 2025",
+        "date": "2025-11-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:542",
+        "type": "think_tank",
+        "description": "Soufan Center: Esmail Qaani leadership IRGC-QF (June 2020)",
+        "date": "2020-06-08",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:549",
+        "type": "official",
+        "description": "US Treasury: Zarringhalam network sanctioned for laundering billions (June 2025)",
+        "date": "2025-06-05",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:552",
+        "type": "official",
+        "description": "US DOJ: $108M seized from IRGC oil smuggling network (February 2025)",
+        "date": "2025-02-05",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:553",
+        "type": "media",
+        "description": "Al Jazeera: Shahram Poursafi charged Bolton assassination plot (August 2022)",
+        "date": "2022-08-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:555",
+        "type": "media",
+        "description": "CNN: Secret Service security for Trump after Iran assassination plot intel (July 2024)",
+        "date": "2024-07-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:556",
+        "type": "think_tank",
+        "description": "CFR: Islamic Revolutionary Guard Corps organizational structure",
+        "date": "2007-09-27",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:557",
+        "type": "financial",
+        "description": "FinCEN: $9B Iranian sanctions evasion data 2024 (October 2025)",
+        "date": "2025-10-30",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
