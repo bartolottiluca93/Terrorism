@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "profile_id": "bh-nov2025-v1",
+    "name": "Boko Haram (Jama'atu Ahlis Sunna Lidda'awati wal-Jihad, JAS)",
+    "aliases": [
+      "JAS",
+      "Jama'atu Ahlis Sunna Lidda'awati wal-Jihad",
+      "Western Education is Forbidden",
+      "Western Education is Sin",
+      "Nigerian Taliban",
+      "Yusufiyya"
+    ],
+    "primary_language": "Hausa",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization, Specially Designated Global Terrorist",
+        "designation_date": "2013-11-14",
+        "reference": "web:479"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC)",
+        "designation_date": "2014-05-22",
+        "reference": "web:505"
+      }
+    ],
+    "status": "active (significantly reduced since 2021)",
+    "first_observed_date": "2002-01-01",
+    "last_verified_date": "2025-11-13",
+    "version": "2025.11.13.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Weakened Sunni jihadist group once linked to IS and al-Qaeda, infamous for the Chibok abductions, now under Bakura Doro, relies on armed raids and criminality to survive in Lake Chad and Sambisa region.",
+    "overview": "Boko Haram (JAS) is a Nigerian-born, Salafi-jihadist armed group founded by Mohammed Yusuf in 2002 in Maiduguri, Borno State. The group’s ideology is anti-Western, anti-establishment, and seeks to create a Salafi Islamic state governed by sharia—opposing ‘Westernization’ and secular education. Under Abubakar Shekau (leader 2009–2021), the group grew more radical and indiscriminately violent, becoming notorious globally for suicide bombings, mass abductions such as the 2014 Chibok girls kidnapping, and the use of women and children as suicide bombers. After Shekau’s death in 2021 and the loss of territory/fighters to ISIS-West Africa (ISWAP), Boko Haram fragmented but continues frequent attacks in Nigeria and neighboring countries. In 2022, Bakura Doro became amir and has since shifted tactics towards criminality (cattle rustling, kidnapping, illegal taxation), cross-border raids, and rural terror. Membership is estimated at 1,500 fighters, mainly operating in small cells around Lake Chad, the Sambisa Forest, northern Cameroon, Niger, and Chad. The group is unaffiliated with ISIS or al-Qaeda as of 2025, surviving largely as an organized violent criminal enterprise.",
+    "threat_level": "medium",
+    "confidence_overall": "high"
+  },
+  "history_and_origin": {
+    "founding_date": "2002-01-01",
+    "founders": ["Mohammed Yusuf"],
+    "origin_context": "Founded amid economic and social discontent in Nigeria’s north, Boko Haram originally sought a return to ‘pure’ Islam, rejecting Westernization, secularism, and the Nigerian state. Yusuf created a religious complex in Maiduguri, but the group’s radicalization escalated violent conflict with the state. Yusuf was killed by police in 2009 during a crackdown, triggering a more militant phase led by Abubakar Shekau.",
+    "key_milestones": [
+      {
+        "date": "2009-07-01",
+        "event": "Death of Mohammed Yusuf & military crackdown",
+        "impact": "Hundreds killed, Yusuf executed in custody, group goes underground, mass prison break 2010 revives group.",
+        "source_ids": ["web:195", "web:468"]
+      },
+      {
+        "date": "2011-08-26",
+        "event": "UN Abuja headquarters bombing",
+        "impact": "First large-scale suicide bombing; 23 killed, 116 injured; international profile.",
+        "source_ids": ["web:474"]
+      },
+      {
+        "date": "2014-04-14",
+        "event": "Chibok schoolgirls kidnapping",
+        "impact": "276 girls abducted, global outcry (#BringBackOurGirls), many enslaved or forced into marriage.",
+        "source_ids": ["web:217", "web:195"]
+      },
+      {
+        "date": "2015-03-07",
+        "event": "Shekau pledges allegiance to ISIS",
+        "impact": "Group renamed ISWAP (Islamic State West Africa Province); internal disputes lead to ISWAP/Boko Haram split 2016.",
+        "source_ids": ["web:478", "web:195"]
+      },
+      {
+        "date": "2019-01-01",
+        "event": "Peak territorial control",
+        "impact": "Controlled large swathes of northeast Nigeria, threatened cities in Chad, Niger, Cameroon.",
+        "source_ids": ["web:472"]
+      },
+      {
+        "date": "2021-05-01",
+        "event": "Shekau’s death in Sambisa",
+        "impact": "Killed himself during clash with ISWAP, group collapses, many fighters defect to ISWAP.",
+        "source_ids": ["web:211", "web:489"]
+      },
+      {
+        "date": "2022-05-01",
+        "event": "Bakura Doro becomes amir",
+        "impact": "Stabilizes remaining JAS factions, reverts to independent operations, criminality.",
+        "source_ids": ["web:477", "web:489"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Sunni", "Takfiri"],
+    "core_objectives": [
+      "Establish an Islamic state in Nigeria under sharia",
+      "Expel Western influence, education, and governance",
+      "Overthrow Nigeria's secular government",
+      "Purge Sufi and Shia influence from northern Nigeria"
+    ],
+    "short_term_goals": [
+      "Disrupt regional security forces",
+      "Sustain group revenue through criminality",
+      "Kidnap for ransom and cattle rustle for funding",
+      "Control territory in rural enclaves"
+    ],
+    "long_term_goals": [
+      "Expand control across northern Nigeria",
+      "Build self-sustaining Salafi governance",
+      "Outlast security interventions, remain ideologically relevant"
+    ],
+    "narrative_and_justification": "Frames violence as religious struggle (jihad) against 'apostate' Nigerian state, non-Salafi Muslims, Christians, and Westerners. Claims moral superiority, anti-corruption, and defense of Islam against impurity.",
+    "target_selection_logic": "Attacks on schools (symbolic), security forces (strategic), civilians for intimidation/coercion, Christians and other minorities (sectarian/ideological), economic targets for revenue."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["NGA", "Niger", "Chad", "Cameroon"],
+    "territorial_control": [
+      {
+        "location_name": "Sambisa Forest, Borno State",
+        "geocoordinates": {"lat": 11.5667, "lon": 13.3075},
+        "control_type": "contested/presence",
+        "control_period": {"from": "2010-01-01", "to": null},
+        "notes": "Historic headquarters, fragmented cells remain post-Shekau.",
+        "source_ids": ["web:195", "web:472"]
+      },
+      {
+        "location_name": "Lake Chad Islands",
+        "geocoordinates": {"lat": 13.123, "lon": 14.465},
+        "control_type": "strong presence",
+        "control_period": {"from": "2022-01-01", "to": null},
+        "notes": "Bakura Doro’s base, cross-border operations into Chad, Niger, Cameroon.",
+        "source_ids": ["web:472", "web:481"]
+      }
+    ],
+    "diaspora_presence": [
+      {
+        "country": "Cameroon",
+        "community_size_estimate": "cells along Mandara Mountains",
+        "activities": ["recruitment", "raids", "smuggling"],
+        "source_ids": ["web:472", "web:509"]
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Bakura Doro",
+          "aliases": [],
+          "role": "Current amir",
+          "last_seen": "2025-11-13",
+          "status": "active",
+          "biographical_notes": "Emerges as leader post-Shekau, was previously zone commander; maintained JAS continuity.",
+          "source_ids": ["web:477", "web:489"]
+        },
+        {
+          "name": "Abubakar Shekau",
+          "aliases": ["Darul Tawhid", "Abu Mohammed"],
+          "role": "Former amir (2009–2021)",
+          "last_seen": "2021-05-20",
+          "status": "deceased",
+          "biographical_notes": "Led group through most violent period; ideological radical, favored mass-casualty attacks; died by suicide during ISWAP assault.",
+          "source_ids": ["web:195", "web:473"]
+        },
+        {
+          "name": "Ibrahim Bakoura",
+          "aliases": [],
+          "role": "Nigerien faction commander",
+          "last_seen": "2025-11-13",
+          "status": "active",
+          "biographical_notes": "Leads Boko Haram operations in southeastern Niger.",
+          "source_ids": ["web:1"]
+        }
+      ]
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Wing",
+        "function": "Tactical planning, raids, bombings",
+        "size_estimate": {"min": 800, "max": 1,200, "confidence": "medium"},
+        "leader": "Regional commanders",
+        "notes": "Decentralized command; regional cells in Lake Chad, Sambisa, Cameroon."
+      },
+      {
+        "component_name": "Finance and Criminal Networks",
+        "function": "Extortion, protection rackets, kidnapping, cattle rustling",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "medium"},
+        "notes": "Extends into rural areas, cattle markets, border smuggling."
+      },
+      {
+        "component_name": "Media and Recruitment",
+        "function": "Propaganda videos, digital messaging, indoctrination",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "notes": "Disseminates ideological, fear-driven content in Hausa, Kanuri, Arabic. Uses radio, social media, WhatsApp, Telegram, TikTok.",
+        "leader": "Unknown"
+      }
+    ]
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 1_200, "max": 1_500, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 800, "max": 1_200},
+      "support_personnel": {"min": 200, "max": 300},
+      "foreign_fighters": {"min": 50, "max": 100},
+      "female_participation": "small; primarily suicide bombers, support and logistics."
+    },
+    "composition_peak": {
+      "year": "2014",
+      "total": {"min": 8_000, "max": 20_000},
+      "description": "Peak before ISWAP split; numbers now 90% reduced."
+    },
+    "recruitment_demographics": {
+      "age_range": "8–50; main recruitment among teenage boys and girls",
+      "education_levels": "low literacy; some university-educated ideologues",
+      "socioeconomic_background": "rural poor, unemployed, orphans, some foreign radicals",
+      "gender_distribution": "male dominated, 10% female participation (primarily forced labor or suicide operations)"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "IEDs",
+        "guerrilla warfare",
+        "Koranic indoctrination",
+        "extremist theology"
+      ],
+      "training_locations": [
+        "Lake Chad islands and marshes",
+        "remote camps in Sambisa, Mandara Mountains"
+      ],
+      "notes": "Children and abductees forced through intense indoctrination."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional (Lake Chad and border zones)",
+    "known_attack_types": [
+      "small arms assault",
+      "IED/SVBIED",
+      "kidnapping for ransom",
+      "suicide bombing (including children)",
+      "hostage-taking",
+      "cattle rustling",
+      "arson",
+      "ambushes"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "Chibok girls kidnapping",
+        "date": "2014-04-14",
+        "location": "Chibok, Borno State",
+        "method_category": "mass abduction",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:217"]
+      },
+      {
+        "operation_name": "Kaduna school abduction",
+        "date": "2024-03-07",
+        "location": "Kuriga, Kaduna State",
+        "method_category": "mass kidnapping",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "UN bombing, Abuja",
+        "date": "2011-08-26",
+        "location": "Abuja, Nigeria",
+        "method_category": "SVBIED",
+        "casualties_killed": 23,
+        "casualties_injured": 116,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:474"]
+      },
+      {
+        "operation_name": "Barkaram Chad military base attack",
+        "date": "2024-10-27",
+        "location": "Barkaram, Chad",
+        "method_category": "armed assault",
+        "casualties_killed": 40,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "no current connections to IS/al-Qaeda; evidence of periodic trafficking with other Sahelian groups",
+      "criminal_partnerships": "market traders, cattle dealers, arms traffickers across Lake Chad",
+      "notes": "Relies on harsh taxation of local economy, criminal partnerships, cattle trade, kidnapping."
+    },
+    "operations_tempo_and_patterning": "Frequent, small-scale raids and kidnappings; large attacks (100+ casualties) still possible but rare; adaptive to MNJTF military pressure."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small arms", "IEDs", "mortar", "captured military vehicles", "artisanal explosives"],
+      "acquisition_routes": "arms trafficking (Cameroon, Chad, Niger), captured arms, cattle-for-arms barter",
+      "notes": "Improvised manufacturing, reliance on captured/unmarked arms; limited drone/tech capabilities."
+    },
+    "cyber_capabilities": {
+      "capability_level": "limited",
+      "observed_activities": [
+        "social media disinformation",
+        "WhatsApp/Telegram/TikTok recruitment",
+        "propaganda video production"
+      ],
+      "notes": "Use of encrypted comms, basic messaging, not sophisticated hackers."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["WhatsApp", "Telegram", "radio", "TikTok/Facebook", "SMS"],
+      "propaganda_platforms": ["Video", "audio", "messenger apps", "media intermediaries"],
+      "notes": "Decentralized, adaptive (switches platforms)."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorbikes", "canoes", "4x4 vehicles", "on foot"],
+      "notes": "Highly mobile, utilize difficult terrain (marsh, forest, islands)."
+    },
+    "technical_gaps_and_weaknesses": "Highly degraded heavy weapons, no air defense, vulnerable to drone surveillance, rely on illicit supply chains."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 3_000_000, "currency": "USD", "confidence": "low"},
+    "revenue_streams": [
+      {
+        "type": "kidnap_ransom",
+        "description": "Abductions of locals, ransoms (primarily for villagers, traders, sometimes foreign nationals)",
+        "estimated_share_percent": 55
+      },
+      {
+        "type": "cattle rustling & livestock trade",
+        "description": "Cross-border theft/taxation of cattle and livestock",
+        "estimated_share_percent": 20
+      },
+      {
+        "type": "extortion & taxation",
+        "description": "Market taxes, ‘protection fees’, cash-for-peace deals",
+        "estimated_share_percent": 15
+      },
+      {
+        "type": "smuggling/illegal trade",
+        "description": "Trade in goods (fish, dried food), arms, sometimes people",
+        "estimated_share_percent": 10
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Market intermediaries, cross-border livestock and fish trade, local hawala systems."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "International & regional asset freezes",
+        "implementing_body": "US, UN, Nigeria, neighbors",
+        "date": "since 2013",
+        "effectiveness_assessment": "moderate"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "mosque sermons", "radio/social media", "abduction"],
+    "recruitment_tactics": [
+      "forced recruitment of children and teens",
+      "bribes to poor families",
+      "indoctrination in remote camps",
+      "marriage/sex slavery (girls/women)",
+      "martyrdom/reward narratives"
+    ],
+    "target_profiles": [
+      "illiterate rural youth",
+      "women (for suicide and labor roles)",
+      "cattle herders and border traders"
+    ],
+    "recruitment_geography": [
+      "Lake Chad region (Nigeria, Cameroon, Chad, Niger)",
+      "northern Cameroon, Mandara mountains"
+    ],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 25, "confidence": "low"},
+    "youth_and_online_vulnerability": "High, widespread digital disinformation, TikTok/YouTube/WhatsApp radicalization."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "video statements (leader speeches)",
+      "martyrdom/hostage videos",
+      "WhatsApp text/audio spreading",
+      "TikTok Facebook clips"
+    ],
+    "languages_used": ["Hausa", "Kanuri", "Arabic", "English (rarely)"],
+    "messaging_themes": [
+      "West is evil, secularism is sin",
+      "reward of martyrdom",
+      "government is corrupt",
+      "Islamic governance is pure"
+    ],
+    "audience_targeting": "Lake Chad region youth, border communities, Muslim families, disaffected or jobless youth.",
+    "platform_policy_responses": "Frequent removal by platforms, but adaptive; use of new/obscure apps, low reliance on centralized channels."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Nigeria",
+        "case_ref": "Hundreds of trials 2012–2024",
+        "defendants": "Captured Boko Haram fighters",
+        "outcome": "Varying sentences; some found not guilty; some held indefinitely; widespread human rights concerns."
+      }
+    ],
+    "human_rights_concerns": "Massive civilian displacement (millions as refugees/IDPs), sexual slavery, use of children as suicide bombers, mass killings, abductions, forced conversion, amputation/flogging/executions, cattle/food theft, arson of villages, attacks on health/education, violation of women and girls’ rights. Widespread abuses (torture, extrajudicial killing) by security forces and military in the region as counter-terrorism responses."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "kidnapping spikes", "thresholds": "3+ abductions/month signals escalation"},
+      {"indicator": "market taxes/extortion", "thresholds": "increased trader/market reports"},
+      {"indicator": "propaganda video output", "thresholds": "weekly output signals new campaign"}
+    ],
+    "early_warning_signals": [
+      "uptick in raids on trading routes",
+      "increase in child/youth abductions",
+      "leadership pronouncements"
+    ],
+    "data_needed_for_monitoring": [
+      "HUMINT and local informant networks",
+      "analysis of cattle/fish trade flows",
+      "SIGINT on border comms",
+      "social media scraping of regional TikTok/WhatsApp groups"
+    ]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Boko Haram is degraded but still dangerous, especially for civilians and rural traders. The group’s criminal diversification, use of children, and resilience to military campaigns ensures a persistent regional threat and continued humanitarian crisis. ISWAP remains the more dangerous actor, but a Boko Haram resurgence is possible if leadership unifies factions or ISWAP weakens.",
+    "vulnerable_sectors": [
+      "village schools",
+      "markets/traders",
+      "female/child populations",
+      "rural security forces",
+      "Lake Chad/marshland communities"
+    ],
+    "likely_future_trends": "Sustained low-level violence, mass abductions, increasing cattle rustling and cross-border crime, sporadic high-profile attacks, potential spike in youth recruitment via social media.",
+    "recommended_mitigation_measures": [
+      "strengthen local protection units and MNJTF border patrols",
+      "intensify anti-kidnapping operations",
+      "focus on market/trader security",
+      "expand deradicalization and reintegration programs",
+      "block cattle/fish laundering",
+      "address security force abuses to avoid fueling radicalization"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:195",
+        "type": "secondary",
+        "description": "Wikipedia: Boko Haram history, group size, attacks.",
+        "date": "2025-11-13"
+      },
+      {
+        "id": "web:468",
+        "type": "secondary",
+        "description": "BBC: Profile of Boko Haram and Shekau.",
+        "date": "2014-05-08"
+      },
+      {
+        "id": "web:472",
+        "type": "secondary",
+        "description": "ISS Africa: Boko Haram/MNJTF operations & territorial recovery.",
+        "date": "2025-01-26"
+      },
+      {
+        "id": "web:474",
+        "type": "secondary",
+        "description": "US Treasury: Terrorist sanctions & UN bombing attack details.",
+        "date": "2021-07-08"
+      },
+      {
+        "id": "web:477",
+        "type": "secondary",
+        "description": "The Conversation: Boko Haram under Bakura Doro.",
+        "date": "2025-04-09"
+      },
+      {
+        "id": "web:481",
+        "type": "secondary",
+        "description": "ADF Magazine: Boko Haram resurgence in Lake Chad.",
+        "date": "2025-10-20"
+      },
+      {
+        "id": "web:489",
+        "type": "secondary",
+        "description": "Jamestown Foundation: Bakura Doro leadership and the Lake Chad faction.",
+        "date": "2024-11-01"
+      },
+      {
+        "id": "web:485",
+        "type": "secondary",
+        "description": "Le Monde: Youth recruitment around Lake Chad.",
+        "date": "2025-08-09"
+      },
+      {
+        "id": "web:493",
+        "type": "secondary",
+        "description": "Wilson Center: Boko Haram finances (fish/cattle trade).",
+        "date": "2025-03-31"
+      },
+      {
+        "id": "web:500",
+        "type": "secondary",
+        "description": "ENACT: Cattle rustling for Boko Haram revenue.",
+        "date": "2024-12-02"
+      },
+      {
+        "id": "web:217",
+        "type": "secondary",
+        "description": "Amnesty International: Human rights abuses, Chibok impact.",
+        "date": "2024-06-10"
+      }
+    ]
+  }
+}
