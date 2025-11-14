@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "profile_id": "jnim-nov2025-v2",
+    "name": "Jama'at Nusrat al-Islam wal-Muslimin (JNIM)",
+    "aliases": [
+      "Group for the Support of Islam and Muslims",
+      "Groupe de soutien à l'islam et aux musulmans (GSIM)",
+      "Support Group for Islam and Muslims",
+      "JNIM",
+      "Al-Qaeda in the Maghreb",
+      "Timbuktu Emirate"
+    ],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2018-09-05",
+        "reference": "web:584"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC designated)",
+        "designation_date": "2018-10-15",
+        "reference": "web:583"
+      }
+    ],
+    "status": "active (most lethal jihadist group in West Africa as of 2025)",
+    "first_observed_date": "2017-03-02",
+    "last_verified_date": "2025-11-14",
+    "version": "2025.11.14.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Al-Qaeda's most powerful affiliate, formed March 2017 from merger of 4 groups, now 4,000-6,000 fighters, deadliest jihadist globally in 2025 with 280+ attacks in H1 (1,000+ killed), controls $100M+ war economy (gold mining, ransoming, livestock theft), expanding into Nigeria/Benin, blockading Mali capital Bamako.",
+    "overview": "Jama'at Nusrat al-Islam wal-Muslimin (JNIM, 'Group for the Support of Islam and Muslims') is al-Qaeda's most operationally lethal and strategically important affiliate globally as of November 2025. Formed March 2, 2017 through formal merger of four Mali-based Salafi-jihadist groups—Ansar Dine, Katibat Macina (Macina Liberation Front/MLF), al-Mourabitoun, and AQIM's Sahara Emirate—JNIM unified under Iyad ag Ghali (Ansar Dine founder) as emir and Amadou Kouffa (MLF founder, Fulani ethnic leader) as deputy. Operating from Mali's strategic Timbuktu Emirate across Burkina Faso, Niger, and now Nigeria/Benin, JNIM commands 4,000-6,000 fighters and controls territory across 11 of Burkina Faso's regions plus major areas of Mali and Niger. In H1 2025, JNIM surpassed Boko Haram as Africa's deadliest jihadist organization, conducting 280+ attacks in Burkina Faso alone (~1,000 total Sahel casualties April-November 2025), with 800+ deaths in Burkina Faso, 117 in Mali, 74 in Benin, and recent November 11, 2025 expansion into Nigeria (Kwara State). JNIM operates a sophisticated $100M+ annual 'war economy' through artisanal gold mining ($34M+ annually from controlled sites exporting to UAE/Turkey/Switzerland), kidnapping-for-ransom ($40M+ per major incident), livestock theft (~$1M annually), drug trafficking coordination, arms smuggling taxation, and territorial control/governance. The group recently blockaded Mali's capital Bamako (July-November 2025), attacking fuel trucks and asserting de facto control over major transit corridors. Notably, JNIM is publicly distancing from al-Qaeda (June 2025 shift documented), omitting al-Qaeda references in communications and signaling potential HTS (Syria)-style rebranding to facilitate alliances with non-Islamic groups (Azawad Liberation Front/FLA). Leadership remains concentrated: Iyad ag Ghali (Tuareg ethnic leader, former diplomat) and Amadou Kouffa (Fulani ethnic leader, popular theologian) balance ethnic representation. As of November 2025, JNIM represents the primary threat to West African stability, controls more territory than most ISIS affiliates, and maintains direct al-Qaeda central coordination via Ayman al-Zawahiri.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+  "history_and_origin": {
+    "founding_date": "2017-03-02",
+    "founders": [
+      "Iyad ag Ghali (Ansar Dine founder)",
+      "Amadou Kouffa (MLF founder)",
+      "Mokhtar Belmokhtar (al-Mourabitoun)",
+      "Djamel Okacha (AQIM Sahara branch)"
+    ],
+    "origin_context": "JNIM emerged from coordinated al-Qaeda strategy initiated 2012-2017 to consolidate Sahel jihadist groups under unified command. AQIM deliberately created Ansar Dine (2011) as 'cover' brand to mask AQIM's direct operation in Mali, appointing Iyad ag Ghali as frontman to appeal to Tuareg ethnic grievances. Following French military intervention (2012-2013) and territorial losses, al-Qaeda orchestrated progressive coalition-building: By 2015, Ansar Dine, al-Mourabitoun, MLF, and AQIM Sahara branch began informal coordination. The March 2, 2017 formal merger represented pinnacle of this strategy, consolidating estimated 3,000-4,000 fighters into unified command structure with direct al-Qaeda bay'ah (pledge of allegiance).",
+    "key_milestones": [
+      {
+        "date": "2011-10-01",
+        "event": "AQIM creates Ansar Dine as cover organization in Mali",
+        "impact": "AQIM establishes Tuareg-led facade; appoints Iyad ag Ghali as leader to leverage ethnic grievances.",
+        "source_ids": ["web:588"]
+      },
+      {
+        "date": "2012-01-01",
+        "event": "Tuareg/Islamist rebellion in Mali; French intervention March 2012",
+        "impact": "AQIM-backed groups seize northern Mali territory; French counteroffensive begins.",
+        "source_ids": ["web:587"]
+      },
+      {
+        "date": "2013-03-22",
+        "event": "US designates Ansar Dine as Foreign Terrorist Organization",
+        "impact": "International terrorist designation; sanctions imposed.",
+        "source_ids": ["web:587"]
+      },
+      {
+        "date": "2015-01-01",
+        "event": "Macina Liberation Front (MLF) emerges under Amadou Kouffa, splits from Ansar Dine",
+        "impact": "Ethnic Fulani-led faction creation; Kouffa becomes prominent regional commander.",
+        "source_ids": ["web:583"]
+      },
+      {
+        "date": "2017-03-02",
+        "event": "JNIM formally announced; four-group merger declared",
+        "impact": "Iyad ag Ghali named emir; Amadou Kouffa named deputy; bay'ah to al-Zawahiri and AQIM announced.",
+        "source_ids": ["web:583", "web:584"]
+      },
+      {
+        "date": "2017-03-05",
+        "event": "AQIM central publicly approves JNIM merger",
+        "impact": "Formal al-Qaeda endorsement; strategic legitimacy.",
+        "source_ids": ["web:583"]
+      },
+      {
+        "date": "2017-03-19",
+        "event": "Al-Qaeda central (Zawahiri) issues statement accepting JNIM bay'ah",
+        "impact": "Global jihadist integration; direct coordination channel established.",
+        "source_ids": ["web:583"]
+      },
+      {
+        "date": "2018-03-02",
+        "event": "Coordinated attack on French embassy and Burkinabe army headquarters, Ouagadougou",
+        "impact": "8 killed; demonstrates international operational sophistication; French military response.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2018-03-05",
+        "event": "JNIM publicly references 'Timbuktu Emirate' (first al-Qaeda use since 2013)",
+        "impact": "Signal of territorial consolidation; governance establishment; proto-state aspirations.",
+        "source_ids": ["web:587"]
+      },
+      {
+        "date": "2018-04-14",
+        "event": "Complex attack on UN base near Timbuktu Airport",
+        "impact": "Rockets, mortars, VBIEDs, disguised attackers; 1 peacekeeper killed, 17 wounded.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2018-09-05",
+        "event": "US designates JNIM as Foreign Terrorist Organization",
+        "impact": "International terrorist designation; asset freezes; travel bans.",
+        "source_ids": ["web:584"]
+      },
+      {
+        "date": "2020-08-15",
+        "event": "Ransom paid for French + Italian hostages (est. $40.5M)",
+        "impact": "Major financial acquisition; demonstrates kidnapping as primary revenue strategy.",
+        "source_ids": ["web:592"]
+      },
+      {
+        "date": "2020-10-01",
+        "event": "Mali military coup; French troops remain; JNIM expands operations",
+        "impact": "Governance vacuum; JNIM territorial expansion accelerates.",
+        "source_ids": ["web:589"]
+      },
+      {
+        "date": "2022-05-24",
+        "event": "Mali 2nd military coup; junta expels French forces; opts for Russian/Wagner support",
+        "impact": "French withdrawal signal; Russian PMCs arrive; security landscape shifts; JNIM consolidates.",
+        "source_ids": ["web:589"]
+      },
+      {
+        "date": "2023-10-31",
+        "event": "Niger military coup; French expelled",
+        "impact": "Third Sahel military coup in 3 years; JNIM expands into Niger power vacuum.",
+        "source_ids": ["web:589"]
+      },
+      {
+        "date": "2025-04-01",
+        "event": "JNIM conducts 1,000+ attacks across Sahel; becomes deadliest jihadist globally",
+        "impact": "Surpasses Boko Haram as Africa's deadliest terrorist organization.",
+        "source_ids": ["web:589", "web:591"]
+      },
+      {
+        "date": "2025-05-11",
+        "event": "JNIM overruns Djibo military base, Burkina Faso; 200+ soldiers killed",
+        "impact": "Single largest military defeat of year; eight coordinated assaults same day.",
+        "source_ids": ["web:596"]
+      },
+      {
+        "date": "2025-06-01",
+        "event": "JNIM blockades Mali capital Bamako; attacks fuel trucks for 6+ months",
+        "impact": "De facto siege of capital; control of critical supply routes.",
+        "source_ids": ["web:591", "web:593"]
+      },
+      {
+        "date": "2025-06-25",
+        "event": "JNIM issues congratulations statement on HTS victory Syria",
+        "impact": "Signal of strategic shift; potential al-Qaeda distancing.",
+        "source_ids": ["web:589"]
+      },
+      {
+        "date": "2025-10-01",
+        "event": "Amadou Kouffa interview with France24; omits al-Qaeda mention",
+        "impact": "Strategic rebranding signal; potential legitimacy-seeking repositioning.",
+        "source_ids": ["web:589"]
+      },
+      {
+        "date": "2025-11-11",
+        "event": "JNIM attacks Nigerian military, Kwara State; first Nigeria operation confirmed",
+        "impact": "Geographic expansion into Nigeria; regional threat escalation.",
+        "source_ids": ["web:591", "web:593"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Salafi-jihadist", "Al-Qaeda-aligned", "Takfiri", "Pan-Islamic"],
+    "core_objectives": [
+      "Establish Salafi-Islamist state governed by sharia across Sahel",
+      "Expel French military and Western influence from West Africa",
+      "Replace secular governments with Islamic governance",
+      "Build proto-state 'Timbuktu Emirate' across Mali, Burkina Faso, Niger"
+    ],
+    "short_term_goals": [
+      "Consolidate territorial control in Liptako-Gourma region (Mali-Burkina Faso-Niger tri-border)",
+      "Maximize resource extraction (gold, livestock, ransoms)",
+      "Conduct mass-casualty attacks against military/international forces",
+      "Blockade capital cities and major urban centers (Bamako, Ouagadougou)"
+    ],
+    "long_term_goals": [
+      "Establish permanent Islamic Emirate spanning Sahel region",
+      "Create governing structures (courts, taxation, services)",
+      "Expand southward toward coastal West African states",
+      "Position as model for al-Qaeda African expansion strategy"
+    ],
+    "narrative_and_justification": "JNIM frames violence as defensive jihad against French neo-colonialism, secular government oppression, and Zionism. Emphasizes resource justice, ethnic grievances (Tuareg/Fulani marginalization), and religious obligation to establish sharia governance. Uses anti-Western, anti-French messaging coupled with local community development promises.",
+    "target_selection_logic": "French military (primary ideological target), international forces (UN, ECOWAS), government military installations, secular government infrastructure, civilians perceived as collaborators, economic infrastructure (fuel, trade routes)."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["MLI", "BFA", "NER", "AGO (emerging)"],
+    "territorial_control": [
+      {
+        "location_name": "Timbuktu Region, Mali",
+        "geocoordinates": {"lat": 16.77, "lon": -3.01},
+        "control_type": "firm_control",
+        "control_period": {"from": "2012-01-01", "to": null},
+        "notes": "Historic JNIM stronghold; governance structures; taxation systems; resource extraction.",
+        "source_ids": ["web:587", "web:589"]
+      },
+      {
+        "location_name": "Liptako-Gourma tri-border region (Mali-Burkina Faso-Niger)",
+        "geocoordinates": {"lat": 14.5, "lon": 0.5},
+        "control_type": "disputed",
+        "control_period": {"from": "2017-03-01", "to": null},
+        "notes": "Gold mining zones; competition with ISIS-Sahel; strategic resource area; shared with ISIS-Sahel ~50% control.",
+        "source_ids": ["web:589", "web:593"]
+      },
+      {
+        "location_name": "Central Mali (Mopti, Macina region)",
+        "geocoordinates": {"lat": 13.15, "lon": -4.18},
+        "control_type": "firm_control",
+        "control_period": {"from": "2012-01-01", "to": null},
+        "notes": "MLF/Amadou Kouffa stronghold; Fulani-majority area; taxation and governance.",
+        "source_ids": ["web:584", "web:589"]
+      },
+      {
+        "location_name": "Djibo, Burkina Faso and surrounding areas",
+        "geocoordinates": {"lat": 14.13, "lon": -1.64},
+        "control_type": "firm_control",
+        "control_period": {"from": "2018-01-01", "to": null},
+        "notes": "Northern Burkina base; headquarters for Burkina Faso operations; 200+ military killed May 2025.",
+        "source_ids": ["web:589", "web:596"]
+      },
+      {
+        "location_name": "Northern/Eastern Burkina Faso (11 regions under JNIM influence)",
+        "geocoordinates": {"lat": 13.5, "lon": -1.5},
+        "control_type": "dominant_influence",
+        "control_period": {"from": "2018-01-01", "to": null},
+        "notes": "JNIM now controls or dominates governance in 11 Burkina Faso regions; ~50% of country outside capital.",
+        "source_ids": ["web:589", "web:593"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Mali-Burkina Faso-Niger tri-border (Liptako-Gourma)",
+        "type": "rural",
+        "notes": "Remote terrain; ungoverned space; training camps; family compounds; gold mining sites double as operational bases."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Iyad ag Ghali",
+          "aliases": ["Iyad Ag Ghali", "Abu Yahya al-Qadi", "Iyad Ag Ghali"],
+          "role": "Emir (overall leader) since March 2017",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Born ~1950s; Tuareg ethnic leader; former diplomat; Ansar Dine founder (2011); JNIM emir; reportedly ill (health concerns reported 2023-2024); designated SDGT 2013.",
+          "source_ids": ["web:583", "web:584"]
+        },
+        {
+          "name": "Amadou Kouffa",
+          "aliases": ["Amadou Kufa", "Abu Abdullahi Kouffa"],
+          "role": "Deputy emir; MLF founder; Fulani ethnic leader",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Fulani ethnic leader; Islamic scholar; MLF founder (~2015); popular among Fulani communities; handles theology/legitimacy; recently declined to mention al-Qaeda (October 2025), signaling potential strategic shift.",
+          "source_ids": ["web:586", "web:589"]
+        },
+        {
+          "name": "Qutaybah Abu al-Numan al-Shanqiti",
+          "aliases": ["Qutaybah al-Shanqiti"],
+          "role": "Sharia judge; religious authority",
+          "last_seen": "2025-11-14",
+          "status": "active",
+          "biographical_notes": "Senior religious authority; provides theological justification; appears in JNIM/AQIM media; designated SDGT.",
+          "source_ids": ["web:1"]
+        }
+      ],
+      "leadership_model": "Distributed coalition structure; emir (Ghali) holds supreme authority; deputy (Kouffa) handles ethnic Fulani constituents; constituent groups maintain semi-autonomy.",
+      "succession_mechanism": "Iyad ag Ghali formally recognized by al-Qaeda; succession planning unclear; Kouffa positioned as natural successor; health concerns about Ghali create uncertainty."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Ansar Dine",
+        "function": "Northern Mali operations; Tuareg-led faction",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "low"},
+        "leader": "Iyad ag Ghali",
+        "notes": "Original al-Qaeda AQIM creation (2011); maintains semi-autonomous operations."
+      },
+      {
+        "component_name": "Katibat Macina (MLF)",
+        "function": "Central Mali operations; Fulani-led faction",
+        "size_estimate": {"min": 800, "max": 1_500, "confidence": "low"},
+        "leader": "Amadou Kouffa",
+        "notes": "Most numerous JNIM faction; strong community ties; popular theological leadership."
+      },
+      {
+        "component_name": "al-Mourabitoun",
+        "function": "Northern Mauritania/Mali operations",
+        "size_estimate": {"min": 300, "max": 600, "confidence": "low"},
+        "leader": "Mokhtar Belmokhtar (deceased 2015; succession unknown)",
+        "notes": "Arab-led faction; historical AQIM ties; lesser military role post-2017."
+      },
+      {
+        "component_name": "AQIM Sahara Emirate",
+        "function": "Cross-border operations; transnational coordination",
+        "size_estimate": {"min": 200, "max": 400, "confidence": "low"},
+        "leader": "Djamel Okacha (AQIM representatives)",
+        "notes": "AQIM liaison; maintains direct al-Qaeda central coordination."
+      },
+      {
+        "component_name": "Ansarul Islam",
+        "function": "Burkina Faso operations; Fulani-led",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "low"},
+        "leader": "Malam Ibrahim Dicko",
+        "notes": "Sister organization; closely aligned with JNIM; operates in Burkina Faso primarily."
+      },
+      {
+        "component_name": "Military Operations (Katibahs)",
+        "function": "Combat operations, tactical planning, attack execution",
+        "size_estimate": {"min": 3_000, "max": 4_500, "confidence": "medium"},
+        "leader": "Regional military commanders",
+        "notes": "Multi-regional structure; coordinated large-scale operations (Djibo May 2025); increasingly sophisticated."
+      },
+      {
+        "component_name": "Finance and Resources Wing",
+        "function": "Gold mining control, ransom coordination, taxation, livestock trafficking",
+        "size_estimate": {"min": 300, "max": 600, "confidence": "low"},
+        "leader": "Financial coordinators (unknown)",
+        "notes": "$100M+ annual war economy; critically important to group sustainability."
+      },
+      {
+        "component_name": "Governance and Sharia Enforcement",
+        "function": "Courts, taxation administration, service provision, Islamic law enforcement",
+        "size_estimate": {"min": 200, "max": 400, "confidence": "low"},
+        "leader": "Qutaybah al-Shanqiti (chief judge) and regional administrators",
+        "notes": "Emerging proto-state structures; court systems in Timbuktu region; population control mechanisms."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under Iyad ag Ghali; Shura Council includes deputy and constituent group leaders; al-Qaeda central coordination via Zawahiri.",
+      "discipline_and_enforcement": "Sharia court system; harsh punishment for violations; collective punishment of civilians; coercive taxation; governance claim-making."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 4_000, "max": 6_000, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 3_000, "max": 4_500},
+      "support_personnel": {"min": 500, "max": 1_000},
+      "foreign_fighters": {"min": 100, "max": 300},
+      "female_participation": "<2%; primarily support roles and children."
+    },
+    "composition_baseline": {
+      "year": "2018",
+      "total": {"min": 1_000, "max": 2_000},
+      "description": "Estimated 1,000-2,000 fighters at JNIM formation (September 2018 designation); grew to 4,000-6,000 by 2025 (4-6x expansion)."
+    },
+    "recruitment_demographics": {
+      "age_range": "15-50; significant child recruitment documented",
+      "education_levels": ["primary", "secondary", "Islamic schools"],
+      "socioeconomic_background": "Rural poor; economically marginalized; Fulani/Tuareg minorities; herding communities; women (increasingly since 2024)",
+      "gender_distribution": "95%+ male combatants; women recruited as suicide bombers, support staff, logistics."
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "explosives/IEDs/VBIEDs",
+        "guerrilla warfare",
+        "Islamic theology (Salafi)",
+        "governance/taxation",
+        "mining operations"
+      ],
+      "training_locations": [
+        "Timbuktu region camps",
+        "Central Mali (Mopti)",
+        "Liptako-Gourma tri-border bases",
+        "Northern Burkina Faso",
+        "Formal madrassas and Islamic centers"
+      ],
+      "notes": "Multi-phase training: Islamic indoctrination, military instruction, specialized roles (mining management, taxation collection). Children trained for future combat roles."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional-to-transnational (Mali-Burkina Faso-Niger-Benin-Nigeria)",
+    "known_attack_types": [
+      "armed assault",
+      "IED/VBIED",
+      "suicide bombing",
+      "coordinated multi-site operations",
+      "kidnapping",
+      "targeted assassination",
+      "siege/blockade"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "French Embassy and Burkinabe Army HQ bombing",
+        "date": "2018-03-02",
+        "location": "Ouagadougou, Burkina Faso",
+        "method_category": "coordinated VBIED and ground assault",
+        "casualties_killed": 8,
+        "casualties_injured": 80,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:584"]
+      },
+      {
+        "operation_name": "UN base attack near Timbuktu Airport",
+        "date": "2018-04-14",
+        "location": "Timbuktu, Mali",
+        "method_category": "complex attack (rockets, mortars, VBIEDs, infiltrators)",
+        "casualties_killed": 1,
+        "casualties_injured": 17,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:584"]
+      },
+      {
+        "operation_name": "Djibo military base overrun",
+        "date": "2025-05-11",
+        "location": "Djibo, Burkina Faso",
+        "method_category": "armed assault; base capture",
+        "casualties_killed": 200,
+        "casualties_injured": 100,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:596"]
+      },
+      {
+        "operation_name": "Bamako blockade fuel campaign",
+        "date": "2025-06-01 to 2025-11-14",
+        "location": "Mali capital approaches",
+        "method_category": "siege; systematic fuel truck attacks",
+        "casualties_killed": 50+,
+        "casualties_injured": 100+,
+        "claim_status": "ongoing claimed responsibility",
+        "attribution_confidence": "high",
+        "sources": ["web:591", "web:593"]
+      },
+      {
+        "operation_name": "Nigeria expansion attack",
+        "date": "2025-11-11",
+        "location": "Kwara State, Nigeria",
+        "method_category": "armed assault on military",
+        "casualties_killed": 1,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:591", "web:593"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Al-Qaeda central (Ayman al-Zawahiri); indirect ISI sympathy; Russian PMC coordination (Mali)",
+      "criminal_partnerships": ["drug trafficking networks", "arms smugglers", "human traffickers", "gold dealers (UAE/Turkey/Switzerland)"],
+      "transnational_network_links": ["Al-Qaeda central", "AQIM", "Taliban (historical)", "ISIS-Sahel (competition)"]
+    },
+    "operations_tempo_and_patterning": "Escalating exponentially: 2017-2019 sporadic; 2019-2022 accelerating (1,900 attacks 2019 → 5,500+ in 2024); 2025 unprecedented (3,800+ attacks Jan-Oct; 280+ in Burkina Faso H1 alone). Pattern: coordinated multi-site operations, blockade tactics (Bamako), mass-casualty military attacks, increasing sophistication."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": ["small arms", "RPGs", "mortars", "machine guns", "anti-aircraft weapons", "IEDs", "VBIEDs", "drones"],
+      "acquisition_routes": "Captured from defeated government forces (primary source), black market smuggling, arms traffickers, coordinated with criminal networks",
+      "notes": "Sophisticated capability; 2025 military defeats provide weapon influx; machine guns, drones, anti-aircraft weaponry increasingly available; artisanal IED production."
+    },
+    "cyber_capabilities": {
+      "capability_level": "emerging",
+      "observed_activities": ["communications coordination (encrypted)", "propaganda video production", "social media messaging", "coordination with criminal networks"],
+      "notes": "July 2024: Libyan cell dismantled for supplying satellite comms to JNIM operations."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers", "radio networks", "courier networks", "satellite communications (via intermediaries)"],
+      "propaganda_platforms": ["JNIM media releases (Ansar Dine)", "al-Qaeda central media", "social media (Telegram, Facebook)", "jihadist forums"],
+      "notes": "Decentralized communications; resilient to platform takedowns; satellite system integration via criminal networks."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles", "pickup trucks", "camels (cross-border)", "foot", "maritime (Niger River operations)"],
+      "notes": "Extremely mobile; exploit porous borders; control critical supply routes (Bamako blockade); cross-border smuggling expertise."
+    },
+    "technical_gaps_and_weaknesses": "Limited heavy mechanized warfare; vulnerable to airstrikes; communication networks susceptible to SIGINT; ammunition resupply dependencies; logistical constraints in remote areas."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 100_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "artisanal_gold_mining",
+        "description": "Control/taxation of artisanal gold mining sites; primary revenue source; production to UAE/Turkey/Switzerland",
+        "estimated_share_percent": 34,
+        "notes": "$34M+ annually; up to 725kg annually from JNIM-controlled sites; mining sites double as military/logistics bases; recruitment grounds."
+      },
+      {
+        "type": "kidnapping_ransom",
+        "description": "Systematic ransom operations; local civilians ($3K-$5K), foreign nationals ($millions)",
+        "estimated_share_percent": 30,
+        "notes": "$30M+ annually; 845 of 1,100 recorded kidnappings 2017-2023 in region; $40.5M single ransom 2020; four foreigners July 2025."
+      },
+      {
+        "type": "livestock_theft",
+        "description": "Cattle theft/coercive Islamic taxation; livestock transport to Mauritania/Senegal markets",
+        "estimated_share_percent": 20,
+        "notes": "$20M+ annually; $739K from Youwarou district alone 2021; cross-border trafficking networks; protection rackets."
+      },
+      {
+        "type": "taxation_extortion",
+        "description": "Zakat collection (religious tax), road checkpoints, protection fees, fuel taxation",
+        "estimated_share_percent": 10,
+        "notes": "$10M+ annually; coercive and voluntary models; territorial control enables systematic extraction."
+      },
+      {
+        "type": "smuggling_coordination",
+        "description": "Drug trafficking taxation, human trafficking fees, arms smuggling coordination",
+        "estimated_share_percent": 6,
+        "notes": "$6M+ annually; fee-based rather than direct involvement; integration with criminal networks."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Cash couriers, hawala networks, local traders/merchants, gold dealers (UAE hubs), livestock markets, small businesses (lending, shops), formal banking (selective).",
+      "notes": "Primarily cash-based operations; decentralized fund storage (local commanders, mining sites); gold laundering through international dealers; livestock/fuel resale circumvent formal systems; emerging formal business integration."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings, asset freezes, sanctions",
+        "implementing_body": "US, UN, EU",
+        "date": "2018-09-05",
+        "effectiveness_assessment": "very_low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "ethnic networks (Tuareg/Fulani)", "religious networks", "schools/madrassas", "grievance exploitation"],
+    "recruitment_tactics": [
+      "religious ideology messaging",
+      "exploitation of marginalization (Tuareg/Fulani minorities)",
+      "economic incentives (~$50-200/month)",
+      "promises of governance participation",
+      "community development services",
+      "coercive recruitment/conscription"
+    ],
+    "target_profiles": [
+      "Tuareg and Fulani minorities (primary)",
+      "economically marginalized youth 15-45",
+      "herding communities",
+      "internally displaced persons",
+      "children (coercive recruitment)",
+      "women (increasingly since 2024)"
+    ],
+    "recruitment_geography": ["Mali (primary)", "Burkina Faso (accelerating)", "Niger", "Benin (new focus)", "Nigeria (expanding)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 2, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "Very high; exploitation of ethnic/economic grievances highly effective; informal leadership networks vulnerable; women's recruitment emerging via online platforms; charismatic leadership (Kouffa) particularly effective with Fulani youth."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": ["high-quality combat videos", "attack documentation", "religious sermons", "leadership statements", "governance announcements"],
+    "languages_used": ["Arabic", "Bambara", "Fulani", "Tamasheq (Tuareg)"],
+    "messaging_themes": [
+      "anti-French imperialism",
+      "Islamic governance and sharia",
+      "ethnic justice (Tuareg/Fulani)",
+      "resource rights",
+      "anti-colonialism",
+      "martyrdom glorification"
+    ],
+    "audience_targeting": "Mali/Burkina Faso/Niger populations (primary), Tuareg/Fulani diaspora, global jihadist networks, West African youth.",
+    "platform_policy_responses": "Periodic media outlet removals; Telegram channel suspensions (rapid recreation); social media account deletions; limited effectiveness given decentralized production and ethnic language targeting."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Mali/Burkina Faso/Niger",
+        "case_ref": "Military/civilian court proceedings",
+        "defendants": ["Captured JNIM fighters (hundreds)"],
+        "outcome": "Limited prosecutions; weak judicial capacity; extrajudicial operations by military documented.",
+        "notes": "Most leadership remains in JNIM territory; extradition unlikely."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties from terrorist attacks (1,000+ killed Apr-Nov 2025); mass displacement (4M+ IDPs Sahel); systematic extortion and taxation under threat; kidnapping and hostage-taking; sexual violence; forced recruitment of children; targeted killings; destruction of schools/hospitals/infrastructure; ethnic cleansing allegations; government counter-terrorism abuses (extrajudicial killings documented)."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency claims", "type": "operational", "thresholds": ">50/month signals major campaign"},
+      {"indicator": "Gold shipment volumes", "type": "financial", "thresholds": ">100kg/month indicates revenue surge"},
+      {"indicator": "Ransom demand activity", "type": "operational", "thresholds": "Multiple simultaneous kidnappings signals expansion"},
+      {"indicator": "Leadership statements", "type": "communications", "thresholds": "Omission of al-Qaeda references signals strategic shift"}
+    ],
+    "early_warning_signals": ["Recruitment announcements", "Military mobilization intelligence", "Leadership pronouncements", "Attack claim surges", "Territorial expansion signals"],
+    "data_needed_for_monitoring": ["SIGINT (encrypted communications)", "financial transaction data (gold exports, hawala)", "satellite imagery (mining sites, bases)", "HUMINT (informants)", "social media monitoring"],
+    "recommended_analytic_methods": ["network analysis of ethnic recruitment chains", "temporal attack pattern clustering", "geospatial conflict mapping", "financial flow mapping (gold smuggling)", "propaganda content analysis"]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "JNIM poses the most critical terrorism threat globally as of November 2025. Deadliest jihadist organization surpassing Boko Haram, JNIM conducted 1,000+ attacks April-November 2025, killed 1,000+ people (mostly security forces), controls territory across Mali/Burkina Faso/Niger with governance structures, generates $100M+ annual war economy, and has expanded into Nigeria/Benin/Ivory Coast. Strategic shift distancing from al-Qaeda (June 2025+) suggests legitimacy-seeking repositioning that could facilitate territorial consolidation and regional expansion. Control of Bamako supply corridors for 6+ months demonstrates unprecedented urban pressure capability. Membership doubled from 2,000-3,000 (2018) to 4,000-6,000 (2025). Group maintains direct al-Qaeda central coordination while pursuing independent territorial control strategy.",
+    "vulnerable_sectors": [
+      "military bases and infrastructure (Mali/Burkina/Niger)",
+      "civilian populations across Sahel",
+      "government institutions and officials",
+      "international military forces (French withdrawal, Russian PMCs)",
+      "supply corridors and transportation",
+      "mining operations and resource infrastructure",
+      "border regions with Nigeria/Benin/Ivory Coast"
+    ],
+    "likely_future_trends": "Continued geographic expansion southward toward coastal West Africa; deepening territorial consolidation; increased proto-state governance functions; potential HTS-style rebranding as al-Qaeda distance widens; ongoing blockades of capital cities; integration of foreign fighters; technological sophistication increase (drones); potential coordination with ISIS-Sahel against competing interests.",
+    "recommended_mitigation_measures": [
+      "Sustained international military coordination (G5 Sahel strengthening)",
+      "Disruption of gold smuggling networks and international dealers (UAE/Turkey/Switzerland hubs)",
+      "Counter-finance operations on ransom and livestock networks",
+      "Border security improvements to prevent Nigeria/Benin/Ivory Coast expansion",
+      "Intelligence sharing on JNIM-Taliban coordination (if any)",
+      "Counter-narrative operations addressing ethnic/economic grievance messaging",
+      "Disruption of kidnapping and ransom networks",
+      "Support for governance and service provision in recovered areas (critical stabilization gap)",
+      "Regional deradicalization and youth employment programs",
+      "Maritime security in Niger River zones (increasing JNIM operations)",
+      "Targeted cyber operations against encrypted communications",
+      "Pressure on al-Qaeda central to sever ties (accelerate strategic distance shift to leverage)"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: JNIM terrorist group profile (October 2022 - current)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/jnim.html",
+        "date": "2025-11-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:583",
+        "type": "secondary",
+        "description": "Wikipedia: JNIM formation, merger details, leadership (comprehensive)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:584",
+        "type": "think_tank",
+        "description": "CSIS: JNIM capability assessment, operations, tactics (October 2023)",
+        "date": "2023-10-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:586",
+        "type": "think_tank",
+        "description": "CSIS: Examining Extremism series on JNIM (July 2021, updated 2025)",
+        "date": "2021-07-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:587",
+        "type": "academic",
+        "description": "CTC Westpoint: Mali al-Qaeda playbook analysis (January 2019)",
+        "date": "2019-01-16",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:589",
+        "type": "media",
+        "description": "BBC: JNIM emergence as deadliest jihadist group (July 2025)",
+        "date": "2025-07-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:591",
+        "type": "media",
+        "description": "Al-Ahram: JNIM surpasses Boko Haram, Bamako blockade (November 2025)",
+        "date": "2025-11-11",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:592",
+        "type": "financial_analysis",
+        "description": "Insight Monitor: JNIM $100M war economy analysis (September 2025)",
+        "date": "2025-09-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:593",
+        "type": "media",
+        "description": "ADF Magazine: JNIM attacks spread, Nigeria expansion (November 2025)",
+        "date": "2025-11-11",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:596",
+        "type": "official",
+        "description": "UN Security Council: West Africa Sahel monthly forecast (July 2025)",
+        "date": "2025-07-29",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
