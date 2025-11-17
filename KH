@@ -1,0 +1,774 @@
+{
+  "meta": {
+    "profile_id": "kh-nov2025-v1",
+    "name": "Kata'ib Hizballah (KH)",
+    "aliases": [
+      "Hezbollah Brigades",
+      "Kataib Hezbollah",
+      "Party of God Brigades",
+      "KH",
+      "Kata'ib Hizballah",
+      "Islamic Resistance in Iraq (umbrella)"
+    ],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2009-07-02",
+        "reference": "web:615"
+      },
+      {
+        "country_or_body": "United States",
+        "designation": "Specially Designated Global Terrorist (leaders)",
+        "designation_date": "2009-07-02",
+        "reference": "web:613"
+      }
+    ],
+    "status": "active (evacuated from Syria post-Assad collapse December 2024)",
+    "first_observed_date": "2007-03-01",
+    "last_verified_date": "2025-11-17",
+    "version": "2025.11.17.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Iran's most powerful Iraqi proxy with 7,000-10,000 fighters, founded 2007, conducted 150+ attacks on US forces since October 2023, controls PMF key departments (chief of staff, security, intelligence), evacuated Syria December 2024 after Assad collapse, receives extensive IRGC-QF training/weapons/funding.",
+    "overview": "Kata'ib Hizballah (KH, 'Hezbollah Brigades') is the most powerful and operationally sophisticated Iranian-backed Shia militia in Iraq, established March 2003-2007 by Abu Mahdi al-Muhandis (Jamal Jafaar al-Ibrahim), an Iraqi-Iranian dual national and senior IRGC-Qods Force adviser. With 7,000-10,000 fighters, KH operates as the dominant force within Iraq's Popular Mobilization Forces (PMF, 238,000 total members as of 2024), controlling critical PMF departments including chief of staff, security, intelligence, missiles, and anti-armor. Founded to expel US forces from Iraq and establish an Iran-aligned government, KH killed 600+ US soldiers (2007-2011) using sophisticated explosively formed projectiles (EFPs), improvised rocket-assisted munitions (IRAMs), and sniper operations, earning designation as Foreign Terrorist Organization July 2, 2009. After Abu Mahdi al-Muhandis was killed alongside IRGC-QF Commander Qassim Soleimani in a January 3, 2020 US drone strike at Baghdad International Airport, Ahmad al-Hamidawi (designated SDGT February 26, 2020) assumed leadership. Since Hamas's October 7, 2023 attack on Israel, KH led the Islamic Resistance in Iraq (IRI) coalition in conducting 180+ attacks on US forces in Iraq, Syria, and Jordan, including the January 28, 2024 Tower 22 drone strike that killed 3 US servicemembers. The group temporarily suspended operations January 30, 2024 to avoid 'embarrassing' the Iraqi government but resumed attacks June 2025 following Israeli Operation Rising Lion strikes on Iran. KH evacuated all personnel from Syria in December 2024 after the Assad regime collapsed, losing a critical strategic corridor for Iranian weapons transfers to Hezbollah. As of November 2025, KH remains the most secretive and dangerous Iran-backed militia, receiving extensive training, weapons (drones, missiles, EFPs, MANPADS), intelligence, and funding from IRGC-QF, with direct operational coordination from Iran's Supreme Leader Khamenei.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+  "history_and_origin": {
+    "founding_date": "2007-03-01",
+    "founders": ["Abu Mahdi al-Muhandis (Jamal Jafaar al-Ibrahim)", "IRGC-Qods Force"],
+    "origin_context": "KH emerged from IRGC-QF's consolidation of Iraqi Shia 'special groups' that split from Muqtada al-Sadr's Jaish al-Mahdi (JAM) militia during 2004-2007 uprisings against US occupation. Abu Mahdi al-Muhandis, an Iraqi expatriate living in Iran since the 1980s (wanted by Kuwait for 1983 US/French embassy bombings and 1985 emir assassination attempt), was appointed by IRGC-QF to unify fractious pro-Iranian militias into a disciplined, hierarchical organization modeled on Lebanese Hezbollah. IRGC-QF and Lebanese Hezbollah (Unit 3800) provided initial training at Kermanshah camps in Iran, building a cadre of ~400 elite fighters focused on operational security and advanced tactics. KH set a new standard for Iraqi militias: strict compartmentalization, sophisticated weaponry (EFPs, IRAMs), professional media operations, and absolute loyalty to Iran's Supreme Leader over Iraqi government.",
+    "key_milestones": [
+      {
+        "date": "2003-03-01",
+        "event": "Initial formation of proto-KH special groups by IRGC-QF",
+        "impact": "IRGC-QF begins consolidating pro-Iranian factions; Abu Mahdi al-Muhandis appointed coordinator.",
+        "source_ids": ["web:615", "web:626"]
+      },
+      {
+        "date": "2007-03-01",
+        "event": "Kata'ib Hizballah formally established as unified organization",
+        "impact": "KH emerges as distinct entity; ~400 initial elite fighters; begins systematic attacks on Coalition forces.",
+        "source_ids": ["web:615", "web:626"]
+      },
+      {
+        "date": "2007-02-27",
+        "event": "First documented KH attack: roadside bomb kills 3 US soldiers Baghdad",
+        "impact": "Operational debut; establishes KH as primary threat to US forces.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2009-07-02",
+        "event": "US designates KH as Foreign Terrorist Organization",
+        "impact": "International FTO status; Abu Mahdi al-Muhandis designated SDGT; sanctions imposed.",
+        "source_ids": ["web:615", "web:619"]
+      },
+      {
+        "date": "2011-06-06",
+        "event": "Forward Operating Base Loyalty IRAM attack kills 6 US soldiers",
+        "impact": "Deadliest single attack by KH; sophisticated improvised rocket-assisted munitions demonstrated.",
+        "source_ids": ["web:1", "web:615"]
+      },
+      {
+        "date": "2011-06-29",
+        "event": "Combat Outpost Shocker IRAM attack kills 3 US servicemembers",
+        "impact": "Continued high-casualty operations; IRAM tactics refined.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2014-06-01",
+        "event": "ISIS emerges; KH integrates into Popular Mobilization Forces (PMF)",
+        "impact": "KH gains semi-official status; Abu Mahdi al-Muhandis becomes PMF deputy commander; government funding begins.",
+        "source_ids": ["web:615", "web:640"]
+      },
+      {
+        "date": "2015-01-01",
+        "event": "KH deploys 1,000 fighters to Syria supporting Assad regime",
+        "impact": "Regional operational expansion; coordination with Lebanese Hezbollah; Syrian intervention.",
+        "source_ids": ["web:634"]
+      },
+      {
+        "date": "2019-12-27",
+        "event": "KH rocket attack on K-1 Air Base kills US contractor",
+        "impact": "Triggers US retaliatory airstrikes December 29, 2019 killing 25 KH members.",
+        "source_ids": ["web:1", "web:615"]
+      },
+      {
+        "date": "2019-12-29",
+        "event": "US airstrikes target KH facilities Al-Qa'im (Iraq) and Syria; 25 killed, 51 wounded",
+        "impact": "Major US retaliation; weapons depots/command posts destroyed; escalation spiral begins.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2020-01-03",
+        "event": "US drone strike kills Abu Mahdi al-Muhandis and Qassim Soleimani, Baghdad Airport",
+        "impact": "Leadership decapitation; Abu Fadak (Abdul Aziz al-Mohammadawi) becomes PMF chief of staff; Ahmad al-Hamidawi becomes KH secretary-general.",
+        "source_ids": ["web:613", "web:615", "web:619"]
+      },
+      {
+        "date": "2020-02-26",
+        "event": "US designates Ahmad al-Hamidawi as Specially Designated Global Terrorist",
+        "impact": "New KH leader sanctioned; asset freezes; international pressure.",
+        "source_ids": ["web:613", "web:630"]
+      },
+      {
+        "date": "2020-03-14",
+        "event": "KH rocket attack on Camp Taji kills 1 US servicemember, 1 contractor, 1 UK servicemember",
+        "impact": "Post-Soleimani revenge attacks continue; US launches retaliatory airstrikes on Karbala facilities.",
+        "source_ids": ["web:1", "web:615"]
+      },
+      {
+        "date": "2020-10-11",
+        "event": "KH announces conditional ceasefire against US interests",
+        "impact": "Tactical pause; attacks continue sporadically; ceasefire largely cosmetic.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2023-10-07",
+        "event": "Hamas attacks Israel; KH initiates Islamic Resistance in Iraq (IRI) campaign",
+        "impact": "Beginning of sustained anti-US operations; 180+ attacks over next 10 months.",
+        "source_ids": ["web:614", "web:617"]
+      },
+      {
+        "date": "2023-11-21",
+        "event": "US AC-130 gunship strikes KH vehicle near Abu Ghraib",
+        "impact": "Targeted killing response to Al-Asad Airbase attack; escalation continues.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2024-01-20",
+        "event": "KH attacks Al Asad Air Base, western Iraq",
+        "impact": "Continued operations targeting US forces.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2024-01-21",
+        "event": "US Treasury sanctions KH leaders and Fly Baghdad airline for weapons transfers",
+        "impact": "Financial pressure; airline designated for transferring IRGC-QF fighters to Syria/Lebanon.",
+        "source_ids": ["web:537"]
+      },
+      {
+        "date": "2024-01-24",
+        "event": "US airstrikes target KH headquarters, storage, training facilities; 7 militants killed",
+        "impact": "Major degradation operation; rocket/missile/drone capabilities targeted.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2024-01-28",
+        "event": "Islamic Resistance in Iraq (KH-led) drone strike on Tower 22 base, Jordan; 3 US soldiers killed, 47 injured",
+        "impact": "Deadliest attack on US forces since October 2023; major strategic escalation.",
+        "source_ids": ["web:614", "web:615", "web:617"]
+      },
+      {
+        "date": "2024-01-30",
+        "event": "KH announces suspension of attacks on US forces to avoid 'embarrassing' Iraqi government",
+        "impact": "Tactical pause to reduce pressure on Iraqi government; ceasefire announcement.",
+        "source_ids": ["web:614", "web:615"]
+      },
+      {
+        "date": "2024-07-30",
+        "event": "US airstrike central Iraq kills 4 KH members",
+        "impact": "Continued targeted killings despite ceasefire announcement.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2024-09-20",
+        "event": "Israeli airstrike near Damascus kills KH senior commander Abu Haidar al-Khafaji",
+        "impact": "Israeli operations targeting KH Syria presence; 5km from Sayyidah Zaynab.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "date": "2024-12-08",
+        "event": "Assad regime collapses; KH evacuates all personnel from Syria",
+        "impact": "Loss of strategic Syria corridor; evacuation of hundreds of fighters; Iran weapons route to Hezbollah severed.",
+        "source_ids": ["web:633", "web:635", "web:640"]
+      },
+      {
+        "date": "2025-06-14",
+        "event": "Islamic Resistance in Iraq resumes attacks post-Israeli Operation Rising Lion on Iran",
+        "impact": "3 drones launched at US base western Iraq; end of January 2024 ceasefire.",
+        "source_ids": ["web:617"]
+      },
+      {
+        "date": "2025-09-16",
+        "event": "US designates 4 additional Iran-aligned militias (Kataib Sayyid al-Shuhada, Harakat Ansar Allah al-Awfiya, Kataib Imam Ali, Harakat al-Nujaba) as FTOs",
+        "impact": "Broader designation of Islamic Resistance in Iraq coalition members.",
+        "source_ids": ["web:624", "web:625"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Shia Islamist", "Khomeinist", "Iranian-sponsored", "Axis of Resistance"],
+    "core_objectives": [
+      "Establish Iran-aligned government in Iraq",
+      "Expel US military forces from Iraq and region",
+      "Advance Iranian regional interests throughout Middle East",
+      "Support Axis of Resistance (Iran, Hezbollah, Hamas, Houthis, Assad regime)"
+    ],
+    "short_term_goals": [
+      "Maintain attacks on US forces in Iraq and Syria",
+      "Consolidate control over PMF departments and Iraqi security apparatus",
+      "Support Palestinian resistance against Israel",
+      "Reconstitute Syria operations post-Assad collapse"
+    ],
+    "long_term_goals": [
+      "Complete US military withdrawal from Iraq",
+      "Establish Shia-dominated government fully aligned with Tehran",
+      "Create permanent Iran 'land bridge' through Iraq-Syria-Lebanon",
+      "Position as regional Axis of Resistance pillar alongside Hezbollah"
+    ],
+    "narrative_and_justification": "KH frames violence as defensive resistance against US occupation, Zionism, and Western imperialism. Emphasizes religious obligation to liberate Iraq from foreign military presence and support oppressed Muslims (Palestinians). Uses Shia religious symbolism, martyrdom culture, and anti-colonial rhetoric.",
+    "target_selection_logic": "US military bases and personnel (primary), Israeli interests (symbolic), Iraqi government officials opposing Iran (internal consolidation), Sunni extremists (ISIS), economic infrastructure supporting US presence."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IRQ", "SYR (evacuated December 2024)"],
+    "territorial_control": [
+      {
+        "location_name": "Baghdad and southern suburbs (Dora district)",
+        "geocoordinates": {"lat": 33.31, "lon": 44.36},
+        "control_type": "firm_control",
+        "control_period": {"from": "2007-01-01", "to": null},
+        "notes": "Primary headquarters; Dora base (raided June 2020, 14 detained); government-funded PMF infrastructure.",
+        "source_ids": ["web:615", "web:621"]
+      },
+      {
+        "location_name": "Al-Qa'im (Iraq-Syria border)",
+        "geocoordinates": {"lat": 34.39, "lon": 40.99},
+        "control_type": "operational_base",
+        "control_period": {"from": "2014-01-01", "to": null},
+        "notes": "Strategic border crossing; weapons storage; command posts; US airstrikes December 2019 destroyed facilities.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "location_name": "Karbala Province (PMF facilities)",
+        "geocoordinates": {"lat": 32.61, "lon": 44.03},
+        "control_type": "operational_base",
+        "control_period": {"from": "2014-01-01", "to": null},
+        "notes": "Training facilities; US airstrikes March 2020 targeted installations.",
+        "source_ids": ["web:615"]
+      },
+      {
+        "location_name": "Syria (Damascus, Aleppo, Sayyidah Zaynab) - EVACUATED December 2024",
+        "geocoordinates": {"lat": 33.51, "lon": 36.27},
+        "control_type": "evacuated",
+        "control_period": {"from": "2015-01-01", "to": "2024-12-08"},
+        "notes": "1,000+ fighters deployed supporting Assad; evacuated December 2024 after regime collapse.",
+        "source_ids": ["web:633", "web:635", "web:640"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "PMF-controlled military bases (government-funded)",
+        "type": "state-sanctioned",
+        "notes": "Official PMF infrastructure provides legal sanctuary; government salaries; military equipment access."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Ahmad al-Hamidawi",
+          "aliases": ["Abu Hussein al-Hamidawi"],
+          "role": "Secretary-General since 2020",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Joined KH 2007 shortly after founding; assumed leadership post-Muhandis death; designated SDGT February 26, 2020; directly coordinates with IRGC-QF and Supreme Leader Khamenei.",
+          "source_ids": ["web:613", "web:614", "web:630"]
+        },
+        {
+          "name": "Abu Mahdi al-Muhandis",
+          "aliases": ["Jamal Jafaar al-Ibrahim", "Abu Mahdi"],
+          "role": "Founder and leader 2007-2020",
+          "last_seen": "2020-01-03",
+          "status": "deceased",
+          "biographical_notes": "Born ~1954; Iraqi-Iranian dual national; wanted by Kuwait for 1983 embassy bombings; designated SDGT 2009; PMF deputy commander; killed January 3, 2020 US drone strike with Soleimani.",
+          "source_ids": ["web:615", "web:619", "web:621"]
+        },
+        {
+          "name": "Abdul Aziz al-Mohammadawi",
+          "aliases": ["Abu Fadak"],
+          "role": "PMF Chief of Staff (2020-present); KH coordination",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Designated terrorist; assumed PMF operational command post-Muhandis; coordinates KH operations within PMF structure; publicly pledges allegiance to Khamenei.",
+          "source_ids": ["web:615", "web:639", "web:640"]
+        }
+      ],
+      "leadership_model": "Hierarchical military structure; direct subordination to IRGC-QF and Supreme Leader Khamenei; Iraqi government chain of command frequently ignored.",
+      "succession_mechanism": "IRGC-QF appoints leadership; continuity through deputy structure; organizational resilience post-Muhandis demonstrates robust succession planning."
+    },
+    "organisational_components": [
+      {
+        "component_name": "PMF Chief of Staff Department (Abu Fadak control)",
+        "function": "Operational command over entire PMF (238,000 members)",
+        "size_estimate": {"min": 1_000, "max": 2_000, "confidence": "low"},
+        "leader": "Abdul Aziz al-Mohammadawi (Abu Fadak)",
+        "notes": "KH controls PMF's most critical department; oversees all PMF military operations."
+      },
+      {
+        "component_name": "PMF Security Department (KH-controlled)",
+        "function": "Internal security, counterintelligence, threat assessment",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "low"},
+        "leader": "Abu Ali al-Askari (KH security chief)",
+        "notes": "Controls PMF intelligence apparatus; monitors rival factions."
+      },
+      {
+        "component_name": "PMF Intelligence Department (KH-controlled)",
+        "function": "HUMINT, SIGINT, targeting, coordination with IRGC-QF",
+        "size_estimate": {"min": 300, "max": 600, "confidence": "low"},
+        "leader": "Unknown KH intelligence chief",
+        "notes": "Direct IRGC-QF coordination; targeting US forces; unprecedented intelligence-gathering without Iraqi oversight."
+      },
+      {
+        "component_name": "PMF Missiles Department (KH-controlled)",
+        "function": "Rocket/missile operations, drone warfare, long-range strike capability",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "medium"},
+        "leader": "Regional missile commanders",
+        "notes": "180+ attacks on US forces Oct 2023-Aug 2024; sophisticated drone/missile operations."
+      },
+      {
+        "component_name": "PMF Anti-Armor Department (KH-controlled)",
+        "function": "Anti-tank operations, vehicle-mounted weapons, EFP production",
+        "size_estimate": {"min": 300, "max": 600, "confidence": "low"},
+        "leader": "Unknown",
+        "notes": "EFP expertise from 2007-2011 maintained; critical to armored warfare."
+      },
+      {
+        "component_name": "KH Core Combat Forces",
+        "function": "Direct action, special operations, elite fighters",
+        "size_estimate": {"min": 5_000, "max": 8_000, "confidence": "medium"},
+        "leader": "Regional commanders under al-Hamidawi",
+        "notes": "7,000-10,000 total KH fighters; most secretive militia in Iraq; strict operational security."
+      },
+      {
+        "component_name": "Media and Propaganda Wing",
+        "function": "Attack videos, recruitment messaging, strategic communications",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Media director",
+        "notes": "High-quality attack documentation; Arabic/English messaging; coordination with Islamic Resistance in Iraq branding."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under Ahmad al-Hamidawi; direct coordination with IRGC-QF; Supreme Leader Khamenei has final authority; Iraqi government largely excluded from decision-making.",
+      "discipline_and_enforcement": "Military justice system; harsh punishment for operational security violations; ideological vetting; absolute loyalty to Iran required."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 7_000, "max": 10_000, "confidence": "high"},
+    "composition": {
+      "combatants": {"min": 5_000, "max": 8_000},
+      "support_personnel": {"min": 1_500, "max": 2_000},
+      "foreign_fighters": "minimal (IRGC-QF advisers, Lebanese Hezbollah trainers)",
+      "female_participation": "<1%; minimal documented"
+    },
+    "composition_baseline": {
+      "year": "2011",
+      "total": {"min": 400, "max": 1_000},
+      "description": "Elite cadre of ~400 fighters pre-US withdrawal (2011); expanded to 1,000-3,000 (2014-2017); current 7,000-10,000 represents 7-25x growth."
+    },
+    "recruitment_demographics": {
+      "age_range": "18-45",
+      "education_levels": ["primary", "secondary", "university"],
+      "socioeconomic_background": "Shia Iraqi youth; economically disadvantaged; ideologically motivated; Badr Organization defectors; family regime connections.",
+      "gender_distribution": "99%+ male"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "advanced military tactics",
+        "drone operations",
+        "missile/rocket operations",
+        "explosives (EFPs, IEDs, VBIEDs)",
+        "sniper operations",
+        "guerrilla warfare",
+        "naval warfare (limited)",
+        "unmanned aircraft systems"
+      ],
+      "training_locations": [
+        "Iran (Kermanshah, IRGC-QF camps)",
+        "Iraq (PMF facilities, Karbala, Baghdad)",
+        "Lebanon (Lebanese Hezbollah camps, historical)",
+        "Syria (pre-December 2024)"
+      ],
+      "notes": "IRGC-QF and Lebanese Hezbollah (Unit 3800) provide advanced training; focus on operational security, compartmentalization, advanced weapons systems; multi-year training pipeline."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional (Iraq, Syria, potential Yemen/Lebanon)",
+    "known_attack_types": [
+      "drone strikes",
+      "rocket/missile attacks",
+      "IED/EFP",
+      "IRAM (improvised rocket-assisted munitions)",
+      "sniper operations",
+      "kidnapping",
+      "assassination",
+      "armed assault"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "Forward Operating Base Loyalty IRAM attack",
+        "date": "2011-06-06",
+        "location": "Baghdad, Iraq",
+        "method_category": "IRAM barrage on US base",
+        "casualties_killed": 6,
+        "casualties_injured": 5,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:615"]
+      },
+      {
+        "operation_name": "Combat Outpost Shocker IRAM attack",
+        "date": "2011-06-29",
+        "location": "Zurbatiyah, Iraq",
+        "method_category": "IRAM attack on US outpost",
+        "casualties_killed": 3,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "K-1 Air Base rocket attack",
+        "date": "2019-12-27",
+        "location": "Kirkuk, Iraq",
+        "method_category": "rocket barrage (30+ rockets)",
+        "casualties_killed": 1,
+        "casualties_injured": 4,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:615"]
+      },
+      {
+        "operation_name": "Camp Taji rocket attack",
+        "date": "2020-03-14",
+        "location": "Baghdad, Iraq",
+        "method_category": "rocket barrage",
+        "casualties_killed": 3,
+        "casualties_injured": 14,
+        "claim_status": "attributed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:615"]
+      },
+      {
+        "operation_name": "Tower 22 drone strike",
+        "date": "2024-01-28",
+        "location": "Jordan (near Syria border)",
+        "method_category": "coordinated drone strike",
+        "casualties_killed": 3,
+        "casualties_injured": 47,
+        "claim_status": "claimed (Islamic Resistance in Iraq)",
+        "attribution_confidence": "high",
+        "sources": ["web:614", "web:615", "web:617"]
+      },
+      {
+        "operation_name": "Al Asad Air Base attack",
+        "date": "2024-01-20",
+        "location": "Western Iraq",
+        "method_category": "rocket/drone attack",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Iran (IRGC-QF primary sponsor); Iraqi government (official PMF funding)",
+      "criminal_partnerships": "Limited documented; focus on state/militia support",
+      "transnational_network_links": [
+        "IRGC-Qods Force (direct subordination)",
+        "Lebanese Hezbollah (training, weapons, coordination)",
+        "Houthis (Yemen, coordination)",
+        "Hamas/Palestinian Islamic Jihad (support)",
+        "Assad regime forces (Syria, evacuated December 2024)",
+        "Islamic Resistance in Iraq coalition (Asaib Ahl al-Haq, Harakat al-Nujaba, Kataib Sayyid al-Shuhada, others)"
+      ],
+      "notes": "Most integrated proxy in Iran's Axis of Resistance; direct IRGC-QF operational control; Iraqi PMF provides official cover and government funding ($2.9B annual PMF budget)."
+    },
+    "operations_tempo_and_patterning": "Peak 2007-2011 (600+ US soldiers killed); dormant 2012-2014; resurgent 2014-2020 (anti-ISIS, Syria); escalating 2019-2020 (US confrontation); suspended Jan 2024-Jun 2025; resumed June 2025 post-Israeli strikes on Iran. Pattern: rocket/missile/drone attacks on US bases; sophisticated multi-site coordination; responsive to regional events (Israel-Palestine, Iran-US tensions)."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": [
+        "drones/UAS (one-way attack, reconnaissance)",
+        "rockets (Grad, Katyusha)",
+        "missiles (precision-guided)",
+        "EFPs (explosively formed projectiles)",
+        "IRAMs (improvised rocket-assisted munitions)",
+        "IEDs/VBIEDs",
+        "MANPADS (man-portable air defense)",
+        "armored vehicles",
+        "artillery",
+        "anti-tank weapons",
+        "sniper rifles"
+      ],
+      "acquisition_routes": "IRGC-QF direct supply (Iran production), Lebanese Hezbollah transfers, Iraqi PMF official procurement, battlefield seizures from ISIS",
+      "notes": "Sophisticated arsenal rivaling state militaries; Iranian-produced drones (Shahed variants); precision missiles; advanced EFP technology (shaped charges); IRAM systems (107mm rockets on improvised rails); MANPADS threaten air operations."
+    },
+    "cyber_capabilities": {
+      "capability_level": "emerging",
+      "observed_activities": [
+        "operational coordination via encrypted platforms",
+        "propaganda video production/distribution",
+        "HUMINT/SIGINT coordination with IRGC-QF",
+        "social media psychological operations"
+      ],
+      "notes": "PMF Intelligence Department (KH-controlled) provides sophisticated cyber/SIGINT capabilities; IRGC-QF coordination."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers", "IRGC-QF liaison networks", "PMF official communications", "courier networks"],
+      "propaganda_platforms": ["Islamic Resistance in Iraq Telegram channels", "social media (Twitter/X, Telegram)", "video releases"],
+      "notes": "Highly compartmentalized communications; operational security priority; uses Islamic Resistance in Iraq branding for deniability."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["armored vehicles (PMF official)", "pickup trucks", "motorcycles", "Fly Baghdad airline (sanctioned 2024)", "land routes Iraq-Syria-Lebanon"],
+      "notes": "Sophisticated logistics: PMF official infrastructure provides cover; Fly Baghdad airline transferred IRGC-QF fighters/weapons (sanctioned January 2024); land bridge Iraq-Syria-Lebanon (severed December 2024 with Assad collapse)."
+    },
+    "technical_gaps_and_weaknesses": "Vulnerable to US airstrikes (precision-guided munitions); communications susceptible to SIGINT interception; dependency on IRGC-QF supply lines; Syria corridor loss (December 2024) disrupts weapons flow to Hezbollah; limited air defense against Israeli/US aircraft."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 150_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "iraqi_government_funding",
+        "description": "Official PMF budget allocation from Iraqi government",
+        "estimated_share_percent": 60,
+        "notes": "$90M; KH receives proportional share of $2.9B annual PMF budget (238,000 members); government salaries, equipment, facilities."
+      },
+      {
+        "type": "irgc_qf_support",
+        "description": "Direct Iranian government transfers via IRGC-Qods Force",
+        "estimated_share_percent": 35,
+        "notes": "$52.5M; weapons, training, intelligence, operational funding; direct IRGC-QF coordination."
+      },
+      {
+        "type": "extortion_protection",
+        "description": "Extortion from businesses, protection rackets, economic intimidation",
+        "estimated_share_percent": 5,
+        "notes": "$7.5M; limited compared to government/Iranian support; focus on political control rather than criminality."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "Fly Baghdad airline (sanctioned 2024), PMF front companies, exchange houses, money transfer networks, legitimate businesses.",
+      "notes": "Dual-track financing: official Iraqi government budget (transparent) and covert IRGC-QF transfers (opaque); PMF official status provides financial legitimacy and access to state resources."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings (al-Hamidawi), entity sanctions (Fly Baghdad)",
+        "implementing_body": "US Treasury, State Department",
+        "date": "2009-07-02 (ongoing)",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["PMF official recruitment", "Shia religious networks", "university Shia societies", "family networks", "Badr Organization defection"],
+    "recruitment_tactics": [
+      "religious ideology (Khomeinism, Shia resistance)",
+      "nationalist anti-US messaging",
+      "government salaries/benefits (PMF status)",
+      "promise of martyrdom rewards",
+      "sectarian solidarity (anti-Sunni/ISIS)",
+      "revenge motivation (US occupation abuses)"
+    ],
+    "target_profiles": [
+      "Shia Iraqi youth 18-35",
+      "ideologically committed to Iran/Khamenei",
+      "economically disadvantaged seeking employment",
+      "university students (religious societies)",
+      "families with PMF/militia connections"
+    ],
+    "recruitment_geography": ["Baghdad (primary)", "Basra", "Najaf", "Karbala", "Shia-majority provinces"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 1, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "High; PMF official status provides legitimacy; government employment appeals to economically marginalized; religious indoctrination effective; social media recruitment campaigns; martyrdom culture deeply embedded."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "high-quality attack videos",
+      "drone footage of strikes",
+      "martyrdom videos",
+      "leadership statements",
+      "Islamic Resistance in Iraq messaging"
+    ],
+    "languages_used": ["Arabic", "English (limited)", "Persian"],
+    "messaging_themes": [
+      "resistance to US occupation",
+      "support for Palestinian liberation",
+      "Shia solidarity",
+      "martyrdom glorification",
+      "anti-Zionism",
+      "Axis of Resistance unity"
+    ],
+    "audience_targeting": "Iraqi Shia population, regional Shia communities, Axis of Resistance networks, international jihadist supporters.",
+    "platform_policy_responses": "Telegram channel periodic removals (rapid recreation); social media account suspensions; limited effectiveness given Islamic Resistance in Iraq branding and encrypted platforms."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "United States",
+        "case_ref": "FTO designation, SDGT sanctions",
+        "defendants": ["Ahmad al-Hamidawi", "Abu Mahdi al-Muhandis (deceased)", "KH organization"],
+        "outcome": "Designations in place; sanctions enforced; no extraditions.",
+        "notes": "US indictments in absentia; KH leadership remains in Iraq under PMF protection."
+      },
+      {
+        "jurisdiction": "Iraq",
+        "case_ref": "June 2020 Dora base raid",
+        "defendants": ["14 KH members detained"],
+        "outcome": "Released shortly after; limited judicial accountability.",
+        "notes": "Iraqi government lacks political will to prosecute; PMF status provides immunity."
+      }
+    ],
+    "human_rights_concerns": "600+ US soldiers killed (2007-2011); mass civilian casualties from indiscriminate rocket attacks; kidnapping of Israeli-Russian woman (March 2023); assassinations of domestic rivals; torture of detainees; extrajudicial killings; attacks on peaceful protesters (2019-2020); intimidation of journalists/activists; PMF abuses against Sunni civilians."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency (Islamic Resistance in Iraq claims)", "type": "operational", "thresholds": ">10/month signals major campaign"},
+      {"indicator": "US-Iran tensions escalation", "type": "geopolitical", "thresholds": "Israeli strikes on Iran trigger KH retaliation"},
+      {"indicator": "Leadership statements", "type": "communications", "thresholds": "Calls for escalation precede attack surges"},
+      {"indicator": "Fly Baghdad flight activity", "type": "logistics", "thresholds": "Increased flights signal weapons/personnel movements"}
+    ],
+    "early_warning_signals": ["Islamic Resistance in Iraq mobilization announcements", "IRGC-QF coordination intelligence", "Rocket/drone stockpiling reports", "Leadership speeches threatening US forces", "Regional escalation (Israel-Iran, Israel-Hezbollah)"],
+    "data_needed_for_monitoring": ["SIGINT (encrypted communications)", "HUMINT (informants in PMF/KH)", "satellite imagery (weapons storage, training facilities)", "financial transaction tracking (IRGC-QF transfers)"],
+    "recommended_analytic_methods": ["temporal attack pattern clustering", "network analysis (Islamic Resistance in Iraq coordination)", "geospatial mapping (rocket launch sites)", "financial flow tracking (Iraqi government vs. IRGC-QF funding)"]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Kata'ib Hizballah poses critical transnational terrorism threat as Iran's most powerful Iraqi proxy. With 7,000-10,000 fighters controlling key PMF departments (chief of staff, security, intelligence, missiles), KH represents the primary threat to US forces in Iraq and a critical pillar of Iran's Axis of Resistance. The group conducted 180+ attacks on US forces Oct 2023-Aug 2024, including the January 28, 2024 Tower 22 drone strike (3 US soldiers killed, 47 injured). Despite January 2024 'suspension' announcement, attacks resumed June 2025 following Israeli strikes on Iran. December 2024 evacuation from Syria after Assad regime collapse represents major strategic setback, severing Iran's land bridge to Hezbollah and disrupting weapons transfers. However, KH maintains robust capabilities, extensive IRGC-QF support, and Iraqi government protection through PMF status. Organization's operational sophistication (drones, precision missiles, EFPs) and direct subordination to Supreme Leader Khamenei ensure continued high-threat profile.",
+    "vulnerable_sectors": [
+      "US military personnel and bases (Iraq, Syria)",
+      "Israeli interests (symbolic targets)",
+      "Iraqi government officials opposing Iran",
+      "Western diplomatic facilities",
+      "Regional US allies (Jordan, Gulf states)",
+      "Critical infrastructure (oil, electricity)"
+    ],
+    "likely_future_trends": "Continued attacks on US forces responsive to US-Iran/Israel-Iran tensions; reconstitution efforts post-Syria evacuation; deeper integration into Iraqi security apparatus via PMF expansion (238,000 members, $2.9B budget); potential escalation if US strikes Iran; increasing coordination with other Islamic Resistance in Iraq factions; drone/missile sophistication increase; possible external operations (Jordan, Gulf states) if regional conflict intensifies.",
+    "recommended_mitigation_measures": [
+      "Sustained intelligence collection on KH command structure and IRGC-QF coordination",
+      "Targeted strikes on KH leadership and weapons facilities (precedent: 2019-2024 operations)",
+      "Disruption of IRGC-QF supply lines and Fly Baghdad airline operations",
+      "Pressure on Iraqi government to enforce July 2019 decree (PMF integration or disarmament)",
+      "Counter-finance operations targeting IRGC-QF transfers and PMF budget exploitation",
+      "Cyber operations against KH communications and PMF Intelligence Department",
+      "Support for Iraqi factions opposing Iranian influence (Sadr movement, Sunni groups)",
+      "Diplomatic pressure on Iran to curtail KH operations (limited effectiveness)",
+      "Force protection enhancements at US bases (Tower 22 lessons learned)",
+      "Regional coordination with Gulf states on KH threat",
+      "Monitoring Syria developments for potential KH return if Iran reconstitutes presence",
+      "Sanctions enforcement on KH front companies and financial networks"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: Kata'ib Hizballah terrorist group profile (April 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/kh.html",
+        "date": "2025-04-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:613",
+        "type": "secondary",
+        "description": "Counter Extremism Project: Ahmad al-Hamidawi biography and designation",
+        "date": "2019-12-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:614",
+        "type": "media",
+        "description": "Al Jazeera: KH announces suspension of attacks January 2024",
+        "date": "2024-01-31",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:615",
+        "type": "secondary",
+        "description": "Wikipedia: Kata'ib Hezbollah comprehensive history, operations timeline (2007-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:617",
+        "type": "media",
+        "description": "Long War Journal: Islamic Resistance in Iraq 180+ attacks on US forces (June 2025)",
+        "date": "2025-06-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:619",
+        "type": "research",
+        "description": "Wilson Center: Iran's Islamist proxies, KH leadership sanctions",
+        "date": "2025-03-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:621",
+        "type": "research",
+        "description": "UANI: Kata'ib Hezbollah organizational profile",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:626",
+        "type": "academic",
+        "description": "CTC Westpoint: Future of KH post-Muhandis (March 2022)",
+        "date": "2022-03-20",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:631",
+        "type": "research",
+        "description": "Draw Media: PMF expansion 238,000 members, $2.9B budget (July 2025)",
+        "date": "2025-07-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:633",
+        "type": "media",
+        "description": "Al Jazeera: Assad regime collapse timeline December 2024",
+        "date": "2024-12-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:635",
+        "type": "secondary",
+        "description": "Wikipedia: Fall of Assad regime, Hezbollah/KH evacuation December 2024",
+        "date": "2024-12-07",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:537",
+        "type": "official",
+        "description": "US Treasury: KH leaders and Fly Baghdad airline sanctions (January 2024)",
+        "date": "2024-01-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:640",
+        "type": "think_tank",
+        "description": "Soufan Center: Iran struggles with Assad collapse, KH Syria evacuation (January 2025)",
+        "date": "2025-01-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:639",
+        "type": "think_tank",
+        "description": "Washington Institute: PMF expansion, KH control of departments (June 2023)",
+        "date": "2023-06-02",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
