@@ -1,0 +1,714 @@
+{
+  "meta": {
+    "profile_id": "pij-nov2025-v1",
+    "name": "Palestinian Islamic Jihad (PIJ)",
+    "aliases": [
+      "Harakat al-Jihad al-Islami fi Filistin",
+      "Islamic Jihad Movement in Palestine",
+      "Al-Quds Brigades (military wing)",
+      "Abu Jihad Brigades (historical)",
+      "Saif al-Islam Brigades (historical)",
+      "PIJ",
+      "Islamic Jihad"
+    ],
+    "primary_language": "Arabic",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "1997-10-08",
+        "reference": "web:670"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization",
+        "designation_date": "2005-05-02",
+        "reference": "web:669"
+      }
+    ],
+    "status": "active (second-largest militant group in Gaza; expanding West Bank presence)",
+    "first_observed_date": "1981-01-01",
+    "last_verified_date": "2025-11-17",
+    "version": "2025.11.17.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Palestinian Sunni jihadist group founded 1981, ~4,000 fighters, al-Quds Brigades military wing, Iran-funded (primary financier), second-largest Gaza armed group after Hamas, participated October 7, 2023 attack on Israel (~1,200 killed), conducted 1,100+ rockets August 2022 and 4,000+ rockets May 2021, expanding West Bank operations January 2025.",
+    "overview": "Palestinian Islamic Jihad (PIJ, Harakat al-Jihad al-Islami fi Filistin) is a Palestinian Sunni Islamist militant organization founded January 1981 in Gaza by Dr. Fathi abd al-Aziz Shikaki and Sheikh Abd al-Aziz Awda, Palestinian members of the Egyptian Muslim Brotherhood who rejected the Brotherhood's perceived moderation and insufficient commitment to Palestinian liberation. Despite Sunni origins, PIJ drew ideological inspiration from Iran's 1979 Islamic Revolution and developed close ties with Iranian Revolutionary Guards Corps (IRGC) and Lebanese Hezbollah. The group is devoted exclusively to militant activity (unlike Hamas/Hezbollah's political/social structures) with its military wing al-Quds Brigades responsible for dozens of suicide bombings against Israeli targets (1987-2006 era) and contemporary rocket/mortar operations. PIJ claimed ~30 suicide bombings between 1987-2006 before transitioning to indiscriminate rocket fire. Following founder Fathi Shikaki's 1995 assassination in Malta (attributed to Mossad), Ramadan Shallah became leader; the organization has maintained headquarters in Damascus (Syria) with contingents in Lebanon and Gaza. With approximately 4,000 fighters organized primarily in Gaza and expanding West Bank presence, PIJ participates in coordinated operations through the 'Joint Operations Room' (shared with Hamas and other Palestinian groups). Most notably, PIJ participated in the October 7, 2023 Hamas-led attack on Israel that resulted in ~1,200 Israeli deaths, 240+ hostages. Since October 2023, PIJ has conducted 150+ rocket attacks coordinated with Hamas, including 1,100+ rockets (August 2022), 4,000+ rockets (May 2021), and sustained operations January 2025 during Israeli 'Operation Iron Wall' in West Bank. Iran provides the vast majority of PIJ's funding (hundreds of millions annually through IRGC), military training (missile development), and advanced weaponry (Fajr rockets). PIJ's political leadership under Ziyad al-Nakhalah (Secretary General since 2018, designated SDGT 2014) coordinates operations from Damascus, while al-Quds Brigades military commanders direct Gaza and West Bank campaigns. As of November 2025, PIJ represents the second-most dangerous Palestinian armed group after Hamas, with expanding operational capability and deepening Iranian support.",
+    "threat_level": "high",
+    "confidence_overall": "high"
+  },
+  "history_and_origin": {
+    "founding_date": "1981-01-01",
+    "founders": ["Fathi abd al-Aziz Shikaki", "Abd al-Aziz Awda", "Ramadan Shallah (early member, later leader)"],
+    "origin_context": "PIJ emerged from split within Egyptian Muslim Brotherhood when Fathi Shikaki and Abd al-Aziz Awda rejected Brotherhood moderation and insufficient commitment to Palestinian cause. In 1979, they established Islamic Jihad-Shikaki Faction as branch of Egyptian Islamic Jihad while operating out of Egypt. Following Egyptian government's 1981 expulsion (aftermath of Anwar Sadat assassination by Egyptian Islamic Jihad), Shikaki and Awda returned to Gaza where they formally established Palestinian Islamic Jihad. The group drew inspiration from 1979 Iranian Revolution's Shia Islamic governance model despite PIJ's Sunni theological identity. Early relationship-building with Iran's Revolutionary Guards Corps and Lebanese Hezbollah during the 1980s provided training, funding, and ideological guidance, establishing Iran as PIJ's primary patron.",
+    "key_milestones": [
+      {
+        "date": "1979-01-01",
+        "event": "Fathi Shikaki and Abd al-Aziz Awda establish Islamic Jihad-Shikaki Faction in Egypt",
+        "impact": "Split from Muslim Brotherhood; proto-PIJ formation; Egypt-based operations.",
+        "source_ids": ["web:664", "web:669"]
+      },
+      {
+        "date": "1981-01-01",
+        "event": "PIJ formally established in Gaza post-Egyptian expulsion",
+        "impact": "Transition to Palestinian-focused operations; Gaza-based headquarters; initial cadre formation.",
+        "source_ids": ["web:664", "web:669", "web:672"]
+      },
+      {
+        "date": "1987-01-01",
+        "event": "PIJ exiled from Gaza to Lebanon",
+        "impact": "Relocation to Lebanon; Hezbollah partnership begins; training coordination with IRGC.",
+        "source_ids": ["web:672"]
+      },
+      {
+        "date": "1989-01-01",
+        "event": "PIJ headquarters moves to Damascus; small contingent remains in Lebanon",
+        "impact": "Damascus becomes command center; Syrian protection; IRGC coordination intensifies.",
+        "source_ids": ["web:664", "web:672"]
+      },
+      {
+        "date": "1990s-2006",
+        "event": "Al-Quds Brigades conducts numerous suicide bombings against Israeli targets",
+        "impact": "Peak terrorism phase; dozens of suicide attacks; significant civilian casualties; international profile.",
+        "source_ids": ["web:666", "web:669"]
+      },
+      {
+        "date": "1995-02-25",
+        "event": "Double suicide bombing at Beit Lid Junction, Israel; 22 Israelis killed",
+        "impact": "Most infamous PIJ suicide bombing; operational success; organizational confidence surge.",
+        "source_ids": ["web:666", "web:680"]
+      },
+      {
+        "date": "1995-10-26",
+        "event": "Founder Fathi Shikaki assassinated in Malta",
+        "impact": "Leadership decapitation; Ramadan Shallah assumes leadership; organizational resilience.",
+        "source_ids": ["web:664", "web:666", "web:672"]
+      },
+      {
+        "date": "1997-10-08",
+        "event": "US designates PIJ as Foreign Terrorist Organization",
+        "impact": "International FTO status; asset freezes; sanctions regime.",
+        "source_ids": ["web:670", "web:672"]
+      },
+      {
+        "date": "2007-01-01",
+        "event": "PIJ transitions from suicide bombings to rocket/mortar operations",
+        "impact": "Tactical shift to indiscriminate fire; reduced operational complexity; sustained campaign.",
+        "source_ids": ["web:666", "web:673"]
+      },
+      {
+        "date": "2014-01-22",
+        "event": "US designates Ziyad al-Nakhalah as Specially Designated Global Terrorist (SDGT)",
+        "impact": "Deputy Secretary General sanctioned; leadership-level pressure; Iran coordination exposed.",
+        "source_ids": ["web:670"]
+      },
+      {
+        "date": "2018-01-01",
+        "event": "Ziyad al-Nakhalah becomes PIJ Secretary General",
+        "impact": "Leadership transition; Nakhalah becomes primary face of PIJ; Damascus-based coordination.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2021-05-10",
+        "event": "May 2021 Gaza escalation: PIJ launches 4,000+ rockets with Hamas coordination",
+        "impact": "11 civilians and 1 soldier killed; major coordinated operation; operational sophistication.",
+        "source_ids": ["web:1", "web:680"]
+      },
+      {
+        "date": "2022-08-05",
+        "event": "August 2022 Gaza escalation: PIJ fires 1,100 rockets at Israel",
+        "impact": "Response to PIJ leader Akram al-Ajuri's family being targeted; 15 Palestinians killed by errant rockets.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2023-10-07",
+        "event": "October 7 attack: PIJ participates in Hamas-led assault on Israel; ~1,200 killed",
+        "impact": "Al-Quds Brigades members fight alongside Hamas; largest October 7 participation after Hamas; significant international incident.",
+        "source_ids": ["web:664", "web:665", "web:668", "web:677"]
+      },
+      {
+        "date": "2023-11-01",
+        "event": "Gaza war begins post-October 7; PIJ sustains operations alongside Hamas",
+        "impact": "Sustained rocket fire; al-Quds Brigades conduct ground operations; coordinated Joint Operations Room activities.",
+        "source_ids": ["web:677"]
+      },
+      {
+        "date": "2024-08-28",
+        "event": "Israel launches Operation Summer Camps (largest West Bank operation since 2002)",
+        "impact": "PIJ and other groups targeted; al-Quds Brigades engage Israeli forces; West Bank escalation.",
+        "source_ids": ["web:676"]
+      },
+      {
+        "date": "2024-12-01",
+        "event": "Assad regime collapses in Syria; PIJ headquarters (Damascus) faces political uncertainty",
+        "impact": "Strategic challenge for PIJ leadership coordination; refugee crisis for Lebanese/Syrian-based contingents.",
+        "source_ids": ["web:680"]
+      },
+      {
+        "date": "2025-01-21",
+        "event": "Israel launches Operation Iron Wall in West Bank; PIJ al-Quds Brigades engage in Jenin, Tulkarm",
+        "impact": "PIJ and al-Aqsa Martyrs Brigades coordinate; tens of thousands displaced; tanks deployed (first since 2005).",
+        "source_ids": ["web:674", "web:676", "web:679"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Sunni Islamist", "Palestinian nationalist", "Iran-inspired (despite Sunni roots)", "Takfiri"],
+    "core_objectives": [
+      "Destroy State of Israel; military elimination only acceptable path",
+      "Establish sovereign Islamic state across pre-1948 British Mandate Palestine",
+      "Reject negotiated settlement; refuse political process participation",
+      "Liberate Palestinian territories through armed struggle (jihad)"
+    ],
+    "short_term_goals": [
+      "Maintain rocket/mortar attacks on Israeli targets from Gaza",
+      "Expand armed operations in West Bank (Jenin, Tulkarm, Nablus)",
+      "Maximize Israeli civilian and military casualties",
+      "Disrupt Israeli government and civilian life"
+    ],
+    "long_term_goals": [
+      "Complete elimination of Israel as political entity",
+      "Establishment of Islamic Palestinian state in all of Mandate Palestine",
+      "Regional leadership of Palestinian resistance movement",
+      "Integration with broader Iranian-led 'Axis of Resistance'"
+    ],
+    "narrative_and_justification": "PIJ frames violence as legitimate armed resistance against Israeli occupation, colonialism, and perceived oppression of Palestinian people. Emphasizes religious obligation (jihad) under Islamic law to defend Islamic lands and Palestinian Muslims. Uses anti-colonial, anti-imperialist, and pan-Islamic rhetoric. Despite Sunni theology, embraces Iran's revolutionary Islamic model as inspiration for Palestinian liberation struggle.",
+    "target_selection_logic": "Israeli military installations (strategic), civilians in Israeli cities (psychological/maximum casualty impact), settlers and civilian infrastructure in West Bank (anti-occupation), symbolic targets (religious significance)."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["ISR", "PSE (Gaza, West Bank)"],
+    "territorial_control": [
+      {
+        "location_name": "Gaza Strip",
+        "geocoordinates": {"lat": 31.93, "lon": 35.20},
+        "control_type": "operational_presence",
+        "control_period": {"from": "1981-01-01", "to": null},
+        "notes": "Second-largest armed group in Gaza (after Hamas); al-Quds Brigades conduct rocket operations from civilian areas; Joint Operations Room coordination.",
+        "source_ids": ["web:677", "web:680"]
+      },
+      {
+        "location_name": "West Bank (Nablus, Jenin, Tulkarm, Ramallah)",
+        "geocoordinates": {"lat": 31.95, "lon": 35.20},
+        "control_type": "operational_presence",
+        "control_period": {"from": "2001-01-01", "to": null},
+        "notes": "Expanding presence since 2020s; al-Quds Brigades operate under 'Jenin Battalion' umbrella; coordinate with Fatah's al-Aqsa Martyrs Brigades and Hamas.",
+        "source_ids": ["web:674", "web:676", "web:677"]
+      },
+      {
+        "location_name": "Damascus, Syria (headquarters/political leadership)",
+        "geocoordinates": {"lat": 33.51, "lon": 36.27},
+        "control_type": "leadership_base",
+        "control_period": {"from": "1989-01-01", "to": null},
+        "notes": "Ziyad al-Nakhalah and political council based here; strategic headquarters; vulnerable post-Assad regime collapse December 2024.",
+        "source_ids": ["web:664", "web:672"]
+      },
+      {
+        "location_name": "Lebanon (Beirut, South Lebanon, refugee camps)",
+        "geocoordinates": {"lat": 33.85, "lon": 35.86},
+        "control_type": "contingent_presence",
+        "control_period": {"from": "1987-01-01", "to": null},
+        "notes": "Small contingent of leaders and operatives; coordination with Hezbollah; joint operations historically.",
+        "source_ids": ["web:664", "web:672"]
+      },
+      {
+        "location_name": "Iran (political office, coordination with IRGC)",
+        "geocoordinates": {"lat": 35.68, "lon": 51.42},
+        "control_type": "diplomatic_presence",
+        "control_period": {"from": "1989-01-01", "to": null},
+        "notes": "Representative Nasser Abu Sharif coordinates with IRGC; primary financial/weapons source; training arrangements.",
+        "source_ids": ["web:675", "web:678"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Damascus, Syria (political leadership)",
+        "type": "protected_diplomatic",
+        "notes": "State protection; vulnerable post-Assad regime collapse."
+      },
+      {
+        "location_name": "Gaza Strip (civilian cover)",
+        "type": "civilian_embedded",
+        "notes": "Operations launch from civilian areas; Palestinian Authority lacks capacity to suppress; Israeli military pressure via airstrikes."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Ziyad al-Nakhalah",
+          "aliases": ["Abu Tariq", "Ziyad al-Nakhala"],
+          "role": "Secretary General since 2018; political leadership council chair",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Became deputy secretary general in 2008; assumed secretary general position 2018; designated SDGT January 2014; based in Damascus; cultivates Iranian relations; leads political decision-making.",
+          "source_ids": ["web:670", "web:1"]
+        },
+        {
+          "name": "Muhammad al-Hindi",
+          "aliases": [],
+          "role": "Deputy Secretary General since 2018; Political Bureau member",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Senior political figure; coordinates with regional actors; based in Damascus.",
+          "source_ids": ["web:1"]
+        },
+        {
+          "name": "Akram al-Ajuri",
+          "aliases": [],
+          "role": "Al-Quds Brigades commander",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Military commander; orchestrates rocket/mortar operations; coordinated with Hamas during October 2023 and subsequent escalations.",
+          "source_ids": ["web:1"]
+        },
+        {
+          "name": "Ramadan Shallah",
+          "aliases": ["Dr. Ramadan Abdullah Shallah"],
+          "role": "Leader 1995-2018 (after Shikaki assassination)",
+          "last_seen": "2018-01-01",
+          "status": "emeritus/inactive",
+          "biographical_notes": "Took over after Shikaki assassination 1995; led for 23 years; based in Damascus; retired/replaced by Nakhalah 2018.",
+          "source_ids": ["web:672", "web:673"]
+        }
+      ],
+      "leadership_model": "Centralized political leadership council (Damascus-based) coordinates with military wing (al-Quds Brigades) field commanders in Gaza/West Bank.",
+      "succession_mechanism": "Stable succession demonstrated (Shikaki → Shallah → Nakhalah); successor identified within leadership council."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Political Leadership Council",
+        "function": "Strategic decision-making, financial management, international relations",
+        "size_estimate": {"min": 20, "max": 50, "confidence": "low"},
+        "leader": "Ziyad al-Nakhalah",
+        "notes": "Based primarily in Damascus with offices in Iran, Lebanon; coordinates with IRGC; manages funding and procurement."
+      },
+      {
+        "component_name": "Al-Quds Brigades (Military Wing)",
+        "function": "Tactical operations, rocket/mortar fire, armed attacks, suicide operations (historical)",
+        "size_estimate": {"min": 3_000, "max": 4_000, "confidence": "medium"},
+        "leader": "Akram al-Ajuri (overall commander)",
+        "notes": "Gaza-based primary force; West Bank expansion underway; coordinates with Joint Operations Room; suicide bombing era (1987-2006) shifted to rocket/mortar operations post-2007."
+      },
+      {
+        "component_name": "Gaza Military Operations Command",
+        "function": "Rocket/mortar fire coordination, tactical targeting, military training",
+        "size_estimate": {"min": 2_000, "max": 2_500, "confidence": "medium"},
+        "leader": "Regional commander",
+        "notes": "Primary operational force; launches coordinated fire with Hamas; occupies multiple firing positions in civilian areas."
+      },
+      {
+        "component_name": "West Bank Operations (Jenin Battalion and others)",
+        "function": "Armed operations in West Bank; coordination with Fatah/Hamas; anti-occupation activities",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "low"},
+        "leader": "Regional commanders",
+        "notes": "Expanding presence; particularly active Nablus, Jenin, Tulkarm; 'Jenin Battalion' umbrella organization; joint operations with other Palestinian groups."
+      },
+      {
+        "component_name": "Intelligence and Coordination",
+        "function": "HUMINT, targeting, operational planning, IRGC liaison",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "very_low"},
+        "leader": "Unknown intelligence chief",
+        "notes": "Coordinates with Iranian IRGC and Lebanese Hezbollah; receives training on missile development."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Political council makes strategic decisions; military wing implements; IRGC/Iran influence on major strategic choices; unlike Hamas/Hezbollah, PIJ has no political/social apparatus (purely military focus).",
+      "discipline_and_enforcement": "Military discipline; strict compartmentalization; loyalty to leadership council; Islamic law enforcement; revenge/honor-based culture."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 3_500, "max": 4_000, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 2_500, "max": 3_200},
+      "support_personnel": {"min": 500, "max": 800},
+      "foreign_fighters": "minimal (<50); primarily Palestinian diaspora",
+      "female_participation": "<1%; minimal documented"
+    },
+    "composition_baseline": {
+      "year": "1995",
+      "total": {"min": 300, "max": 500},
+      "description": "Small cadre post-founding; expanded to 1,000+ by 2006 peak suicide bombing era; current 3,500-4,000 represents 7-13x growth."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "university", "Islamic seminaries"],
+      "socioeconomic_background": "Palestinian refugees in Gaza/West Bank; economically disadvantaged; ideologically motivated; some university-educated cadres.",
+      "gender_distribution": "99%+ male"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "rocket/mortar operations",
+        "explosives and IEDs",
+        "suicide bombing (historical, 1987-2006)",
+        "Islamic theology (Sunni Islamist)",
+        "guerrilla tactics",
+        "missile development (IRGC-trained, recent)",
+        "urban warfare"
+      ],
+      "training_locations": [
+        "Gaza training camps",
+        "Lebanon camps (IRGC/Hezbollah coordination)",
+        "Iran (advanced missile/rocket training)",
+        "West Bank (emerging facilities)"
+      ],
+      "notes": "IRGC provides advanced training in missile/rocket development; Hezbollah coordination on tactics; Lebanese camps historically significant; Iran trains operatives in missile manufacturing post-2007 shift to rocket operations."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional (Gaza, West Bank, Israel)",
+    "known_attack_types": [
+      "rocket/mortar fire",
+      "suicide bombings (1987-2006)",
+      "armed assault",
+      "kidnapping (historical)",
+      "IED",
+      "assassination",
+      "sniper operations"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "1995 Beit Lid Junction double suicide bombing",
+        "date": "1995-02-25",
+        "location": "Beit Lid Junction, Israel",
+        "method_category": "dual suicide bombing targeting soldiers and emergency responders",
+        "casualties_killed": 22,
+        "casualties_injured": 60,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:666", "web:680"]
+      },
+      {
+        "operation_name": "May 2021 Gaza escalation (4,000+ rockets with Hamas)",
+        "date": "2021-05-10",
+        "location": "Israel-Gaza border and southern Israel",
+        "method_category": "coordinated rocket/mortar barrage",
+        "casualties_killed": 12,
+        "casualties_injured": 100+,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:680"]
+      },
+      {
+        "operation_name": "August 2022 escalation (1,100+ rockets)",
+        "date": "2022-08-05",
+        "location": "Israel-Gaza border and southern Israel",
+        "method_category": "rocket barrage (response to targeted strike)",
+        "casualties_killed": 15,
+        "casualties_injured": 50+,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "October 7, 2023 attack (with Hamas)",
+        "date": "2023-10-07",
+        "location": "Israel (multiple locations); Gaza",
+        "method_category": "coordinated armed assault and rocket barrage",
+        "casualties_killed": ~1_200,
+        "casualties_injured": 300+,
+        "claim_status": "claimed as participants (Hamas-led operation)",
+        "attribution_confidence": "high",
+        "sources": ["web:664", "web:665", "web:668", "web:677"]
+      },
+      {
+        "operation_name": "January 2025 West Bank operations (Operation Iron Wall response)",
+        "date": "2025-01-21",
+        "location": "Jenin, Tulkarm, West Bank",
+        "method_category": "armed engagement with Israeli forces",
+        "casualties_killed": 10+,
+        "casualties_injured": 0,
+        "claim_status": "claimed (al-Quds Brigades)",
+        "attribution_confidence": "high",
+        "sources": ["web:674", "web:676"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Iran (primary sponsor; $100M+ annually through IRGC)",
+      "criminal_partnerships": "Limited documented; focus on state support",
+      "transnational_network_links": [
+        "Iran (IRGC primary military trainer/financier)",
+        "Lebanese Hezbollah (training, tactical coordination, historical joint operations)",
+        "Hamas (Joint Operations Room coordination, October 7 participation)",
+        "Fatah al-Aqsa Martyrs Brigades (West Bank coordination)",
+        "Syrian regime (historical protection in Damascus; uncertain post-Assad collapse December 2024)"
+      ]
+    },
+    "operations_tempo_and_patterning": "Intermittent 1981-1990s; intensifying 1990s-2006 (peak suicide bombing era, 30+ attacks); shifted to rocket/mortar post-2007; escalating coordinated campaigns (2012, 2014, 2021, 2022); October 2023 major escalation; sustained 2023-2025; expanding West Bank operations 2024-2025."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": [
+        "small arms (AK-47s, pistols)",
+        "rockets (Fajr-3, Fajr-5, Quds variants)",
+        "mortars (120mm, 60mm)",
+        "IEDs",
+        "suicide vests/belts",
+        "grenades",
+        "MANPADS (man-portable air defense)",
+        "anti-tank guided missiles",
+        "armed unmanned aircraft systems (drones)"
+      ],
+      "acquisition_routes": "Iran (primary supplier via IRGC), Lebanese Hezbollah transfers, smuggling networks (Egypt tunnels, sea routes), Palestinian Authority security forces captured weapons, battlefield capture from Israeli forces",
+      "notes": "IRGC provides advanced missile technology (Fajr rockets transferred 2012); Iranian technicians train PIJ on missile manufacturing; dual-use technology sourced through Iranian networks; drone capability emerging (2024-2025)."
+    },
+    "cyber_capabilities": {
+      "capability_level": "emerging",
+      "observed_activities": [
+        "operational communications (encrypted)",
+        "propaganda dissemination (social media, Telegram)",
+        "targeting coordination",
+        "IRGC liaison networks"
+      ],
+      "notes": "Basic digital operations; encrypted messaging for tactical coordination; social media presence limited; primary reliance on traditional operational security."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers (Telegram, WhatsApp)", "IRGC secure communications", "courier networks", "radio (tactical)"],
+      "propaganda_platforms": ["Telegram channels", "social media (limited)", "video releases", "al-Quds Brigades announcements"],
+      "notes": "Compartmentalized communications; operational security priority; al-Quds Brigades claims responsibility for operations; coordination with Joint Operations Room via secure channels."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles (Gaza, West Bank)", "motorcycles", "rocket launch pads (mobile/fixed)", "tunnels (Gaza)"],
+      "notes": "Egyptian tunnel networks historically critical for arms smuggling (degraded by Israeli destruction); maritime routes emerging; IRGC transfers via Syria/Lebanon (vulnerable post-Assad)"
+    },
+    "technical_gaps_and_weaknesses": "Limited air defense; vulnerable to Israeli airstrikes; smaller arsenal than Hamas; reliance on Iranian supply (vulnerable to sanctions/interdiction); communication networks susceptible to SIGINT; logistical dependency on Syria/Lebanon (strategic vulnerability)."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 150_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "iran_irgc_support",
+        "description": "Direct Iranian government transfers via IRGC; primary financial source",
+        "estimated_share_percent": 70,
+        "notes": "$105M+; IRGC-provided funding; hundreds of millions annually to Palestinian groups collectively; PIJ portion estimated $100M+."
+      },
+      {
+        "type": "charitable_donations",
+        "description": "International donor support (Middle East, diaspora)",
+        "estimated_share_percent": 20,
+        "notes": "$30M; Palestinian diaspora funding; Gulf state donors (pre-2010); reduced post-international pressure."
+      },
+      {
+        "type": "extortion_smuggling",
+        "description": "Taxation of Palestinian businesses, smuggling networks in Gaza",
+        "estimated_share_percent": 10,
+        "notes": "$15M; local revenue generation; less developed than Hamas/Hezbollah criminal infrastructure."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "IRGC direct transfer networks, exchange houses (Middle East), Palestinian diaspora money transfer systems, hawala networks.",
+      "notes": "Heavily reliant on Iranian state channels; minimal independent financial infrastructure; cryptocurrency emerging; donation-based fundraising (reduced post-FTO designations)."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings (al-Nakhalah, Abu Sharif)", "implementing_body": "US, UN, international partners",
+        "date": "1997-10-08 (ongoing)",
+        "effectiveness_assessment": "low (Iran primary financier, evades most sanctions)"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks", "Islamic societies (universities)", "refugee camps", "mosque networks", "social media (emerging)"],
+    "recruitment_tactics": [
+      "Islamic ideology (Sunni Islamism, Iranian revolutionary model)",
+      "Palestinian nationalist/liberation narrative",
+      "revenge motivation (Israeli operations/targeted killings)",
+      "economic incentives ($100-300/month salaries)",
+      "religious duty (jihad obligation)",
+      "martyrdom promise (paradise narrative)"
+    ],
+    "target_profiles": [
+      "Palestinian youth 16-40 (primary)",
+      "refugee camp residents",
+      "university Islamic society members",
+      "families of martyrs",
+      "economically disadvantaged youth"
+    ],
+    "recruitment_geography": ["Gaza Strip (primary)", "West Bank (expanding)", "Palestinian refugee camps (Lebanon, Syria)", "Palestinian diaspora globally"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 1, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "High; Islamic ideology deeply embedded; Palestinian liberation narrative highly effective; family/tribal recruitment networks strong; revenge motivation following Israeli operations; social media emerging as recruitment tool; September-October 2023 spike in youth recruitment post-October 7."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "rocket/operation videos",
+      "al-Quds Brigades announcements",
+      "martyrdom videos",
+      "tactical documentation",
+      "religious sermons (Islamic Jihad)",
+      "Ziyad al-Nakhalah statements"
+    ],
+    "languages_used": ["Arabic", "English", "Hebrew (occasionally)"],
+    "messaging_themes": [
+      "anti-Israel resistance",
+      "Palestinian liberation",
+      "Islamic governance",
+      "Iranian revolutionary model inspiration",
+      "martyrdom glorification",
+      "Joint Operations Room coordination (Hamas alliance)"
+    ],
+    "audience_targeting": "Palestinian population (Gaza, West Bank, diaspora), Arab world, global jihadist networks, Iran (coordination messaging), Lebanese Hezbollah (ally coordination).",
+    "platform_policy_responses": "Telegram channel periodic removals (rapid recreation); social media account suspensions; YouTube takedowns; limited effectiveness given encrypted coordination and state sponsorship."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "International/US",
+        "case_ref": "FTO designation, SDGT sanctions",
+        "defendants": ["Ziyad al-Nakhalah (SDGT 2014)", "Nasser Abu Sharif", "PIJ organization"],
+        "outcome": "Sanctions in place; no extraditions; leadership operates from Syria/Iran.",
+        "notes": "US/UN designations have limited practical enforcement due to state sponsorship."
+      }
+    ],
+    "human_rights_concerns": "Mass civilian casualties from indiscriminate rocket fire (1,200+ October 2023, 200+ 2006); suicide bombings targeting civilians; hostage-taking (October 7, 2023); destruction of civilian infrastructure; displacement of populations (Operation Iron Wall January 2025); torture of detainees (documented allegations); attacks on religious minorities."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Rocket launch frequency", "type": "operational", "thresholds": ">50/day signals major campaign"},
+      {"indicator": "Joint Operations Room coordination", "type": "operational", "thresholds": "Coordinated Hamas-PIJ timing indicates escalation"},
+      {"indicator": "Iranian weapons transfers", "type": "logistics", "thresholds": "Increased Fajr missile availability signals IRGC support surge"},
+      {"indicator": "Leadership statements", "type": "communications", "thresholds": "Escalation rhetoric precedes operational surges"}
+    ],
+    "early_warning_signals": [
+      "al-Quds Brigades mobilization announcements",
+      "Ziyad al-Nakhalah public statements",
+      "Joint Operations Room activation",
+      "Weapon stockpile preparations",
+      "Israeli targeted operations (triggering retaliation)"
+    ],
+    "data_needed_for_monitoring": [
+      "SIGINT (IRGC-PIJ communications, Joint Operations Room coordination)",
+      "satellite imagery (weapon storage, launch sites)",
+      "HUMINT (field operatives in Gaza/West Bank)",
+      "financial tracking (Iran transfers via IRGC)",
+      "social media monitoring (al-Quds Brigades channels)"
+    ],
+    "recommended_analytic_methods": [
+      "temporal attack pattern clustering",
+      "network analysis (IRGC-PIJ-Hamas-Hezbollah coordination)",
+      "financial flow mapping (Iranian transfers)",
+      "geospatial analysis (launch sites, operational zones)"
+    ]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Palestinian Islamic Jihad poses high transnational terrorism threat as Iran's proxy force in Palestinian territories. With ~4,000 al-Quds Brigades fighters coordinating through Joint Operations Room with Hamas, PIJ participated in October 7, 2023 attack (1,200+ killed) and conducts sustained rocket/mortar operations against Israel (1,100+ rockets August 2022, 4,000+ May 2021, continued 2023-2025). Iran provides majority funding ($100M+ annually via IRGC), military training (missile development), and advanced weaponry (Fajr rockets, drones emerging). PIJ is expanding West Bank operations (Jenin Battalion, January 2025 Operation Iron Wall engagement) and increasingly coordinates tactical planning with Hamas. Unlike Hamas/Hezbollah, PIJ focuses exclusively on military operations (no political/social apparatus), making it a pure militant instrument. December 2024 Assad regime collapse threatens PIJ's Damascus headquarters but has not degraded Iranian financial support.",
+    "vulnerable_sectors": [
+      "Israeli civilians (indiscriminate rocket fire)",
+      "Israeli military personnel",
+      "Israeli critical infrastructure (energy, transportation)",
+      "Palestinian civilians (al-Quds Brigades operations in civilian areas)",
+      "regional stability (escalation dynamics)"
+    ],
+    "likely_future_trends": "Continued rocket/mortar operations in response to Israeli military actions; expansion of West Bank militant presence (joint Fatah/Hamas coordination); increased Iranian military support (missile upgrades, drone capability); sustained Joint Operations Room coordination with Hamas; potential attacks targeting Israeli strategic assets (energy, water, transportation); escalation responsive to geopolitical events (Iran-Israel tensions, broader regional conflicts).",
+    "recommended_mitigation_measures": [
+      "Sustained intelligence collection on IRGC-PIJ coordination and weapons transfers",
+      "Disruption of Iranian financial networks supporting PIJ",
+      "Counter-finance operations targeting IRGC proxies and PIJ funding mechanisms",
+      "Cyber operations against al-Quds Brigades communications and command coordination",
+      "Diplomatic pressure on Iran to cease PIJ support",
+      "Regional coordination with Israel/US allies on PIJ threat",
+      "Support for Palestinian civil society opposing militant violence",
+      "Deradicalization programs for captured PIJ operatives",
+      "Intelligence sharing on IRGC-Hamas-Hezbollah-PIJ coordination networks",
+      "Monitoring of West Bank militant expansion and Jenin Battalion operations",
+      "Post-Assad Syria intelligence on PIJ headquarters disruption/adaptation",
+      "Counter-narrative messaging addressing Palestinian grievances (long-term stabilization)"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: Palestinian Islamic Jihad terrorist group profile (February 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/pij.html",
+        "date": "2025-02-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:664",
+        "type": "think_tank",
+        "description": "Wilson Center: Iran, Hamas & PIJ support (March 2025)",
+        "date": "2025-03-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:665",
+        "type": "secondary",
+        "description": "Wikipedia: October 7, 2023 attacks, casualty figures, PIJ participation",
+        "date": "2023-10-06",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:666",
+        "type": "think_tank",
+        "description": "ECFR: Islamic Jihad (PIJ) founding, history, operations (July 2023)",
+        "date": "2023-07-02",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:669",
+        "type": "secondary",
+        "description": "Wikipedia: PIJ comprehensive history, structure, operations (2002-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:670",
+        "type": "media",
+        "description": "Long War Journal: Ziyad al-Nakhalah SDGT designation, PIJ structure (January 2014)",
+        "date": "2014-01-22",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:672",
+        "type": "think_tank",
+        "description": "CFR: Palestinian Islamic Jihad leadership, history, Iran ties (April 2008)",
+        "date": "2008-04-09",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:673",
+        "type": "official",
+        "description": "Australian Parliamentary: PIJ/al-Quds Brigades operations, membership",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:674",
+        "type": "media",
+        "description": "CNN: Operation Iron Wall, al-Quds Brigades engagement January 2025",
+        "date": "2025-01-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:675",
+        "type": "official",
+        "description": "US Treasury: Iran support to PIJ, financial mechanisms, IRGC training (November 2023)",
+        "date": "2023-11-13",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:677",
+        "type": "secondary",
+        "description": "ECFR: Al-Quds Brigades structure, October 7 participation, West Bank operations (January 2025)",
+        "date": "2025-01-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:680",
+        "type": "secondary",
+        "description": "Wikipedia: Al-Quds Brigades military wing, operations, casualties (2005-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
