@@ -1,0 +1,832 @@
+{
+  "meta": {
+    "profile_id": "ttp-nov2025-v1",
+    "name": "Tehrik-e Taliban Pakistan (TTP)",
+    "aliases": [
+      "Pakistani Taliban",
+      "Tehreek-e Taliban Pakistan",
+      "Tehrik-i-Taliban Pakistan",
+      "TTP",
+      "Pakistani Taliban",
+      "Tehrik-Taliban Pakistan"
+    ],
+    "primary_language": "Pashto",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2010-09-01",
+        "reference": "web:681"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization",
+        "designation_date": "2012-02-15",
+        "reference": "web:683"
+      },
+      {
+        "country_or_body": "Pakistan",
+        "designation": "Banned terrorist organization (August 2008)",
+        "designation_date": "2008-08-15",
+        "reference": "web:683"
+      }
+    ],
+    "status": "active (significantly escalated post-Taliban takeover Afghanistan 2021; largest terrorist threat to Pakistan as of 2025)",
+    "first_observed_date": "2007-12-01",
+    "last_verified_date": "2025-11-17",
+    "version": "2025.11.17.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Pakistan's deadliest jihadist group, founded 2007 by Baitullah Mehsud, 2,500-6,500 fighters, Peshawar school massacre 2014 (149 killed, 132 children), led by Noor Wali since 2018, escalated 784+ attacks in 2024 (vs. 140 in 2021), operates from Taliban-protected Afghanistan sanctuaries, finances through extortion/drug smuggling/kidnapping, expanding to southern Punjab/Sindh/Balochistan.",
+    "overview": "Tehrik-e Taliban Pakistan (TTP, Pakistani Taliban) is Pakistan's most lethal and operationally resilient jihadist organization, formed December 2007 as confederation of Pashtun militant networks under the command of Baitullah Mehsud to oppose Pakistani military operations in the Federally Administered Tribal Areas (FATA) and establish Islamic emirate under strict Sharia interpretation. With an estimated 2,500-6,500 fighters (UN/member state estimates vary; upper range more likely), TTP operates primarily from eastern Afghanistan's Nangarhar and Kunar provinces with sanctuary protected by Taliban regime (post-August 2021). The group is primarily composed of ethnic Pashtun jihadists from tribal areas, employing Deobandi Islamic ideology fused with Pashtun cultural code (Pashtunwali). TTP's most notorious operation was the December 16, 2014 Peshawar Army Public School massacre where six gunmen killed 149 people including 132 children—considered fifth-deadliest school massacre globally and the deadliest terrorist attack in Pakistan's history. Baitullah Mehsud, killed August 2009, was succeeded by Hakimullah Mehsud (killed November 2013), then Mullah Fazlullah (killed June 2018 US drone strike), and currently Noor Wali Mehsud (born 1978, leader since June 2018, designated SDGT September 2019). The group fractured multiple times (2014-2015 ISIS defections creating ISKP, 2014-2018 various splinter groups), but underwent reunification 2019-2020 under al-Qaeda mediation, re-consolidating to current strength. Post-Taliban takeover of Afghanistan (August 2021), TTP escalated dramatically: violent attacks increased from 140 in 2021 to 784 by 2024 (460% increase), with direct security force confrontations rising 470% and civilian attacks increasing 900%. TTP finances through Rs. 20 billion (~$100M) annual extortion economy (5-20% contractor taxation), drug smuggling (Afghan opium transit), kidnapping-for-ransom, weapons trafficking, and donations from madrassas. Geographic footprint expanded from traditional North Waziristan base to operational presence in Dera Ismail Khan, Peshawar, southern Punjab (19 attacks 2024), urban Karachi/Sindh, and Balochistan, indicating coordinated strategy to stretch Pakistani security forces. The group maintains loose al-Qaeda affiliation and coordinates with Taliban despite historical tensions. As of November 2025, TTP represents the primary internal security threat to Pakistan's stability.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+  "history_and_origin": {
+    "founding_date": "2007-12-01",
+    "founders": ["Baitullah Mehsud", "Confederation of FATA militant networks"],
+    "origin_context": "TTP emerged from merger of fragmented Pashtun militant networks operating across FATA and Khyber Pakhtunkhwa in response to Pakistan's 2007 military operations against al-Qaeda militants following post-Musharraf governance transition. Baitullah Mehsud, a prominent Mehsud tribe militant commander from South Waziristan (area of traditional militant stronghold across generations), united approximately 13-15 major militant groups under umbrella TTP organization. Founding reflected combination of factors: opposition to Pakistani military incursions into FATA, Taliban ideological affiliation (emerged from Taliban madrassas in Afghanistan), anti-American sentiment (NATO operations in Afghanistan), and tribal grievances. The movement's name referenced Taliban term (Pashto 'Taliban' = 'students'), reflecting ideological link to Afghan Taliban and Islamic study focus.",
+    "key_milestones": [
+      {
+        "date": "2007-12-01",
+        "event": "TTP formally announced; Baitullah Mehsud declared emir of coalition",
+        "impact": "Unification of ~15 militant groups under single command; estimated 5,000-7,000 initial fighters.",
+        "source_ids": ["web:681", "web:683", "web:689"]
+      },
+      {
+        "date": "2008-08-25",
+        "event": "Pakistan government bans TTP; freezes assets; institutes bounty on leaders",
+        "impact": "Official terrorist designation; asset freezes; manhunt operations.",
+        "source_ids": ["web:683"]
+      },
+      {
+        "date": "2009-05-01",
+        "event": "TTP-trained operative Faisal Shahzad attempts VBIED bombing Times Square, New York",
+        "impact": "First transnational TTP operation; operational reach beyond South Asia demonstrated; international attention.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2009-08-05",
+        "event": "Baitullah Mehsud killed by US drone strike; leadership succession crisis",
+        "impact": "Founder death; organizational resilience tested; Hakimullah Mehsud assumes leadership.",
+        "source_ids": ["web:681", "web:689"]
+      },
+      {
+        "date": "2010-09-01",
+        "event": "US designates TTP as Foreign Terrorist Organization; Hakimullah Mehsud designated SDGT",
+        "impact": "International FTO status; sanctions regime; asset freezes globally.",
+        "source_ids": ["web:683"]
+      },
+      {
+        "date": "2010-04-05",
+        "event": "TTP attacks US Consulate Peshawar; 6 killed (VBIED, small arms, RPGs)",
+        "impact": "Transnational targeting capability; sophisticated multi-method attack.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2009-12-30",
+        "event": "TTP-trained suicide bomber attacks CIA base Khost, Afghanistan; 7 CIA officers, 1 Jordanian intelligence officer killed",
+        "impact": "Sophisticated targeting of intelligence facilities; CIA casualty impact.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2013-11-01",
+        "event": "Hakimullah Mehsud killed by US drone strike; Mullah Fazlullah becomes emir",
+        "impact": "Second leadership decapitation; controversial appointment of non-Mehsud tribal leader; organizational discord.",
+        "source_ids": ["web:681", "web:687"]
+      },
+      {
+        "date": "2014-06-08",
+        "event": "TTP attacks Jinnah International Airport Karachi; 10 militants in ASF uniforms; 34 killed",
+        "impact": "Sophisticated airport security breach; national-level targeting.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2014-05-01",
+        "event": "Khalid Mehsud breakaway faction splits from TTP (TTP-South Waziristan)",
+        "impact": "Significant fracturing; organizational weakness; rival factions.",
+        "source_ids": ["web:683"]
+      },
+      {
+        "date": "2014-08-01",
+        "event": "Omar Khalid Khorosani leads four tribal districts faction breaking from TTP (TTP Jamaat-ul-Ahrar)",
+        "impact": "Further fragmentation; ISIS-inspired defection movement; organizational crisis.",
+        "source_ids": ["web:683"]
+      },
+      {
+        "date": "2014-12-16",
+        "event": "Peshawar Army Public School massacre; 6 gunmen kill 149 people including 132 children",
+        "impact": "Deadliest terrorism attack in Pakistan history; fifth-deadliest school massacre globally; international condemnation.",
+        "source_ids": ["web:682", "web:685", "web:688"]
+      },
+      {
+        "date": "2015-2020",
+        "event": "TTP fractured; ISIS-K defections; al-Qaeda mediation for reunification",
+        "impact": "Organizational disintegration; splinter groups proliferate; weakening operational capacity.",
+        "source_ids": ["web:681", "web:683"]
+      },
+      {
+        "date": "2018-06-14",
+        "event": "Mullah Fazlullah killed by US drone strike Kunar, Afghanistan; Noor Wali Mehsud becomes emir",
+        "impact": "Third leadership death via US strike; youngest emir assumes power; organizational continuity maintained.",
+        "source_ids": ["web:684", "web:687"]
+      },
+      {
+        "date": "2018-06-22",
+        "event": "Noor Wali Mehsud officially confirmed as TTP emir after week of internal deliberation",
+        "impact": "Leadership consolidation; Noor Wali age ~40; modern militant commander; maintains Taliban dialogue.",
+        "source_ids": ["web:684", "web:687"]
+      },
+      {
+        "date": "2019-12-01",
+        "event": "TTP reunification begins; splinter groups rejoin under Noor Wali; al-Qaeda mediation",
+        "impact": "Organizational recombination; strength recovery; 2,500-6,500 fighters reunified.",
+        "source_ids": ["web:690"]
+      },
+      {
+        "date": "2019-09-10",
+        "event": "US designates Noor Wali Mehsud as Specially Designated Global Terrorist",
+        "impact": "Leadership-level international sanctions; asset freezes.",
+        "source_ids": ["web:684", "web:687"]
+      },
+      {
+        "date": "2021-08-15",
+        "event": "Taliban seizes power in Afghanistan; TTP gains strategic sanctuary and operational freedom",
+        "impact": "Unprecedented TTP operational expansion opportunity; sanctuary protection by Taliban regime.",
+        "source_ids": ["web:681", "web:689", "web:690"]
+      },
+      {
+        "date": "2022-08-15",
+        "event": "Taliban implement opium ban in Afghanistan; but TTP profits from smuggling pipeline",
+        "impact": "Revenue stream through drug trafficking coordination; 80% global opium supply control (pre-ban).",
+        "source_ids": ["web:691"]
+      },
+      {
+        "date": "2023-01-01",
+        "event": "TTP escalates operations; 573 attacks in 2021 grew to 1,203 attacks in 2023",
+        "impact": "Operational tempo doubling; security force confrontations increasing; civilian attacks surging.",
+        "source_ids": ["web:697"]
+      },
+      {
+        "date": "2024-01-01",
+        "event": "TTP continues escalation; 784 attacks recorded in 2024 (460% increase from 2021)",
+        "impact": "Largest terrorist attack volume in TTP history; expanded geographic footprint.",
+        "source_ids": ["web:695"]
+      },
+      {
+        "date": "2024-03-18",
+        "event": "Pakistan conducts cross-border airstrikes on TTP sanctuaries in Afghanistan (Hafiz Gul Bahadur group)",
+        "impact": "Military response to escalating attacks; 7 soldiers killed in March 2024 Mir Ali attack triggered strikes.",
+        "source_ids": ["web:692"]
+      },
+      {
+        "date": "2024-07-10",
+        "event": "UN report assesses TTP has 6,000-6,500 fighters; Taliban actively supporting TTP operations",
+        "impact": "Upper range UN estimate suggests larger force; Taliban coordination confirmed; al-Qaeda training camps facilitating.",
+        "source_ids": ["web:697"]
+      },
+      {
+        "date": "2025-04-27",
+        "event": "Pakistan security forces kill 54 TTP militants attempting cross-border infiltration",
+        "impact": "Major LoC engagement; suggests coordinated infiltration surge attempt.",
+        "source_ids": ["web:696"]
+      },
+      {
+        "date": "2025-10-01",
+        "event": "Prime Minister Shaz Sharif reiterates Afghan Taliban harboring TTP; warning of continued escalation",
+        "impact": "Political pressure on Afghan Taliban to cease TTP protection; underlying tensions persist.",
+        "source_ids": ["web:694"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Deobandi", "Salafi-jihadist", "Pashtun nationalist", "Taliban-affiliated"],
+    "core_objectives": [
+      "Establish Islamic emirate in Pakistan's tribal areas (FATA, KP) under strict Sharia law",
+      "Expel Pakistani military from FATA and achieve regional autonomy",
+      "Overthrow Pakistani Government and establish nationwide Islamic state",
+      "Support Afghan Taliban against NATO/international forces"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks against Pakistani security forces (primary target)",
+      "Expand territorial control in tribal areas and KP provinces",
+      "Maintain recruitment and operational bases in Afghanistan sanctuaries",
+      "Disrupt civilian life and undermine government legitimacy"
+    ],
+    "long_term_goals": [
+      "Establish independent Islamic Emirate in FATA region",
+      "Achieve countrywide Islamic governance (Pakistan-wide)",
+      "Create territorial buffer against Indian interests",
+      "Integrate with global jihadist movement (al-Qaeda alliance)"
+    ],
+    "narrative_and_justification": "TTP frames violence as defensive struggle against Pakistani military occupation of tribal territories, Western imperialism (NATO in Afghanistan), and secular governance. Emphasizes religious obligation (jihad) to enforce Islamic law, protect Pashtun ethnic/tribal rights (Pashtunwali code), and liberate Muslim lands. Uses anti-American, anti-Indian, anti-Shia messaging alongside Deobandi Islamic fundamentalism.",
+    "target_selection_logic": "Pakistani security forces/military (primary strategic target), government infrastructure, civilian sites for psychological impact (schools, markets), US interests (secondary transnational targets), Shia civilians (sectarian)."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["PAK (FATA, KP, Balochistan, southern Punjab, Sindh)", "AFG (eastern provinces)"],
+    "territorial_control": [
+      {
+        "location_name": "Nangarhar Province, Afghanistan (eastern border with Pakistan)",
+        "geocoordinates": {"lat": 34.41, "lon": 70.43},
+        "control_type": "primary_sanctuary",
+        "control_period": {"from": "2009-01-01", "to": null},
+        "notes": "Primary TTP headquarters 2009-2025; estimated 3,000-4,000 fighters; Taliban protection; al-Qaeda training camps adjacent.",
+        "source_ids": ["web:690", "web:697"]
+      },
+      {
+        "location_name": "Kunar Province, Afghanistan (northern sector)",
+        "geocoordinates": {"lat": 35.15, "lon": 71.26},
+        "control_type": "secondary_base",
+        "control_period": {"from": "2010-01-01", "to": null},
+        "notes": "Second major base; Taliban-provided sanctuary; cross-border infiltration staging.",
+        "source_ids": ["web:681", "web:697"]
+      },
+      {
+        "location_name": "North Waziristan, Pakistan (tribal area)",
+        "geocoordinates": {"lat": 32.79, "lon": 70.12},
+        "control_type": "operational_presence",
+        "control_period": {"from": "2007-01-01", "to": null},
+        "notes": "Historical TTP stronghold; reduced presence post-Operation Zarb-e-Azb (2014-2015); resurgent presence 2021+.",
+        "source_ids": ["web:681", "web:689"]
+      },
+      {
+        "location_name": "Dera Ismail Khan, Pakistan (KP)",
+        "geocoordinates": {"lat": 31.86, "lon": 70.90},
+        "control_type": "operational_hub",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Transformed from peripheral support zone to critical operational hub post-2015; primary recruitment and command center 2024-2025.",
+        "source_ids": ["web:695"]
+      },
+      {
+        "location_name": "Southern Punjab (Dera Ismail Khan, Mianwali, Bahawalpur districts)",
+        "geocoordinates": {"lat": 30.5, "lon": 70.5},
+        "control_type": "emerging_operations",
+        "control_period": {"from": "2023-01-01", "to": null},
+        "notes": "New operational theater; 9 attacks 2023, 19+ attacks 2024; geographic expansion strategy.",
+        "source_ids": ["web:695"]
+      },
+      {
+        "location_name": "Karachi and urban Sindh Province",
+        "geocoordinates": {"lat": 24.86, "lon": 67.01},
+        "control_type": "urban_operations",
+        "control_period": {"from": "2010-01-01", "to": null},
+        "notes": "Bank robberies, extortion networks, occasional attacks; 2 incidents 2023, 5 incidents 2024.",
+        "source_ids": ["web:695"]
+      },
+      {
+        "location_name": "Balochistan Province",
+        "geocoordinates": {"lat": 27.83, "lon": 65.87},
+        "control_type": "secondary_operations",
+        "control_period": {"from": "2015-01-01", "to": null},
+        "notes": "Maintained secondary presence; 5-24 attacks annually; coordination with Balochistan separatists.",
+        "source_ids": ["web:695"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Taliban-ruled Afghanistan (Nangarhar, Kunar, Nuristan provinces)",
+        "type": "state-protected",
+        "notes": "Primary sanctuary; Taliban provides protection and operational freedom; UN reports confirm Taliban support despite denials."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Noor Wali Mehsud",
+          "aliases": ["Abu Mansur Asim", "Mufti Noor Wali Mehsud"],
+          "role": "Emir (overall leader) since June 2018",
+          "last_seen": "2025-11-17",
+          "status": "active (claims of October 2025 death unverified)",
+          "biographical_notes": "Born June 26, 1978; fourth TTP emir; took power following Mullah Fazlullah's death in June 2018; designated SDGT September 2019; UN listed July 2020 (al-Qaeda sanctions committee); modern militant strategist; maintains Taliban dialogue.",
+          "source_ids": ["web:684", "web:687"]
+        },
+        {
+          "name": "Mufti Hazrat",
+          "aliases": ["Mufti Mazahim", "Qari Amjad"],
+          "role": "Deputy emir since 2018",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Second-in-command; military strategist; coordinates field operations; manages regional commanders.",
+          "source_ids": ["web:1"]
+        },
+        {
+          "name": "Hafiz Gul Bahadur",
+          "aliases": [],
+          "role": "Powerful faction commander North Waziristan",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Independent-minded faction leader; maintains loose TTP affiliation; semi-autonomous operations in North Waziristan.",
+          "source_ids": ["web:683"]
+        },
+        {
+          "name": "Baitullah Mehsud",
+          "aliases": [],
+          "role": "Founder and first emir (deceased)",
+          "last_seen": "2009-08-05",
+          "status": "deceased",
+          "biographical_notes": "Born 1977; Mehsud tribe militant; TTP founder 2007; killed August 5, 2009 US drone strike; legendary figure in militant circles.",
+          "source_ids": ["web:681", "web:689"]
+        },
+        {
+          "name": "Hakimullah Mehsud",
+          "aliases": [],
+          "role": "Second emir (2009-2013)",
+          "last_seen": "2013-11-01",
+          "status": "deceased",
+          "biographical_notes": "Succeeded Baitullah; killed November 1, 2013 in Pakistani military operation; his death triggered succession crisis.",
+          "source_ids": ["web:681", "web:689"]
+        }
+      ],
+      "leadership_model": "Hierarchical emir structure with regional commanders; Taliban consultation on major strategic decisions; al-Qaeda coordination on external operations.",
+      "succession_mechanism": "Shura council elects successor; historically Mehsud tribe preference but increasingly merit-based; demonstrated resilience through three leadership deaths (2009, 2013, 2018)."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Core Combat Operations (Afghan-based)",
+        "function": "Planning, coordination of major terrorist attacks; infiltration operations",
+        "size_estimate": {"min": 2_000, "max": 3_000, "confidence": "medium"},
+        "leader": "Noor Wali Mehsud (overall), regional commanders",
+        "notes": "Stationed in Nangarhar and Kunar; protected by Taliban; al-Qaeda advisers present."
+      },
+      {
+        "component_name": "Cross-border Infiltration Units (Border Action Teams)",
+        "function": "LoC crossing, recruitment, supply line management, local operations",
+        "size_estimate": {"min": 500, "max": 1_000, "confidence": "low"},
+        "leader": "Regional border commanders",
+        "notes": "Exploit porous Pakistan-Afghanistan border; night-vision equipment; advanced weaponry."
+      },
+      {
+        "component_name": "FATA and KP Operations Command",
+        "function": "Local terrorist attacks, military engagement with Pakistani forces",
+        "size_estimate": {"min": 1_500, "max": 2_500, "confidence": "medium"},
+        "leader": "FATA regional commanders",
+        "notes": "Primary operational force inside Pakistan; escalating 2021-2025; most active theater."
+      },
+      {
+        "component_name": "Southern/Urban Operations Wing",
+        "function": "Karachi extortion networks, Sindh/Balochistan/Punjab attacks",
+        "size_estimate": {"min": 300, "max": 500, "confidence": "low"},
+        "leader": "Urban cell commanders",
+        "notes": "Expanding new theater; extortion focus; coordination with criminal elements."
+      },
+      {
+        "component_name": "Financing and Resource Management",
+        "function": "Extortion collection, drug trafficking coordination, kidnapping, money laundering",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "low"},
+        "leader": "Financial coordinators",
+        "notes": "Rs. 20 billion annual extortion economy; hawala networks; informal banking."
+      },
+      {
+        "component_name": "Suicide Attack Coordination",
+        "function": "Recruitment, training, mission planning of suicide bombers",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "very_low"},
+        "leader": "Unknown suicide bombing coordinators",
+        "notes": "Peak 2014 (Peshawar school 6 bombers); currently less emphasis but capability maintained."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Emir (Noor Wali) holds supreme authority; Shura council advises; regional commanders have operational autonomy; Taliban consultation on strategic issues.",
+      "discipline_and_enforcement": "Islamic law enforcement; strict compartmentalization; punishment for operational security violations; tribal/honor-based justice."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 2_500, "max": 6_500, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 1_800, "max": 5_000},
+      "support_personnel": {"min": 400, "max": 1_000},
+      "foreign_fighters": {"min": 200, "max": 500},
+      "female_participation": "<1%; minimal documented"
+    },
+    "composition_baseline": {
+      "year": "2007",
+      "total": {"min": 5_000, "max": 7_000},
+      "description": "Initial 5,000-7,000 fighters post-founding; degraded to 2,500-3,000 by 2018; recovered to 6,000+ by 2024 post-reunification."
+    },
+    "recruitment_demographics": {
+      "age_range": "14-50; significant youth recruitment (14-18 documented)",
+      "education_levels": ["primary", "secondary", "madrassah students", "university"],
+      "socioeconomic_background": "Tribal/rural poor; FATA residents; economically disadvantaged; displaced persons; families affected by military operations.",
+      "gender_distribution": "99%+ male"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "small arms",
+        "explosives/IEDs/suicide vests",
+        "guerrilla tactics",
+        "suicide bombing preparation (historical)",
+        "Islamic theology (Deobandi)",
+        "military-style training",
+        "night operations",
+        "advanced weaponry (night-vision, quadcopters)"
+      ],
+      "training_locations": [
+        "Afghanistan camps (Nangarhar, Kunar, Nuristan)",
+        "Al-Qaeda training camps (Afghan provinces, Taliban-facilitated)",
+        "FATA safe houses",
+        "Madrassas in Pakistan",
+        "Lebanon camps (historical, Hezbollah coordination)"
+      ],
+      "notes": "FATA recruits undergo 2-3 month military training in Afghanistan before deployment; ideological indoctrination emphasizes jihad obligation and anti-Pakistan government; advanced training in al-Qaeda camps."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional-to-transnational (Pakistan primary; US transnational; Afghanistan coordination)",
+    "known_attack_types": [
+      "suicide bombing",
+      "armed assault",
+      "IED/VBIED",
+      "ambush",
+      "assassination",
+      "kidnapping",
+      "extortion",
+      "military-style confrontation"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "Times Square bombing attempt",
+        "date": "2010-05-01",
+        "location": "New York City, New York, USA",
+        "method_category": "VBIED (attempted detonation)",
+        "casualties_killed": 0,
+        "casualties_injured": 0,
+        "claim_status": "TTP-trained operative claimed responsibility",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:689"]
+      },
+      {
+        "operation_name": "CIA base attack Khost",
+        "date": "2009-12-30",
+        "location": "Khost Province, Afghanistan",
+        "method_category": "suicide bombing",
+        "casualties_killed": 8,
+        "casualties_injured": 0,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "US Consulate Peshawar attack",
+        "date": "2010-04-05",
+        "location": "Peshawar, Pakistan",
+        "method_category": "VBIED + small arms + RPG",
+        "casualties_killed": 6,
+        "casualties_injured": 20,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "Jinnah International Airport attack",
+        "date": "2014-06-08",
+        "location": "Karachi, Pakistan",
+        "method_category": "armed assault (security uniform infiltration)",
+        "casualties_killed": 34,
+        "casualties_injured": 50+,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "Peshawar Army Public School massacre",
+        "date": "2014-12-16",
+        "location": "Peshawar, Pakistan",
+        "method_category": "armed assault (mass shooting in school)",
+        "casualties_killed": 149,
+        "casualties_injured": 100+,
+        "claim_status": "claimed (revenge for Operation Zarb-e-Azb)",
+        "attribution_confidence": "high",
+        "sources": ["web:682", "web:685", "web:688"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Taliban (indirect sponsor through sanctuary), al-Qaeda (training, coordination)",
+      "criminal_partnerships": ["drug trafficking networks (Afghan opium)", "arms smugglers", "extortion rackets", "hawala operators"],
+      "transnational_network_links": [
+        "Afghan Taliban (sanctuary, protection, coordination)",
+        "Al-Qaeda (training, ideological guidance, foreign fighter supply)",
+        "Islamic State–Khorasan Province ISKP (historical rivalry; 2014-2015 defections)",
+        "Lashkar-e-Taiba (coordination on target selection)",
+        "Jaish-e-Mohammed (coordination on target selection)"
+      ]
+    },
+    "operations_tempo_and_patterning": "Escalating exponentially post-2021: 140 attacks 2021 → 573 in 2022 → 1,203 in 2023 → 784 recorded Jan-Oct 2024 (annualized ~1,000+). Pattern: security force targeting (primary), civilian attacks (increasing), geographic expansion (southern Punjab, Sindh, Balochistan emerging theaters), coordinated multi-site operations (summer 2014 peak), cross-border infiltration waves."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": [
+        "small arms (AK-47s, pistols)",
+        "light/heavy machine guns",
+        "RPGs",
+        "rockets",
+        "IEDs/VBIEDs",
+        "suicide vests",
+        "mortars",
+        "grenades",
+        "night-vision equipment",
+        "quadcopters/drones",
+        "advanced weaponry (US-abandoned Afghanistan stocks)"
+      ],
+      "acquisition_routes": "US weapons left in Afghanistan (bagram base stock), black market procurement, Taliban provision, al-Qaeda supply, captured Pakistani military weapons, drug trafficking network integration",
+      "notes": "Access to advanced US military equipment post-2021 Afghanistan withdrawal; night-vision devices observed 2024-2025; emerging drone/quadcopter capability."
+    },
+    "cyber_capabilities": {
+      "capability_level": "emerging",
+      "observed_activities": [
+        "encrypted operational communications (WhatsApp, Telegram)",
+        "propaganda video production",
+        "social media announcements",
+        "recruitment coordination"
+      ],
+      "notes": "Basic digital operations; primary reliance on traditional tradecraft; emerging social media/messaging platform use."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers (WhatsApp, Telegram)", "courier networks", "radio communications", "direct Taliban liaison"],
+      "propaganda_platforms": ["Telegram channels (primary)", "social media (secondary)", "video releases"],
+      "notes": "Operational security priority; compartmentalized; Taliban communication facilitation."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["motorcycles (primary mountain transport)", "vehicles (flatbed trucks, vans)", "foot", "cross-border on pack animals"],
+      "notes": "Porous Pakistan-Afghanistan border exploitation; Afghan territory provides infinite logistical depth; mobility enhanced post-Taliban takeover."
+    },
+    "technical_gaps_and_weaknesses": "Vulnerable to Pakistani/US airstrikes (limited air defense); dependency on Afghanistan sanctuary (vulnerable to geopolitical shifts); communication networks susceptible to SIGINT; limited heavy weaponry; small unit tactics focus (limited conventional warfare)."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 100_000_000, "currency": "USD", "confidence": "medium"},
+    "revenue_streams": [
+      {
+        "type": "extortion_taxation",
+        "description": "Mandatory contractor taxation (5%, up to 20% seasonal); business protection rackets; monthly 'bhatta parchi' from transporters, timber merchants, school principals",
+        "estimated_share_percent": 40,
+        "notes": "$40M; Rs. 20 billion (~$100M) annual extortion economy regional estimate; Karachi bank robberies (~$800K 2014-2015)."
+      },
+      {
+        "type": "drug_trafficking",
+        "description": "Coordination/taxation of Afghan opium smuggling through Pakistan; heroin processing/smuggling; protection of drug convoys",
+        "estimated_share_percent": 35,
+        "notes": "$35M; integration with heroin trafficking from Afghanistan (~$1B+ smuggled annually through Pakistan); TTP cut substantial."
+      },
+      {
+        "type": "kidnapping_ransom",
+        "description": "Systematic kidnapping of prominent businessmen, government officials, military personnel; ransom demands",
+        "estimated_share_percent": 15,
+        "notes": "$15M; major revenue source; documented cases; ransom payouts substantial."
+      },
+      {
+        "type": "weapons_smuggling",
+        "description": "Trafficking of weapons and military equipment; taxation of arms smugglers",
+        "estimated_share_percent": 5,
+        "notes": "$5M; secondary revenue; access to US-abandoned Afghan weapons."
+      },
+      {
+        "type": "donations_madrassas",
+        "description": "Religious donations from Islamic schools, mosques; diaspora funding",
+        "estimated_share_percent": 5,
+        "notes": "$5M; Zakat economy (~PKR 600B annually in Pakistan 2024); portion diverted to terrorism."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": false,
+      "money_mules_and_fronts": "Hawala networks (primary money transfer mechanism), cash couriers, exchange houses, informal value transfer, trade-based money laundering, narcotics proceeds conversion.",
+      "notes": "Primarily cash-based operations; hawala networks move billions of rupees unrecorded; drug proceeds converted to clean cash through various mechanisms; madrassa donation routing."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings (multiple leaders), asset freezes, financial sanctions",
+        "implementing_body": "US, UN, Pakistan",
+        "date": "2010-09-01 (ongoing)",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["family networks (tribal)", "madrassas (Islamic schools)", "mosque networks", "refugee camps", "forced conscription", "social media (emerging)"],
+    "recruitment_tactics": [
+      "Islamic ideology (Deobandi theology, jihad obligation)",
+      "nationalist/tribal appeals (Pashtun identity, anti-occupation)",
+      "revenge motivation (military operation casualties)",
+      "economic incentives ($50-200/month salaries)",
+      "coercive recruitment (forced conscription in controlled areas)",
+      "promise of martyrdom (Islamic paradise)",
+      "sectarian messaging (anti-Shia, anti-Western)"
+    ],
+    "target_profiles": [
+      "Pashtun youth 14-40 (primary)",
+      "FATA/KP residents and displaced persons",
+      "madrassah students",
+      "economically disadvantaged",
+      "families of killed/captured militants (revenge motivation)",
+      "individuals with Taliban/tribal militia connections"
+    ],
+    "recruitment_geography": ["Afghanistan (sanctuary)", "FATA historical areas", "Dera Ismail Khan (new hub)", "Peshawar", "Karachi/urban Sindh (emerging)", "southern Punjab (expanding)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 1, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "Very high; madrassas provide institutional pipeline; tribal/family networks strong; revenge motivation effective post-military operations; economic incentives attractive to poor youth; TTP propaganda increasingly sophisticated; emerging Telegram/social media recruitment; forced conscription documented."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "attack video documentation",
+      "leadership statements",
+      "recruitment messaging",
+      "Islamic theology content",
+      "martyrdom videos",
+      "operational announcements"
+    ],
+    "languages_used": ["Pashto", "Urdu", "Arabic"],
+    "messaging_themes": [
+      "anti-Pakistan government",
+      "anti-military occupation",
+      "Islamic governance and Sharia",
+      "Pashtun ethnic/tribal rights",
+      "martyrdom glorification",
+      "anti-American imperialism",
+      "anti-Shia sectarianism"
+    ],
+    "audience_targeting": "Pashtun populations (Afghanistan, Pakistan), tribal communities, Islamic activists, jihadist networks globally, youth in madrassas.",
+    "platform_policy_responses": "Telegram channel periodic removals (rapid recreation under new handles); social media account suspensions; YouTube takedowns; limited effectiveness given encrypted platforms and state sanctuary."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Pakistan",
+        "case_ref": "Military and civilian courts; limited prosecutions",
+        "defendants": ["Captured TTP operatives"],
+        "outcome": "Some convictions; many cases pending; extrajudicial operations by military common; civilian justice weak.",
+        "notes": "Military court trials; death sentences issued but limited enforcement; leadership escapes prosecution via Afghanistan sanctuary."
+      },
+      {
+        "jurisdiction": "United States",
+        "case_ref": "FTO designation, SDGT sanctions",
+        "defendants": ["Multiple TTP leaders"],
+        "outcome": "Designations in place; no prosecutions (leadership in Pakistan/Afghanistan).",
+        "notes": "US designations have limited practical enforcement; drone strikes used as primary counterterrorism tool."
+      }
+    ],
+    "human_rights_concerns": "Tens of thousands of Pakistani civilians and security personnel killed since 2007; Peshawar school massacre (149 killed, 132 children); mass civilian casualties from indiscriminate bombings; systematic extortion/protection rackets; kidnapping of civilians; torture of detainees; targeted assassinations of government officials; sectarian violence against Shia civilians; forced recruitment of youth."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Attack frequency/tempo", "type": "operational", "thresholds": "784 attacks 2024 (baseline); surge indicates major escalation"},
+      {"indicator": "Cross-border infiltration attempts", "type": "operational", "thresholds": ">50/week signals major campaign"},
+      {"indicator": "Leadership statements", "type": "communications", "thresholds": "Escalation rhetoric precedes attack surges"},
+      {"indicator": "Taliban protection level", "type": "geopolitical", "thresholds": "Increased Afghan Taliban support signals expanded operations"}
+    ],
+    "early_warning_signals": [
+      "TTP mobilization announcements",
+      "Noor Wali public statements",
+      "Infiltration unit readiness reports",
+      "Cross-border weapon/supply movements",
+      "Pakistani military offensive announcements",
+      "Taliban political support signals"
+    ],
+    "data_needed_for_monitoring": [
+      "SIGINT (TTP-Taliban communications, operational planning)",
+      "HUMINT (Afghan-based and Pakistani informants)",
+      "satellite imagery (Afghanistan base activity, infiltration prep)",
+      "financial tracking (extortion collection, drug proceeds)",
+      "cross-border surveillance (LoC infiltration routes)"
+    ],
+    "recommended_analytic_methods": [
+      "temporal attack pattern clustering",
+      "network analysis (TTP-Taliban-al-Qaeda coordination)",
+      "financial flow mapping (extortion/drug proceeds)",
+      "geospatial analysis (infiltration routes, forward operating bases)"
+    ]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Tehrik-e Taliban Pakistan poses critical terrorism threat to Pakistan's stability as the nation's deadliest and most operationally resilient jihadist organization. With 2,500-6,500 fighters based in Taliban-protected Afghanistan sanctuaries, TTP escalated terrorist operations 460% (140 attacks 2021 → 784 in 2024), directly confronting Pakistani security forces 470% more frequently, and killing civilians 900% more often. The group generates $100M+ annually through extortion economy, drug smuggling coordination, and kidnapping, funding sustained military-style operations. Post-December 2014 Peshawar school massacre (149 killed, 132 children), TTP fragmented but reunified 2019-2020, recovering strength under current emir Noor Wali Mehsud (leader since 2018). Taliban takeover of Afghanistan (August 2021) provided unprecedented operational freedom, enabling geographic expansion into southern Punjab, Sindh urban centers, and Balochistan. TTP now coordinates with al-Qaeda (training in Afghan camps), maintains loose Taliban affiliation, and exploits US-abandoned military equipment in Afghanistan. The group represents the primary internal security threat to Pakistan's government stability and civilian population.",
+    "vulnerable_sectors": [
+      "Pakistani security forces (military, police, paramilitary)",
+      "government infrastructure and officials",
+      "civilians in tribal areas and expanding urban centers",
+      "critical infrastructure (energy, water, transportation)",
+      "educational institutions (schools, universities)",
+      "US diplomatic/military interests (transnational threat)"
+    ],
+    "likely_future_trends": "Continued escalation 2025-2026: 1,000+ attacks annually likely; geographic expansion to new Pakistani cities/regions; deepening al-Qaeda-Taliban coordination; increased use of advanced weaponry (US-abandoned Afghanistan stocks); potential transnational operations (US, European targets); recruitment surge among youth (revenge motivation, economic incentives); intensified extortion economy; growing sectarian violence (anti-Shia component); cross-border infiltration waves during winter months (seasonal pattern).",
+    "recommended_mitigation_measures": [
+      "Sustained military pressure on TTP sanctuaries in Afghanistan (cross-border strikes)",
+      "Diplomatic pressure on Taliban to deny TTP sanctuary and extradite leadership",
+      "Border security enhancement (LoC fortification, surveillance technology, drone monitoring)",
+      "Counter-finance operations on extortion networks, drug trafficking, hawala systems",
+      "SIGINT collection on TTP-Taliban-al-Qaeda coordination",
+      "HUMINT network development in FATA and Afghan base areas",
+      "Deradicalization programs for captured TTP operatives",
+      "Support for Pakistan tribal reconciliation (grievance reduction)",
+      "Coordination with US/coalition on al-Qaeda training camp disruption",
+      "Intelligence sharing with international partners on TTP transnational plans",
+      "Cyber operations against TTP communications and recruitment channels",
+      "Development/governance initiatives in FATA to reduce recruitment vulnerability",
+      "Support for Pakistan-Afghanistan bilateral counterterrorism cooperation"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: Tehrik-e Taliban Pakistan terrorist group profile (October 2022)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/ttp.html",
+        "date": "2022-10-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:681",
+        "type": "secondary",
+        "description": "Britannica: TTP history, Baitullah Mehsud, leadership evolution (October 2025)",
+        "date": "2025-10-27",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:682",
+        "type": "secondary",
+        "description": "Wikipedia: 2014 Peshawar school massacre, 149 killed, 132 children (December 2014)",
+        "date": "2014-12-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:683",
+        "type": "secondary",
+        "description": "Wikipedia: Pakistani Taliban comprehensive history, leadership, operations (2008-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:684",
+        "type": "secondary",
+        "description": "Wikipedia: Noor Wali Mehsud biography, leadership 2018-present, SDGT designation",
+        "date": "2020-05-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:685",
+        "type": "media",
+        "description": "CNN: Peshawar school attack coverage, 145 killed (December 2014)",
+        "date": "2014-12-15",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:687",
+        "type": "secondary",
+        "description": "Counter Extremism Project: Mufti Noor Wali Mehsud, SDGT designation, leadership (June 2018)",
+        "date": "2018-06-23",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:689",
+        "type": "official",
+        "description": "US DNI: TTP founding, operations, transnational attacks (August 2009 profile updated)",
+        "date": "2009-08-04",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:690",
+        "type": "media",
+        "description": "Hindustan Times: UN report TTP 6,000 fighters in Afghanistan 2021 (July 2021)",
+        "date": "2021-07-26",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:691",
+        "type": "research",
+        "description": "DDNews: TTP financing extortion, kidnapping, drug trafficking March 2025 (May 2025)",
+        "date": "2025-05-12",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:692",
+        "type": "official",
+        "description": "Pakistan MOFA: Cross-border anti-terrorist operations against TTP (March 2024)",
+        "date": "2024-03-18",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:694",
+        "type": "media",
+        "description": "Al Jazeera: Pakistan Taliban escalation, Taliban protection, cross-border strikes (October 2025)",
+        "date": "2025-10-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:695",
+        "type": "academic",
+        "description": "CTC Westpoint: TTP leaders, fighters, militants analysis, geographic expansion (June 2025)",
+        "date": "2025-06-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:697",
+        "type": "media",
+        "description": "Voice of America: UN report TTP 6,000-6,500 fighters, Taliban support, al-Qaeda training (July 2024)",
+        "date": "2024-07-10",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
