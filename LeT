@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "profile_id": "let-nov2025-v1",
+    "name": "Lashkar-e-Tayyiba (LeT)",
+    "aliases": [
+      "Army of the Righteous",
+      "Army of the Pure",
+      "Jamaat-ud-Dawa (JuD, front organization)",
+      "Falah-e-Insaniyat Foundation (financial front)",
+      "Markaz-ud-Dawa-wal-Irshad (MDI, parent organization)",
+      "The Resistance Front (TRF, proxy)",
+      "Lashkar-e-Toiba",
+      "LeT"
+    ],
+    "primary_language": "Urdu",
+    "legal_designations": [
+      {
+        "country_or_body": "United States",
+        "designation": "Foreign Terrorist Organization",
+        "designation_date": "2001-12-26",
+        "reference": "web:651"
+      },
+      {
+        "country_or_body": "United Nations",
+        "designation": "Terrorist organization (UNSC, consolidated list)",
+        "designation_date": "2005-05-02",
+        "reference": "web:649"
+      },
+      {
+        "country_or_body": "Pakistan",
+        "designation": "Banned organization (2002, ongoing despite continued operations)",
+        "designation_date": "2002-01-13",
+        "reference": "web:649"
+      }
+    ],
+    "status": "active (escalating post-May 2025 Operation Sindoor; major infiltration surge September-November 2025)",
+    "first_observed_date": "1990-01-01",
+    "last_verified_date": "2025-11-17",
+    "version": "2025.11.17.v1",
+    "analyst": {
+      "name": "Analyst Redacted",
+      "organization": "Perplexity Research",
+      "contact": "internal"
+    }
+  },
+  "summary": {
+    "one_line": "Pakistan's premier anti-India jihadist group founded 1990, several thousand fighters, responsible for 2008 Mumbai attacks (166 killed), 2006 train bombings (200+ killed), 2025 Pahalgam massacre (26 killed), operating through proxy The Resistance Front (TRF), financed by Jamaat-ud-Dawa and Falah-e-Insaniyat Foundation, escalating infiltration November 2025.",
+    "overview": "Lashkar-e-Tayyiba (LeT, 'Army of the Righteous') is Pakistan's most lethal and operationally sophisticated anti-India jihadist organization, founded January 1990 by Hafiz Muhammad Saeed as the military wing of Markaz-ud-Dawa-wal-Irshad (MDI), an Ahl-e-Hadith (Salafi) Islamic missionary organization. With an estimated several thousand fighters, LeT's primary objective is establishing Pakistani sovereignty over Indian-administered Jammu and Kashmir, with broader aims of extending Islamic governance across India. LeT is directly supported by Pakistan's Inter-Services Intelligence (ISI), establishing it as a state-sponsored terrorist proxy. The group achieved international notoriety through the July 11, 2006 Mumbai train bombings (200+ killed, 700+ wounded) and the devastating November 26-29, 2008 Mumbai attacks (166 killed including 6 Americans, 300+ wounded), orchestrated by deputy commander Zaki-ur-Rehman Lakhvi and external operations chief Sajid Mir. Despite being banned by Pakistan (January 2002), the US (December 2001), and the UN (May 2005), LeT operates openly in Pakistan through front organizations Jamaat-ud-Dawa (charitable organization with schools/hospitals) and Falah-e-Insaniyat Foundation, funded by donors in Pakistan ($million+ annually), Saudi Arabia, and Middle Eastern countries. Following Indian counter-terrorism operations (Operation Sindoor, May 2025), LeT escalated operations through its proxy The Resistance Front (TRF), conducting the April 22, 2025 Pahalgam attack (26 tourists killed—deadliest Kashmir civilian massacre since 2019), the October 20, 2024 Ganderbal construction site shooting (7 killed), and subsequent coordinated strikes. As of November 2025, fresh intelligence reveals LeT and Jaish-e-Mohammad are conducting largest coordinated infiltration surge since 2023, with multiple units crossing Line of Control (LoC), drone reconnaissance operations, and explicit instructions from ISI to conduct 'retaliatory attacks.' LeT remains the most dangerous Pakistan-based terrorist organization to Indian security and civilian populations.",
+    "threat_level": "critical",
+    "confidence_overall": "very_high"
+  },
+  "history_and_origin": {
+    "founding_date": "1990-01-01",
+    "founders": ["Hafiz Muhammad Saeed", "Zafar Iqbal Shehbaz", "Abdullah Azzam (funding/guidance)"],
+    "origin_context": "LeT emerged from the geopolitics of the Soviet-Afghan War (1979-1989) and the subsequent struggle for Kashmir (1989-ongoing). Hafiz Saeed, an engineering professor and religious activist in the Ahl-e-Hadith (Salafi) school, founded Markaz-ud-Dawa-wal-Irshad (MDI) in 1985-1986 as a religious missionary organization with initial support from Saudi Arabia and Pakistan's ISI. As Soviet forces withdrew from Afghanistan, Pakistani military strategists (ISI, General Zia's successors) conceived of LeT as a proxy instrument to prosecute Pakistan's claim to Kashmir through 'plausible deniability.' In 1990, Hafiz Saeed formally established LeT as MDI's military wing, initially with ~400 fighters trained in Pakistani Punjab and Afghan Kunar province. Abdullah Azzam (al-Qaeda's ideologue, later killed 1989) provided ideological guidance. Crucially, LeT received direct ISI coordination, training facilities, weapons, and cross-border logistical support from the outset—establishing it as more of a state military proxy than a purely non-state actor.",
+    "key_milestones": [
+      {
+        "date": "1985-01-01",
+        "event": "Hafiz Muhammad Saeed establishes Markaz-ud-Dawa-wal-Irshad (MDI)",
+        "impact": "Religious missionary organization founded; Saudi/Pakistani funding; ISI coordination begins.",
+        "source_ids": ["web:649", "web:652"]
+      },
+      {
+        "date": "1990-01-01",
+        "event": "LeT formally established as military wing of MDI",
+        "impact": "Military organization creation; initial ~400 fighters; ISI direct coordination; training begins.",
+        "source_ids": ["web:649", "web:652"]
+      },
+      {
+        "date": "1991-01-01",
+        "event": "LeT begins infiltration operations into Kashmir",
+        "impact": "First major terrorist operations; ISI-coordinated infiltration; systematic violence begins.",
+        "source_ids": ["web:649", "web:655"]
+      },
+      {
+        "date": "2000-03-20",
+        "event": "LeT attacks near Jammu and Kashmir; 35 killed hours before President Clinton's India visit",
+        "impact": "Major attack; international incident; LeT operational capability demonstrated.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2001-12-13",
+        "event": "Indian Parliament attack (suspected LeT involvement; group denies)",
+        "impact": "26 killed; India-Pakistan near-war crisis; LeT suspected but not definitively established.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2001-12-26",
+        "event": "US designates LeT as Foreign Terrorist Organization",
+        "impact": "International FTO designation; sanctions regime; asset freezes; financing restrictions.",
+        "source_ids": ["web:651", "web:655"]
+      },
+      {
+        "date": "2002-01-13",
+        "event": "Pakistan bans LeT",
+        "impact": "Official ban; group goes underground; rebrands as Jamaat-ud-Dawa (JuD); continues operations.",
+        "source_ids": ["web:649", "web:655"]
+      },
+      {
+        "date": "2003-08-25",
+        "event": "Two taxi bombings Mumbai; 52 killed, 100+ wounded (LeT/JEM suspected)",
+        "impact": "High-profile terrorist attacks; LeT suspected involvement.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2005-05-02",
+        "event": "UN designates LeT as terrorist organization (consolidated list)",
+        "impact": "International UN-level terrorist designation; global sanctions coordination.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2006-07-11",
+        "event": "Mumbai train bombings",
+        "impact": "200+ killed (183-200 reported), 700+ wounded; seven synchronized bombs on commuter trains; LeT responsibility confirmed.",
+        "source_ids": ["web:1", "web:648", "web:649"]
+      },
+      {
+        "date": "2008-11-26",
+        "event": "2008 Mumbai attacks begin (Nov 26-29)",
+        "impact": "166+ killed including 6 Americans, 300+ wounded; 10 LeT operatives; coordinated multi-site assault; deadliest terrorist attack since 9/11.",
+        "source_ids": ["web:1", "web:647", "web:649", "web:654"]
+      },
+      {
+        "date": "2008-12-07",
+        "event": "Pakistan Army raids LeT Shawai Nullah center; arrests 20+ including Zaki-ur-Rehman Lakhvi",
+        "impact": "Major arrests; military pressure; international pressure from US/India.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2008-12-11",
+        "event": "UN imposes sanctions on Jamaat-ud-Dawa (LeT front); Pakistan bans JuD",
+        "impact": "International sanctions on JuD; continued operations under new names.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2012-11-21",
+        "event": "Ajmal Kasab (sole surviving Mumbai attacker) executed by India",
+        "impact": "Criminal justice closure; Kasab publicly confirmed LeT-ISI coordination.",
+        "source_ids": ["web:649"]
+      },
+      {
+        "date": "2016-09-18",
+        "event": "Uri military base attack; 17 Indian soldiers killed (suspected LeT)",
+        "impact": "Major military attack; India launches surgical strikes in response.",
+        "source_ids": ["web:1"]
+      },
+      {
+        "date": "2019-02-26",
+        "event": "Pulwama attack (44 CRPF killed; JEM claimed, LeT intelligence support suspected)",
+        "impact": "India-Pakistan military confrontation; Balakot airstrikes follow.",
+        "source_ids": ["web:657"]
+      },
+      {
+        "date": "2024-10-20",
+        "event": "Ganderbal construction site shooting; 7 civilians killed (LeT/TRF)",
+        "impact": "LeT/TRF operational resurgence signal; sophisticated attack.",
+        "source_ids": ["web:657", "web:662"]
+      },
+      {
+        "date": "2025-04-22",
+        "event": "Pahalgam attack; 26 tourists killed (deadliest Kashmir civilian attack since 2019)",
+        "impact": "LeT/TRF most lethal operation in years; sophisticated 3-4 day planning; drone reconnaissance; ISI coordination evident.",
+        "source_ids": ["web:657", "web:662"]
+      },
+      {
+        "date": "2025-05-07",
+        "event": "Indian Operation Sindoor; airstrikes on LeT bases in Pakistan (Muridke, Bahawalpur areas)",
+        "impact": "26 JEM/LeT members killed; major facility damage; followed by Pakistani retaliatory strikes on Indian positions.",
+        "source_ids": ["web:659", "web:660"]
+      },
+      {
+        "date": "2025-09-01",
+        "event": "LeT/JEM escalate infiltration post-Operation Sindoor; ISI-coordinated surge begins",
+        "impact": "Multiple units crossing LoC; drone reconnaissance operations; new terrorism phase.",
+        "source_ids": ["web:659"]
+      },
+      {
+        "date": "2025-11-04",
+        "event": "Fresh intelligence reveals largest LeT/JEM coordinated infiltration surge since 2023",
+        "impact": "50+ militants infiltrated; 'Border Action Teams' redeployed; explicit ISI orders to 'avenge Operation Sindoor losses' through retaliatory attacks.",
+        "source_ids": ["web:659"]
+      }
+    ]
+  },
+  "ideology_and_objectives": {
+    "ideological_family": ["Ahl-e-Hadith/Salafi", "Sunni jihadist", "Kashmir separatist", "Anti-India nationalist"],
+    "core_objectives": [
+      "Establish Pakistani sovereignty over Indian-administered Jammu and Kashmir",
+      "Liberate Muslims from perceived Indian occupation and oppression",
+      "Expel Indian military and civilian presence from Kashmir",
+      "Extend Islamic governance model across Kashmir and India"
+    ],
+    "short_term_goals": [
+      "Conduct terrorist attacks on Indian security forces and civilians",
+      "Maintain operational presence in Kashmir through infiltration",
+      "Demoralize Indian security personnel and government",
+      "Disrupt civilian life and economic activity in Kashmir"
+    ],
+    "long_term_goals": [
+      "Achieve political/military resolution favoring Pakistani control of Kashmir",
+      "Establish Islamic state governance in Kashmir",
+      "Integrate Kashmir with Pakistan",
+      "Transform broader India into Islamic state (secondary goal)"
+    ],
+    "narrative_and_justification": "LeT frames violence as liberation struggle against Indian occupation and Hindu-dominated secular governance. Emphasizes religious obligation (jihad) to defend Muslim-majority Kashmir, exploits historical grievances of 1989-1991 uprising, and portrays attacks as defensive responses to Indian state violence. Uses Ahl-e-Hadith religious ideology to justify violence against non-Muslims while condemning sectarian violence against Muslims.",
+    "target_selection_logic": "Indian security forces (primary strategic targets), Hindu civilians (sectarian/psychological impact), government infrastructure, tourist sites (economic disruption, international attention), 'soft targets' (maximum casualty impact)."
+  },
+  "area_of_influence_and_bases": {
+    "primary_theatre": ["IND (Kashmir, broader India)", "PAK (Punjab, Azad Kashmir, FATA)"],
+    "territorial_control": [
+      {
+        "location_name": "Muridke, Punjab, Pakistan",
+        "geocoordinates": {"lat": 31.82, "lon": 74.39},
+        "control_type": "headquarters",
+        "control_period": {"from": "1990-01-01", "to": null},
+        "notes": "Primary LeT headquarters and Markaz Taiba training center; major ISI coordination facility; Indian Operation Sindoor struck Muridke May 7, 2025.",
+        "source_ids": ["web:650", "web:660"]
+      },
+      {
+        "location_name": "Bahawalpur, Punjab, Pakistan",
+        "geocoordinates": {"lat": 29.39, "lon": 71.69},
+        "control_type": "operations_center",
+        "control_period": {"from": "1990-01-01", "to": null},
+        "notes": "Secondary operations center; training facilities; command structure; Indian intelligence traces Pahalgam attack orchestration to Bahawalpur.",
+        "source_ids": ["web:662"]
+      },
+      {
+        "location_name": "Pakistan-administered Azad Kashmir (PoK)",
+        "geocoordinates": {"lat": 34.32, "lon": 73.48},
+        "control_type": "transit_infiltration",
+        "control_period": {"from": "1991-01-01", "to": null},
+        "notes": "Infiltration routes into Indian Kashmir; staging areas; ISI coordination; Border Action Teams (BATs) deployed here.",
+        "source_ids": ["web:659"]
+      },
+      {
+        "location_name": "Indian-administered Jammu and Kashmir (operational theater)",
+        "geocoordinates": {"lat": 34.27, "lon": 75.58},
+        "control_type": "operations",
+        "control_period": {"from": "1991-01-01", "to": null},
+        "notes": "Primary target region; ongoing terrorist operations; no territorial control but persistent operational presence.",
+        "source_ids": ["web:1", "web:657"]
+      }
+    ],
+    "safe_havens_and_sanctuaries": [
+      {
+        "location_name": "Muridke and Bahawalpur training centers",
+        "type": "urban_institutional",
+        "notes": "Semi-official LeT facilities; ISI protection; continued operations despite ban; functioning as military academy."
+      },
+      {
+        "location_name": "Jamaat-ud-Dawa facilities (schools, hospitals, mosques)",
+        "type": "charitable_front",
+        "notes": "Cover for LeT operations; humanitarian facade; continued fundraising and recruitment under charitable status."
+      }
+    ]
+  },
+  "organisation_and_structure": {
+    "leadership": {
+      "top_leaders": [
+        {
+          "name": "Hafiz Muhammad Saeed",
+          "aliases": ["Hafiz Muhammed Saeed", "Hafeez Muhammad Saeed"],
+          "role": "Founder and amir (overall leader)",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Born 1950; engineering professor; Ahl-e-Hadith ideologue; LeT founder (1990); JuD nominal leader post-2002 ban; designated SDGT 2008; detained multiple times (2006, 2016-2017); publicly denied LeT-JuD link while directing operations.",
+          "source_ids": ["web:649", "web:652", "web:655"]
+        },
+        {
+          "name": "Zaki-ur-Rehman Lakhvi",
+          "aliases": ["Zakiur Rehman Lakhvi", "Commander Lakhvi"],
+          "role": "Supreme commander of Kashmir operations; operational commander",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Military commander; architect of 2008 Mumbai attacks; designated SDGT 2008; arrested December 2008, released on bail April 2015 pending prosecution; continues directing Kashmir operations from Pakistan.",
+          "source_ids": ["web:647", "web:649"]
+        },
+        {
+          "name": "Sajid Mir",
+          "aliases": ["Sajjid Mir"],
+          "role": "External operations commander; international attack planner",
+          "last_seen": "2025-11-17",
+          "status": "active",
+          "biographical_notes": "Senior LeT member since ~2001; directed 2006-2011 external operations; planner/director of multiple terrorist attacks; designated SDGT 2008; orchestrator of 2008 Mumbai attack logistics.",
+          "source_ids": ["web:647", "web:649"]
+        }
+      ],
+      "leadership_model": "hierarchical; Hafiz Saeed maintains nominal authority; Lakhvi handles Kashmir operations; Sajid Mir coordinates external/international operations; ISI oversight.",
+      "succession_mechanism": "Hafiz Saeed has sustained 35-year leadership; deputy structure (Lakhvi, Mir) ensures continuity; organizational survival post-leadership arrests suggests robust succession planning."
+    },
+    "organisational_components": [
+      {
+        "component_name": "Military Operations Command (Kashmir)",
+        "function": "Terrorist attacks in Kashmir; infiltration coordination; tactical planning",
+        "size_estimate": {"min": 2_000, "max": 3_000, "confidence": "medium"},
+        "leader": "Zaki-ur-Rehman Lakhvi (supreme commander)",
+        "notes": "Most active LeT wing; ISI coordination; multiple sub-units organized by region (Ganderbal, Kulgam, Pahalgam, Srinagar, Baramulla)."
+      },
+      {
+        "component_name": "External Operations Wing",
+        "function": "International terrorism; Mumbai attacks; external target planning",
+        "size_estimate": {"min": 300, "max": 500, "confidence": "low"},
+        "leader": "Sajid Mir (commander)",
+        "notes": "Highly secretive; plans sophisticated multi-site attacks; coordinates with Pakistani state assets abroad."
+      },
+      {
+        "component_name": "Recruitment and Training (Markaz Taiba, Muridke)",
+        "function": "Militant indoctrination, military training, operational preparation",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "low"},
+        "leader": "Training commanders at Markaz facilities",
+        "notes": "Professional military academy model; 2-3 year training pipeline; ISI instructors; advanced weaponry/tactics."
+      },
+      {
+        "component_name": "Jamaat-ud-Dawa (Front Organization)",
+        "function": "Fundraising, schools, hospitals, humanitarian services, cover for LeT operations",
+        "size_estimate": {"min": 5_000, "max": 10_000, "confidence": "low"},
+        "leader": "Hafiz Saeed (nominal), operational administrators",
+        "notes": "Charity with 300+ schools across Pakistan; 45 hospitals; serves as financial/recruitment pipeline; banned 2008 but continues operating."
+      },
+      {
+        "component_name": "Falah-e-Insaniyat Foundation (Financial Front)",
+        "function": "Financial fundraising, donor management, international money transfers",
+        "size_estimate": {"min": 50, "max": 150, "confidence": "low"},
+        "leader": "Financial coordinators",
+        "notes": "Collects donations from Middle East, Saudi Arabia, Pakistan, UK; transfers to LeT operations."
+      },
+      {
+        "component_name": "The Resistance Front (TRF, proxy organization)",
+        "function": "Operational attacks in Kashmir; operational cover/deniability",
+        "size_estimate": {"min": 100, "max": 300, "confidence": "low"},
+        "leader": "TRF commanders (LeT-appointed)",
+        "notes": "Created 2019 as proxy; claimed Pahalgam attack April 2025; allows LeT operational deniability while maintaining Kashmir operations."
+      }
+    ],
+    "internal_governance": {
+      "decision_making": "Centralized under Hafiz Saeed; operational decisions by Lakhvi (Kashmir) and Mir (external); ISI veto authority on major decisions.",
+      "discipline_and_enforcement": "Military discipline; Islamic law; strict compartmentalization; punishment for operational security violations; loyalty to Hafiz Saeed."
+    }
+  },
+  "membership_and_personnel": {
+    "total_size_estimate": {"min": 3_000, "max": 5_000, "confidence": "medium"},
+    "composition": {
+      "combatants": {"min": 2_000, "max": 3_500},
+      "support_personnel": {"min": 500, "max": 1_000},
+      "foreign_fighters": "minimal (<100); some Afghan/Kashmir-based Pakistani expatriates",
+      "female_participation": "<1%; minimal documented"
+    },
+    "composition_baseline": {
+      "year": "2001",
+      "total": {"min": 400, "max": 1_000},
+      "description": "~400 elite fighters at founding (1990); expanded to 1,000+ by 2001; escalated to 3,000-5,000 by 2006-2008."
+    },
+    "recruitment_demographics": {
+      "age_range": "16-45",
+      "education_levels": ["primary", "secondary", "university", "Islamic seminaries"],
+      "socioeconomic_background": "Rural/urban Pakistani youth; economically disadvantaged; religiously motivated; some university-educated ideologues; forced recruitment documented.",
+      "gender_distribution": "99%+ male; negligible female involvement"
+    },
+    "training_and_indoctrination": {
+      "types_of_training": [
+        "military tactics (advanced)",
+        "explosives and IEDs",
+        "small arms and heavy weapons",
+        "demolitions",
+        "surveillance techniques",
+        "Islamic theology (Ahl-e-Hadith)",
+        "psychological warfare",
+        "counter-intelligence"
+      ],
+      "training_locations": [
+        "Markaz Taiba, Muridke (primary)",
+        "Bahawalpur facilities",
+        "Pakistan-administered Kashmir (infiltration prep)",
+        "Afghanistan (historical, pre-2001)",
+        "300+ JuD schools across Pakistan"
+      ],
+      "notes": "Professional military-grade training; 2-3 year pipeline; ISI instructors; advanced explosive device construction; surveillance training; cross-border infiltration preparation; psychological conditioning emphasizing martyrdom."
+    }
+  },
+  "operations_and_methods": {
+    "operational_scope": "regional to transnational (Kashmir, India, Pakistan, Afghanistan)",
+    "known_attack_types": [
+      "suicide bombings",
+      "armed assault",
+      "IED/VBIED",
+      "kidnapping",
+      "targeted assassination",
+      "mass shooting"
+    ],
+    "notable_operations": [
+      {
+        "operation_name": "2006 Mumbai train bombings",
+        "date": "2006-07-11",
+        "location": "Mumbai commuter rail system",
+        "method_category": "coordinated bombing (7 trains, 8 explosions)",
+        "casualties_killed": 200,
+        "casualties_injured": 700,
+        "claim_status": "claimed",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:648", "web:649"]
+      },
+      {
+        "operation_name": "2008 Mumbai attacks",
+        "date": "2008-11-26 to 2008-11-29",
+        "location": "Mumbai (railway station, restaurants, hotels, hospital, Jewish center)",
+        "method_category": "coordinated armed assault and bombings (10 operatives)",
+        "casualties_killed": 166,
+        "casualties_injured": 300,
+        "claim_status": "claimed (LeT leadership initially denied)",
+        "attribution_confidence": "high",
+        "sources": ["web:1", "web:647", "web:649", "web:654"]
+      },
+      {
+        "operation_name": "Uri military base attack",
+        "date": "2016-09-18",
+        "location": "Uri, Jammu and Kashmir",
+        "method_category": "armed assault on military base",
+        "casualties_killed": 17,
+        "casualties_injured": 0,
+        "claim_status": "attributed (LeT suspected)",
+        "attribution_confidence": "high",
+        "sources": ["web:1"]
+      },
+      {
+        "operation_name": "Ganderbal construction site shooting",
+        "date": "2024-10-20",
+        "location": "Ganderbal, Jammu and Kashmir",
+        "method_category": "armed shooting attack on workers",
+        "casualties_killed": 7,
+        "casualties_injured": 0,
+        "claim_status": "claimed (TRF proxy)",
+        "attribution_confidence": "high",
+        "sources": ["web:657", "web:659"]
+      },
+      {
+        "operation_name": "Pahalgam attack",
+        "date": "2025-04-22",
+        "location": "Pahalgam, Jammu and Kashmir",
+        "method_category": "armed assault on tourist group (sophisticated multi-day operation)",
+        "casualties_killed": 26,
+        "casualties_injured": 0,
+        "claim_status": "initially claimed by TRF, later retracted",
+        "attribution_confidence": "high",
+        "sources": ["web:657", "web:662"]
+      }
+    ],
+    "external_support_and_coordination": {
+      "state_sponsors": "Pakistan (ISI primary sponsor)",
+      "criminal_partnerships": "Smuggling networks (narco-terrorism, arms trafficking)",
+      "transnational_network_links": [
+        "Pakistan ISI (direct coordination)",
+        "Jaish-e-Mohammed (joint operations)",
+        "Afghan Taliban (coordination, sanctuary)",
+        "Hizbul Mujahideen (Kashmir-focused coordination)"
+      ]
+    },
+    "operations_tempo_and_patterning": "Intermittent 1991-2005; escalating 2005-2011 (peak 2006-2008); reduced 2011-2016 (Pakistani pressure, military degradation); resurgent 2016+ (Pulwama 2019, Pahalgam 2025); largest infiltration surge November 2025 (50+ militants across LoC)."
+  },
+  "technical_capabilities": {
+    "weapons_and_munitions": {
+      "categories": [
+        "small arms (AK-47s, pistols)",
+        "explosives and IEDs",
+        "VBIEDs",
+        "grenades",
+        "RPGs",
+        "heavy machine guns",
+        "anti-tank weapons",
+        "drones (emerging 2024-2025)"
+      ],
+      "acquisition_routes": "ISI procurement and supply, Pakistani military (direct/black market), arms smuggling networks, battlefield capture, Middle Eastern donors (Saudi Arabia, Gulf states)",
+      "notes": "Sophisticated bomb-making capability (2006, 2008 Mumbai attacks demonstrated); increasing drone/reconnaissance technology (Pahalgam attack used aerial reconnaissance 2025); professional military-grade weaponry supplied by ISI."
+    },
+    "cyber_capabilities": {
+      "capability_level": "emerging",
+      "observed_activities": [
+        "encrypted operational communications",
+        "HUMINT network coordination",
+        "propaganda through TRF branding",
+        "recruitment via social media (limited)"
+      ],
+      "notes": "Basic digital operations; encrypted channels for coordination; primarily traditional tradecraft with emerging tech integration."
+    },
+    "communication_infrastructure": {
+      "primary_channels": ["encrypted messengers", "ISI liaison networks", "courier systems", "radio communications"],
+      "propaganda_platforms": ["TRF Telegram channels", "social media (limited)", "video releases"],
+      "notes": "Operational security priority; compartmentalized communications; ISI-provided secure channels; TRF used for operational deniability and claims."
+    },
+    "logistics_and_mobility": {
+      "transport_modes": ["vehicles", "motorcycles", "cross-border infiltration on foot", "maritime (for international ops)"],
+      "notes": "Sophisticated cross-border logistics (ISI coordination); infiltration routes via LoC; porous Pakistan-India border exploited; November 2025 surge includes drone reconnaissance for LoC gap identification."
+    },
+    "technical_gaps_and_weaknesses": "Vulnerable to ISI coordination loss (if political/diplomatic shift); reliance on Pakistani sanctuary (vulnerable to Indian strikes); communication networks susceptible to SIGINT interception; small size limits heavy mechanized capability; dependent on infiltration routes (vulnerable to LoC fortification)."
+  },
+  "financing_and_economics": {
+    "annual_revenue_estimate": {"value": 30_000_000, "currency": "USD", "confidence": "low"},
+    "revenue_streams": [
+      {
+        "type": "charitable_donations",
+        "description": "Jamaat-ud-Dawa (JuD) and Falah-e-Insaniyat Foundation donations from Pakistan, Middle East, Saudi Arabia, UK",
+        "estimated_share_percent": 60,
+        "notes": "$18M; JuD runs 300+ schools, 45 hospitals; charitable status enables fundraising; Saudi Arabia major donor; Gulf states (UAE, Qatar)."
+      },
+      {
+        "type": "isi_government_support",
+        "description": "Direct Pakistani state funding via ISI",
+        "estimated_share_percent": 25,
+        "notes": "$7.5M; ISI budget allocation; training facility support; weapons supply; cross-border logistics."
+      },
+      {
+        "type": "extortion_kidnapping",
+        "description": "Extortion from businesses in Kashmir; ransom from kidnappings",
+        "estimated_share_percent": 10,
+        "notes": "$3M; local taxation of commerce; sporadic kidnapping ransom."
+      },
+      {
+        "type": "narco_trafficking",
+        "description": "Coordination/taxation of drug smuggling through Pakistan-Afghanistan corridor",
+        "estimated_share_percent": 5,
+        "notes": "$1.5M; partnership with criminal networks; heroin trafficking routes."
+      }
+    ],
+    "financial_infrastructure": {
+      "use_of_informal_channels": true,
+      "use_of_legal_businesses": true,
+      "money_mules_and_fronts": "JuD charity infrastructure, Falah-e-Insaniyat Foundation, exchange houses, formal banking (limited), hawala networks, trade-based money laundering.",
+      "notes": "Dual-track financing: legitimate charitable channels (JuD schools/hospitals) plus covert ISI support; donor networks across Middle East; bank transfers from Saudi Arabia/Gulf states; cryptocurrency emerging."
+    },
+    "sanctions_and_countermeasures": [
+      {
+        "measure": "FTO designation, SDGT listings (Saeed, Lakhvi, Mir), asset freezes",
+        "implementing_body": "US, UN, Pakistan (partial)",
+        "date": "2001-12-26 (ongoing)",
+        "effectiveness_assessment": "low"
+      }
+    ]
+  },
+  "recruitment_and_radicalisation": {
+    "primary_recruitment_channels": ["JuD schools (300+)", "Falah-e-Insaniyat facilities", "family networks", "mosque recruitment", "forced/coercive recruitment"],
+    "recruitment_tactics": [
+      "Islamic ideology (Ahl-e-Hadith Salafism)",
+      "Kashmir liberation narrative",
+      "economic incentives ($100-300/month)",
+      "promise of martyrdom (Islamic paradise)",
+      "anti-India nationalist messaging",
+      "coercive kidnapping (documented 2024-2025)"
+    ],
+    "target_profiles": [
+      "Pakistani youth 16-40 (primary)",
+      "Kashmir-affected families",
+      "madrassah students",
+      "economically disadvantaged",
+      "ideologically motivated young men",
+      "individuals with family/tribal ISI connections"
+    ],
+    "recruitment_geography": ["Punjab Pakistan", "Azad Kashmir", "FATA/Khyber-Pakhtunkhwa", "Kashmir valley", "worldwide (diaspora)"],
+    "deradicalisation_or_defection_rate": {"estimate_percent": 2, "confidence": "very_low"},
+    "youth_and_online_vulnerability": "High; JuD schools provide institutional pipeline; Kashmir liberation narrative highly effective; Islamic ideology deeply embedded; TRF social media presence emerging; forced recruitment now documented (Pahalgam attack operatives reportedly coerced family members)."
+  },
+  "propaganda_and_information_operations": {
+    "media_products": [
+      "attack videos (2008 Mumbai, 2016 Uri, 2024-2025 Kashmir)",
+      "recruitment messaging",
+      "religious sermons",
+      "TRF Telegram announcements",
+      "martyrdom glorification videos"
+    ],
+    "languages_used": ["Urdu", "Arabic", "English", "Kashmiri"],
+    "messaging_themes": [
+      "Kashmir liberation",
+      "anti-India militancy",
+      "Ahl-e-Hadith Islamic ideology",
+      "martyrdom glorification",
+      "opposition to Indian rule",
+      "Sharia governance advocacy"
+    ],
+    "audience_targeting": "Pakistani youth, Kashmir-affected populations, diaspora communities, global jihadist networks, ideologically motivated Muslims.",
+    "platform_policy_responses": "Periodic Telegram channel removals (rapid recreation under TRF branding); social media account suspensions; YouTube video takedowns; limited effectiveness given decentralized proxy structure and encrypted communications."
+  },
+  "legal_and_human_rights_context": {
+    "criminal_prosecutions": [
+      {
+        "jurisdiction": "Pakistan",
+        "case_ref": "Limited prosecutions (political protection evident)",
+        "defendants": ["Zaki-ur-Rehman Lakhvi (arrested 2008, released 2015 on bail)", "Various LeT operatives"],
+        "outcome": "Many released/acquitted; minimal convictions despite international pressure.",
+        "notes": "Pakistan military protection; limited judicial will; 2025 escalation despite 2014-2015 arrests."
+      },
+      {
+        "jurisdiction": "India",
+        "case_ref": "2008 Mumbai attack prosecutions (Pakistani operatives in absentia)",
+        "defendants": ["Ajmal Kasab (executed 2012)", "Mumbai attack planners (tried in absentia)"],
+        "outcome": "Kasab executed; others tried in absentia with no extradition prospect.",
+        "notes": "India-Pakistan extradition unlikely; Pakistani military protects LeT leadership."
+      }
+    ],
+    "human_rights_concerns": "200+ killed in 2006 train bombings, 166 in 2008 Mumbai attacks, 26 in Pahalgam 2025; mass civilian casualties; indiscriminate bombing; forced recruitment of youth/children; assassination of government officials; torture of detainees; attacks on religious minorities (Christians, Hindu tourists); use of civilian areas for military staging."
+  },
+  "indicators_and_analytics": {
+    "key_indicators_of_activity": [
+      {"indicator": "Cross-LoC infiltration numbers", "type": "operational", "thresholds": ">20/month signals major campaign"},
+      {"indicator": "TRF attack frequency", "type": "operational", "thresholds": ">2/month indicates resurgence"},
+      {"indicator": "ISI handler communications", "type": "SIGINT", "thresholds": "Escalation language signals imminent attacks"},
+      {"indicator": "Drone reconnaissance reports", "type": "intelligence", "thresholds": "Gap identification signals infiltration planning"}
+    ],
+    "early_warning_signals": [
+      "ISI mobilization/redeployment orders",
+      "JuD fundraising campaign surges",
+      "Hafiz Saeed public statements",
+      "TRF attack announcements",
+      "Cross-border ceasefire violations",
+      "Infiltration route preparation reports"
+    ],
+    "data_needed_for_monitoring": [
+      "HUMINT from Pakistani informants",
+      "SIGINT (ISI/LeT communications)",
+      "satellite imagery (training facilities, infiltration routes)",
+      "financial transaction tracking (JuD donations, foreign transfers)",
+      "social media monitoring (TRF channels)"
+    ],
+    "recommended_analytic_methods": [
+      "temporal attack pattern clustering",
+      "network analysis (ISI-LeT-JuD-TRF coordination)",
+      "financial flow mapping (Saudi Arabia/Gulf donations)",
+      "geospatial analysis of infiltration routes and LoC vulnerabilities"
+    ]
+  },
+  "risk_assessment_and_mitigation": {
+    "risk_summary": "Lashkar-e-Tayyiba poses critical transnational terrorism threat to India and regional stability. Despite formal ban in Pakistan (2002), US FTO designation (2001), and UN terrorist listing (2005), LeT operates openly through charitable fronts (JuD, Falah-e-Insaniyat), maintains state sponsorship via ISI, and has escalated operations dramatically since Pahalgam attack (April 2025, 26 killed). November 2025 intelligence reveals largest coordinated infiltration surge since 2023 with 50+ militants crossing LoC, drone reconnaissance operations, and explicit ISI orders to conduct 'retaliatory attacks' for May 2025 Operation Sindoor losses. The group's operational sophistication (2008 Mumbai coordinated multi-site assault, 2025 Pahalgam precision operation), ISI support, access to thousands of trained fighters, professional military-grade facilities (Markaz Taiba), and financial resources ($30M+ annually) establish it as the most dangerous anti-India terrorist organization. The proxy Resistance Front (TRF) enables operational deniability while maintaining Kashmir terror campaign.",
+    "vulnerable_sectors": [
+      "Indian security forces (CRPF, Army, Border Security Force)",
+      "civilians in Kashmir (tourists, civilians)",
+      "government installations",
+      "border posts along LoC",
+      "major Indian cities (Mumbai, Delhi historical targets)",
+      "Hindu religious minorities in Kashmir"
+    ],
+    "likely_future_trends": "Sustained infiltration campaign through winter 2025-2026; escalating terrorist attacks in Kashmir valley; possible expansion to other Indian cities (Mumbai, Delhi); increased drone reconnaissance and weapon drops; cross-border 'Border Action Team' raids; intensification responsive to geopolitical events (India-Pakistan tensions, Israeli-Palestinian escalation); TRF proxy operations for deniability; potential cross-border attacks on Indian military installations in Pakistan-controlled areas.",
+    "recommended_mitigation_measures": [
+      "Sustained intelligence collection on ISI-LeT coordination and financing networks",
+      "Border security enhancement (LoC fortification, surveillance technology)",
+      "Targeted strikes on LeT training facilities and command centers (continued Operation Sindoor-style operations)",
+      "International pressure on Pakistan/ISI to cease LeT support",
+      "Counter-finance operations targeting JuD/Falah-e-Insaniyat donations",
+      "Cyber operations against TRF Telegram and social media presence",
+      "Counter-narrative messaging addressing Kashmir grievances",
+      "Deradicalization programs for captured LeT operatives",
+      "Support for Pakistani civil society opposing LeT/JuD",
+      "Diplomatic engagement reducing India-Pakistan tensions (reduces recruitment/ISI motivation)",
+      "Intelligence sharing with international partners on LeT-Taliban coordination",
+      "Sanctions enforcement on Saudi Arabia and Gulf state donors to JuD"
+    ]
+  },
+  "sources_and_evidence": {
+    "source_catalog": [
+      {
+        "id": "web:1",
+        "type": "official",
+        "description": "US DNI: Lashkar-e-Tayyiba terrorist group profile (January 2025)",
+        "url_or_reference": "https://www.dni.gov/nctc/terrorist_groups/lashkar_e_tayyiba.html",
+        "date": "2025-01-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:647",
+        "type": "official",
+        "description": "US Treasury: LeT leadership designations (2008)",
+        "date": "2008-05-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:648",
+        "type": "secondary",
+        "description": "EBSCO: 2006 Mumbai train bombings comprehensive analysis",
+        "date": "2006-07-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:649",
+        "type": "secondary",
+        "description": "Wikipedia: LeT comprehensive history, operations, leadership (1990-2025)",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:650",
+        "type": "research",
+        "description": "SATP: LeT terrorist group profile Afghanistan operations",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:651",
+        "type": "official",
+        "description": "US DNI: LeT historical profile and 2008 Mumbai attacks",
+        "date": "2006-07-10",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:652",
+        "type": "secondary",
+        "description": "EBSCO: LeT founding, structure, Kashmir operations",
+        "date": "2009-09-29",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:654",
+        "type": "media",
+        "description": "Brookings: Mumbai 2008 attacks analysis, LeT ISI coordination",
+        "date": "2016-07-27",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:655",
+        "type": "official",
+        "description": "US DOJ: Recruitment by LeT/JuD, Kashmir operations",
+        "date": "2025-11-01",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:656",
+        "type": "secondary",
+        "description": "ECOI: LeT ban in Pakistan, JuD front operations (2023)",
+        "date": "2023-11-29",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:657",
+        "type": "secondary",
+        "description": "Wikipedia: 2025 Pahalgam attack, TRF proxy operations",
+        "date": "2025-04-21",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:659",
+        "type": "media",
+        "description": "NDTV: November 2025 LeT/JEM infiltration surge, ISI coordination",
+        "date": "2025-11-04",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:660",
+        "type": "media",
+        "description": "Facebook: Operation Sindoor strikes Muridke training center (May 2025)",
+        "date": "2025-05-21",
+        "credibility_assessment": "medium"
+      },
+      {
+        "id": "web:661",
+        "type": "official",
+        "description": "Refworld: LeT FTO designation, funding mechanisms (2025)",
+        "date": "2025-04-14",
+        "credibility_assessment": "high"
+      },
+      {
+        "id": "web:662",
+        "type": "academic",
+        "description": "CTC Westpoint: Pahalgam attack analysis, ISI orchestration (September 2025)",
+        "date": "2025-09-25",
+        "credibility_assessment": "high"
+      }
+    ]
+  }
+}
